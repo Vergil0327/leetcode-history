@@ -1,0 +1,137 @@
+// https://leetcode.com/problems/combination-sum-ii/
+package main
+
+import "sort"
+
+// Input: candidates = [10,1,2,7,6,1,5], target = 8
+// Output:
+// [
+// [1,1,6],
+// [1,2,5],
+// [1,7],
+// [2,6]
+// ]
+
+// [2,5,2,1,2], 5
+// [[1,2,2],[5]]
+
+// explanation: https://www.youtube.com/watch?v=rSA3t6BDDwg
+// all the combination sum include current pick
+// & all the combination sum NOT include current pick
+func combinationSum2(candidates []int, target int) [][]int {
+	solutions := [][]int{}
+
+	// sorting for duplicate check afterwards
+	sort.Slice(candidates, func(i, j int) bool { return candidates[i] < candidates[j] })
+
+	var dfs func(state []int, target int, start int)
+	dfs = func(state []int, target int, start int) {
+		if target == 0 {
+			cpy := make([]int, len(state))
+			copy(cpy, state)
+			solutions = append(solutions, cpy)
+			return
+		}
+
+		if target < 0 {
+			return
+		}
+
+		prevCandidate := -1
+		for i := start; i < len(candidates); i++ {
+			if prevCandidate == candidates[i] /* which means duplicate */ {
+				continue
+			}
+			state = append(state, candidates[i])
+			dfs(state, target-candidates[i], i+1)
+			state = state[:len(state)-1]
+
+			prevCandidate = candidates[i]
+		}
+	}
+
+	dfs([]int{}, target, 0)
+	return solutions
+}
+
+// all the combination sum include current pick
+// & all the combination sum NOT include current pick
+func combinationSum2Another(candidates []int, target int) [][]int {
+	sort.Slice(candidates, func(i, j int) bool { return candidates[i] < candidates[j] })
+	solutions := [][]int{}
+
+	var dfs func(state []int, target int, start int)
+	dfs = func(state []int, target int, start int) {
+		if target == 0 {
+			cpy := make([]int, len(state))
+			copy(cpy, state)
+			solutions = append(solutions, cpy)
+			return
+		}
+
+		if target < 0 {
+			return
+		}
+		if start >= len(candidates) {
+			return
+		}
+
+		state = append(state, candidates[start])
+		dfs(state, target-candidates[start], start+1)
+		state = state[:len(state)-1]
+
+		for start+1 < len(candidates) && candidates[start] == candidates[start+1] {
+			start += 1
+		}
+		dfs(state, target, start+1)
+	}
+
+	dfs([]int{}, target, 0)
+	return solutions
+}
+
+func combinationSum2Counter(candidates []int, target int) [][]int {
+	solutions := [][]int{}
+
+	var dfs func(state []int, target int, start int, counter [][]int)
+	dfs = func(state []int, target int, start int, counter [][]int) {
+		if target == 0 {
+			cpy := make([]int, len(state))
+			copy(cpy, state)
+			solutions = append(solutions, cpy)
+			return
+		}
+
+		if target < 0 {
+			return
+		}
+
+		for i := start; i < len(counter); i++ {
+			entry := counter[i]
+			if entry[1] <= 0 {
+				continue
+			}
+
+			state = append(state, entry[0])
+			counter[i][1] -= 1
+			dfs(state, target-counter[i][0], i, counter)
+			state = state[:len(state)-1]
+			counter[i][1] += 1
+		}
+	}
+
+	countMap := map[int]int{}
+	for _, candidate := range candidates {
+		countMap[candidate] += 1
+	}
+
+	counter := make([][]int, len(countMap)) // [[candidate1, count], ...]
+	i := 0
+	for candidate, count := range countMap {
+		counter[i] = []int{candidate, count}
+		i += 1
+	}
+
+	dfs([]int{}, target, 0, counter)
+	return solutions
+}
