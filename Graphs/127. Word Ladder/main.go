@@ -22,8 +22,8 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
 	// predecessor := map[string]string{}
 	queue := []string{beginWord}
 
-	// T:O(E+V), v stands for vertices & E for total number of edges in graph
-	// T: V*(1+Ej+1) = V + V*Ej = V+E
+	// BFS: T:O(E+V), v stands for vertices & E for total number of edges in graph
+	// T:O(n^2*m), n^2 from iteration through all the edges, m for comparison between words
 	for len(queue) > 0 {
 		count += 1
 		for _, word := range queue {
@@ -35,6 +35,8 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
 			}
 
 			visited[word] = true
+
+			// T:O(m)
 			if word == endWord {
 				return count
 			}
