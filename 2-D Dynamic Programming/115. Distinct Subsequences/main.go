@@ -132,13 +132,12 @@ func numDistinctRuntimeError(s string, t string) int {
 			return memo[key]
 		}
 
-		count1 := explore(str[:len(str)-1], target)
-		var count2 int
+		count := explore(str[:len(str)-1], target)
 		if str[len(str)-1] == target[len(target)-1] {
-			count2 = explore(str[:len(str)-1], target[:len(target)-1])
+			count += explore(str[:len(str)-1], target[:len(target)-1])
 		}
 
-		memo[key] = count1 + count2
+		memo[key] = count
 		return memo[key]
 	}
 
