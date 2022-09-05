@@ -20,6 +20,9 @@ let's continue above example
 	a = (100 & 100) << 1 = 1000
 	b = 100 ^ 100 = 000
 
+	a = (1000 & 0000) << 1 = 0000 (no carry any more!!!)
+	b = 1000 ^ 0000 = 1000
+
 Bitwise AND :
 	0011 & 0101	0001
 Bitwise OR :
@@ -43,14 +46,17 @@ func getSum(a int, b int) int {
 		return b
 	}
 
-	if b == 0 {
-		return a
-	}
-
 	a, b = (a&b)<<1, a^b
-	if b == 0 {
-		return a
-	}
 
 	return getSum(a, b)
+}
+
+// explanation: https://www.youtube.com/watch?v=gVUrDV4tZfY
+// use loop to get better performance
+func getSumOptimized(a int, b int) int {
+	for a != 0 {
+		a, b = (a&b)<<1, a^b
+	}
+
+	return b
 }
