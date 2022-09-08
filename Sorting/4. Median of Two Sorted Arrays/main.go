@@ -1,11 +1,8 @@
 package main
 
-import "math"
-
-// https://www.geeksforgeeks.org/median-of-two-sorted-arrays-of-different-sizes/
-func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
-	panic("not_implement")
-}
+import (
+	"math"
+)
 
 // https://www.youtube.com/watch?v=q6IEA26hvXc&ab_channel=NeetCode
 func findMedianSortedArraysBinarySearch(nums1 []int, nums2 []int) float64 {
