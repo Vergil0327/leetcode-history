@@ -15,6 +15,19 @@ func lengthOfLIS(nums []int, k int) int {
 	ans := 1
 	seg := NewSegmentTree(n)
 
+	/*
+		[7,4,5,1,8,12,4,7], k=5
+		the longest length: 4 ([4,5,8,12])
+		segment tree:0 1 2 3 4 5 6 7 8 9    12
+		{n:12, tree:[0 1 1 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0]}
+		{n:12, tree:[0 1 1 1 1 0 0 1 0 1 0 0 0 0 0 1 0 0 1 0 0 0 0 0]}
+		{n:12, tree:[0 2 2 1 2 0 0 1 2 1 0 0 0 0 0 1 2 0 1 0 0 0 0 0]}
+		{n:12, tree:[0 2 2 1 2 0 1 1 2 1 0 0 1 0 0 1 2 0 1 0 0 0 0 0]}
+		{n:12, tree:[0 3 3 1 3 0 1 1 2 3 0 0 1 0 0 1 2 0 1 3 0 0 0 0]}
+		{n:12, tree:[0 4 4 1 3 4 1 1 2 3 0 4 1 0 0 1 2 0 1 3 0 0 0 4]}
+		{n:12, tree:[0 4 4 2 3 4 1 2 2 3 0 4 1 0 0 2 2 0 1 3 0 0 0 4]}
+		{n:12, tree:[0 4 4 2 3 4 1 2 2 3 0 4 1 0 0 2 2 0 3 3 0 0 0 4]}
+	*/
 	for _, num := range nums {
 		// check for the element in the range of [nums[i] - k, nums[i] - 1] with the maximum value
 		num -= 1 // offset 1 to 0-index
@@ -86,4 +99,36 @@ func (t *SegmentTree) Update(i, val int) {
 		// update the values in the nodes in the next higher level
 		t.tree[i] = int(math.Max(float64(t.tree[i*2]), float64(t.tree[i*2+1])))
 	}
+}
+
+// Time Limit Exceed
+func lengthOfLIS_TLE(nums []int, k int) int {
+	LIS := make([]int, len(nums))
+	for i := range LIS {
+		LIS[i] = 1
+	}
+
+	for i := len(nums) - 1; i >= 0; i-- {
+		for j := i + 1; j < len(nums); j++ {
+			if nums[i] < nums[j] && nums[j]-nums[i] <= k {
+				LIS[i] = max(LIS[i], 1+LIS[j])
+			}
+		}
+	}
+
+	max := 0
+	for _, v := range LIS {
+		if v > max {
+			max = v
+		}
+	}
+
+	return max
+}
+
+func max(a, b int) int {
+	if a >= b {
+		return a
+	}
+	return b
 }
