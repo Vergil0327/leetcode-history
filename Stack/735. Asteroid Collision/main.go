@@ -2,6 +2,31 @@
 
 package main
 
+// explanation: https://www.youtube.com/watch?v=LN7KjRszjk4&ab_channel=NeetCode
+func asteroidCollisionNeetcode(asteroids []int) []int {
+	stack := []int{}
+
+	for _, ast := range asteroids {
+		for len(stack) > 0 && ast < 0 && stack[len(stack)-1] > 0 {
+			diff := ast + stack[len(stack)-1]
+			if diff < 0 {
+				stack = stack[:len(stack)-1]
+			} else if diff > 0 {
+				ast = 0
+			} else {
+				stack = stack[:len(stack)-1]
+				ast = 0
+			}
+		}
+
+		if ast != 0 {
+			stack = append(stack, ast)
+		}
+	}
+
+	return stack
+}
+
 func asteroidCollisionRefactor(asteroids []int) []int {
 	stack := []int{}
 	for _, ast := range asteroids {
