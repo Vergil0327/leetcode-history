@@ -3,6 +3,23 @@ package main
 
 import "bytes"
 
+/*
+Two Pointers Solution
+	ref: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/discuss/392933/JavaC%2B%2BPython-Two-Pointers-and-Stack-Solution
+	explanation: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/discuss/294893/JavaC++Python-Two-Pointers-and-Stack
+	Java:
+   public String removeDuplicates(String s, int k) {
+       int i = 0, n = s.length(), count[] = new int[n];
+       char[] stack = s.toCharArray();
+       for (int j = 0; j < n; ++j, ++i) {
+           stack[i] = stack[j];
+           count[i] = i > 0 && stack[i - 1] == stack[j] ? count[i - 1] + 1 : 1;
+           if (count[i] == k) i -= k;
+       }
+       return new String(stack, 0, i);
+   }
+*/
+
 type Word struct {
 	c   byte
 	cnt int
