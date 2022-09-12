@@ -30,7 +30,19 @@ func longestConsecutive(nums []int) int {
 }
 
 // https://www.youtube.com/watch?v=P6RZZMu_maU
-// T: O(n) M: O(n)
+// 1,2,3,4 ... 100 ... 200
+// check if num is the beginning of sequence
+// -> YES: check if next one exists in our set
+// -> NO: next one
+// visit each num twice at most, T:O(n) M:O(n)
+//
+// Analysis:
+// Although the time complexity appears to be quadratic due to the while loop nested within the for loop, closer inspection reveals it to be linear.
+// Because the while loop is reached only when currentNum marks the beginning of a sequence (i.e. currentNum-1 is not present in nums), the while loop can only run for nn iterations throughout the entire runtime of the algorithm.
+// This means that despite looking like O(n⋅n) complexity, the nested loops actually run in O(n + n) = O(n) time. All other computations occur in constant time, so the overall runtime is linear.
+// think:
+// 		if all the numbers are discrete, iteration is n
+// 		if all belong to one sequence, iteration is still n
 func longestConsecutiveBetter(nums []int) int {
 	m := map[int]interface{}{}
 	for _, num := range nums {
