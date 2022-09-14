@@ -49,3 +49,11 @@ Use a sliding window approach keeping the maximum and minimum value using a data
 
 More specifically, use the two pointer technique, moving the right pointer as far as possible to the right until the subarray is not valid (maxValue - minValue > limit), then moving the left pointer until the subarray is valid again (maxValue - minValue <= limit). Keep repeating this process.
 </details>
+
+<details>
+<summary>Other Approach</summary>
+
+Sliding Window + Two Deque
+
+[here](../../Sliding%20Window/1438.%20Longest%20Continuous%20Subarray%20With%20Absolute%20Diff%20Less%20Than%20or%20Equal%20to%20Limit/main.go)
+</details>
