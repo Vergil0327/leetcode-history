@@ -1,3 +1,5 @@
+[74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+
 `Medium`
 
 Write an efficient algorithm that searches for a value target in an m x n integer matrix matrix. This matrix has the following properties:
@@ -20,4 +22,4 @@ Constraints:
 - m == matrix.length
 - n == matrix[i].length
 - 1 <= m, n <= 100
-- -104 <= matrix[i][j], target <= 104
+- -10^4 <= matrix[i][j], target <= 10^4

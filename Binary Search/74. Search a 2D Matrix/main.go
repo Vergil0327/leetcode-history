@@ -81,3 +81,31 @@ func searchMatrixWhileLoop(matrix [][]int, target int) bool {
 	}
 	return false
 }
+
+func searchMatrix20220915(matrix [][]int, target int) bool {
+	ROWS, COLS := len(matrix), len(matrix[0])
+
+	r1, r2 := 0, ROWS-1
+	for r1 < r2 {
+		mid := r2 - (r2-r1)/2
+		if matrix[mid][0] > target {
+			r2 = mid - 1
+		} else {
+			r1 = mid
+		}
+	}
+
+	c1, c2 := 0, COLS-1
+	for c1 <= c2 {
+		mid := c1 + (c2-c1)/2
+		if target > matrix[r1][mid] {
+			c1 = mid + 1
+		} else if target < matrix[r1][mid] {
+			c2 = mid - 1
+		} else {
+			return true
+		}
+	}
+
+	return false
+}
