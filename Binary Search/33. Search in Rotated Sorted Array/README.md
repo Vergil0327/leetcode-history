@@ -1,4 +1,5 @@
-33. Search in Rotated Sorted Array
+[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+
 `Medium`
 
 There is an integer array nums sorted in ascending order (with distinct values).
@@ -25,7 +26,7 @@ Output: -1
 Constraints:
 
 - 1 <= nums.length <= 5000
-- -104 <= nums[i] <= 104
+- -10^4 <= nums[i] <= 10^4
 - All values of nums are unique.
 - nums is an ascending array that is possibly rotated.
-- -104 <= target <= 104
+- -10^4 <= target <= 10^4
