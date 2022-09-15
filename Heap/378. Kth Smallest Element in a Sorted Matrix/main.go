@@ -43,6 +43,9 @@ func kthSmallestBinarySearch(matrix [][]int, k int) int {
 		}
 	}
 
+	// lo must exists in matrix because what we found is <= k (upper bound)
+	// which is the smallest value that meet the condition count <= k.
+	// thus, it'll converge hi down to the value in matrx (in bound)
 	return lo
 }
 
