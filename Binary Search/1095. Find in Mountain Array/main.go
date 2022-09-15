@@ -44,6 +44,20 @@ func findInMountainArray(target int, mountainArr *MountainArray) int {
 	return -1
 }
 
+func findMountainPeakOptimized(mountainArr *MountainArray, mountainLen int, l, r int) (peak int) {
+	for l < r {
+		mid := l + (r-l)/2
+		if mountainArr.get(mid) < mountainArr.get(mid+1) {
+			l = mid + 1
+			peak = mid + 1
+		} else {
+			r = mid
+		}
+	}
+
+	return
+}
+
 func findMountainPeak(mountainArr *MountainArray, mountainLen int, l, r int) (peak int) {
 	for l < r {
 		mid := l + (r-l)/2
