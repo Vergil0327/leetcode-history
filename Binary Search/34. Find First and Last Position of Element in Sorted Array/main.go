@@ -47,7 +47,7 @@ func searchRange(nums []int, target int) []int {
 			r = mid
 		}
 	}
-	lowerBound := l
+	upperBound := l
 
 	if nums[l] != target {
 		return []int{-1, -1}
@@ -62,7 +62,7 @@ func searchRange(nums []int, target int) []int {
 			l = mid
 		}
 	}
-	upperBound := r
+	lowerBound := r
 
 	return []int{lowerBound, upperBound}
 }
