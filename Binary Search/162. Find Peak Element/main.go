@@ -1,6 +1,9 @@
 // https://leetcode.com/problems/find-peak-element/
 package main
 
+// https://www.cnblogs.com/grandyang/p/6854825.html
+// r的初始值必須為len(nums)-1, 因為nums[mid]要跟nums[mid+1]比較
+// 如果r的初始值為len(nums), 那麼可能會有index error發生
 func findPeakElementBetter(nums []int) int {
 	l, r := 0, len(nums)-1
 	for l < r {
