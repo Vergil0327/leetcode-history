@@ -1,7 +1,39 @@
 // https://leetcode.com/problems/minimum-money-required-before-transactions/
 package main
 
-import "sort"
+import (
+	"sort"
+)
+
+// https://leetcode.com/problems/minimum-money-required-before-transactions/discuss/2588034/JavaC%2B%2BPython-Easy-and-Coincise
+// T:O(n)
+func minimumMoneyOptimized(transactions [][]int) int64 {
+	// sum of all money we can lose
+	totalCost := 0
+
+	// The worst case is losing all money first, then we earn money later.
+	minMoneyToEarn := 0
+	minMoneyToLose := 0
+	for _, tx := range transactions {
+		cost, cashback := tx[0], tx[1]
+		totalCost += max(0, cost-cashback)
+
+		// see above, total += cost-cashback
+		// 	worst case for losing money transaction is:
+		// 			we spend all of money before last tx, before getting cashback, so we need to add cashback to cost and the cashback should be largest
+		//	worst case for earning money transaction is:
+		// 			the first tx is largest cost
+		//
+		// code below can combine to one line one variable: minMoney = max(minMoney, min(cost, cashback)) // we always find the maximum lower value between cost & cashback
+		if cashback >= cost {
+			minMoneyToEarn = max(minMoneyToEarn, cost)
+		} else {
+			minMoneyToLose = max(minMoneyToLose, cashback)
+		}
+	}
+
+	return int64(totalCost + max(minMoneyToEarn, minMoneyToLose))
+}
 
 // https://leetcode.com/problems/minimum-money-required-before-transactions/discuss/2587905/Python-Explanation-with-pictures-Greedy
 // nlogn
