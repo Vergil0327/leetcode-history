@@ -36,6 +36,26 @@ func countSubstrings(s string) int {
 	return count
 }
 
+func countSubstringsRefactor(s string) int {
+	count := 0
+	for i := 0; i < len(s); i++ {
+		count += isPalindrome(s, i, i)
+		count += isPalindrome(s, i, i+1)
+	}
+
+	return count
+}
+
+func isPalindrome(s string, l, r int) int {
+	count := 0
+	for l >= 0 && r < len(s) && s[l] == s[r] {
+		l, r = l-1, r+1
+		count += 1
+	}
+
+	return count
+}
+
 // discussion: https://leetcode.com/problems/palindromic-substrings/discuss/105707/Java-Python-DP-solution-based-on-longest-palindromic-substring
 func countSubstringsDP(s string) int {
 	count := 0
