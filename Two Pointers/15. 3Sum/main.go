@@ -57,3 +57,38 @@ func threeSum(nums []int) [][]int {
 
 	return result
 }
+
+func threeSum2ndTry(nums []int) [][]int {
+	// nlogn
+	sort.Ints(nums)
+
+	res := [][]int{}
+	for i, num := range nums {
+		l, r := i+1, len(nums)-1
+		if i-1 >= 0 && num == nums[i-1] {
+			continue
+		}
+
+		for l < r {
+			if nums[l]+nums[r] == -num {
+				res = append(res, []int{nums[l], nums[r], num})
+				l += 1
+				for l <= r && nums[l] == nums[l-1] {
+					l += 1
+				}
+			} else if nums[l]+nums[r] > -num {
+				r -= 1
+				for l <= r && nums[r] == nums[r+1] {
+					r -= 1
+				}
+			} else {
+				l += 1
+				for l <= r && nums[l] == nums[l-1] {
+					l += 1
+				}
+			}
+		}
+	}
+
+	return res
+}
