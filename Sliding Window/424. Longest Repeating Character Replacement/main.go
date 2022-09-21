@@ -35,7 +35,6 @@ func characterReplacement(s string, k int) int {
 		maxCount := getMaxCount(contain)
 		if windowSize-maxCount <= k /* window is valid */ {
 			longest = int(math.Max(float64(longest), float64(windowSize)))
-			r += 1
 		} else {
 			contain[s[l]] -= 1
 			l += 1
@@ -70,7 +69,6 @@ func characterReplacementBetter(s string, k int) int {
 		windowSize := r - l + 1
 		if windowSize-maxCount <= k /* window is valid */ {
 			longest = int(math.Max(float64(longest), float64(windowSize)))
-			r += 1
 		} else {
 			contain[s[l]] -= 1
 			l += 1
