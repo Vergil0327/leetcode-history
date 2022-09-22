@@ -18,15 +18,15 @@ func (this *Codec20220923) serialize(root *TreeNode) string {
 		return ""
 	}
 
-	str := ""
+	strs := []string{}
 
 	queue := []*TreeNode{root}
 	for len(queue) > 0 {
 		for _, node := range queue {
 			if node == nil {
-				str += NIL + ","
+				strs = append(strs, "N")
 			} else {
-				str += strconv.Itoa(node.Val) + ","
+				strs = append(strs, strconv.Itoa(node.Val))
 			}
 
 			if node != nil {
@@ -38,19 +38,7 @@ func (this *Codec20220923) serialize(root *TreeNode) string {
 		}
 	}
 
-	// remove trailing comma
-	str = str[:len(str)-1]
-
-	// remove trailing NIL
-	for len(str) > 0 {
-		if string(str[len(str)-1]) == NIL {
-			str = str[:len(str)-2]
-		} else {
-			break
-		}
-	}
-
-	return str
+	return strings.Join(strs, ",")
 }
 
 // Deserializes your encoded data to tree.
@@ -63,7 +51,7 @@ func (this *Codec20220923) deserialize(data string) *TreeNode {
 	strs := strings.Split(data, ",")
 	for _, s := range strs {
 		var node *TreeNode = nil
-		if s != NIL {
+		if s != "N" {
 			val, _ := strconv.Atoi(s)
 			node = &TreeNode{Val: val}
 		}
