@@ -44,3 +44,33 @@ func lengthOfLongestSubstring(s string) int {
 
 	return maxL
 }
+
+func lengthOfLongestSubstring2ndTry(s string) int {
+	longest := 0
+	set := map[byte]bool{}
+	l := 0
+	for r := range s {
+		c := s[r]
+
+		if existed, ok := set[c]; ok && existed {
+			for l < r && set[c] {
+				set[s[l]] = false
+				l += 1
+			}
+		}
+
+		set[c] = true
+
+		longest = max(longest, r-l+1)
+	}
+
+	return longest
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+
+	return b
+}
