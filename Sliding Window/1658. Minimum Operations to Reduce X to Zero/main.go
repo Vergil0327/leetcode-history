@@ -1,0 +1,15 @@
+// https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
+package main
+
+func minOperations(nums []int, x int) int {
+
+}
+
+/*
+Input: nums = [1,1,4,2,3], x = 5
+Output: 2
+Input: nums = [5,6,7,8,9], x = 4
+Output: -1
+Input: nums = [3,2,20,1,1,3], x = 10
+Output: 5
+*/
