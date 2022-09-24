@@ -32,31 +32,28 @@ type dstNode = *Node
 
 // explanation: https://www.youtube.com/watch?v=mQeF6bN8hMk
 func cloneGraph(node *Node) *Node {
-	clonedMap := map[srcNode]dstNode{}
+	clone := map[*Node]*Node{}
 
-	root := clone(node, clonedMap)
-
+	root := cloneNode(node, clone)
 	return root
 }
 
-func clone(src *Node, clonedMap map[srcNode]dstNode) *Node {
+func cloneNode(src *Node, clone map[*Node]*Node) *Node {
 	if src == nil {
 		return nil
 	}
 
-	if node, ok := clonedMap[src]; ok {
-		return node
+	// base case: we've already cloned
+	if _, ok := clone[src]; ok {
+		return clone[src]
 	}
 
-	dst := &Node{}
-	clonedMap[src] = dst
-
-	dst.Val = src.Val
-	for _, neighbor := range src.Neighbors {
-		dst.Neighbors = append(dst.Neighbors, clone(neighbor, clonedMap))
+	clone[src] = &Node{Val: src.Val, Neighbors: make([]*Node, 0)}
+	for _, nei := range src.Neighbors {
+		clone[src].Neighbors = append(clone[src].Neighbors, cloneNode(nei, clone))
 	}
 
-	return dst
+	return clone[src]
 }
 
 // iterative method
