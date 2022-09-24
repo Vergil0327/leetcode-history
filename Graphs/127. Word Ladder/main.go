@@ -9,9 +9,9 @@ Explanation: One shortest transformation sequence is "hit" -> "hot" -> "dot" -> 
 */
 
 // explanation: https://www.youtube.com/watch?v=h9iTnkgv05E
-// T:O(nm^2), m for word length, n for wordList length
+// Build Graph: T:O(nm^2), m for word length, n for wordList length
 // m < n, m <= 10 & n <= 5000
-// therefore, T:O(nm^2) is greater than T:O(mn^2)
+// therefore, T:O(nm^2) is better than T:O(mn^2)
 func ladderLengthOptimized(beginWord string, endWord string, wordList []string) int {
 	includeEndWord := false
 	for _, word := range wordList {
@@ -125,6 +125,7 @@ func canTransform(word1, word2 string) bool {
 	return count == 1
 }
 
+// T:O(n^2 * m), m is lenth of word
 func buildGraph(wordList []string) map[string][]string {
 	// T:O(n)
 	graph := map[string][]string{}
@@ -146,4 +147,63 @@ func buildGraph(wordList []string) map[string][]string {
 	}
 
 	return graph
+}
+
+func ladderLength20220924(beginWord string, endWord string, wordList []string) int {
+	// check wordList first
+	found := false
+	for _, word := range wordList {
+		if word == endWord {
+			found = true
+		}
+	}
+	if !found {
+		return 0
+	}
+
+	graph := map[string][]string{}
+	for _, word := range wordList {
+		for i := 0; i < len(word); i++ {
+			runes := []rune(word)
+			runes[i] = '*'
+			pattern := string(runes)
+			graph[pattern] = append(graph[pattern], word)
+		}
+	}
+
+	// BFS
+	visited := map[string]bool{}
+	count := 1
+	queue := []string{beginWord}
+	for len(queue) > 0 {
+		count += 1
+		for _, word := range queue {
+			queue = queue[1:]
+
+			if visited[word] {
+				continue
+			}
+
+			visited[word] = true
+
+			patterns := []string{}
+			for i := 0; i < len(word); i++ {
+				runes := []rune(word)
+				runes[i] = '*'
+				patterns = append(patterns, string(runes))
+			}
+
+			for _, pattern := range patterns {
+				for _, next := range graph[pattern] {
+					if next == endWord {
+						return count
+					} else {
+						queue = append(queue, next)
+					}
+				}
+			}
+		}
+	}
+
+	return 0
 }
