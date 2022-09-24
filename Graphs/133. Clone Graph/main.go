@@ -61,44 +61,38 @@ func clone(src *Node, clonedMap map[srcNode]dstNode) *Node {
 
 // iterative method
 func cloneGraphQueue(node *Node) *Node {
-	nodes := map[int]*Node{}
-	visited := map[int]bool{}
+	if node == nil {
+		return nil
+	}
+
+	clone := map[*Node]*Node{}
+	visited := map[*Node]bool{}
 
 	queue := []*Node{node}
-
-	var res *Node = &Node{Val: node.Val, Neighbors: make([]*Node, 0)}
-	nodes[node.Val] = res
-
 	for len(queue) > 0 {
-		next := queue[0]
-		queue = queue[1:]
+		for _, n := range queue {
+			queue = queue[1:]
 
-		if next == nil {
-			continue
-		}
-
-		if visited[next.Val] {
-			continue
-		}
-
-		newNode, ok := nodes[next.Val]
-		if !ok {
-			newNode = &Node{Val: next.Val, Neighbors: []*Node{}}
-			nodes[next.Val] = newNode
-		}
-
-		for _, neighbor := range next.Neighbors {
-			if _, ok := nodes[neighbor.Val]; !ok {
-				newNeighbor := &Node{Val: neighbor.Val, Neighbors: []*Node{}}
-				nodes[neighbor.Val] = newNeighbor
+			if visited[n] {
+				continue
 			}
 
-			newNode.Neighbors = append(newNode.Neighbors, nodes[neighbor.Val])
+			visited[n] = true
 
-			queue = append(queue, neighbor)
+			if _, ok := clone[n]; !ok {
+				clone[n] = &Node{Val: n.Val, Neighbors: make([]*Node, 0)}
+			}
+
+			for _, nei := range n.Neighbors {
+				if _, ok := clone[nei]; !ok {
+					clone[nei] = &Node{Val: nei.Val, Neighbors: make([]*Node, 0)}
+				}
+				clone[n].Neighbors = append(clone[n].Neighbors, clone[nei])
+
+				queue = append(queue, nei)
+			}
 		}
-
-		visited[next.Val] = true
 	}
-	return res
+
+	return clone[node]
 }
