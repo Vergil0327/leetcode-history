@@ -8,8 +8,9 @@ You are given a 0-indexed integer array vals of length n where vals[i] denotes t
 
 A good path is a simple path that satisfies the following conditions:
 
-The starting node and the ending node have the same value.
-All nodes between the starting node and the ending node have values less than or equal to the starting node (i.e. the starting node's value should be the maximum value along the path).
+1. The starting node and the ending node have the same value.
+2. All nodes between the starting node and the ending node have values less than or equal to the starting node (i.e. the starting node's value should be the maximum value along the path).
+
 Return the number of distinct good paths.
 
 Note that a path and its reverse are counted as the same path. For example, 0 -> 1 is considered to be the same as 1 -> 0. A single node is also considered as a valid path.

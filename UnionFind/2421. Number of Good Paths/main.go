@@ -2,6 +2,66 @@ package main
 
 import "sort"
 
+// https://leetcode.com/problems/number-of-good-paths/discuss/2620680/Python-Union-Find-Solution
+// we don't need to build graph
+func numberOfGoodPathsOptimized(vals []int, edges [][]int) int {
+	parent := make([]int, len(vals))
+	for i := range parent {
+		parent[i] = i
+	}
+
+	var find func(node int) int = func(node int) int {
+		p := parent[node]
+
+		for p != parent[p] {
+			parent[p] = parent[parent[p]]
+			p = parent[p]
+		}
+
+		return p
+	}
+
+	count := map[int]map[int]int{} // index: [node_idx][node_value] = count
+	for node, v := range vals {
+		if count[node] == nil {
+			count[node] = make(map[int]int)
+		}
+		count[node][v] = 1
+	}
+
+	// why choose max value between u, v?
+	// because we want max value in both end for good path. ex. 3 -> 2 -> 1 -> 3
+	// see second definition of good path
+	edgeWithVal := [][]int{} // [max(vals[u], vals[v]), u, v]
+	for _, edge := range edges {
+		u, v := edge[0], edge[1]
+		edgeWithVal = append(edgeWithVal, []int{max(vals[u], vals[v]), u, v})
+	}
+	sort.Slice(edgeWithVal, func(i, j int) bool {
+		return edgeWithVal[i][0] < edgeWithVal[j][0]
+	})
+
+	res := len(vals)
+	for _, edge := range edgeWithVal {
+		val, u, v := edge[0], edge[1], edge[2]
+		rootU, rootV := find(u), find(v)
+		countU, countV := count[rootU][val], count[rootV][val]
+		res += countU * countV
+		parent[rootV] = rootU
+		count[rootU][val] = countU + countV
+	}
+
+	return res
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+
+	return b
+}
+
 // https://leetcode.com/discuss/interview-question/2260088/Special-Paths-or-Google-OA-or-July-2022-or-Graph
 // https://leetcode.com/problems/number-of-good-paths/discuss/2620529/Python-Explanation-with-picture-DSU
 // union-find
