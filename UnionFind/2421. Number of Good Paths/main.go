@@ -64,8 +64,8 @@ func numberOfGoodPaths(vals []int, edges [][]int) int {
 		return nodes[i][0] < nodes[j][0]
 	})
 
-	// T:O(n)
-	count := map[int]map[int]int{} // index: [node_idx][node_value] = count
+	// T:O(n) 
+	count := map[int]map[int]int{} // index: [node_idx][node_value] = count, 在node_idx這個subtree底下, 有count個node_value node
 	for node, v := range vals {
 		if count[node] == nil {
 			count[node] = make(map[int]int)
@@ -73,7 +73,7 @@ func numberOfGoodPaths(vals []int, edges [][]int) int {
 		count[node][v] = 1
 	}
 
-	// T:O(E+V) = O(n^2)
+	// T:O(E+V) = O(n), only 2 edges at most
 	res := len(vals) // !!! each node itself is good_path
 	for _, node := range nodes {
 		val, curr := node[0], node[1]
