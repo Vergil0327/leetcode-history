@@ -108,3 +108,64 @@ func dfs(heights [][]int, r, c, prevHeight int, visited map[string]any) {
 	dfs(heights, r, c+1, heights[r][c], visited)
 	dfs(heights, r, c-1, heights[r][c], visited)
 }
+
+// start from Pacific, store position we can reach in hashmap
+// intersect with result from Atlantic
+func pacificAtlanticBFS(heights [][]int) [][]int {
+	ROWS, COLS := len(heights), len(heights[0])
+
+	// pacific
+	visitedPac := map[[2]int]bool{}
+	for c := 0; c < COLS; c++ {
+		BFS(heights, 0, c, visitedPac)
+	}
+	for r := 0; r < ROWS; r++ {
+		BFS(heights, r, 0, visitedPac)
+	}
+
+	// atlantic
+	visitedAtl := map[[2]int]bool{}
+	for c := 0; c < COLS; c++ {
+		BFS(heights, ROWS-1, c, visitedAtl)
+	}
+	for r := 0; r < ROWS; r++ {
+		BFS(heights, r, COLS-1, visitedAtl)
+	}
+
+	res := [][]int{}
+	for k := range visitedPac {
+		if visitedAtl[k] {
+			res = append(res, []int{k[0], k[1]})
+		}
+	}
+
+	return res
+}
+
+func BFS(heights [][]int, r, c int, visited map[[2]int]bool) {
+	ROWS, COLS := len(heights), len(heights[0])
+	dirs := [][]int{{1, 0}, {-1, 0}, {0, 1}, {0, -1}}
+
+	queue := [][2]int{{r, c}}
+	visited[[2]int{r, c}] = true
+	for len(queue) > 0 {
+		for _, pos := range queue {
+			queue = queue[1:]
+
+			r, c := pos[0], pos[1]
+			for _, dir := range dirs {
+				dr, dc := dir[0], dir[1]
+				row, col := r+dr, c+dc
+
+				rowInBounds := row >= 0 && row < ROWS
+				colInBounds := col >= 0 && col < COLS
+				nxt := [2]int{row, col}
+				if rowInBounds && colInBounds && !visited[nxt] && heights[row][col] >= heights[r][c] {
+					visited[nxt] = true
+					queue = append(queue, nxt)
+				}
+			}
+
+		}
+	}
+}
