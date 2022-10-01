@@ -7,6 +7,9 @@ package main
 // a^a == 0
 // a^0 == a
 // result := (a^b^c)^(x^y^z)
+
+// T:O(n)
+// M:O(1)
 func xorAllNums(nums1 []int, nums2 []int) int {
 	if len(nums1)&1 == 0 && len(nums2)&1 == 0 {
 		return 0
@@ -35,4 +38,16 @@ func xorAllNums(nums1 []int, nums2 []int) int {
 		nums2[0] ^= nums2[i]
 	}
 	return nums1[0] ^ nums2[0]
+}
+
+// https://leetcode.com/problems/bitwise-xor-of-all-pairings/discuss/2646552/JavaC%2B%2BPython-Easy-and-Concise
+func xorAllNumsConcise(nums1 []int, nums2 []int) int {
+	x, y := 0, 0
+	for _, num := range nums1 {
+		x ^= num
+	}
+	for _, num := range nums2 {
+		y ^= num
+	}
+	return (len(nums1)%2)*x ^ (len(nums2) % 2) ^ y
 }
