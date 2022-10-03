@@ -7,7 +7,6 @@ type TreeNode struct {
 
 func copyRandomBinaryTree(root *TreeNode) *TreeNode {
 	clone := map[*TreeNode]*TreeNode{}
-	random := map[*TreeNode]*TreeNode{}
 
 	var dfs func(root *TreeNode) *TreeNode
 	dfs = func(root *TreeNode) *TreeNode {
@@ -19,20 +18,16 @@ func copyRandomBinaryTree(root *TreeNode) *TreeNode {
 			return clone[root]
 		}
 
-		random[root] = root.Random
 		clone[root] = &TreeNode{Val: root.Val}
 
 		clone[root].Left = dfs(root.Left)
 		clone[root].Right = dfs(root.Right)
+		clone[root].Random = dfs(root.Random)
 
 		return clone[root]
 	}
 
 	dfs(root)
-
-	for node, randomNode := range random {
-		clone[node].Random = clone[randomNode]
-	}
 
 	return clone[root]
 }
