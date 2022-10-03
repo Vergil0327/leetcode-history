@@ -68,6 +68,37 @@ func deleteString(s string) int {
 	return dp[0]
 }
 
+// T:O(n^3)
+func deleteStringTopDown(s string) int {
+	memo := map[int]int{}
+
+	var dfs func(i int) int
+	dfs = func(i int) int {
+		if i >= len(s) {
+			return 0
+		}
+
+		if _, ok := memo[i]; ok {
+			return memo[i]
+		}
+
+		// !!! important, base case, every position can do 1 deletion at least
+		memo[i] = 1
+
+		for j := 1; j <= (len(s)-i)/2; j++ {
+			pattern := s[i : i+j]
+			target := s[i+j : i+j+len(pattern)]
+			if pattern == target {
+				memo[i] = max(memo[i], 1+dfs(i+j))
+			}
+		}
+
+		return memo[i]
+	}
+
+	return dfs(0)
+}
+
 // Top-Down
 // https://leetcode.com/problems/maximum-deletions-on-a-string/discuss/2648927/DP-%2B-LPS
 func deleteStringBruteForce(s string) int {
