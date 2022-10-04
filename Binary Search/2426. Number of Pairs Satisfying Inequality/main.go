@@ -77,21 +77,31 @@ func numberOfPairsMergeSort(nums1 []int, nums2 []int, diff int) int64 {
 	}
 
 	var checkCount func(start, mid, end int) = func(start, mid, end int) {
-		l, r := start, mid+1
+		i, j := start, mid+1
 		// we've already check pairs before mid at each mergesort step
-		// [1,2,3,4]
+		// [1,2,3,4] -> check [1,2] for 3, [1,2] for 4, before that we've already check 1 for 2 and check 3 for 4, so every pair should've already been concerned
 		//  s m   end
 		//  s e
 		//      s e
 
-		for l <= mid && r <= end {
-			if c[l] <= c[r]+diff { // if (nums[l]<=nums[r]+d) then all values from nums[r] to nums[end] will be greater than or equal to nums[l]
-				count += int64(end - r + 1)
-				l += 1
-			} else { // otherwise we need to increment r so that we can find match for nums[l]
-				r += 1
+		// find how many valid c[j] for each c[i] such that c[i] <= c[j]+diff
+		for i <= mid && j <= end {
+			if c[i] <= c[j]+diff { // if (nums[i]<=nums[j]+d) then all values from nums[j] to nums[end] will be greater than or equal to nums[i]
+				count += int64(end - j + 1)
+				i += 1
+			} else { // otherwise we need to increment j so that we can find match for nums[i]
+				j += 1
 			}
 		}
+
+		// we can also find how many valid c[i] for each c[j] such that c[i] <= c[j]+diff
+		// i := start
+		// for j := mid + 1; j <= end; j++ {
+		// 	for j <= mid &&  c[j] <= c[j]+diff {
+		// 		i += 1
+		// 	}
+		// 	count += int64(i-start)
+		// }
 
 		sort.Ints(c[start : end+1]) // sorting
 	}
