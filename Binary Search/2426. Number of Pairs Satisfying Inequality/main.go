@@ -68,6 +68,7 @@ func countSmallerEqual(arr []int, target int) int64 {
 
 // https://leetcode.com/problems/number-of-pairs-satisfying-inequality/discuss/2646585/Easy-Merge-Sort-based-solution-or-C%2B%2B-or-O(NlogN)-time-complexity
 // https://leetcode.com/problems/number-of-pairs-satisfying-inequality/discuss/2646522/Merge-Sort-logic
+// https://www.youtube.com/watch?v=naXduC6NOik&ab_channel=HuifengGuan
 func numberOfPairsMergeSort(nums1 []int, nums2 []int, diff int) int64 {
 	var count int64
 	c := make([]int, len(nums1))
