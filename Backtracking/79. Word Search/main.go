@@ -3,38 +3,84 @@ package main
 
 import "fmt"
 
-/*
-Example 1:
-Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCCED"
-Output: true
+// 20221006
+// Runtime: 873 ms
+// Memory Usage: 2.3 MB
+// search pruning, don't enter dfs search if state is invalid
+// T:O(m*n * 4^L), 4 directions, L is len(word)
+func existOptimized(board [][]byte, word string) bool {
+	dirs := [][]int{{1, 0}, {-1, 0}, {0, 1}, {0, -1}}
 
-Example 2:
-Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "SEE"
-Output: true
+	visited := map[[2]int]bool{}
+	ROWS, COLS := len(board), len(board[0])
 
-Example 3:
-Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCB"
-Output: false
-*/
+	var dfs func(state string, r, c int) bool
+	dfs = func(state string, r, c int) bool {
+		if state == "" {
+			return true
+		}
 
-// [["A","B","C","E"],
-//  ["S","F","C","S"],
-//  ["A","D","E","E"]]
-// word: "ABCB"
-// Expected: false
+		if board[r][c] != state[0] {
+			return false
+		}
 
-// [["C","A","A"],
-//  ["A","A","A"],
-//  ["B","C","D"]]
-// "AAB"
-// true
+		if visited[[2]int{r, c}] {
+			return false
+		}
+
+		visited[[2]int{r, c}] = true
+		old := state
+
+		if board[r][c] == state[0] {
+			state = state[1:]
+
+			// edge case: [["A"]], "A"
+			if state == "" {
+				return true
+			}
+
+			for _, dir := range dirs {
+				dr, dc := dir[0], dir[1]
+				row, col := r+dr, c+dc
+
+				rowInBound := row >= 0 && row < ROWS
+				colInBound := col >= 0 && col < COLS
+				if rowInBound && colInBound {
+					if dfs(state, row, col) {
+						return true
+					}
+				}
+			}
+		}
+
+		state = old
+		visited[[2]int{r, c}] = false // backtracking
+
+		return false
+	}
+
+	for r := 0; r < ROWS; r++ {
+		for c := 0; c < COLS; c++ {
+			if board[r][c] != word[0] {
+				continue
+			}
+
+			if dfs(word, r, c) {
+				return true
+			}
+		}
+	}
+
+	return false
+}
 
 // Success
 // Details
 // Runtime: 2437 ms, faster than 5.09% of Go online submissions for Word Search.
 // Memory Usage: 7.7 MB, less than 8.13% of Go online submissions for Word Search.
 // T:O(m*n*4dfs) = O(m*n*4^dfs-height), dfs-height will be L which L is len(word) because dfs will run through every characters in word
-// 							 = O(mn*4^L)
+//
+//	= O(mn*4^L)
 func exist(board [][]byte, word string) bool {
 	visited := map[string]bool{}
 
