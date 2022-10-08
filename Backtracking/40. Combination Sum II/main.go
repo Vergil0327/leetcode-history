@@ -22,7 +22,7 @@ func combinationSum2(candidates []int, target int) [][]int {
 	solutions := [][]int{}
 
 	// sorting for duplicate check afterwards
-	sort.Slice(candidates, func(i, j int) bool { return candidates[i] < candidates[j] })
+	sort.Ints(candidates)
 
 	var dfs func(state []int, target int, start int)
 	dfs = func(state []int, target int, start int) {
@@ -57,11 +57,11 @@ func combinationSum2(candidates []int, target int) [][]int {
 // all the combination sum include current pick
 // & all the combination sum NOT include current pick
 func combinationSum2Another(candidates []int, target int) [][]int {
-	sort.Slice(candidates, func(i, j int) bool { return candidates[i] < candidates[j] })
+	sort.Ints(candidates) // O(nlogn)
 	solutions := [][]int{}
 
-	var dfs func(state []int, target int, start int)
-	dfs = func(state []int, target int, start int) {
+	var dfs func(state []int, target int, i int)
+	dfs = func(state []int, target int, i int) {
 		if target == 0 {
 			cpy := make([]int, len(state))
 			copy(cpy, state)
@@ -69,21 +69,20 @@ func combinationSum2Another(candidates []int, target int) [][]int {
 			return
 		}
 
-		if target < 0 {
-			return
-		}
-		if start >= len(candidates) {
+		if i >= len(candidates) || target < 0 {
 			return
 		}
 
-		state = append(state, candidates[start])
-		dfs(state, target-candidates[start], start+1)
-		state = state[:len(state)-1]
-
-		for start+1 < len(candidates) && candidates[start] == candidates[start+1] {
-			start += 1
+		if candidates[i] > target {
+			return
 		}
-		dfs(state, target, start+1)
+
+		next := i + 1
+		for next < len(candidates) && candidates[next] == candidates[i] {
+			next += 1
+		}
+		dfs(state, target, next)                                     // skip current one and its duplicate
+		dfs(append(state, candidates[i]), target-candidates[i], i+1) // use current one only once
 	}
 
 	dfs([]int{}, target, 0)
