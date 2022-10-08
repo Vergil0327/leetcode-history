@@ -1,11 +1,6 @@
 // https://leetcode.com/problems/combination-sum/
 package main
 
-import (
-	"fmt"
-	"sort"
-)
-
 // Input: candidates = [2,3,6,7], target = 7
 // Output: [[2,2,3],[7]]
 // Explanation:
@@ -31,9 +26,9 @@ func combinationSum(candidates []int, target int) [][]int {
 		}
 
 		state = append(state, candidates[i])
-		dfs(state, i, total+candidates[i])
+		dfs(state, i, total+candidates[i]) // take i-th candidate and we can take again
 		state = state[:len(state)-1]
-		dfs(state, i+1, total)
+		dfs(state, i+1, total) // skip current
 	}
 
 	dfs([]int{}, 0, 0)
@@ -45,9 +40,9 @@ func combinationSum(candidates []int, target int) [][]int {
 
 func combinationSum2(candidates []int, target int) [][]int {
 	solutions := [][]int{}
-	sort.Slice(candidates, func(i, j int) bool {
-		return candidates[i] < candidates[j]
-	})
+	// sort.Slice(candidates, func(i, j int) bool {
+	// 	return candidates[i] < candidates[j]
+	// })
 
 	var dfs func(state []int, i int, total int)
 	dfs = func(state []int, i int, total int) {
@@ -63,6 +58,11 @@ func combinationSum2(candidates []int, target int) [][]int {
 			return
 		}
 
+		// combination: use i = 0, ..., n to form combination
+		// use i = 1, ..., n
+		// ...
+		// use i = n-1, n
+		// use i = n
 		for i := i; i < len(candidates); i++ {
 			state = append(state, candidates[i])
 			dfs(state, i, total-candidates[i])
@@ -73,62 +73,4 @@ func combinationSum2(candidates []int, target int) [][]int {
 	dfs([]int{}, 0, target)
 
 	return solutions
-}
-
-// we need to remove duplicate
-// Input: [2,3,6,7], 7
-// Output: [[2,2,3],[2,3,2],[3,2,2],[7]]
-// Expected: [[2,2,3],[7]]
-// T:O(2^target)
-// explanation: https://www.youtube.com/watch?v=GBKI9VSKdGg
-func combinationSumSlowAndWrong(candidates []int, target int) [][]int {
-	solutions := [][]int{}
-	existed := []map[int]int{}
-
-	var dfs func(state []int)
-	dfs = func(state []int) {
-		if sum(state) > target {
-			return
-		}
-		if checkIfStateValid(state, target) {
-			cpy := make([]int, len(state))
-			copy(cpy, state)
-
-			m := map[int]int{}
-			for _, v := range cpy {
-				m[v] += 1
-			}
-
-			for _, checkMap := range existed {
-				if fmt.Sprint(checkMap) == fmt.Sprint(m) {
-					return
-				}
-			}
-
-			solutions = append(solutions, cpy)
-			existed = append(existed, m)
-			return
-		}
-
-		for _, candidate := range candidates {
-			state = append(state, candidate)
-			dfs(state)
-			state = state[:len(state)-1]
-		}
-	}
-
-	dfs([]int{})
-	return solutions
-}
-
-func checkIfStateValid(state []int, target int) bool {
-	return sum(state) == target
-}
-
-func sum(state []int) int {
-	sum := 0
-	for _, v := range state {
-		sum += v
-	}
-	return sum
 }
