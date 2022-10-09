@@ -1,6 +1,8 @@
 // https://leetcode.com/problems/permutations-ii/
 package main
 
+import "sort"
+
 // Input:
 // [1,1,2]
 // Expected:
@@ -53,5 +55,38 @@ func permuteUnique(nums []int) [][]int {
 	}
 
 	dfs([]int{})
+	return solutions
+}
+
+func permuteUniqueOtherSolution(nums []int) [][]int {
+	solutions := [][]int{}
+
+	sort.Ints(nums)
+
+	var dfs func(state []int, visited map[int]bool)
+	dfs = func(state []int, visited map[int]bool) {
+		if len(state) == len(nums) {
+			cpy := make([]int, len(state))
+			copy(cpy, state)
+			solutions = append(solutions, cpy)
+			return
+		}
+
+		for i := 0; i < len(nums); i++ {
+			if visited[i] {
+				continue
+			}
+			visited[i] = true
+			dfs(append(state, nums[i]), visited)
+			visited[i] = false
+
+			for i < len(nums)-1 && nums[i+1] == nums[i] {
+				i += 1
+			}
+		}
+	}
+
+	dfs([]int{}, map[int]bool{})
+
 	return solutions
 }
