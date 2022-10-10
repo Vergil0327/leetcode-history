@@ -1,5 +1,7 @@
 package main
 
+import "math"
+
 // T:O(n)
 func maxScore(cardPoints []int, k int) int {
 	if k > len(cardPoints) {
@@ -42,4 +44,26 @@ func max(a, b int) int {
 	}
 
 	return b
+}
+
+// reverse thinking
+// We can find the smallest subarray sum of length `len(cardPoints) - k`
+func maxScoreSlidingWindow(cardPoints []int, k int) int {
+	windowSize := len(cardPoints) - k
+	minSubarraySum := math.MaxInt
+	currSum := 0
+
+	l := 0
+	for r, pt := range cardPoints {
+		currSum += pt
+		if r-l+1 > windowSize {
+			currSum -= cardPoints[l]
+			l += 1
+		}
+		if currSum < minSubarraySum {
+			minSubarraySum = currSum
+		}
+	}
+
+	return sum(cardPoints) - minSubarraySum
 }
