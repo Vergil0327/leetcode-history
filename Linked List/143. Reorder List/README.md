@@ -19,5 +19,5 @@ Output: [1,5,2,4,3]
 
 Constraints:
 
-- The number of nodes in the list is in the range [1, 5 * 104].
+- The number of nodes in the list is in the range [1, 5 * 10^4].
 - 1 <= Node.val <= 1000
