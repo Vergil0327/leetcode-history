@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -37,9 +35,6 @@ func reverseListRecursive(head *ListNode) *ListNode {
 	newHead := head
 	if head.Next != nil {
 		newHead = reverseListRecursive(head.Next)
-		fmt.Printf("newHead:%+v\n", newHead)
-		fmt.Printf("head.Next:%+v\n", head.Next)
-		fmt.Println("================")
 		head.Next.Next = head
 	}
 	head.Next = nil
