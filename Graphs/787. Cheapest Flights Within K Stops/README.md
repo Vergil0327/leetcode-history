@@ -37,7 +37,7 @@ Constraints:
 - flights[i].length == 3
 - 0 <= fromi, toi < n
 - fromi != toi
-- 1 <= pricei <= 104
+- 1 <= pricei <= 10^4
 - There will not be any multiple flights between two cities.
 - 0 <= src, dst, k < n
 - src != dst
