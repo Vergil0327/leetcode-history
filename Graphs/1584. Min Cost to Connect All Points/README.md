@@ -25,5 +25,5 @@ Output: 18
 Constraints:
 
 - 1 <= points.length <= 1000
-- -106 <= xi, yi <= 106
+- -10^6 <= xi, yi <= 10^6
 - All pairs (xi, yi) are distinct.
