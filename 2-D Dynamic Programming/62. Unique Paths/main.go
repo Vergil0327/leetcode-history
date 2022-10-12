@@ -42,9 +42,9 @@ func uniquePathsDP_Optimized(m int, n int) int {
 	dp := make([]int, n)
 	prevRow := make([]int, n)
 	for i := 0; i < n; i++ {
-		dp[i] = 1 // only 1 way to go right in first column
 		prevRow[i] = 1
 	}
+	dp[0] = 1 // only 1 way to go right in first column
 
 	for i := 1; i < m; i++ {
 		for j := 1; j < n; j++ {
