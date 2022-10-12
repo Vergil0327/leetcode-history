@@ -22,7 +22,7 @@ Explanation: "abcde" is the longest continuous substring.
 
 Constraints:
 
-- 1 <= s.length <= 1^05
+- 1 <= s.length <= 10^5
 - s consists of only English lowercase letters.
 
 <details>
