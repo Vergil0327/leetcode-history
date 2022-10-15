@@ -2,7 +2,9 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 /*
 Intuition: compare s[i:] with p[j:] (prefix)
