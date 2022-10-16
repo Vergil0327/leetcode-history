@@ -49,6 +49,7 @@ func componentValue(nums []int, edges [][]int) int {
 					continue
 				}
 
+				// undirected graph, decrease leaf node's indegree to zero
 				indeg[node] = 0
 
 				// Edge case: if current value is target, don't push value to its parent.
