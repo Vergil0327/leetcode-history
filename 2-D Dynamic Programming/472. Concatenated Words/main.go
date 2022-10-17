@@ -2,6 +2,96 @@ package main
 
 import "fmt"
 
+// https://leetcode.com/problems/concatenated-words/discuss/159348/Python-DFS-readable-solution
+// GOD!!! elegant solution
+func findAllConcatenatedWordsInADictOptimized(words []string) []string {
+
+	dict := map[string]struct{}{}
+	for _, word := range words {
+		dict[word] = struct{}{}
+	}
+
+	var dfs func(s string) bool
+	dfs = func(s string) bool {
+		for i := 1; i < len(s); i++ {
+			prefix, suffix := s[:i], s[i:]
+
+			_, prefixOk := dict[prefix]
+			_, suffixOk := dict[suffix]
+			if prefixOk && suffixOk {
+				return true
+			}
+
+			if prefixOk && dfs(suffix) {
+				return true
+			}
+
+			if suffixOk && dfs(prefix) {
+				return true
+			}
+		}
+
+		return false
+	}
+
+	res := []string{}
+	for _, word := range words {
+		if dfs(word) {
+			res = append(res, word)
+		}
+	}
+
+	return res
+}
+
+// Best Solution
+func findAllConcatenatedWordsInADictOptimizedMemo(words []string) []string {
+
+	dict := map[string]struct{}{}
+	for _, word := range words {
+		dict[word] = struct{}{}
+	}
+
+	memo := map[string]bool{}
+
+	var dfs func(s string) bool
+	dfs = func(s string) bool {
+		if _, ok := memo[s]; ok {
+			return memo[s]
+		}
+
+		for i := 1; i < len(s); i++ {
+			prefix, suffix := s[:i], s[i:]
+
+			_, prefixOk := dict[prefix]
+			_, suffixOk := dict[suffix]
+			if prefixOk && suffixOk {
+				return true
+			}
+
+			if prefixOk && dfs(suffix) {
+				return true
+			}
+
+			if suffixOk && dfs(prefix) {
+				return true
+			}
+		}
+
+		memo[s] = false
+		return false
+	}
+
+	res := []string{}
+	for _, word := range words {
+		if dfs(word) {
+			res = append(res, word)
+		}
+	}
+
+	return res
+}
+
 // Runtime: 3714 ms, faster than 7.14% of Go online submissions for Concatenated Words.
 // Memory Usage: 7 MB, less than 90.48% of Go online submissions for Concatenated Words.
 func findAllConcatenatedWordsInADict(words []string) []string {
