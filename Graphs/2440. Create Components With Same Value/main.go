@@ -1,6 +1,7 @@
 package main
 
 // https://leetcode.com/problems/create-components-with-same-value/discuss/2706736/Python-Explanation-with-pictures-BFS
+// explanation: https://www.youtube.com/watch?v=TSdc95z5mQs
 func componentValue(nums []int, edges [][]int) int {
 	if len(edges) == 0 {
 		return 0
@@ -49,7 +50,7 @@ func componentValue(nums []int, edges [][]int) int {
 					continue
 				}
 
-				// undirected graph, decrease leaf node's indegree to zero
+				// undirected graph, decrease leaf node's indegree to zero as visited
 				indeg[node] = 0
 
 				// Edge case: if current value is target, don't push value to its parent.
