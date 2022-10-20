@@ -49,26 +49,6 @@ func (t *Trie) StartsWith(prefix string) bool {
 	return true
 }
 
-/*
-[["o","a","a","n"],["e","t","a","e"],["i","h","k","r"],["i","f","l","v"]]
-["oath","pea","eat","rain"]
-[["o","a","b","n"],["o","t","a","e"],["a","h","k","r"],["a","f","l","v"]]
-["oa","oaa"]
-[["a","b","c","e"],["x","x","c","d"],["x","x","b","a"]]
-["abc","abcd"]
-
-[["o","a","b","n"],
- ["o","t","a","e"],
- ["a","h","k","r"],
- ["a","f","l","v"]]
-Expected: ["oa","oaa"]
-
-[["a","b","c","e"],
- ["x","x","c","d"],
- ["x","x","b","a"]]
-["abc","abcd"]
-*/
-
 // https://leetcode.com/problems/word-search-ii/discuss/59780/Java-15ms-Easiest-Solution-(100.00)
 func findWordsOptimized(board [][]byte, words []string) []string {
 	trie := Trie{root: &TrieNode{children: make(map[rune]*TrieNode)}}
@@ -81,6 +61,7 @@ func findWordsOptimized(board [][]byte, words []string) []string {
 	var backtracking func(state string, i, j int, node *TrieNode)
 	backtracking = func(state string, i, j int, node *TrieNode) {
 		c := rune(board[i][j])
+		curr := node
 
 		if _, ok := node.children[c]; !ok {
 			return
@@ -95,6 +76,12 @@ func findWordsOptimized(board [][]byte, words []string) []string {
 		if node.endOfWord { // found one
 			res = append(res, state)
 			node.endOfWord = false // ! prevent duplicate
+		}
+
+		// If I am at a leaf, there is no further exploration and I can truncate the leaf
+		if len(node.children) == 0 {
+			delete(curr.children, c)
+			return
 		}
 
 		board[i][j] = '#'
