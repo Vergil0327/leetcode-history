@@ -87,6 +87,8 @@ func largestRectangleAreaDP(heights []int) int {
 		return 0
 	}
 
+	// lessFromLeft: idx of the first bar the left that is lower than current
+	// lessFromRight: idx of the first bar the right that is lower than current
 	lessFromLeft, lessFromRight := make([]int, len(heights)), make([]int, len(heights))
 	lessFromRight[len(heights)-1] = len(heights)
 	lessFromLeft[0] = -1
@@ -94,7 +96,7 @@ func largestRectangleAreaDP(heights []int) int {
 	for i := 1; i < len(heights); i++ {
 		prev := i - 1
 		for prev >= 0 && heights[prev] >= heights[i] {
-			prev = lessFromLeft[prev]
+			prev = lessFromLeft[prev] // just like Union-Find to trace back
 		}
 		lessFromLeft[i] = prev
 	}
@@ -102,7 +104,7 @@ func largestRectangleAreaDP(heights []int) int {
 	for i := len(heights) - 2; i >= 0; i-- {
 		prev := i + 1
 		for prev < len(heights) && heights[prev] >= heights[i] {
-			prev = lessFromRight[prev]
+			prev = lessFromRight[prev] // just like Union-Find to trace back
 		}
 		lessFromRight[i] = prev
 	}
