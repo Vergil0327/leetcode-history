@@ -1,26 +1,10 @@
 // https://leetcode.com/problems/sliding-window-maximum/
 package main
 
-import "math"
-
-/*
-Example 1:
-Input: nums = [1,3,-1,-3,5,3,6,7], k = 3
-Output: [3,3,5,5,6,7]
-Explanation:
-Window position                Max
----------------               -----
-[1  3  -1] -3  5  3  6  7       3
- 1 [3  -1  -3] 5  3  6  7       3
- 1  3 [-1  -3  5] 3  6  7       5
- 1  3  -1 [-3  5  3] 6  7       5
- 1  3  -1  -3 [5  3  6] 7       6
- 1  3  -1  -3  5 [3  6  7]      7
-
-Example 2:
-Input: nums = [1], k = 1
-Output: [1]
-*/
+import (
+	"container/list"
+	"math"
+)
 
 // T:O(n) by using deque
 // monotonically decreasing deque
@@ -49,6 +33,38 @@ func maxSlidingWindow(nums []int, k int) []int {
 		}
 
 		r += 1
+	}
+
+	return res
+}
+
+// use double-linked list instead of slice as deque
+// underlying-array would grow larger and larger if we use slice as deque
+func maxSlidingWindowList(nums []int, k int) []int {
+	if k == 1 {
+		return nums
+	}
+
+	res := []int{}
+	deque := list.New()
+
+	l, r := 0, 0
+	for r < len(nums) {
+		// reserve decreasing order for finding max
+		for deque.Len() > 0 && nums[deque.Back().Value.(int)] < nums[r] {
+			deque.Remove(deque.Back())
+		}
+		deque.PushBack(r)
+		r += 1
+
+		if r-l >= k {
+			res = append(res, nums[deque.Front().Value.(int)])
+			l += 1
+		}
+
+		if l > deque.Front().Value.(int) {
+			deque.Remove(deque.Front())
+		}
 	}
 
 	return res
