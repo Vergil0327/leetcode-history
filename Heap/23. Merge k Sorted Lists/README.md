@@ -31,10 +31,10 @@ Output: []
 Constraints:
 
 - k == lists.length
-- 0 <= k <= 104
+- 0 <= k <= 10^4
 - 0 <= lists[i].length <= 500
-- -104 <= lists[i][j] <= 104
+- -10^4 <= lists[i][j] <= 10^4
 - lists[i] is sorted in ascending order.
-- The sum of lists[i].length will not exceed 104.
+- The sum of lists[i].length will not exceed 10^4.
 
 solution: [here](../../Linked%20List/23.%20Merge%20k%20Sorted%20Lists/main.go).
