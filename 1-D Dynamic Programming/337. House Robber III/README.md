@@ -24,3 +24,9 @@ Constraints:
 
 - The number of nodes in the tree is in the range [1, 10^4].
 - 0 <= Node.val <= 10^4
+
+<details>
+<summary>Take or Not Take Solution</summary>
+
+[solution](https://www.youtube.com/watch?v=712UIJlJXSQ&ab_channel=HuifengGuan)
+</details>
