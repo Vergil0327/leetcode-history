@@ -74,6 +74,11 @@ func (seg *SumSegmentTree) Build(nums []int) {
 	seg.n = len(nums)
 	seg.tree = make([]int, 2*seg.n)
 
+	// insert leaf
+	for i := 0; i < seg.n; i++ {
+		seg.tree[seg.n+i] = nums[i]
+	}
+
 	// 1-based
 	for i := seg.n - 1; i > 0; i-- {
 		seg.tree[i] = seg.tree[i<<1] + seg.tree[i<<1|1]
