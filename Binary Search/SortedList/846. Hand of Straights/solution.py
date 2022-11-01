@@ -36,7 +36,6 @@ class Solution:
         # [[6]]
         # [[6,7]]
         # [[6,7,8]] -> []
-        
 
 # https://leetcode.com/problems/hand-of-straights/discuss/135598/C%2B%2BJavaPython-O(MlogM)-Complexity
 class SolutionTLE:
@@ -46,6 +45,7 @@ class SolutionTLE:
         
         count = collections.Counter(hand)
         
+        # O(n) -> can optimized by using minHeap, skip those card with 0 count
         for card in sorted(count):
             # pair up consecutive card groups
             # pair up [card, card+1, ..., card+groupSize-1] for every card
