@@ -6,7 +6,7 @@ class Solution:
         arr = sorted([x for L,R,H in buildings for x in [[L,-H,R],[R,0,0]]])
 
         res = []
-        maxHeap = [] # [-height, R(end-position)]
+        maxHeap = [] # [-height, R(end position)]
         for pos, negHeight, R in arr:
             # check if we need to remove current max height at each falling edge
             while maxHeap and maxHeap[0][1] <= pos:
@@ -32,4 +32,33 @@ class Solution:
                 if not res or res[-1][1] != 0:
                     res.append([pos, 0])
 
+        return res
+
+from sortedcontainers import SortedList
+
+# Sweepline algorithm with sorted list
+# O(nlog(n))
+class Solution:
+    def getSkyline(self, buildings: List[List[int]]) -> List[List[int]]:
+        maxHeight = SortedList(key=lambda item: (-item[0], item[1])) # [height, position]
+        
+        # sort in increasing order of left first
+        # then sort in decreasing order of height. we need to push current building's height to maxHeight list prior to pop out invalid current max-height
+        timeline = sorted([x for L, R, H in buildings for x in [[L, H, R],[R,0,0]]], key= lambda arr: (arr[0], -arr[1], arr[2]))
+
+        res = []
+        for pos, height, R in timeline:
+            if R == 0:
+                while maxHeight and maxHeight[0][1] <= pos:
+                    maxHeight.pop(0)
+            
+            if height != 0:
+                maxHeight.add([height, R])
+            
+            if maxHeight:
+                if not res or res[-1][1] != maxHeight[0][0]:
+                    res.append([pos, maxHeight[0][0]])
+            else:
+                if not res or res[-1][1] != 0:
+                    res.append([pos, 0])
         return res
