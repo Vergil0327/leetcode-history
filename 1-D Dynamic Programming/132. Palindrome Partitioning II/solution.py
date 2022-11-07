@@ -12,9 +12,9 @@ we can see that if we also use memorization technique to `isPalinedrome`, we can
 Complexity
 
 Time: O(N^2)
-    Time complexity for isPalindrome(l, r) is O(N^2)
+    Time complexity for isPalindrome(l, r) is O(N)
     Time complexity for dfs(i) is O(N^2)
-    Since we cache all the N^2 results from isPalindrome, time complexity of isPalindrome in minCut becomes O(1)
+    Since we cache all the 2N boolean results from isPalindrome, time complexity of isPalindrome in minCut becomes O(1)
     So total time complexity is O(N^2)
 Space: O(N^2)
 """
