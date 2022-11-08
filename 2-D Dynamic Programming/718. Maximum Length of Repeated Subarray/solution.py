@@ -22,8 +22,8 @@ class Solution:
             for j, n2 in enumerate(nums2, start=1):
                 if n1 == n2:
                     dp[i][j] = dp[i-1][j-1]+1
-                else:
-                    dp[i][j] = 0
+                # else:
+                #     dp[i][j] = 0
         return max(map(max, dp))
 
 
