@@ -15,7 +15,17 @@ class StockSpanner:
 
         return i-j
 
+class StockSpanner:
 
-# Your StockSpanner object will be instantiated and called as such:
-# obj = StockSpanner()
-# param_1 = obj.next(price)
+    def __init__(self):
+        self.history = [] # [price, span]
+
+    def next(self, price: int) -> int:
+        count = 1 # include self
+        while self.history and self.history[-1][0] <= price: # pop every item in stack which is less than or equal to price
+            _, cnt = self.history.pop()
+            count += cnt
+
+        self.history.append([price, count])
+
+        return count
