@@ -34,3 +34,10 @@ Constraints:
 
 - 1 <= s.length, t.length <= 1000
 - s and t consist of English letters.
+
+<details>
+<summary>Explanation</summary>
+
+[labuladong](https://mp.weixin.qq.com/s/6vwNBr48D36n6E3EawFUqg)
+[Huifeng Guan](https://www.youtube.com/watch?v=-Q6XfyMiYUc)
+</details>
