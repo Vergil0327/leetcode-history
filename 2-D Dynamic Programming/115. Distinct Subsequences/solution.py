@@ -64,3 +64,18 @@ class Solution:
                     dp[j] += prev[j-1]
             dp, prev = prev, dp
         return prev[n]
+
+# Most Space Optimzed
+class Solution:
+    def numDistinct(self, s: str, t: str) -> int:
+        m, n = len(s), len(t)
+        
+        dp = [0] * (n+1)
+        dp[0] = 1 # empty character is valid subseq.
+        
+        for ch in s:
+            # if we compare s[i] with t[j] reversely, we can get rid of prev array
+            for i in range(n-1, -1, -1):
+                if t[i] == ch:
+                    dp[i+1] += dp[i]
+        return dp[n]
