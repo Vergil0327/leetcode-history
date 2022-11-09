@@ -16,6 +16,28 @@ class Solution:
                     dp[i][j] = minHealth if minHealth > 0 else 1
         return dp[0][0]
 
+# since our dp only depends on next row, we can reduce 2-D array to 1-D array
+class SpaceOptimizedSolution:
+    def calculateMinimumHP(self, dungeon: List[List[int]]) -> int:
+        ROWS, COLS = len(dungeon), len(dungeon[0])
+        
+        # dp = [[float("inf")] * (COLS+1) for _ in range(ROWS+1)]
+        dp = [float("inf")] * (COLS+1)
+        nextDp = [float("inf")] * (COLS+1)
+        
+        # dp[i][j]: the knight's minimum initial health at (i, j) position
+        
+        for i in range(ROWS-1, -1, -1):
+            for j in range(COLS-1, -1, -1):
+                if i == ROWS-1 and j == COLS-1: # base case
+                    dp[COLS-1] = -dungeon[ROWS-1][COLS-1]+1 if dungeon[ROWS-1][COLS-1] <= 0 else 1
+                else:
+                    minHealth = min(nextDp[j], dp[j+1]) - dungeon[i][j]
+                    dp[j] = minHealth if minHealth > 0 else 1
+            dp, nextDp = nextDp, dp
+
+        return nextDp[0]
+
 # https://labuladong.github.io/algo/3/28/87/
 class Solution:
     def calculateMinimumHP(self, dungeon: List[List[int]]) -> int:
