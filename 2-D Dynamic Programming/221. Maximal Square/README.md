@@ -2,6 +2,8 @@
 
 `Medium`
 
+*can compare with [1277. Count Square Submatrices with All Ones](../1277.%20Count%20Square%20Submatrices%20with%20All%20Ones/)*
+
 Given an m x n binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.
 
 ```
