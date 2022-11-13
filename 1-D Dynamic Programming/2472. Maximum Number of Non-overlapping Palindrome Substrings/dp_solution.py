@@ -70,7 +70,7 @@ class Solution:
     def maxPalindromes(self, s: str, k: int) -> int:
         n = len(s)
         
-        # dp[i]: the maximum number of substrings s[i:]
+        # dp[i]: the maximum number of substrings s[:i]
         dp = [0]* (n+1)
         for i in range(k, n+1):
             dp[i] = dp[i-1]
