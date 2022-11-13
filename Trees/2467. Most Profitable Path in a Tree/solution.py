@@ -57,6 +57,53 @@ class Solution:
         dfs(0, 0, set([0]), bob, set())
         return maxIncome
 
+# I found that We can use post-order DFS traversal rather than backtracking
+class SolutionOptimized:
+    def mostProfitablePath(self, edges: List[List[int]], bob: int, amount: List[int]) -> int:
+        graph = defaultdict(list)
+        for u, v in edges:
+            graph[u].append(v)
+            graph[v].append(u)
+        
+        prev = {0: 0}
+        def findBob(node, visited):
+            if node == bob: return True
+
+            for nei in graph[node]:
+                if nei not in visited:
+                    visited.add(nei)
+                    
+                    prev[nei] = node
+                    if findBob(nei, visited):
+                        return True
+            return False
+        
+        # find Bob's path
+        findBob(0, set([0]))
+        
+        def dfs(node, parent, bobNode, path): 
+            ret = 0
+            if node == bobNode:
+                ret = amount[node]//2
+            else:
+                if node not in path:
+                    ret = amount[node]
+
+            maxIncome = float("-inf")
+
+            for nei in graph[node]:
+                if nei != parent: # we don't need visited set, we can use parent node to find leaf node and stop traversal
+                    path.add(bobNode)
+                    maxIncome = max(maxIncome, dfs(nei, node, prev[bobNode], path))
+                    path.discard(bobNode) # backtracking bob's position
+
+            if maxIncome == float('-inf'):
+                return ret
+            else:
+                return maxIncome + ret
+
+        return dfs(0, 0, bob, set())
+
 # concise solution
 # https://leetcode.com/problems/most-profitable-path-in-a-tree/discuss/2807150/2-DFS-oror-1-DFS-oror-Simple-Approach-oror-C%2B%2B
 class Solution:
@@ -98,7 +145,7 @@ class Solution:
             for nei in graph[node]:
                 if nei != parent:
                     maxIncome = max(maxIncome, dfs2(nei, amount, node))
-            print(node, maxIncome, ret)
+
             # if node is leaf, we just return its amount
             if maxIncome == -inf:
                 return ret
