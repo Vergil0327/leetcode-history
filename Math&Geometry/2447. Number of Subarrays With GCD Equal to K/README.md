@@ -29,6 +29,8 @@ Constraints:
 - 1 <= nums.length <= 1000
 - 1 <= nums[i], k <= 10^9
 
+*Follow-Up [Find Number of Subarrays With LCM Equal to K](../2470.%20Number%20of%20Subarrays%20With%20LCM%20Equal%20to%20K/)*
+
 <details>
 <summary>Hint 1</summary>
 
