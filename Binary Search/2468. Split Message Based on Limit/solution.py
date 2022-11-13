@@ -1,3 +1,42 @@
+# https://www.youtube.com/watch?v=oOWb_CQU5xo
+# 根據解析，這題並不適用二分搜尋法，數值不具備單調性
+# we're just lucky to solve this by binary search
+
+class Solution:
+    def splitMessage(self, message: str, limit: int) -> List[str]:
+        n = len(message)
+
+        # <BBB/BBB>, 3 + length*2 < limit
+        for length in range(1, int(1e4)):
+            if 3+length*2 >= limit: break
+            
+            parts = 10 ** length - 1 # try 9, 99, 999, ... to find upperbound of parts
+            cost = (3+length)*parts # fixed cost, </length> * parts
+            for i in range(1, length+1):
+                # 1-9, 10-99, 100-999
+                cost += i * ((10**i-1) - (10**(i-1)-1))
+            
+            if parts * limit - cost >= n:
+                return self.get(message, limit, length)
+        return [] # solution not found
+    
+    
+    def get(self, message: str, limit: int, l: int):
+        res = []
+        wordCount = 0
+        idx = 0
+        while wordCount < len(message):
+            idx += 1
+            
+            cost = 3+l+len(str(idx)) # <idx/>
+            add = min(limit-cost, len(message)-wordCount)
+            res.append(f"{message[wordCount:wordCount+add]}<{idx}/@>")
+            wordCount += add
+        
+        res = [s.replace("@", str(idx)) for s in res]
+        return res
+
+
 # time: O(nlog(n))
 class Solution:
     def splitMessage(self, message: str, limit: int) -> List[str]:
