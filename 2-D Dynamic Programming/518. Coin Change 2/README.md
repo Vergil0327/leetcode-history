@@ -36,3 +36,10 @@ Constraints:
 - 1 <= coins[i] <= 5000
 - All the values of coins are unique.
 - 0 <= amount <= 5000
+
+<details>
+<summary>Solution Explanation</summary>
+
+[Huifeng Guan](https://www.youtube.com/watch?v=KkBwcRBhSyM)
+[背包問題變形](https://labuladong.github.io/algo/3/27/83/)
+</details>
