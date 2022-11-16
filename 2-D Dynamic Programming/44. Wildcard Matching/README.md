@@ -30,3 +30,9 @@ Constraints:
 - 0 <= s.length, p.length <= 2000
 - s contains only lowercase English letters.
 - p contains only lowercase English letters, '?' or '*'.
+
+<details>
+<summary>Solution</summary>
+
+[HuiFeng Guan - Bottom-Up](https://www.youtube.com/watch?v=G3Pq0IUvkY4)
+</details>
