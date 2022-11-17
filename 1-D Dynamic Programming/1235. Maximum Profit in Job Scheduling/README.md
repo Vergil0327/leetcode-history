@@ -49,3 +49,10 @@ Sort the elements by starting time, then define the dp[i] as the maximum profit 
 
 Use binarySearch (lower_bound/upper_bound on C++) to get the next index for the DP transition.
 </details>
+
+<details>
+<summary>Solution</summary>
+
+[Huifeng Guan](https://www.youtube.com/watch?v=0C7re8lam7M)
+[Lee215](https://leetcode.com/problems/maximum-profit-in-job-scheduling/discuss/409009/JavaC%2B%2BPython-DP-Solution)
+</details>
