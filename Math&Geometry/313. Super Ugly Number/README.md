@@ -29,3 +29,9 @@ Constraints:
 - 2 <= primes[i] <= 1000
 - primes[i] is guaranteed to be a prime number.
 - All the values of primes are unique and sorted in ascending order.
+
+<details>
+<summary>Great Article</summary>
+
+[Ugly Number](https://mp.weixin.qq.com/s/XXsWwDml_zHiTEFPZtbe3g)
+</details>

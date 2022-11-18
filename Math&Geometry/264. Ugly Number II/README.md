@@ -27,3 +27,9 @@ Constraints:
 
 [HuifenGuan](https://www.youtube.com/watch?v=cQoeAwVTDCE&ab_channel=HuifengGuan)
 </details>
+
+<details>
+<summary>Great Article</summary>
+
+[Ugly Number](https://mp.weixin.qq.com/s/XXsWwDml_zHiTEFPZtbe3g)
+</details>

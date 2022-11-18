@@ -32,3 +32,9 @@ Constraints:
 
 [Neetcode](https://www.youtube.com/watch?v=M0Zay1Qr9ws&ab_channel=NeetCode)
 </details>
+
+<details>
+<summary>Great Article</summary>
+
+[Ugly Number](https://mp.weixin.qq.com/s/XXsWwDml_zHiTEFPZtbe3g)
+</details>
