@@ -22,3 +22,8 @@ Constraints:
 
 - 1 <= n <= 1690
 
+<details>
+<summary>Video Explanation</summary>
+
+[HuifenGuan](https://www.youtube.com/watch?v=cQoeAwVTDCE&ab_channel=HuifengGuan)
+</details>
