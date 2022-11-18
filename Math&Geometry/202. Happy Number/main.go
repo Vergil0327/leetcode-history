@@ -52,7 +52,7 @@ func checkBetter(n int, seen map[int]any) bool {
 		num, _ := strconv.ParseFloat(string(r), 64)
 		sum += math.Pow(num, 2)
 	}
-	return check(int(sum), seen)
+	return checkBetter(int(sum), seen)
 }
 
 // Other Solution
