@@ -63,6 +63,34 @@ class Solution:
                 dp[i][1] = min(dp[i-1][1], dp[i-1][0])
         return min(dp[n][0], dp[n][1])
 
+# Top-down solution
+# https://leetcode.com/problems/flip-string-to-monotone-increasing/discuss/2234357/926.-Flip-String-to-Monotone-Increasing
+class Solution:
+    def minFlipsMonoIncr(self, s: str) -> int:
+        n = len(s)
+        
+        @functools.lru_cache(None)
+        def dfs(prevCh, i):
+            if i == n: return 0
+            
+            flips = float("inf")
+            if prevCh == "0":
+                if s[i] == "1":
+                    flips = min(flips, min(dfs("0", i+1)+1, dfs("1", i+1)))
+                else:
+                    flips = min(flips, dfs("0", i+1))
+                    
+            else:
+                if s[i] == "1":
+                    flips = min(flips, dfs("1", i+1))
+                else:
+                    flips = min(flips, dfs("1", i+1)+1)
+                    
+            return flips
+        
+        dummy = "0" # we can start with "0" or "1"
+        return dfs(dummy, 0)
+
 # BFS solution, TLE
 class SolutionTLE:
     def minFlipsMonoIncr(self, s: str) -> int:
