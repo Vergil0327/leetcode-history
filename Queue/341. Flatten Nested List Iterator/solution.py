@@ -1,27 +1,8 @@
 from __future__ import annotations
 from collections import deque
 
-# """
-# This is the interface that allows for creating nested lists.
-# You should not implement it, or speculate about its implementation
-# """
-class NestedInteger:
-    def isInteger(self) -> bool:
-        """
-        @return True if this NestedInteger holds a single integer, rather than a nested list.
-        """
-
-    def getInteger(self) -> int:
-        """
-        @return the single integer that this NestedInteger holds, if it holds a single integer
-        Return None if this NestedInteger holds a nested list
-        """
-
-    def getList(self) -> list[NestedInteger]:
-        """
-        @return the nested list that this NestedInteger holds, if it holds a nested list
-        Return None if this NestedInteger holds a single integer
-        """
+# Accepted, but it's not good to process all the data in __init__ function
+# iterator should process one by one
 
 # Copy & Flatten the Input: Recursion + Deque
 class NestedIterator:
@@ -49,8 +30,24 @@ class NestedIterator:
     def hasNext(self) -> bool:
         return self.l
 
+# Space Optimized - deque-based
+class NestedIterator:
+    def __init__(self, nestedList: list[NestedInteger]):
+        self.l = deque(nestedList)
+    
+    def next(self) -> int:
+        return self.l.popleft().getInteger()
+    
+    def hasNext(self) -> bool:
+        while self.l and not self.l[0].isInteger():
+            curr = self.l.popleft().getList()
+            for i in range(len(curr)-1, -1, -1):
+                self.l.appendleft(curr[i])
+        return self.l
 
-# Space Optimized
+########################################################################################
+
+# Space Optimized - stack-based
 # ref: https://leetcode.com/problems/flatten-nested-list-iterator/discuss/80146/Real-iterator-in-Python-Java-C%2B%2B
 class NestedIterator:
     def __init__(self, nestedList):
@@ -77,3 +74,29 @@ class NestedIterator:
                 stack[-1][1] += 1 # increment index/pointer to next one
                 stack.append([curr.getList(), 0]) # append nested nestedList
         return False
+
+
+
+########################################################################################
+
+# """
+# This is the interface that allows for creating nested lists.
+# You should not implement it, or speculate about its implementation
+# """
+class NestedInteger:
+    def isInteger(self) -> bool:
+        """
+        @return True if this NestedInteger holds a single integer, rather than a nested list.
+        """
+
+    def getInteger(self) -> int:
+        """
+        @return the single integer that this NestedInteger holds, if it holds a single integer
+        Return None if this NestedInteger holds a nested list
+        """
+
+    def getList(self) -> list[NestedInteger]:
+        """
+        @return the nested list that this NestedInteger holds, if it holds a nested list
+        Return None if this NestedInteger holds a single integer
+        """

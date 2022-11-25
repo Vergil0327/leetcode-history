@@ -19,6 +19,14 @@ but there is a downside here, we'll copy all ther list.
 
 as a iterator, we should only process one by each call
 
+### Space Optimized From Previous One
+
+we can put `flatten` step within `hasNext` function
+
+whenever we call `hasNext`, we flatten nestedList until we find the integer
+
+use doubly-end queue to get O(1) in append item at first position
+
 ### Space Optimized By Stack with Index Pointer
 
 我們可以定義這樣一個資料結構:
