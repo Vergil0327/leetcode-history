@@ -49,3 +49,26 @@ class Solution:
             dp.append([end, currMax])
             
         return dp[-1][1]
+
+# we maintain a dp[t] array which stores pair [end time, max profit until end time] at current t
+class SolutionTLE:
+    def jobScheduling(self, startTime: List[int], endTime: List[int], profit: List[int]) -> int:
+        jobs = sorted([(end, start, p) for start, end, p in zip(startTime, endTime, profit)])
+        
+        n = len(jobs)
+        dp = [[0, 0]]
+        
+        for job in jobs:
+            end, start, p = job[0], job[1], job[2]
+            
+            # dp[t] = max(dp[t-1], dp[j] + profit) where j <= current start time when end time is t
+            # find max profit before current end time
+            # can be previous non-overlapping job + current profit: dp[j] + p
+            # or max profit before current: dp[t-1]
+            currMax = dp[-1][1]
+            for j in range(len(dp)):
+                if dp[j][0] <= start:
+                    currMax = max(currMax, dp[j][1] + p)
+            dp.append([end, currMax])
+
+        return dp[-1][1]
