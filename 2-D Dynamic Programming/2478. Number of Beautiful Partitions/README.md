@@ -61,3 +61,9 @@ To improve time complexity, one should notice that we can use two pointers to fi
 
 With prefix sum, we can maintain the sum of every possible beautiful partition before that index.
 </details>
+
+<details>
+<summary>Video Explanation</summary>
+
+[Huifeng Guan](https://www.youtube.com/watch?v=muH2eZVia0E)
+</details>
