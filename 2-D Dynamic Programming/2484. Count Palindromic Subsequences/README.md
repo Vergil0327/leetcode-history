@@ -44,3 +44,11 @@ There are 100 possibilities for the first two characters of the palindrome.
 
 Iterate over all characters, letting the current character be the center of the palindrome.
 </details>
+
+<details>
+<summary>Solution</summary>
+
+[100N solution - prefix & suffix sum](https://leetcode.com/problems/count-palindromic-subsequences/discuss/2850466/C%2B%2B-Java-Python3-Counting-Prefixes-and-Suffixes)
+
+[100N solution - pattern](https://leetcode.com/problems/count-palindromic-subsequences/discuss/2850557/C%2B%2BorJavaorPython3-short-DP): same idea as 4 hashmap
+</details>
