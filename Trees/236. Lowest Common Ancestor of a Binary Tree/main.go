@@ -10,6 +10,7 @@ type TreeNode struct {
 }
 
 // https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/
+// https://www.youtube.com/watch?v=aztbtN7JEg4&ab_channel=HuifengGuan
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 	var LCA *TreeNode
 
@@ -39,14 +40,6 @@ func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 	dfs(root)
 
 	return LCA
-}
-
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-
-	return b
 }
 
 // https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/discuss/65226/My-Java-Solution-which-is-easy-to-understand
