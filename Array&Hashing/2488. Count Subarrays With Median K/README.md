@@ -30,3 +30,10 @@ Constraints:
 - 1 <= n <= 10^5
 - 1 <= nums[i], k <= n
 - The integers in nums are distinct.
+
+<details>
+<summary>Solution</summary>
+
+[HuifengGuan](https://www.youtube.com/watch?v=psT9C6ZNPa8&ab_channel=HuifengGuan)
+
+</details>
