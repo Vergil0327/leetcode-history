@@ -50,3 +50,9 @@ This problem is equivalent to finding the topological order in a directed graph.
 
 Topological sort could also be done via [BFS](http://en.wikipedia.org/wiki/Topological_sorting#Algorithms).
 </details>
+
+<details>
+<summary>Explanation</summary>
+
+[labuladong](https://labuladong.github.io/algo/2/22/51/)
+</details>
