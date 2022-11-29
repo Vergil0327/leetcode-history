@@ -47,3 +47,9 @@ This problem is equivalent to finding if a cycle exists in a directed graph. If 
 
 Topological sort could also be done via [BFS](https://en.wikipedia.org/wiki/Topological_sorting#Algorithms).
 </details>
+
+<details>
+<summary>Explanation</summary>
+
+[环检测及拓扑排序算法](https://labuladong.github.io/algo/2/22/51/)
+</details>
