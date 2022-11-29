@@ -33,3 +33,9 @@ Constraints:
 
 [Huifeng Guan](https://www.youtube.com/watch?v=JSq15O0Bs-E&ab_channel=HuifengGuan)
 </details>
+
+<details>
+<summary>Another Explanation</summary>
+
+[labuladong](https://labuladong.github.io/algo/2/21/48/)
+</details>

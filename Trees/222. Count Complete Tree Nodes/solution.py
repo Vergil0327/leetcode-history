@@ -63,3 +63,20 @@ class Solution:
                 return cnt + 2**h2-1 + dfs(root.left)
         
         return dfs(root)
+
+# Recursion: O(logn * logn)
+class Solution:
+    def countNodes(self, root: Optional[TreeNode]) -> int:
+        hl, hr = 0, 0
+        curr = root
+        while curr:
+            curr = curr.left
+            hl += 1
+        
+        curr = root
+        while curr:
+            curr = curr.right
+            hr += 1
+
+        if hl == hr: return 2 ** hl - 1
+        return 1 + self.countNodes(root.left) + self.countNodes(root.right)
