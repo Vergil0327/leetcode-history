@@ -25,3 +25,42 @@ class Solution:
             if not canGroup(person): return False
 
         return True
+
+# Union-Find
+class Solution:
+    def possibleBipartition(self, n: int, dislikes: List[List[int]]) -> bool:
+        parent = [i for i in range(n+1)]
+        rank = [1] * (n+1)
+
+        def find(node):
+            p = parent[node]
+            while parent[p] != parent[parent[p]]:
+                p = parent[p]
+            return p
+
+        def union(a, b):
+            p1, p2 = find(a), find(b)
+            if p1 == p2: return False
+
+            if rank[p1] >= rank[p2]:
+                parent[p2] = p1
+                rank[p1] += rank[p2]
+            else:
+                parent[p1] = p2
+                rank[p2] += rank[p1]
+            return True
+
+        graph = defaultdict(list)
+        for u, v in dislikes:
+            graph[u].append(v)
+            graph[v].append(u)
+
+        for node, neighbors in graph.items():
+            nei = neighbors[0]
+            
+            p = find(nei)
+            for other in neighbors[1:]:
+                union(p, find(other))
+            
+                if find(node) == find(nei): return False
+        return True
