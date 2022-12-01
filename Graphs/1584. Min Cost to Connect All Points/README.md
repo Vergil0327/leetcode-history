@@ -27,3 +27,10 @@ Constraints:
 - 1 <= points.length <= 1000
 - -10^6 <= xi, yi <= 10^6
 - All pairs (xi, yi) are distinct.
+
+<details>
+<summary>Explanation</summary>
+
+[NeetCode - Prim](https://www.youtube.com/watch?v=ZVh2WTcE8EY&ab_channel=HuifengGuan)
+[HuifengGuan](https://www.youtube.com/watch?v=ZVh2WTcE8EY&ab_channel=HuifengGuan)
+</details>
