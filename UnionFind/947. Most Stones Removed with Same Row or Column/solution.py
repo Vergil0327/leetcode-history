@@ -51,6 +51,47 @@ class Solution:
         size = sum(rank[parentId]-1 for parentId in groupParents)
         return size
 
+# Union-Find: ans = stones.size-groups.size
+class Solution:
+    def removeStones(self, stones: List[List[int]]) -> int:
+        n = len(stones)
+        parent = {}
+        
+        def find(x):
+            if parent[x] != x:
+                parent[x] = find(parent[x])
+            return parent[x]
+        
+        def union(x, y):
+            px, py = find(x), find(y)
+            if px == py: return
+            parent[py] = px
+        
+        def key(x, y):
+            return x*10000+y
+
+        row = defaultdict(list)
+        col = defaultdict(list)
+        for x, y in stones:
+            parent[key(x,y)] = key(x,y)
+            row[x].append(key(x,y))
+            col[y].append(key(x,y))
+        
+        for ids in row.values():
+            root = ids[0]
+            for stoneID in ids[1:]:
+                union(root, stoneID)
+        
+        for ids in col.values():
+            root = ids[0]
+            for stoneID in ids[1:]:
+                union(root, stoneID)
+            
+        group = set()
+        for x, y in stones:
+            group.add(find(key(x, y)))
+
+        return n - len(group)
 
 # DFS: O(n^2), total number of stones
 class Solution:
