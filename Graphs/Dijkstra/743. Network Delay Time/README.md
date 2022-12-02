@@ -29,3 +29,11 @@ Constraints:
 - ui != vi
 - 0 <= wi <= 100
 - All the pairs (ui, vi) are unique. (i.e., no multiple edges.)
+
+<details>
+<summary>explanation</summary>
+
+further reading
+
+[DIJKSTRA 算法 - labuladong](https://labuladong.github.io/algo/2/22/56/)
+</details>
