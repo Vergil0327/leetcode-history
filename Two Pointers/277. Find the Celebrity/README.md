@@ -30,3 +30,9 @@ Explanation: There is no celebrity.
 constraints:
 - The directed graph is represented as an adjacency matrix, which is an `n x n` matrix where `a[i][j] = 1` means person `i` knows person `j` while `a[i][j] = 0` means the contrary.
 - Remember that you won't have direct access to the adjacency matrix.
+
+<details>
+<summary>Explanation</summary>
+
+[labuladong](https://labuladong.github.io/algo/2/22/57/)
+</details>
