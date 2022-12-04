@@ -218,3 +218,66 @@ class Solution_TLE:
 
             maxGroups += count
         return maxGroups
+
+
+# Solution from contest #1 (Yawn_Sean)
+class UnionFind:
+    def __init__(self, n: int):
+        self.parent = list(range(n))
+        
+    def find(self, x):
+        parent = self.parent
+        find = self.find
+        
+        if parent[x] != x:
+            parent[x] = find(parent[x])
+        return parent[x]
+    
+    def union(self, x, y):
+        find = self.find
+        parent = self.parent
+        
+        px, py = find(x), find(y)
+        parent[py] = parent[px]
+
+class Solution:
+    def magnificentSets(self, n: int, edges: List[List[int]]) -> int:
+        graph = defaultdict(list)
+        uf = UnionFind(n+1)
+        
+        for u, v in edges:
+            graph[u].append(v)
+            graph[v].append(u)
+            uf.union(u, v)
+            
+        # check if bipartite graph
+        color = [-1] * (n+1)
+        for i in range(n+1):
+            if color[i] == -1:
+                color[i] = 0
+                queue = deque([i])
+                while queue:
+                    node = queue.popleft()
+                    for nei in graph[node]:
+                        if color[nei] == -1:
+                            color[nei] = 1-color[node]
+                            queue.append(nei)
+                        elif color[nei] + color[node] != 1:
+                            return -1
+                        
+        maxGroups = defaultdict(int)
+        for i in range(1, n+1):
+            queue = deque([i])
+            visited = {i}
+            cnt = 0
+            while queue:
+                cnt += 1
+                for _ in range(len(queue)):
+                    node = queue.popleft()
+                    
+                    for neighbor in graph[node]:
+                        if neighbor not in visited:
+                            visited.add(neighbor)
+                            queue.append(neighbor)
+            maxGroups[uf.find(i)] = max(maxGroups[uf.find(i)], cnt)
+        return sum(maxGroups.values())
