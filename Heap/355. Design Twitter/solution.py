@@ -31,8 +31,8 @@ class Twitter:
         maxHeap = []
         
         # don't forget to retrieve ourselves's newsfeed
-        self.user2followees[userId].add(userId)
-        for followeeId in self.user2followees[userId]:
+        # // self.user2followees[userId].add(userId) # don't need this line
+        for followeeId in self.user2followees[userId] | {userId}:
             root = self.user2tweet[followeeId]
             if root.next.timestamp != -1:
                 heapq.heappush(maxHeap, [-root.next.timestamp, root.next])
