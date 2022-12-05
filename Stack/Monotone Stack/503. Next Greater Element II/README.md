@@ -1,4 +1,4 @@
-503. Next Greater Element II
+[503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)
 
 `Medium`
 
@@ -24,3 +24,8 @@ Constraints:
 - 1 <= nums.length <= 10^4
 - -10^9 <= nums[i] <= 10^9
 
+<detail>
+<summary>Explanation</summary>
+
+[中文解釋](https://labuladong.github.io/algo/2/23/63/)
+</detail>
