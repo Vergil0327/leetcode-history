@@ -34,6 +34,32 @@ twitter.getNewsFeed(1);  // User 1's news feed should return a list with 1 tweet
 Constraints:
 
 - 1 <= userId, followerId, followeeId <= 500
-- 0 <= tweetId <= 104
+- 0 <= tweetId <= 10^4
 - All the tweets have unique IDs.
-- At most 3 * 104 calls will be made to postTweet, getNewsFeed, follow, and unfollow.
+- At most 3 * 10^4 calls will be made to postTweet, getNewsFeed, follow, and unfollow.
+
+<details>
+<summary>Concise Solution</summary>
+
+```python
+class Twitter(object):
+
+    def __init__(self):
+        self.timer = itertools.count(step=-1)
+        self.tweets = collections.defaultdict(collections.deque)
+        self.followees = collections.defaultdict(set)
+
+    def postTweet(self, userId, tweetId):
+        self.tweets[userId].appendleft((next(self.timer), tweetId))
+
+    def getNewsFeed(self, userId):
+        tweets = heapq.merge(*(self.tweets[u] for u in self.followees[userId] | {userId}))
+        return [t for _, t in itertools.islice(tweets, 10)]
+
+    def follow(self, followerId, followeeId):
+        self.followees[followerId].add(followeeId)
+
+    def unfollow(self, followerId, followeeId):
+        self.followees[followerId].discard(followeeId)
+```
+</details>
