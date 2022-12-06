@@ -20,3 +20,10 @@ Constraints:
 
 - 1 <= nums.length <= 10
 - -10 <= nums[i] <= 10
+
+<details>
+<summary>Solution</summary>
+
+[Neetcode](https://www.youtube.com/watch?v=Vn2v6ajA7U0)
+[Chinese Explanation](https://labuladong.github.io/algo/4/31/106/)
+</details>
