@@ -27,7 +27,10 @@ Constraints:
 We can figure out what target each subset must sum to. Then, let's recursively search, where at each call to our function, we choose which of k subsets the next value will join.
 </details>
 
-
+<details>
+<summary>Explanation (Chinese)</summary>
+[labuladong](https://labuladong.github.io/algo/4/31/105/)
+</details>
 
 <details>
 <summary>Solution</summary>
