@@ -3,18 +3,6 @@ package main
 
 import "sort"
 
-// Input: candidates = [10,1,2,7,6,1,5], target = 8
-// Output:
-// [
-// [1,1,6],
-// [1,2,5],
-// [1,7],
-// [2,6]
-// ]
-
-// [2,5,2,1,2], 5
-// [[1,2,2],[5]]
-
 // explanation: https://www.youtube.com/watch?v=rSA3t6BDDwg
 // all the combination sum include current pick
 // & all the combination sum NOT include current pick
