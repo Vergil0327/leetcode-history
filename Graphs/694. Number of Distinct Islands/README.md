@@ -1,4 +1,4 @@
-694. Number of Distinct Islands
+[694. Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/)
 
 *[SUBSCRIBE TO UNLOCK](https://leetcode.com/problems/number-of-distinct-islands/)*
 
@@ -106,4 +106,10 @@ public:
 };
 ```
 
+</details>
+
+<details>
+<summary>Explanation</summary>
+
+[labuladong](https://labuladong.github.io/algo/4/31/107/)
 </details>
