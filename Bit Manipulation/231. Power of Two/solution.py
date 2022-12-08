@@ -17,8 +17,8 @@ class Solution:
 # from solution above
 # countOneBit(n) == 1 means only one iteration
 # we can just check n& n-1 == 0
-# ! but be careful of edge case: 0
+# ! but be careful of edge case: <=0
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
-        if n == 0: return False
+        if n <= 0: return False
         return n & n-1 == 0
