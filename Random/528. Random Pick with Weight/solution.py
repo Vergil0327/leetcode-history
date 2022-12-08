@@ -42,3 +42,28 @@ class Solution:
             else:
                 r = mid
         return l-1
+
+# bisect.bisect_right solution
+class Solution:
+
+    def __init__(self, w: List[int]):
+        # [1,3,6,9]
+        # [1,4,10,19]
+        # randint -> index
+        # 0 -> 0
+        # [1,3] -> 1
+        # [4,9] -> 2
+        # [10,18] -> 3
+        self.pool = list(itertools.accumulate(w))
+
+    def pickIndex(self) -> int:
+        target = randint(0, self.pool[-1]-1)
+        # return bisect.bisect_right(self.pool, target)
+        l, r = 0, len(self.pool)
+        while l<r:
+            mid = l + (r-l)//2
+            if self.pool[mid] > target:
+                r = mid
+            else:
+                l = mid+1
+        return l
