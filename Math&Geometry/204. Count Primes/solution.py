@@ -1,5 +1,6 @@
 # Sieve of Eratosthenes
 # we only neet to run sqrt(n) since number greater than sqrt(n) will be covered in nested loop
+# time: O(n log log n)
 class Solution:
     def countPrimes(self, n: int) -> int:
         isPrime = [0, 0] + [1] * (n-2)
