@@ -40,3 +40,9 @@ Since most of the numbers are not primes, we need a fast approach to exclude the
 
 Use Sieve of Eratosthenes.
 </details>
+
+<details>
+<summary>Explanation</summary>
+
+[如何高效搜尋質數](https://labuladong.github.io/algo/4/32/116/)
+</details>
