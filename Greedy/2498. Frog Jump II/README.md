@@ -54,4 +54,17 @@ Skipping just one stone in every forward jump and jumping to those skipped stone
 
 [votrubac](https://leetcode.com/problems/frog-jump-ii/solutions/2897902/skip/)
 [Lee215](https://leetcode.com/problems/frog-jump-ii/solutions/2897948/java-c-python-max-a-i-a-i-2/?orderBy=most_votes)
+
+```c++
+class Solution {
+public:
+    int maxJump(vector<int>& stones) {
+      int n = stones.size();
+      int ans = stones[1] - stones[0];
+      for (int i = 0; i < n; i += 2) ans = max(ans, stones[min(n - 1, i + 2)] - stones[i]);
+      for (int i = 1; i < n; i += 2) ans = max(ans, stones[min(n - 1, i + 2)] - stones[i]);
+      return ans;
+    }
+};
+```
 </details>
