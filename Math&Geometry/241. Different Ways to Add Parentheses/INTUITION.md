@@ -84,3 +84,5 @@ if expr[i:j+1] in memo:
 memo[expr[i:j+1]] = res
 return res
 ```
+
+or just use python built-in decorator `@functools.lru_cache(None)`
