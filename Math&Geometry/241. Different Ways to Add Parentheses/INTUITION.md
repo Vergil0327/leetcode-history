@@ -65,3 +65,22 @@ step 4 is merge & conquer
     we'll get our left portion of numeric values & right portion of numeric values
 
     base on current operator, calculate & append to results, like merge sort
+
+#### Optimization
+
+if expr = "1+1+1+1+1", we'll get these two and compute same result twice
+
+("1+1") + ("1+1+1")
+("1+1+1") + ("1+1")
+
+thus, we can use memorization technique to cache result
+
+```python
+if expr[i:j+1] in memo:
+    return memo[expr[i:j+1]]
+
+...
+
+memo[expr[i:j+1]] = res
+return res
+```
