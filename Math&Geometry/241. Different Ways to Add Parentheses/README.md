@@ -34,6 +34,8 @@ Constraints:
 <details>
 <summary>Solution</summary>
 
+[Huifeng Guan-每日一題](https://www.youtube.com/watch?v=r2wZUlt2wJo&t=7s)
+
 [labuladong - 分治法](https://labuladong.github.io/algo/4/33/122/)
 
 对于运算表达式相关的问题，一般都会涉及括号以及优先级的问题，常用的技巧是分治算法，明确递归函数的定义，让递归函数去处理括号。
