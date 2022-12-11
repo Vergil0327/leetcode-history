@@ -22,5 +22,11 @@ Explanation: The optimal path is 15 -> 20 -> 7 with a path sum of 15 + 20 + 7 = 
 
 Constraints:
 
-- The number of nodes in the tree is in the range [1, 3 * 104].
+- The number of nodes in the tree is in the range [1, 3 * 10^4].
 - -1000 <= Node.val <= 1000
+
+<details>
+<summary>Solution with Explanation</summary>
+
+[NeetCode](https://youtu.be/Hr5cWUld4vU)
+</details>
