@@ -35,3 +35,5 @@ order = [1, 2, 2, 3, 3, 5, 5, 5, 7]
 ## further reading
 
 [BFS + PrefixSum](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/solutions/2899355/bfs-prefix-sum/?orderBy=most_votes)
+
+[Union-Find](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/solutions/2899354/simple-solution-with-intuition-c-o-n-m-time-and-space/?orderBy=most_votes)
