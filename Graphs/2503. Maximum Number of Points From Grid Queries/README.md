@@ -53,3 +53,9 @@ Sort the queries knowing their original order to be able to build the answer arr
 Run a BFS on the graph and answer the queries in increasing order.
 
 </details>
+
+<details>
+<summary>Solution w/t Explanation</summary>
+
+[HuifengGuan](https://youtu.be/G7Gg9w5_KWk)
+</details>

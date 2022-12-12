@@ -1,6 +1,7 @@
+# BFS + Binary Search
 [Original Post](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/solutions/2899594/python-3-solution-with-explanation-heap-binary-search/)
 
-# Intuition
+## Intuition
 
 主要概念是我們預先計算，透過一次的BFS獲得所有資訊
 
@@ -32,7 +33,16 @@ order = [1, 2, 2, 3, 3, 5, 5, 5, 7]
 當`query=5`，`bisect.bisect_left=5`
 當`query=6`，`bisect.bisect_left=8`
 
-## further reading
+# BFS + Priority Queue
+
+但這題其實也可以直接將`queries`由小到大排序，依序求出答案即可
+因為query較小的數能遍及的grid必為較大query的子集合
+因此我們可以query由小到大進行BFS即可
+
+只是這個BFS也必須由小到大，一但BFS遍歷到只剩下`>=queries[i]`時，當下的分數即為該次query的答案
+那為了控制BFS的數值是由小到大，我們把原本需要用到的`queue`改成`priority queue`即可
+
+# further reading
 
 [BFS + PrefixSum](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/solutions/2899355/bfs-prefix-sum/?orderBy=most_votes)
 

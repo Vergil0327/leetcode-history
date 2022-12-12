@@ -28,6 +28,30 @@ class Solution:
             res.append(i)
         return res
 
+# BFS + Priority Queue
+class Solution:
+    def maxPoints(self, grid: List[List[int]], queries: List[int]) -> List[int]:        
+        ROWS, COLS = len(grid), len(grid[0])
+
+        pq = [[grid[0][0], 0, 0]] # [grid, row, col]
+        dirs = [[-1,0],[1,0],[0,-1],[0,1]]
+        ans = [0] * len(queries)
+        count = 0
+        sortedQueries = sorted([query, i] for i, query in enumerate(queries))
+
+        for query, i in sortedQueries:
+            while pq and pq[0][0] < query:
+                _, r, c = heapq.heappop(pq)
+                count += 1
+                grid[r][c] = 0
+                for dr, dc in dirs:
+                    row, col = r+dr, c+dc
+                    if row<0 or row >= ROWS or col<0 or col >= COLS or grid[row][col] == 0: continue
+                    heapq.heappush(pq, [grid[row][col], row, col])
+                    grid[row][col] = 0
+            ans[i] = count
+        return ans
+
 # Union-Find
 class Solution:
     def maxPoints(self, grid: List[List[int]], queries: List[int]) -> List[int]:        
