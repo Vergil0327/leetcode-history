@@ -20,5 +20,5 @@ class Solution:
                     need[num+3] += 1
                 else: # we can't append to any valid seq. and also can't create new seq.
                     return False
-
-        return all(v == 0 for v in counter.values())
+	return True
+        # return all(v == 0 for v in counter.values())
