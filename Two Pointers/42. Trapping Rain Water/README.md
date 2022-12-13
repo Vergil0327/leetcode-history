@@ -20,3 +20,10 @@ Constraints:
 - n == height.length
 - 1 <= n <= 2 * 10^4
 - 0 <= height[i] <= 10^5
+
+<details>
+<summary>Solution</summary>
+
+[text explanation (Chinese)](https://labuladong.github.io/algo/4/33/128/)
+[video explanation](https://www.youtube.com/watch?v=ZI2z5pq0TqA)
+</details>
