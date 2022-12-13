@@ -44,3 +44,9 @@ Try to use two-pointers. Set one pointer to the left and one to the right of the
 
 How can you calculate the amount of water at each step?
 </details>
+
+<details>
+<summary>Solution Explanation</summary>
+
+[labualdong](https://labuladong.github.io/algo/4/33/128/)
+</details>
