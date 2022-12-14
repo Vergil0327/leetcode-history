@@ -50,6 +50,12 @@ If you have '))' with empty stack, add 1 to the answer, If after finishing you h
 </details>
 
 <details>
+<summary>Hint 3</summary>
+
+Follow-Up of 921. Minimum Add to Make Parentheses Valid
+</details>
+
+<details>
 <summary>Solution 1</summary>
 
 [Lee215](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/solutions/780199/java-c-python-straight-forward-one-pass/?orderBy=most_votes)
