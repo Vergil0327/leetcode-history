@@ -28,3 +28,9 @@ Constraints:
  
 
 Follow up: If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
+
+<details>
+<summary>Explanation</summary>
+
+[labuladong](https://labuladong.github.io/algo/3/26/77/)
+</details>
