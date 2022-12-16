@@ -7,7 +7,7 @@ class Solution:
             graph[u].append(v)
             graph[v].append(u)
             
-        maxSum = 0
+        maxSum = -inf
         for i in range(len(vals)):
             values = []
             for nei in graph[i]:
