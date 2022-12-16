@@ -2,23 +2,8 @@ package main
 
 import "math"
 
-// T:O(n^2)
-func maxSubArrayTerrible(nums []int) int {
-	max := 0
-	for i := 0; i < len(nums); i++ {
-		currentSum := 0
-		for j := i; j < len(nums); j++ {
-			currentSum += nums[j]
-			if currentSum > max {
-				max = currentSum
-			}
-		}
-	}
-
-	return max
-}
-
 // T:O(n)
+// actually, this is dynamic programming optimized solution
 func maxSubArrayLinear(nums []int) int {
 	max := nums[0] // initiate as default value
 	currentSum := 0
@@ -110,4 +95,20 @@ func findMaxCrossSum(nums []int, l, m, r int) int {
 	}
 
 	return maxL + maxR
+}
+
+// T:O(n^2)
+func maxSubArrayTerrible(nums []int) int {
+	max := 0
+	for i := 0; i < len(nums); i++ {
+		currentSum := 0
+		for j := i; j < len(nums); j++ {
+			currentSum += nums[j]
+			if currentSum > max {
+				max = currentSum
+			}
+		}
+	}
+
+	return max
 }
