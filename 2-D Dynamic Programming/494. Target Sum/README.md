@@ -37,4 +37,5 @@ Constraints:
 <summary>2-D DP solution</summary>
 
 [Explanation](https://leetcode.com/problems/target-sum/solution/)
+[Chinese Explanation](https://labuladong.github.io/algo/3/27/84/)
 </details>
