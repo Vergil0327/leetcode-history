@@ -20,3 +20,9 @@ Constraints:
 
 - 1 <= nums.length <= 200
 - 1 <= nums[i] <= 100
+
+<details>
+<summary>Solution</summary>
+
+[NeetCode](https://www.youtube.com/watch?v=IsvocB5BJhw)
+</details>

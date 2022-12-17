@@ -1,15 +1,6 @@
 // https://leetcode.com/problems/partition-equal-subset-sum/
 package main
 
-/*
-Input: nums = [1,5,11,5]
-Output: true
-Explanation: The array can be partitioned as [1, 5, 5] and [11].
-
-Input: nums = [1,2,3,5]
-Output: false
-*/
-
 // explanation: https://www.youtube.com/watch?v=IsvocB5BJhw
 func canPartitionOptimized(nums []int) bool {
 	sum := 0
@@ -66,7 +57,7 @@ func canPartition(nums []int) bool {
 }
 
 // DFS+Memo: https://leetcode.com/problems/partition-equal-subset-sum/discuss/90592/01-knapsack-detailed-explanation
-func canPartitionDPF(nums []int) bool {
+func canPartitionDFS(nums []int) bool {
 	sum := 0
 	for _, num := range nums {
 		sum += num
