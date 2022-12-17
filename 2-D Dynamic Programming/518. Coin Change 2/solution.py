@@ -55,3 +55,21 @@ class Solution:
             for j in range(1, amount+1):
                 dp[i][j] += dp[i-1][j] + (dp[i][j-coins[i-1]] if j-coins[i-1] >= 0 else 0)
         return dp[len(coins)][amount]
+
+class Solution:
+    def change(self, amount: int, coins: List[int]) -> int:
+        # dp[amount][i]: the number of combination by using first i coins to make amount
+        n = len(coins)
+        dp = [[0] * (n+1) for _ in range(amount+1)]
+
+        for j in range(n+1):
+            dp[0][j] = 1
+
+        for i in range(1, amount+1):
+            for j in range(1, n+1):
+                if i-coins[j-1] < 0:
+                    dp[i][j] = dp[i][j-1]
+                    continue
+                dp[i][j] = dp[i][j-1] + dp[i-coins[j-1]][j]
+        
+        return dp[amount][n]
