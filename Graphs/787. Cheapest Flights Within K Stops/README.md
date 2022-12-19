@@ -41,3 +41,11 @@ Constraints:
 - There will not be any multiple flights between two cities.
 - 0 <= src, dst, k < n
 - src != dst
+
+
+<details>
+<summary>Solution</summary>
+
+[labuladong Chinese Explanation](https://labuladong.github.io/algo/3/28/89/)
+[NeetCode](https://www.youtube.com/watch?v=5eIK3zUdYmE)
+</details>
