@@ -18,3 +18,20 @@ class Solution:
 
           return [root.val+left[1]+right[1], max(left)+max(right)]
         return max(dfs(root))
+
+# just like house robber
+class Solution:
+    def rob(self, root: Optional[TreeNode]) -> int:
+        @lru_cache(None)
+        def dfs(root):
+            if not root: return 0
+
+            rob1 = root.val
+            if root.left:
+                rob1 += dfs(root.left.left) + dfs(root.left.right)
+            if root.right:
+                rob1 += dfs(root.right.left) + dfs(root.right.right)
+
+            rob2 = dfs(root.left) + dfs(root.right)
+            return max(rob1, rob2)
+        return dfs(root)
