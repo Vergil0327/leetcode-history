@@ -31,3 +31,10 @@ Constraints:
 
 - 1 <= prices.length <= 10^5
 - 0 <= prices[i] <= 10^5
+
+<details>
+<summary>Solution</summary>
+
+[labuladong](https://labuladong.github.io/algo/3/28/96/)
+[HuifengGuan](https://www.youtube.com/watch?v=gsL3T9bI1RQ)
+</details>
