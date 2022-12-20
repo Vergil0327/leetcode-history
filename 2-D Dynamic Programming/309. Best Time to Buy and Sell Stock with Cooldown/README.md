@@ -24,3 +24,9 @@ Constraints:
 
 - 1 <= prices.length <= 5000
 - 0 <= prices[i] <= 1000
+
+<details>
+<summary>Explanation</summary>
+
+[all the stock problems](https://labuladong.github.io/algo/3/28/96/)
+</details>
