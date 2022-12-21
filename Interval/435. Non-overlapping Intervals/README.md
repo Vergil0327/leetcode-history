@@ -23,6 +23,12 @@ Explanation: You don't need to remove any of the intervals since they're already
 
 Constraints:
 
-- 1 <= intervals.length <= 105
+- 1 <= intervals.length <= 10^5
 - intervals[i].length == 2
-- -5 * 104 <= starti < endi <= 5 * 104
+- -5 * 10^4 <= starti < endi <= 5 * 10^4
+
+<details>
+<summary>Explanation</summary>
+
+[HuifengGuan](https://www.youtube.com/watch?v=x6wREca18nw)
+</details>
