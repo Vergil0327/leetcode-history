@@ -22,3 +22,33 @@ Constraints:
 
 - 1 <= nums.length <= 10^4
 - 0 <= nums[i] <= 10^5
+
+<details>
+<summary>Solution</summary>
+
+这道题表面上不是求最值，但是可以改一改：
+
+请问通过题目中的跳跃规则，最多能跳多远？如果能够越过最后一格，返回 true，否则返回 false。
+
+所以解题关键在于求出能够跳到的最远距离。
+
+[Post](https://labuladong.github.io/algo/3/29/102/)
+
+```java
+class Solution {
+    public boolean canJump(int[] nums) {
+        int n = nums.length;
+        int farthest = 0;
+        for (int i = 0; i < n - 1; i++) {
+            // 不断计算能跳到的最远距离
+            farthest = Math.max(farthest, i + nums[i]);
+            // 可能碰到了 0，卡住跳不动了
+            if (farthest <= i) {
+                return false;
+            }
+        }
+        return farthest >= n - 1;
+    }
+}
+```
+</details>
