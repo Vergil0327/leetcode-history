@@ -26,5 +26,12 @@ Output: -1
 
 Constraints:
 
-- 1 <= haystack.length, needle.length <= 104
+- 1 <= haystack.length, needle.length <= 10^4
 - haystack and needle consist of only lowercase English characters.
+
+<details>
+<summary>KMP algorithm</summary>
+
+[1-D DP Explanation(English)](https://leetcode.com/problems/implement-strstr/)
+[2-D DP Explanation(Chinese)](https://labuladong.github.io/algo/3/28/97/)
+</details>
