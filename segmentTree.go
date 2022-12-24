@@ -138,7 +138,7 @@ class SegmentTree():
     def __init__(self, A, op=min):
         n = len(A)
 
-        self.st = st = ([0]*x+A)
+        self.st = st = ([0]*n+A)
         for i in range(n-1, 0, -1):
             st[i] = op(st[i<<1], st[i<<1|1])
 
