@@ -52,3 +52,9 @@ Solve the reverse problem, that is, find the number of partitions where the sum 
 
 [[Python3] [DP] Simple solution with steps and intuition](https://leetcode.com/problems/number-of-great-partitions/solutions/2947979/python3-dp-simple-solution-with-steps-and-intuition/)
 </details>
+
+<details>
+<summary>Video Explanation</summary>
+
+[HuifengGuan](https://www.youtube.com/watch?v=V7wdVxiPFCU)
+</details>

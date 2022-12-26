@@ -20,7 +20,7 @@ class Solution:
                 if j-nums[i] >= 0:
                     dp[i][j] += dp[i-1][j-nums[i]]
         
-        invalid = dp[n][k-1] # sum is k-1 which is smaller than k
+        invalid = dp[n][k-1] # total number of subsets sum until k-1 (which is smaller than k)
         return (pow(2, n) - 2 * invalid) % MOD
 
 # Brute Force
