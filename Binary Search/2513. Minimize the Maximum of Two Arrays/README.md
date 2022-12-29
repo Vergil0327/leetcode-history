@@ -1,4 +1,4 @@
-[6295. Minimize the Maximum of Two Arrays](https://leetcode.com/contest/biweekly-contest-94/problems/minimize-the-maximum-of-two-arrays/)
+[2513. Minimize the Maximum of Two Arrays](https://leetcode.com/contest/biweekly-contest-94/problems/minimize-the-maximum-of-two-arrays/)
 
 *SUBSCRIBE TO UNLOCK*
 
@@ -46,3 +46,9 @@ Constraints:
 - 2 <= divisor1, divisor2 <= 10^5
 - 1 <= uniqueCnt1, uniqueCnt2 < 10^9
 - 2 <= uniqueCnt1 + uniqueCnt2 <= 10^9
+
+<details>
+<summary>Explanation</summary>
+
+[HuifengGuan](https://www.youtube.com/watch?v=Nw7P4K7lyYk)
+</details>
