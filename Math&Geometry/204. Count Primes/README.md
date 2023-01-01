@@ -45,4 +45,6 @@ Use Sieve of Eratosthenes.
 <summary>Explanation</summary>
 
 [如何高效搜尋質數](https://labuladong.github.io/algo/4/32/116/)
+
+[time complexity](https://blog.csdn.net/Gavin_Nicholas/article/details/88974079): $O(nlogn)$
 </details>
