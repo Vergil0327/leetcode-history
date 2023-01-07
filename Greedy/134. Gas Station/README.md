@@ -36,5 +36,12 @@ Therefore, you can't travel around the circuit once no matter where you start.
 Constraints:
 
 - n == gas.length == cost.length
-- 1 <= n <= 105
-- 0 <= gas[i], cost[i] <= 104
+- 1 <= n <= 10^5
+- 0 <= gas[i], cost[i] <= 10^4
+
+<details>
+<summary>Solution</summary>
+
+[Neetcode](https://www.youtube.com/watch?v=lJwbPZGo05A)
+[labuladong](https://mp.weixin.qq.com/s/k-z_oewAqMYc3vpmOm4gEQ)
+</details>
