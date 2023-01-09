@@ -48,3 +48,25 @@ Constraints:
 - 1 <= input.length <= 10^4
 - input may contain lowercase or uppercase English letters, a new line character '\n', a tab character '\t', a dot '.', a space ' ', and digits.
 - All file and directory names have positive length.
+
+<details>
+<summary>Solution</summary>
+
+the number of `tabs` is depth and save current path length for each depth
+
+Concise Solution
+
+```python
+def lengthLongestPath(self, input):
+    maxlen = 0
+    pathlen = {0: 0}
+    for line in input.splitlines():
+        name = line.lstrip('\t')
+        depth = len(line) - len(name)
+        if '.' in name:
+            maxlen = max(maxlen, pathlen[depth] + len(name))
+        else:
+            pathlen[depth + 1] = pathlen[depth] + len(name) + 1
+    return maxlen
+```
+</details>
