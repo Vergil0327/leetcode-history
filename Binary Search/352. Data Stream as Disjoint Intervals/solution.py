@@ -40,4 +40,55 @@ class SummaryRanges:
     def getIntervals(self) -> List[List[int]]:
         return self.intervals
 
-from sortedcontainers import SortedList
+from sortedcontainers import SortedSet
+class SummaryRanges:
+
+    def __init__(self):
+        self.intervals = SortedSet()
+
+    def addNum(self, value: int) -> None:
+        self.intervals.add(value)
+
+    def getIntervals(self) -> List[List[int]]:
+        res = []
+        l, r = -1, -1
+        for num in self.intervals:
+            if l < 0:
+                l = r = num
+            elif num == r+1:
+                r = num
+            else:
+                res.append([l, r])
+                l = r = num
+        res.append([l, r])
+        return res
+
+# Min Heap
+class SummaryRanges(object):
+
+  def __init__(self):
+    self.intervals = []
+    self.has = set()
+    
+  def addNum(self, val):
+    if val in self.has: return
+
+    self.has.add(val)
+    heapq.heappush(self.intervals, [val, [val, val]])
+    
+  def getIntervals(self):
+    stack = []
+    while self.intervals:
+        priority, interval = heapq.heappop(self.intervals)
+
+        if not stack:
+            stack.append([priority, interval])
+        else:
+            prevInterval = stack[-1][1]
+            if prevInterval[1] + 1 >= interval[0]:
+                prevInterval[1] = max(prevInterval[1], interval[1])
+            else:
+                stack.append([priority, interval])
+    
+    self.intervals = stack
+    return list(map(lambda arr:arr[1], stack))

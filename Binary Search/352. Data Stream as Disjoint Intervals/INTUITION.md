@@ -22,8 +22,12 @@ $$O(n)$$
 
 # Further
 
+- SortedSet
 那既然可以用binary search維護有序數組，並用Hashset避免duplicate
 我們也可以直接用 python 的 SortedSet (類似Java的TreeSet)
 
 這樣就會以`O(logn)`時間進行`addNum()`
 並以`O(n)`時間構造出`intervals`
+
+- Min Heap
+或者利用`Min Heap`以O(logn)時間來儲存value，再以O(nlogn)時間一個個彈出並Merge
