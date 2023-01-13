@@ -67,57 +67,8 @@ $$O(V+E)$$ = $$O(n+nlogn)$$
 
 we can reduce to $$O(n)$$ by keeping first 2 maximum path
 
-see:
-```java
-class Solution {
-    private int longestPath = 1;
+see down below
 
-    public int dfs(int currentNode, Map<Integer, List<Integer>> children, String s) {
-        // If the node is the only child, return 1 for the currentNode itself.
-        if (!children.containsKey(currentNode)) {
-            return 1;
-        }
-
-        // Longest and second longest path starting from currentNode (does not count the
-        // currentNode itself).
-        int longestChain = 0, secondLongestChain = 0;
-        for (int child : children.get(currentNode)) {
-            // Get the number of nodes in the longest chain starting from the child,
-            // including the child.
-            int longestChainStartingFromChild = dfs(child, children, s);
-            // We won't move to the child if it has the same character as the currentNode.
-            if (s.charAt(currentNode) == s.charAt(child)) {
-                continue;
-            }
-            // Modify the longestChain and secondLongestChain if longestChainStartingFromChild
-            // is bigger.
-            if (longestChainStartingFromChild > longestChain) {
-                secondLongestChain = longestChain;
-                longestChain = longestChainStartingFromChild;
-            } else if (longestChainStartingFromChild > secondLongestChain) {
-                secondLongestChain = longestChainStartingFromChild;
-            }
-        }
-
-        // Add "1" for the node itself.
-        longestPath = Math.max(longestPath, longestChain + secondLongestChain + 1);
-        return longestChain + 1;
-    }
-
-    public int longestPath(int[] parent, String s) {
-        int n = parent.length;
-        Map<Integer, List<Integer>> children = new HashMap<>();
-        // Start from node 1, since root node 0 does not have a parent.
-        for (int i = 1; i < n; i++) {
-            children.computeIfAbsent(parent[i], value -> new ArrayList<Integer>()).add(i);
-        }
-
-        dfs(0, children, s);
-
-        return longestPath;
-    }
-}
-```
 
 - space complexity
 
@@ -131,3 +82,52 @@ two things to do:
 1. do DFS to find longest **valid** no-split path from root to leaf nodes.
         - `valid` means **NO** pair of adjacent nodes has the same character
 2. find longest subpath if we try to split at each node
+
+## O(n) Optimized Solution
+
+```python
+class Solution:
+    def longestPath(self, parent: List[int], s: str) -> int:
+        if not parent: return 0
+
+        child = [[] for _ in range(len(parent))]
+        for node, p in enumerate(parent):
+            if p == -1: continue
+            child[p].append(node)
+    
+        res = 1
+        def dfs(node, prev):
+            nonlocal res
+
+            # path = []
+            maxChild1, maxChild2 = 0, 0
+            for ch in child[node]:
+                if ch == prev: continue
+                childPath = dfs(ch, node)
+                if s[ch] != s[node]:
+                    if childPath > maxChild1:
+                        maxChild1, maxChild2 = childPath, maxChild1
+                    elif childPath > maxChild2:
+                        maxChild2 = childPath
+                    # path.append(childPath)
+            
+            # path.sort(reverse=True)
+            curMax = 1 + maxChild1
+            subPath = 1 + maxChild1 + maxChild2
+            res = max(res, curMax, subPath)
+            return curMax
+            # if not path:
+            #     return 1
+            # elif len(path) == 1:
+            #     curMax = 1 + path[0]
+            #     res = max(res, curMax)
+            #     return curMax
+            # else:
+            #     curMax = 1 + maxChild1
+            #     subPath = 1 + path[0] + path[1]
+            #     res = max(res, curMax, subPath)
+            #     return curMax
+            
+        dfs(0, 0)
+        return res
+```
