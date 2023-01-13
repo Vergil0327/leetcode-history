@@ -68,3 +68,12 @@ $$O(n)$$
 - space complexity
 
 $$O(n)$$
+
+## Summary
+
+Just like [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) but allow more than 2 child nodes.
+
+two things to do:
+1. do DFS to find longest **valid** no-split path from root to leaf nodes.
+        - `valid` means **NO** pair of adjacent nodes has the same character
+2. find longest subpath if we try to split at each node
