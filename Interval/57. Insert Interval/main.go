@@ -31,7 +31,7 @@ func insert(intervals [][]int, newInterval []int) [][]int {
 func insertNeetCode(intervals [][]int, newInterval []int) [][]int {
 	res := [][]int{}
 	for i, interval := range intervals {
-		if newInterval[1] > interval[0] {
+		if newInterval[1] < interval[0] {
 			res = append(res, newInterval)
 			return append(res, intervals[i:]...)
 		} else if newInterval[0] > interval[1] {
