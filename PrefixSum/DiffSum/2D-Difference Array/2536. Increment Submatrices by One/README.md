@@ -51,3 +51,11 @@ For each query, iterate over the rows i in the range [row1, row2] and add 1 to p
 After doing this operation for all the queries, update each row separately with S[i][j] = S[i][j] + S[i][j - 1].
 
 </details>
+
+<details>
+<summary>Explanation</summary>
+
+[[Python3] Sweep Line (Range Addition w/ Visualization), Clean & Concise](https://leetcode.com/problems/increment-submatrices-by-one/solutions/3052675/python3-sweep-line-range-addition-w-visualization-clean-concise/?orderBy=most_votes)
+
+[HuifengGuan](https://www.youtube.com/watch?v=J2TUaneNk90)
+</details>
