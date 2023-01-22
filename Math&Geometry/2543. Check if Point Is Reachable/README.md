@@ -61,6 +61,8 @@ How can we check if we can reach (1, 1) using the GCD value calculate above?
 <details>
 <summary>Solution</summary>
 
+[Huifeng](https://www.youtube.com/watch?v=6kCqGqYwWQU)
+
 [Lee215](https://leetcode.com/problems/check-if-point-is-reachable/solutions/3082073/java-c-python-1-line-gcd-solution/)
 [votrubac - Greedy vs. GCD](https://leetcode.com/problems/check-if-point-is-reachable/solutions/3082680/greedy-vs-gcd/?orderBy=most_votes)
 [rock](https://leetcode.com/problems/check-if-point-is-reachable/solutions/3082013/java-python-3-check-if-the-gcd-has-only-factor-2-w-explanation-and-analysis/)
