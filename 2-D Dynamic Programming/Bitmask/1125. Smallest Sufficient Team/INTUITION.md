@@ -58,6 +58,14 @@ and our target is to satisfy `(1<<n)-1` state. thus `dp[(1<<n)-1]` should be min
 **base case**
 dp[0] = 0, for 0 req_skills, the minimum people we need is 0
 
+**Boost Performance**
+
+if dp[state] equals inf, we can't update dp. thus, we can skip directly
+```py
+for state in range(1<<n):
+    if dp[state] == inf: continue
+```
+
 # Complexity
 
 - time complexity
@@ -65,3 +73,29 @@ $$O(2^n * m)$$
 
 - space complexity
 $$O(2^n)$$
+
+# More Efficient Solution
+
+想成背包問題，dp[i][skill_set]
+使用前i個人並滿足skill_set的組合是`dp[i][skill_set]`
+
+```py
+class Solution:
+    def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:
+        n = len(req_skills)
+        indexMap = {skill : i for i, skill in enumerate(req_skills)}
+
+        dp = {0 : []}
+        for i, p in enumerate(people):
+            mask = 0
+            for skill in p:
+                mask |= 1 << indexMap[skill]
+
+            for preSkills, team in list(dp.items()):
+                newSkillSet = mask | preSkills
+                if newSkillSet == preSkills:
+                    continue
+                if newSkillSet not in dp or len(dp[newSkillSet]) > len(team) + 1:
+                    dp[newSkillSet] = team + [i]
+        return dp[(1 << n) - 1]
+```

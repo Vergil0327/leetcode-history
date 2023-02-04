@@ -17,6 +17,8 @@ class Solution:
 
         res = defaultdict(set)
         for state in range(1<<n):
+            if dp[state] == inf: continue
+            
             for i, personSkills in enumerate(peopleSkills):
                 next_state = state | personSkills
                 if dp[state]+1 < dp[next_state]:
