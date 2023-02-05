@@ -3,21 +3,17 @@ from collections import defaultdict
 
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
-        if len(p) > len(s): return []
-        
-        need = defaultdict(lambda: 0)
-        window = defaultdict(lambda: 0)
-        
-        for c in p:
-            need[c] += 1
-        
+        need = Counter(p)
+        window = defaultdict(int)
+
+        n = len(s)
         res = []
         valid = 0
-        l = 0
-        for r in range(len(s)):
+        l = r = 0
+        while r < n:
             ch = s[r]
             r += 1
-            
+
             if ch in need:
                 window[ch] += 1
                 if window[ch] == need[ch]:
@@ -25,8 +21,7 @@ class Solution:
             
             # [l, r)
             while r-l >= len(p):
-                if valid == len(need):
-                    res.append(l)
+                if valid == len(need): res.append(l)
 
                 ch = s[l]
                 l += 1
