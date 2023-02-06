@@ -45,11 +45,13 @@ Using the solution with one interval, how can you combine that with a second int
 <details>
 <summary>Solution</summary>
 
-[Lee215](https://leetcode.com/problems/maximize-win-from-two-segments/solutions/3141449/java-c-python-dp-sliding-segment-o-n/)
+[HuifengGuan - 3 Pass](https://www.youtube.com/watch?v=0Tjuy464sP8)
+
+[Lee215 - DP + Sliding Window](https://leetcode.com/problems/maximize-win-from-two-segments/solutions/3141449/java-c-python-dp-sliding-segment-o-n/)
 
 Follow up
 What if we want to solve Maximize Win From K Segments
 We can solve it by this approach as well.
 Simply increase one linear dp[i] to dp[k][i],
 dp[k][i] means the maixmum we can in the first i elements with k segments.
-</details>
+</details>>
