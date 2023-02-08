@@ -45,3 +45,9 @@ That graph is uni-modal.
 
 Use ternary search on that graph to find the best value.
 </details>
+
+<details>
+<summary>Solution</summary>
+
+[HuifengGuan](https://www.youtube.com/watch?v=0vX5yzqFGik)
+</details>
