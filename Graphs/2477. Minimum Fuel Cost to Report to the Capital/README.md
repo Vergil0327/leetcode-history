@@ -64,3 +64,9 @@ Can you record the size of each subtree?
 
 If n people meet on the same node, what is the minimum number of cars needed?
 </details>
+
+<details>
+<summary>Video Explanation</summary>
+
+[Neetcode](https://www.youtube.com/watch?v=I3lnDUIzIG4)
+</details>

@@ -1,43 +1,44 @@
 # Topological Sort
 class Solution:
     def minimumFuelCost(self, roads: List[List[int]], seats: int) -> int:
-        if not roads: return 0
         n = len(roads)
-        
-        inDegrees = [0] * (n+1)
-        G = defaultdict(list)
+
+        graph = defaultdict(list)
+        indegree = [0] * (n+1)
         for u, v in roads:
-            G[u].append(v)
-            inDegrees[v] += 1
-            G[v].append(u)
-            inDegrees[u] += 1
-            
+            graph[u].append(v)
+            graph[v].append(u)
+            indegree[v] += 1
+            indegree[u] += 1
+
         queue = deque()
-        for i, deg in enumerate(inDegrees):
+        CAPITAL = 0
+        for node, deg in enumerate(indegree):
             # ! if we got a linked-list we don't want to count capital
             # ex [[0,1],[1,2]], 3
-            if deg == 1 and i != 0: # don't include capital(i=0)
-                queue.append(i) # city
-        capicity = [1] * (n+1)
+            if deg == 1 and node != CAPITAL: # don't include capital(node=0)
+                queue.append(node) # city
 
-        cnt = 0
+        capacity = [1] * (n+1)
+        fuel = 0
         while queue:
+            for _ in range(len(queue)):
+                curr = queue.popleft()
+                fuel += int(ceil(capacity[curr]/seats))
+                # fuel += (capicity[node]+seats-1)//seats
 
-            sz = len(queue)
-            for _ in range(sz):
-                node = queue.popleft()
-                cnt += math.ceil(capicity[node]/seats)
-                # cnt += (capicity[node]+seats-1)//seats
-                
-                for nxt in G[node]:
-                    capicity[nxt] += capicity[node]
-                    inDegrees[nxt] -= 1
-                    if inDegrees[nxt] == 1 and nxt != 0: # don't include capital
+                for nxt in graph[curr]:
+                    capacity[nxt] += capacity[curr]
+                    indegree[nxt] -= 1
+                    if indegree[nxt] == 1 and nxt != CAPITAL: # don't include capital
                         queue.append(nxt)
-
-        return cnt
+        return fuel
 
 # DFS
+"""
+break down into many subproblem
+we can calculate fuel in post-order DFS position
+"""
 class Solution:
     def minimumFuelCost(self, roads: List[List[int]], seats: int) -> int:
         if not roads: return 0
@@ -54,10 +55,31 @@ class Solution:
                 if nxt != parent:
                     person += dfs(nxt, curr)
             
-            # print(curr, person, seats)
             if curr != 0:
                 self.liter += math.ceil(person/seats) # slow
                 # self.liter += (person+seats-1)//seats # integer is more efficient
             return person
         dfs(0, -1)
         return self.liter
+    
+class ConciseSolution:
+    def minimumFuelCost(self, roads: List[List[int]], seats: int) -> int:
+        graph = defaultdict(list)
+        for u, v in roads:
+            graph[u].append(v)
+            graph[v].append(u)
+
+        fuel = 0
+        def dfs(node, parent):
+            nonlocal fuel
+            people = 0
+            for nxt in graph[node]:
+                if nxt == parent: continue
+                passengers = dfs(nxt, node)
+                people += passengers
+                fuel += int(ceil(passengers/seats))
+
+            return people + 1 # current node itself 
+
+        dfs(0, -1)
+        return fuel
