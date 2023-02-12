@@ -49,3 +49,9 @@ You do not need to consider substrings having lengths greater than 30.
 Pre-process all substrings with lengths not greater than 30, and add the best endpoints to a dictionary.
 
 </details>
+
+<details>
+<summary>Video Explanation</summary>
+
+[HuifengGuan](https://www.youtube.com/watch?v=MZL7xsHCHTE)
+</details>
