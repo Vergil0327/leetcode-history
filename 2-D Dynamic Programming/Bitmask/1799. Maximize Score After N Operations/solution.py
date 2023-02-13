@@ -43,7 +43,8 @@ class Solution:
                     curr = (((r^curr)>>2)//c) | r
 
         return dp[n][maxState-1]
-    
+
+# Optimzed from TLE solution
 class Solution:
     def maxScore(self, nums: List[int]) -> int:
         n = len(nums)
@@ -92,3 +93,40 @@ class Solution:
                     dp[i][state] = max(dp[i][state], dp[i-2][state-curr] + (i//2)*scores[curr])
 
         return max(dp[n])
+    
+# Concise
+class Solution:
+    def maxScore(self, nums: List[int]) -> int:
+        n = len(nums)//2
+        scores = {}
+        for i in range(2*n):
+            for j in range(2*n):
+                scores[(i,j)] = gcd(nums[i], nums[j])
+        
+        stateSet = defaultdict(list)
+        for i in range(1, n+1):
+            state = (1 << (2*i))-1
+            while state < (1 << 2*n):
+                stateSet[i].append(state)
+                c = state & -state
+                r = state+c
+                state = (((r^state)>>2)//c) | r
+        stateSet[0].append(0)
+
+        dp = [0] * (1<<(2*n))
+        for i in range(1, n+1):
+            for state in stateSet[i]:
+                for subState in stateSet[i-1]:
+                    if state & subState != subState: continue
+
+                    x = y = -1
+                    currState = state - subState
+                    for j in range(14):
+                        if (currState>>j)&1:
+                            if x == -1:
+                                x = j
+                            else:
+                                y = j
+                    dp[state] = max(dp[state], dp[subState] + i*scores[(x,y)])
+
+        return dp[(1<<(2*n))-1]
