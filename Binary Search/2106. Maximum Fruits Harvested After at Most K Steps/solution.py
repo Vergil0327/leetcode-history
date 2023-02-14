@@ -21,7 +21,7 @@ class Solution:
                 res = max(res, presum[r+1]-presum[leftPos])
 
         # go right and turn to left
-        start = bisect.bisect_right(axis, startPos)-1 # > startPos的位置-1就是 >= startPos的位置
+        start = bisect.bisect_right(axis, startPos)-1 # > startPos的位置-1就是 <= startPos的位置
         r = n-1
         for l in range(start, -1, -1):
             if axis[l] < startPos - k: break
