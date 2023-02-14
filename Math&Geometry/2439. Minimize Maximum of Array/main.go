@@ -13,7 +13,7 @@ package main
 // If A[i] < A[i + 1],
 // then we can repeatly do the operations,
 // until A[i] >= A[i+1].
-// So finally the array A will become decrescent order.
+// So finally the array A will become descending order.
 
 // Explanation
 // We calculate the prefix sum arrray and their average.
