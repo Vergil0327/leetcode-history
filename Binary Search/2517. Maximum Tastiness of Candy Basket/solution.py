@@ -1,3 +1,4 @@
+# if maximum tastiness is mid, check if we can greedily pick k prices[i] which abs distance is >= mid in O(n)
 class Solution:
     def maximumTastiness(self, price: List[int], k: int) -> int:
         if len(set(price)) < k: return 0

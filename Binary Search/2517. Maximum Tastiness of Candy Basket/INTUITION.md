@@ -32,7 +32,9 @@ return l
 
 每當找到一個值與我們上個取走的值之間的差大於等於`mid`時，代表我們可以取走，當最後所有取值的數目大於等於`k`時，代表我們目前猜得`mid`是可行的，可以提高lowerbound，反之則減少upperbound
 
+
 ```python
+# if maximum tastiness is mid, check if we can greedily pick k prices[i] which abs distance is >= mid in O(n)
 def check(prices, target):
     cnt = 1
     lastTaken = prices[0]
