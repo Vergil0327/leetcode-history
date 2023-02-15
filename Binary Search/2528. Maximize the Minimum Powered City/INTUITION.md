@@ -18,7 +18,7 @@ while lo < hi:
 return lo
 ```
 
-根據提議，每個城市的power會是個sliding window的總和
+根據題意，每個城市的power會是個sliding window的總和
 因此在`isValidPower`裡，我們計算每個城市的power是否足夠`mid`
 
 ```
@@ -31,6 +31,29 @@ sliding window sum = [:r] + stations[i+r] - stations[i-r-1]
   - 這裡有個**Greedy**的思想是，對於第`i`個之前的city都是滿足條件的，因此我們可以不用管
   - 為了讓加蓋的電力站能涵蓋最多城市，同時又能填補目前第`i`個城市的電力缺口，因此我們應當在`i+r`這個位置加上額外的電力
   - 所以我們另外用一個`additional`的數組來記錄我們在第幾個城市補上額外的電力`k`
+    - 或者我們直接copy stations
+
+    ```py
+    n = len(stations)
+    def checkPowerValid(target, k):
+        cities = stations.copy()
+
+        currPow = sum(cities[:r])
+        for i in range(n):
+            if i+r<n:
+                currPow = currPow + cities[i+r]
+            
+            if currPow < target:
+                if k < target-currPow: return False # we can't afford this target power
+                diff = target-currPow
+                cities[min(i+r, n-1)] += diff
+                currPow += diff
+                k -= diff
+
+            if i-r >= 0:
+                currPow -= cities[i-r]
+        return True
+    ```
 
 # Complexity
 

@@ -62,5 +62,7 @@ Use binary search to maximize the minimum.
 <details>
 <summary>Solution</summary>
 
+[HuifengGuan](https://www.youtube.com/watch?v=rn0yE0gC8Vw)
+
 [[C++/Python] Binary Search & Sliding Window & Greedy - Clear explanation](https://leetcode.com/problems/maximize-the-minimum-powered-city/solutions/3014943/c-python-binary-search-sliding-window-greedy-clear-explanation/)
 </details>
