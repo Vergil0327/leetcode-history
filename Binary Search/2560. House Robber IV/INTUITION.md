@@ -17,6 +17,13 @@ return l
 這題最難的是在於 helper function `check(mid)`
 我們該如何確認，對於當前猜的`mid`作為capacity時，nums可以滿足`mid`作為min max capacity?
 
+>like 2517.Maximum-Tastiness-of-Candy-Basket, we can greedily check capability
+
+> - if target capability is `mid`
+>   - whenever nums[i] <= `mid`, we can pick nums[i]
+>   - after we rob nums[i], mark we rob at this round and count += 1
+> - if we can found k houses to rob with `mid` capability, `mid` is possible capability
+
 這邊可試著以Greedy的方式盡可能找出符合的pair，然後看個數有沒有足夠k個
 方式是:
 1. 如果當前這個nums[i] <= target cap，那我們就先取他然後記錄當前位置

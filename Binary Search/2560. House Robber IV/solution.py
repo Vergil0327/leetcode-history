@@ -1,11 +1,9 @@
 class Solution:
     def minCapability(self, nums: List[int], k: int) -> int:
-        n = len(nums)
-        
         def check(cap):
             takePrev = False
             cnt = 0
-            for i, num in enumerate(nums):
+            for num in nums:
                 if takePrev:
                     takePrev = False
                     continue
