@@ -46,3 +46,46 @@ else:
 
 return dp[0][n-1]
 ```
+
+# Other Solution - Two Sequence
+
+第一種是找出最長Palindrome然後插入次數是`n-len(palindrome in s)`
+同理我們也可以找出 `s`跟`reversed(s)`的SCS(super common sequence)的長度再減`n`得到插入次數
+
+由於Palindrome正著看跟反著看都相等，代表`s`以及`reversed(s)`必定是最後結果的子序列
+也就是說最後結果就會是最短的SCS of s and reversed(s)
+
+ex. leetcode & edocteel
+這雙序列的SCS就是最短可以cover兩個序列個common subseqence
+
+因此對於最短SCS來說，我們可以這樣定義
+
+dp[i][j]: the shortest length of SCS of s[0:i] and reversed s[0:j]
+
+所以狀態轉移方程為
+
+```py
+t = s[::-1]
+
+# 字串也配合狀態轉移改成1-indexed
+s = "#" + s
+t = "#" + t
+
+# 我們dp用1-indexed
+for i in range(1, n+1):
+    for j in range(1, n+1):
+        if s[i] == t[j]: # 兩個相等，代表加上這個可以同時包含 s & t
+            dp[i][j] = dp[i-1][j-1] + 1
+        else:
+            dp[i][j] = min(dp[i-1][j]+1, dp[i][j-1]+1) # 從 s+t[j] 跟從 t+s[i] 兩種結果找出最短的SCS
+return dp[n][n] - n
+```
+
+**base case**
+
+```py
+dp[0][0] = 0
+for i in range(1, n+1):
+    dp[0][i] = i # s為"", 跟t[:i]的SCS的最短長度為 i
+    dp[i][0] = i # s[:i], 跟t=""的SCS長度為i
+```

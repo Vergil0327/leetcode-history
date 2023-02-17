@@ -39,3 +39,30 @@ class Solution:
                     dp[l][r] = min(dp[l+1][r]+1, dp[l][r-1]+1)
 
         return dp[0][n-1]
+    
+# Two-Sequence
+class Solution:
+    def minInsertions(self, s: str) -> int:
+        n = len(s)
+        t = s[::-1]
+
+        # 我們dp用1-indexed
+        dp = [[inf] * (n+1) for _ in range(n+1)]
+
+        # 字串也配合狀態轉移改成1-indexed
+        s = "#" + s
+        t = "#" + t
+
+        # base case
+        dp[0][0] = 0
+        for i in range(1, n+1):
+            dp[0][i] = i # s為"", 跟t[:i]的SCS的最短長度為 i
+            dp[i][0] = i # s[:i], 跟t=""的SCS長度為i
+
+        for i in range(1, n+1):
+            for j in range(1, n+1):
+                if s[i] == t[j]:
+                    dp[i][j] = dp[i-1][j-1] + 1
+                else:
+                    dp[i][j] = min(dp[i-1][j]+1, dp[i][j-1]+1)
+        return dp[n][n] - n
