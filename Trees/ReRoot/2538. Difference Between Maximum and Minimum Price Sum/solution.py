@@ -1,3 +1,4 @@
+# Now becomes TLE for python, 2023
 class Solution:
     def maxOutput(self, n: int, edges: List[List[int]], price: List[int]) -> int:
         graph = defaultdict(list)
