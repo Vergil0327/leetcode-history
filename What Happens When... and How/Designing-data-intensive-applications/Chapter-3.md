@@ -94,4 +94,48 @@ Each segment now has its own in-memory hash table, mapping keys to file offsets.
 
 Lots of detail goes into making this simple idea work in practice. Briefly, some of the issues that are important in a real implementation are:
 
+- *File format*
+
+    CSV is not the best format for a log. It's faster and simpler to use a binary format that first encodes the length of a string in bytes, followed by the raw string (without need for excaping).
+
+- *Deleting records*
+
+    If you want to delete a key and its associated value, you have to append a special deletion record to the data file (sometimes called a *tombstone*). When alog segments are merged, the tombstone tells the merging process to discard any previous values for the deleted key.
+    
+- *Crash recovery*
+
+    If the database is restarted, the in-memory hash maps are lost. In principle, you can restore each segment's hash map by reading the entire segment file from beginning to end and noting the offset of the most recent value for every key as you go along. However, that might take a long time if the segment files are large, which would make server restarts painful. Bitcask speeds up recovery by storing a snapshot of each segment's hash map on disk, which can be loaded into memory more quickly.
+
+- Partially written records
+
+    The database may crash at any time, including halfway through appending a record to the log. Bitcask files include checksums, allowing such corrupted parts of the log to be deleted and ignored.
+
+- Concurrency control
+
+    As writes are appended to the log in a strictly sequential order, a common implmentation choice is to have only one writer thread. Data file segments are append-only and otherwise immutable, so they can be read concurrently by multiple threads.
+
+An append-only log seems wasteful at first glance:
+
+why don't you update the file in place, overwriting the old value with the new value? But an append-only design turns out to be good for several reasons:
+
+1. Appending and segment merging are sequential write operations, which are generally much faster than random writes, especially on magnetic spinning-disk hard drives. to some extent sequential writes are also preferable on flash-based *solid state drives* (SSDs).
+
+2. Concurrency and crash recovery are much simpler if segment files are append-only or immutable. For example, you don't have to worry about the case where a crash happened while a value was being overwritten, leaving you with a file containing part of the old and part of the new value spliced together.
+
+3. Merging old segments avoids the problem of data files getting fragmented over time. 
+
+However, the hash table index also has limitations:
+
+- The hash table must fit in memory, so if you have a very large number of keys, you're out of luck. In principle, you could maintain a hash map on disk, but unfortunately it is difficult to make an on-disk hash map perform well. it requires a lot of random access I/O, it is expensive to grow when it cecomes full, and hash collisions require fiddly logic.
+- Range queries are not efficient. For example, you cannot easily scan over all keys between **kitty00000** and **kitty99999**- you'd have to look up each key individually in the hash maps.
+
+In the next section we will look at an indexing structure that doesn't have those limitations.
+
+
+### SSTables and LSM-Trees
+
+In Figure 3-3, each log-structured storage segment is a sequence of key-value pairs. These pairs appear in the order that they were written, and values later in the log take precedence over values for the same key earlier in the log. Apart from that, the order of key-value pairs in the file does not matter.
+
+
+
 ----------------
