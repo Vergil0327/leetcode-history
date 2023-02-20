@@ -38,3 +38,72 @@ Constraints:
 Use the Lazy Segment Tree to process the queries quickly.
 
 </details>
+
+```
+1.   Maximum Length of Repeated Subarray
+Medium
+6K
+150
+Companies
+Given two integer arrays nums1 and nums2, return the maximum length of a subarray that appears in both arrays.
+
+ 
+
+Example 1:
+
+Input: nums1 = [1,2,3,2,1], nums2 = [3,2,1,4,7]
+Output: 3
+Explanation: The repeated subarray with maximum length is [3,2,1].
+Example 2:
+
+Input: nums1 = [0,0,0,0,0], nums2 = [0,0,0,0,0]
+Output: 5
+Explanation: The repeated subarray with maximum length is [0,0,0,0,0].
+ 
+
+Constraints:
+
+1 <= nums1.length, nums2.length <= 1000
+0 <= nums1[i], nums2[i] <= 100
+
+
+class Solution:
+    def findLength(self, nums1: List[int], nums2: List[int]) -> int:
+```
+
+```
+712. Minimum ASCII Delete Sum for Two Strings
+Medium
+2.4K
+69
+Companies
+Given two strings s1 and s2, return the lowest ASCII sum of deleted characters to make two strings equal.
+
+ 
+
+Example 1:
+
+Input: s1 = "sea", s2 = "eat"
+Output: 231
+Explanation: Deleting "s" from "sea" adds the ASCII value of "s" (115) to the sum.
+Deleting "t" from "eat" adds 116 to the sum.
+At the end, both strings are equal, and 115 + 116 = 231 is the minimum sum possible to achieve this.
+Example 2:
+
+Input: s1 = "delete", s2 = "leet"
+Output: 403
+Explanation: Deleting "dee" from "delete" to turn the string into "let",
+adds 100[d] + 101[e] + 101[e] to the sum.
+Deleting "e" from "leet" adds 101[e] to the sum.
+At the end, both strings are equal to "let", and the answer is 100+101+101+101 = 403.
+If instead we turned both strings into "lee" or "eet", we would get answers of 433 or 417, which are higher.
+ 
+
+Constraints:
+
+1 <= s1.length, s2.length <= 1000
+s1 and s2 consist of lowercase English letters.
+
+class Solution:
+    def minimumDeleteSum(self, s1: str, s2: str) -> int:
+```
