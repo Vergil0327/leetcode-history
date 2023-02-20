@@ -38,3 +38,9 @@ Think about forming numbers in the powers of 2 using their bit representation.
 The minimum power of 2 not present in the array will be the first number that could not be expressed using the given operation.
 
 </details>
+
+<details>
+<summary>Video Explanation</summary>
+
+[HuifengGuan](https://www.youtube.com/watch?v=ROoz5NI6CIM)
+</details>
