@@ -8,7 +8,7 @@ A subset of the array nums is square-free if the product of its elements is a sq
 
 A square-free integer is an integer that is divisible by no square number other than 1.
 
-Return the number of square-free non-empty subsets of the array nums. Since the answer may be too large, return it modulo 109 + 7.
+Return the number of square-free non-empty subsets of the array nums. Since the answer may be too large, return it modulo 10^9 + 7.
 
 A non-empty subset of nums is an array that can be obtained by deleting some (possibly none but not all) elements from nums. Two subsets are different if and only if the chosen indices to delete are different.
 
@@ -55,4 +55,10 @@ Label primes from {2, 3, … 29} with {0,1, … 9} and let DP(i, mask) denote th
 
 If the mask and prime factorization of nums[i] have a common prime, then it is impossible to add to the current subset, otherwise, it is possible.
 
+</details>
+
+<details>
+<summary>Explanation</summary>
+
+[HuifengGuan](https://www.youtube.com/watch?v=neTEvUqLMLk&ab_channel=HuifengGuan)
 </details>
