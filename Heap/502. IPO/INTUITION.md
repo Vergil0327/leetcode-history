@@ -40,3 +40,27 @@ $$O(k(nlogn + logn))$$
 - space complexity
 
 $$O(n)$$
+
+
+
+# Intuition
+it's hard to deal with profits and capital at same time, we can sort one of them and see if we can gain benefits from it.
+
+since we only can do projects whose capital is lower than ours, it's intuitively that we can try to sort projects by capital.
+
+then, we can iterate through all the projects whose capital is `<=` ours and choose one with maximum profits
+
+apparently, we can use **Max Heap** to help us find maximum profit one.
+
+now, our core logic is clear.
+
+1. sort project with capital
+2. throw all the projects whose capital is lower than or equal to our capital to max heap, and pick maximum profit one
+3. repeat second step until we choose at most `k` projects
+
+# Complexity
+- Time complexity:
+$$O(nlogn + klogn)$$
+
+- Space complexity:
+$$O(n)$$
