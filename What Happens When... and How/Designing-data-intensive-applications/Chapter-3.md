@@ -144,4 +144,9 @@ We call this format *Sorted String Table*, or *SSTable* for short. We also requi
    - you start reading the input files side by side, look at the first key in each file, copy the lowest key (according to the sort order) to the output file, and repeat. This produces a new merged segment file also sorted by key.
    - see Leetcode Merge k Sorted Lists
 
+    ![Figure 3-4](assets/fig.%203-4.png)
+
+    What if the same key appears in several input segments? Remember that each segment containts all the values written to the database during some period of time. This means that all the values in one input segment must be more recent than all the values in the other segment (assuming that we always merge adjacent segments). When multiple segments contain the same key, we can keep the value from the most recent segment and discard the values in order segments.
+
+2. 
 ----------------
