@@ -1,9 +1,8 @@
 class Solution:
     def minimumDeviation(self, nums: List[int]) -> int:
-        n = len(nums)
         mx = max(nums)
-        
-        heapq.heapify(nums)
+
+        heapq.heapify(nums) # become min heap
         dev = mx-nums[0]
         while nums[0]%2==1:
             v = heapq.heappop(nums)

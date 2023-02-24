@@ -29,7 +29,10 @@ the logic is same as above, this time we use **Max Heap** to find currently maxi
 
 # Complexity
 - Time complexity:
-$$O(nlogn)$$
+$$O(n * logm * logn)$$
+
+logm for multiply by 2 or divide by 2 as many as possible
+m should be maximum num in nums.
 
 - Space complexity:
 $$O(n)$$
