@@ -67,3 +67,47 @@ class Solution:
         return min_dev
 ```
 
+# Other Solution 2 (Ternary Search, TLE for python but pass for c++)
+
+whenever we see minimum maximum, we can try binary search.
+
+but we don't have any information for which half we can get rid of, but it must exist a point which makes deviation be minimum maximum.
+
+thus, let's use ternary search, let's guess two value at each round and see which guess make deviation smaller, then we have search space towards it
+
+```py
+class Solution:
+    def minimumDeviation(self, nums: List[int]) -> int:
+        nums.sort()
+        n = len(nums)
+        MX, MN = nums[-1], nums[0]
+
+        def checkDeviation(target):
+            l, r = MX, MN
+            for i in range(n):
+                curr = nums[i]
+                if curr%2 == 1:
+                    if abs(target-curr*2) < abs(target-curr):
+                        curr *= 2
+                else:
+                    while curr%2 == 0 and abs(target-curr//2) < abs(target-curr):
+                        curr //= 2
+                r = max(r, curr)
+                l = min(l, curr)
+            return r-l
+        
+        l, r = 0, nums[n-1]
+        minDev = inf
+        while l <= r:
+            mid1 = l + (r-l)//3
+            mid2 = r - (r-l)//3
+
+            dev1 = checkDeviation(mid1)
+            dev2 = checkDeviation(mid2)
+            minDev = min(minDev, min(dev1, dev2))
+            if dev1 < dev2:
+                r = mid2-1
+            else:
+                l = mid1+1
+        return minDev 
+```
