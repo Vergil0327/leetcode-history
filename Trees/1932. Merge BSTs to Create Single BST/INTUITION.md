@@ -73,3 +73,41 @@ def isValidBST(root, l, r):
         return False
 ```
 例 Example 2, 就算能merge在一塊，但他並不是個合法BST
+
+# Optimized
+
+我們可以把dfs跟isValidBST結合再一起，在建構大BST時同時做value check
+
+如果不是leaf node，那就繼續建構下去
+如果是leaf node:
+    - 如果可以hashmap裡有小BST可以merge, 那就merge然後繼續遞歸
+    - 直接返回 leaf node
+
+```py
+def build(root, l, r):
+    if not root: return (root, True)
+
+    val = root.val
+    if val <= l or val >= r: return (None, False)
+
+    if root.left or root.right:
+        root.left, ok1 = build(root.left, l, root.val)
+        root.right, ok2 = build(root.right, root.val, r)
+        return (root, True) if ok1 and ok2 else (None, False)
+    elif val in possibleRoots: # leaf node
+        node = possibleRoots[val]
+        del possibleRoots[val]
+
+        node.left, ok1 = build(node.left, l, root.val)
+        node.right, ok2 = build(node.right, root.val, r)
+        return (node, True) if ok1 and ok2 else (None, False)
+    else:
+        return root, True
+
+# 最後建構完後，同樣記得檢查我們是不是把所有的小BST都用上了
+root = roots[0]
+del possibleRoots[root.val]
+
+root, ok = build(root, -inf, inf)
+if len(possibleRoots) != 0: return None
+```

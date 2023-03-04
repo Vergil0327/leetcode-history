@@ -1,3 +1,10 @@
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+
 class Solution:
     def canMerge(self, trees: List[TreeNode]) -> Optional[TreeNode]:        
         possibleRoots = {}
@@ -49,13 +56,53 @@ class Solution:
             return None
         return root
 
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+# Optimized
+class Solution:
+    def canMerge(self, trees: List[TreeNode]) -> Optional[TreeNode]:
+        trees.sort(key=lambda t:t.val)
+        
+        possibleRoots = {}
+        leaves = set()
+        for tree in trees:
+            possibleRoots[tree.val] = tree
+            if tree.left:
+                leaves.add(tree.left.val)
+            if tree.right:
+                leaves.add(tree.right.val)
+        roots = []
+        for root in possibleRoots.keys():
+            if root not in leaves:
+                roots.append(possibleRoots[root])
+        if len(roots) != 1: return None
 
+        def build(root, l, r):
+            if not root: return (root, True)
+
+            val = root.val
+            if val <= l or val >= r: return (None, False)
+
+            if root.left or root.right:
+                root.left, ok1 = build(root.left, l, root.val)
+                root.right, ok2 = build(root.right, root.val, r)
+                return (root, True) if ok1 and ok2 else (None, False)
+            elif val in possibleRoots: # leaf node
+                node = possibleRoots[val]
+                del possibleRoots[val]
+
+                node.left, ok1 = build(node.left, l, root.val)
+                node.right, ok2 = build(node.right, root.val, r)
+                return (node, True) if ok1 and ok2 else (None, False)
+            else:
+                return root, True
+
+        root = roots[0]
+        del possibleRoots[root.val]
+        
+        root, ok = build(root, -inf, inf)
+        if len(possibleRoots) != 0: return None
+
+        return root if ok else None
+    
 """
 O(n^2)
 最初想法是遍歷全部的root node
