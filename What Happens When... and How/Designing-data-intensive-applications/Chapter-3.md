@@ -290,4 +290,23 @@ The impact on throughput and average response time is usually small, but at high
 
 Another issue with compaction arises at high write throughput: the disk's finite write bandwidth needs to be shared between the initial write (logging and flushing a memtable to disk) and the compaction threads running in the background. When writing to an empty database, the full disk bandwidth can be used for the initial write, but the bigger the database gets, the more disk bandwidth is required for the compaction
 
+If write throughput is high and compaction is not configured carefully, it can happen that compaction cannot keep up with the rate of incoming rates. In this case, the number of unmerged segments on disk keeps growing until you run out of disk space, and reads also slow down because they need to check more segment files. Typically, SSTable-based storage engines do not throttle the rate of incoming writes, even if compaction cannot keep up, so you need to explicit monitoring to detect this situation.
+
+An advantage of B-trees is that each key exists in exactly one place in the index, whereas a log-structured storage engine may have multiple copies of the same key in different segments. This aspect makes B-trees attractive in databases that want to offer strong transactional semantics: in many relational databases, transaction isolation is implemented using locks on range of keys, and in a B-tree index, those locks can be directly attached to the tree.
+
+B-trees are very ingrained in the architecture of databases and provide consistently good performance for many workloads, so it's unlikely that they will go away anytime soon. In new datastores, log-structured indexes are becoming increasingly popular. There is no quick and easy rule for determining which storage engine is better for your use case, so it is worth testing empirically.
+
+### Other Indexing Structures
+
+So far we have only discussed key-value indexes, which are like a *primary key* index in the relational model. A primary key uniquely identifies one row in a relational table, or one document in a document database, or one vertex in a graph database. Other records in the database can refer to that row/document/vertex by its primary key (or ID), and the index is used to resolve such references.
+
+It is also very common to have *secondary indexes*. In relational databases, you can create several secondary indexes on the same table using the **CREATE INDEX** command, and they are crucial fore performing joins efficiently. For example, you would most likely have a secondary index on the **user_id** columns so that you can find all the rows belonging to the same user in each of the tables.
+
+A secondary index can easily be constructed from a key-value index. The main difference is that keys are not unique; i.e., there might be many rows (documents, vertices) with the same key. This can be solved in two ways:
+1. either by making each value in the index a list of matching row identifiers (like a postings list in a full-text index)
+2. or by making each key unique by appending a row identifier to it.
+
+Either way, both B-trees and log-structured indexes can be used as secondary indexes.
+
+#### Storing values within the index
 ----------------
