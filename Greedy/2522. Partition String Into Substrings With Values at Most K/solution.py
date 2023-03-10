@@ -11,3 +11,22 @@ class Solution:
             cnt += 1
             l = r
         return cnt
+
+
+
+
+class Solution:
+    def minimumPartition(self, s: str, k: int) -> int:
+        n = len(s)
+
+        cnt = 0
+        num = 0
+        for i in range(n):
+            nxt = num*10 + int(s[i])
+            if nxt <= k:
+                num = nxt
+            else:
+                num = int(s[i])
+                if num > k: return -1
+                cnt += 1
+        return cnt+1
