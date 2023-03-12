@@ -348,5 +348,11 @@ An interesting idea is that multi-dimensional indexes are not just for geographi
 
 #### Full-text search and fuzzy indexes
 
+All the indexes discussed so far assume that you have exact data and allow you to query for exact values of a key, or a range of values of a key with a sort order. What they don't allow you to do is search for *similar* keys, such as misspelled words. Such *fuzzy* querying requires different techniques.
 
+For example, full-text search engines commonly allow a search for one word to be expanded to include synonyms of the word, to ignore grammatical variations of words, and to search for occurences of words near each other in the same document, and support various features that depends on linguistic analysis of the text. To cope with typos in documents or queries, Lucene is able to search text for words within a certain edit distance (an edit distance of 1 means that one letter has been added, removed, or replaced)
+
+As mentioned in "Making an LSM-tree out of SSTables", Lucene uses a SStable-like structure for its term dictionary. This structure requires a small in-memory index that tells queries at which offset in the sorted file they need to look for a key. In LevelDB, this in-memory index is a sparse collection of some of the keys, but in Lucene, the in-memory index is a finite state automation over the characters in the keys, similar to a *trie*. This automation can be transformed into a *Levenshtein automation*, which supports efficient search for words within a given edit distance.
+
+Other fuzzy search techniques go in the direction of document classification and machine learning.
 ----------------
