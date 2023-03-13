@@ -64,3 +64,9 @@ Use a sentinel value such as -1 to show that it is impossible.
 
 How can we quickly determine if two substrings of s are equal? We can use hashing.
 </details>
+
+<details>
+<summary>Solution</summary>
+
+[HuifengGuan](https://www.youtube.com/watch?v=eyCbc1KLoNU&ab_channel=HuifengGuan)
+</details>
