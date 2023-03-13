@@ -355,4 +355,25 @@ For example, full-text search engines commonly allow a search for one word to be
 As mentioned in "Making an LSM-tree out of SSTables", Lucene uses a SStable-like structure for its term dictionary. This structure requires a small in-memory index that tells queries at which offset in the sorted file they need to look for a key. In LevelDB, this in-memory index is a sparse collection of some of the keys, but in Lucene, the in-memory index is a finite state automation over the characters in the keys, similar to a *trie*. This automation can be transformed into a *Levenshtein automation*, which supports efficient search for words within a given edit distance.
 
 Other fuzzy search techniques go in the direction of document classification and machine learning.
+
+#### Keeping everything in memory
+
+The data structures discussed so far in this chapter have all been answers to the limitations of disks. Compared to main memory, disks are awkward to deal with. With both magnetic disks and SSDs, data on disk needs to be laid out carefully if you want good performance on reads and writes. Whoever, we tolerate this awkwardness because disks have two sifnificant advantages:
+1. they are durable (their contents are not lost if the power is turned off)
+2. and they have lower cost per gigabyte than RAM.
+
+As RAM become cheaper, the cost-per-gigabyte argument is eroded. Many datasets are simply not that big, so it's quite feasible to keep them entirely in memory, potentially distributed across several machines. This has led to the development of *in-memory databases*.
+
+Some in-memory key-value stores, such as Memcached, are intended for caching use only, where it's acceptable for data to be lost if a machine is restarted. But other in-memory databases aim to durability, which can be achieved with special hardware (such as battery-powered RAM), by writing a log of changes to the disk, by writing periodic snapshots to disk, or by replicating the in-memory state to other machine.
+
+When an in-memory database is restarted, it needs to reload its state, either form disk or over the network from a replica (unless special hardware is used). Despite writing to disk, it's still an in-memory database, because the disk is merely used as an append-only log for durability, and reads are served entirely from memory. Writing to disk also has operational advantages: files on disk can be easily backed up, inspected, and analyzed by external utilities.
+
+Products such as VoltDB, MemSQL, and Oracle TimesTen are in-memory databases with a relational model, and the vendors claim that they can offer big performance improvements by removing all the overheads associated with managing on-disk data structres. RAMCloud is an open source, in-memory key-value store with durability (using a log-structured apporach for the data in memory as well as the data on disk). Redis and Couchbase provide weak durability by writing to disk asynchronously.
+
+Counterintuitively, the peromance advantage of in-memory databases is not due to the fact that they don't need to read from disk. Even a disk-based storage engine may never need to read from disk if you have enough memory, because the operating system caches recently used disk blocks in memory anyway. Rather, they can be faster because they can avoid the overheads of encoding in-memory data structres in a form that can be written to disk.
+
+Besides performance, another interesting area for in-memory databases is providing data models that are difficult to implement with disk-based indexes. For example, Redis offers a database-like interface to various data structures such as priority queues and sets. Because it keeps all data in memory, its implementation is comparatively simple.
+
+Recent research indicates that an in-memory database architecture could be extended to support datasets larger than available memory, without bringing back the overheads of a disk-centric architecture. The so-called *anti-caching* approach works by evicting the least recently used data from memory to disk when there is not enough memory, and loading it back into memory when it is accessed again in the future. This is similar to what operating systems do with virtual memory and swap files, but the database can manage memory more efficiently than the OS, as it can work at the granularity of individual records rather than entire memory pages. This apporach still requires indexes to fit entirely in memory, though.
+
 ----------------
