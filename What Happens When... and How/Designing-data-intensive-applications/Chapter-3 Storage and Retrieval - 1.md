@@ -377,3 +377,24 @@ Besides performance, another interesting area for in-memory databases is providi
 Recent research indicates that an in-memory database architecture could be extended to support datasets larger than available memory, without bringing back the overheads of a disk-centric architecture. The so-called *anti-caching* approach works by evicting the least recently used data from memory to disk when there is not enough memory, and loading it back into memory when it is accessed again in the future. This is similar to what operating systems do with virtual memory and swap files, but the database can manage memory more efficiently than the OS, as it can work at the granularity of individual records rather than entire memory pages. This apporach still requires indexes to fit entirely in memory, though.
 
 ----------------
+
+class Solution:
+    def minimumCost(self, sentence: str, k: int) -> int:
+        n = len(sentence)
+        def cost(s):
+            return (k-len(s)) ** 2
+
+        dp = [inf] * (n+1)
+        dp[0] = 0
+
+        for i in range(1, n+1):
+            dp[i] = dp[i-1]
+            if sentence[i] == " ":
+                for j in range(i-1, max(i-k-2, -1), -1):
+                    if sentence[j] == " ":
+                        dp[i] = min(dp[i], dp[j] + cost(sentence[j+1:i]))
+        return dp[n]
+{XXX_XXXXX_XXXX}_{XXX}_ ..., k = 4
+                j     i
+                
+{XXX_XXXXX}_{XXXX_XXX}_
