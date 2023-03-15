@@ -1,3 +1,13 @@
+
+"""
+X X X X X X X [X] => SUM = max([X]) * (i-j+1)
+                   i
+X X X X X X [X X] => SUM = max([X X]) * (i-j+1)
+             j i
+X X X X X [X X X] => SUM = max([X X]) * (i-j+1)
+           j   i
+"""
+
 class Solution:
     def maxSumAfterPartitioning(self, arr: List[int], k: int) -> int:
         n = len(arr)
