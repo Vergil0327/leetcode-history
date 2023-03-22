@@ -4,7 +4,7 @@
 
 You are given a 0-indexed m x n integer matrix grid and an integer k. You are currently at position (0, 0) and you want to reach position (m - 1, n - 1) moving only down or right.
 
-Return the number of paths where the sum of the elements on the path is divisible by k. Since the answer may be very large, return it modulo 109 + 7.
+Return the number of paths where the sum of the elements on the path is divisible by k. Since the answer may be very large, return it modulo $10^9$ + 7.
 
 ```
 Example 1:
@@ -52,3 +52,8 @@ We can use dynamic programming to solve this problem. What can we use as states?
 Let dp[i][j][value] represent the number of paths where the sum of the elements on the path has a remainder of value when divided by k.
 </details>
 
+<details>
+<summary>Bottom-up</summary>
+
+[HuifengGuan](https://www.youtube.com/watch?v=aniFFantJv0&ab_channel=HuifengGuan)
+</details>
