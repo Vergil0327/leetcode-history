@@ -283,3 +283,32 @@ In dynamically typed programming languages such as JavaScript, Ruby, or Python, 
 Avro provides optional code generation for statically typed programming languages, but it can be used just as well without any code generation. If you have an object container file (which embeds the writer’s schema), you can simply open it using the Avro library and look at the data in the same way as you could look at a JSON file. The file is *self-describing* since it includes all the necessary metadata.
 
 This property is especially useful in conjunction with dynamically typed data processing languages like Apache Pig. In Pig, you can just open some Avro files, start analyzing them, and write derived datasets to output files in Avro format without even thinking about schemas.
+
+### The Merits of Schemas
+
+As we saw, Protocol Buffers, Thrift, and Avro all use a schema to describe a binary encoding format. Their schema languages are much simpler than XML Schema or JSON Schema, which support much more detailed validation rules (e.g., “the string value of this field must match this regular expression” or “the integer value of this field must be between 0 and 100”). As Protocol Buffers, Thrift, and Avro are simpler to implement and simpler to use, they have grown to support a fairly wide range of programming languages.
+
+The ideas on which these encodings are based are by no means new. For example, they have a lot in common with ASN.1, a schema definition language that was first standardized in 1984. It was used to define various network protocols, and its binary encoding (DER) is still used to encode SSL certificates (X.509), for example.  ASN.1 supports schema evolution using tag numbers, similar to Protocol Buffers and Thrift. However, it’s also very complex and badly documented, so ASN.1 is probably not a good choice for new applications.
+
+Many data systems also implement some kind of proprietary binary encoding for their data. For example, most relational databases have a network protocol over which you can send queries to the database and get back responses. Those protocols are generally specific to a particular database, and the database vendor provides a driver (e.g., using the ODBC or JDBC APIs) that decodes responses from the database’s network protocol into in-memory data structures.
+
+So, we can see that although textual data formats such as JSON, XML, and CSV are widespread, binary encodings based on schemas are also a viable option. They have a number of nice properties:
+
+- They can be much more compact than the various “binary JSON” variants, since they can omit field names from the encoded data.
+- The schema is a valuable form of documentation, and because the schema is required for decoding, you can be sure that it is up to date (whereas manually maintained documentation may easily diverge from reality).
+-  Keeping a database of schemas allows you to check forward and backward compatibility of schema changes, before anything is deployed.
+-  For users of statically typed programming languages, the ability to generate code from the schema is useful, since it enables type checking at compile time.
+
+In summary, schema evolution allows the same kind of flexibility as schemaless/ schema-on-read JSON databases provide (see “Schema flexibility in the document model” on page 39), while also providing better guarantees about your data and better tooling.
+
+### Modes of Dataflow
+
+At the beginning of this chapter we said that whenever you want to send some data to another process with which you don’t share memory—for example, whenever you want to send data over the network or write it to a file—you need to encode it as a sequence of bytes. We then discussed a variety of different encodings for doing this.
+
+We talked about forward and backward compatibility, which are important for evolv‐ ability (making change easy by allowing you to upgrade different parts of your system independently, and not having to change everything at once). Compatibility is a relationship between one process that encodes the data, and another process that decodes it.
+
+That’s a fairly abstract idea—there are many ways data can flow from one process to another. Who encodes the data, and who decodes it? In the rest of this chapter we will explore some of the most common ways how data flows between processes:
+
+- Via databases
+- Via service calls
+- Via asynchronous message passing
