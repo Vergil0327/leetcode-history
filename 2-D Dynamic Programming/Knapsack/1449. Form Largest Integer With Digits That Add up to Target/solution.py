@@ -51,3 +51,21 @@ class Solution:
                     dp[c] = candidate
         
         return dp[target] if dp[target] != PLACEHOLDER else "0"
+
+class Solution:
+    def largestNumber(self, cost: List[int], target: int) -> str:
+        n = len(cost)
+
+        dp = ["N"] * (target+1)
+        dp[0] = ""
+
+        cost = [0] + cost
+        for t in range(target+1):
+            for i in range(1, n+1):
+                if t-cost[i] < 0 or dp[t-cost[i]] == "N": continue
+
+                s = dp[t-cost[i]]+str(i)
+                if dp[t] == "N" or len(s) > len(dp[t]) or (len(s) == len(dp[t]) and s > dp[t]):
+                    dp[t] = s
+
+        return dp[target] if dp[target] != "N" else "0"
