@@ -37,21 +37,22 @@ class Solution:
         for i in range(0, n+1):
             # print A
             dp[i] = dp[i-1] + 1
-            for j in range(2, i):
+            for j in range(2, i): # paste operation
                 # CA, CC two steps, dp[j-2]
                 # i-j 次 Paste，再加上自己，總共(i-j+1)個dp[j]
-                dp[i] = max(dp[i], dp[j] * (i-j+1))
+                dp[i] = max(dp[i], dp[j-2] * (i-j+1))
         return dp[n]
-
-        
     
     def maxA(self, n: int) -> int:
         # dp[i]: the maximum number of A after i steps
         dp = [0] * (n+1)
-        for i in range(n+1):
-            dp[i] = i
-            for j in range(1, i-2): # i-2 operations (CtrlA, CtrlC)
-                dp[i] = max(dp[i], dp[j]*(i-j+1))
+        dp[0] = 0
+        dp[1] = 1
+        dp[2] = 2
+        for i in range(3, n+1):
+            dp[i] = dp[i-1] + 1
+            for j in range((i-2)+1): # i-2 operations (CtrlA, CtrlC) with j CtrlV
+                dp[i] = max(dp[i], dp[i-j-2]*(j+1))
         return dp[n]
 
 
