@@ -43,3 +43,39 @@ $$O(n^2)$$
 
 - Space complexity:
 $$O(n^2)$$
+
+# Optimization
+
+[Lee215](https://leetcode.com/problems/reducing-dishes/solutions/563384/java-c-python-easy-and-concise/?orderBy=most_votes)
+
+there is also an O(nlogn) solution
+
+we can cook dish from most satisfied to least satisfied
+each time we cook dish, the coefficient sum += previous coeffecient sum + current dish
+and we keep selection dish backwards until coefficient sum >= 0
+
+ex.
+satisfaction = 7 8 9
+
+current coeffecient sum: 0
+choose 9 -> coeffecient sum += 0 + 9
+
+current coeffecient sum: 9
+then choose 8 -> coeffecient sum += 9 + 8
+
+current coeffecient sum: 26
+then choose 7 -> coeffecient sum += 17 + 7
+
+be aware of that it's `+=`.
+
+because when we cook one more dish, all the previous dishes get one more times[i]
+
+```py
+def maxSatisfaction(self, A):
+    res = total = 0
+    A.sort()
+    while A and A[-1] + total > 0:
+        total += A.pop()
+        res += total
+    return res
+```
