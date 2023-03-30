@@ -1,20 +1,4 @@
 # daily challenge 2023/03/30
-
-# first, I try to do what algorithm told, and use two index `l`, `r` to define the partition:
-# ```
-# [X] [X X X] split with no swap
-#  l   i   r
-# [X X X] [X] split with swap
-#  i   r   l
-# ```
-# then, if I want to check if s1 == s2, I also need to know what part of s2 we should compare for each partition of s1
-
-# so, I add two more index `m`, `n` to define the partition of s2 to keep track of partition of s2.
-
-# since len(s1) equals len(s2), we can use length of partition of s1 and combine with `m`, `n` index to find partition of s2.
-
-# now, we can recursively do the algorithm and compare s1 and s2
-
 class Solution:
     def isScramble(self, s1: str, s2: str) -> bool:
         n = len(s1)
@@ -35,13 +19,13 @@ class Solution:
             return False
         return dfs(0, n-1, 0, n-1)
 
-# Brute Force
+# brute force
 class Solution:
     @functools.lru_cache(None)
     def isScramble(self, s1: str, s2: str) -> bool:
         if s1 == s2: return True
         
-        # Boost Performance, if characters are not matched, it can't be True
+        # Boost Performance, if characters doesn't match, it can't be True
         if sorted(s1) != sorted(s2):
             return False
         
