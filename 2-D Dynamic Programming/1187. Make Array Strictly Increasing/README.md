@@ -29,3 +29,9 @@ Constraints:
 
 - 1 <= arr1.length, arr2.length <= 2000
 - 0 <= arr1[i], arr2[i] <= 10^9
+
+<details>
+<summary>Other Solution</summary>
+
+[HuifengGuan](https://www.youtube.com/watch?v=80WUzeeTQbE&ab_channel=HuifengGuan)
+</details>
