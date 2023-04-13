@@ -23,6 +23,45 @@ class Solution:
         # must minlength-1 since what we check in dfs if ending position
         # if index 0 is valid starting point, our ending must be minLength-1 at least
         return dfs(minLength-1, k)
+    
+# 2023/04/13
+class Solution:
+    def beautifulPartitions(self, s: str, k: int, minLength: int) -> int:
+        primes = set(["2","3","5","7"])
+        if s[0] not in primes or s[-1] in primes: return 0
+
+        validStart = [0]
+        
+        n = len(s)
+        for i in range(n):
+            if i+1 < n and s[i] not in primes and s[i+1] in primes:
+                validStart.append(i+1)
+
+        m = len(validStart)
+        
+        @lru_cache(None)
+        def dfs(i, k):
+            if k == 1: return 1
+            if i >= m: return 0
+
+            # skip i-th
+            res = dfs(i+1, k) % 1_000_000_007
+
+            # take i-th
+            if n-validStart[i] >= minLength:
+                # skip invalid start position
+                j = i+1
+                while j < m and validStart[j]-validStart[i] < minLength:
+                    j += 1
+                res = (res + dfs(j, k-1)) % 1_000_000_007
+            
+            return res
+            
+        # skip invalid start position
+        i = 1
+        while i < m and validStart[i] - validStart[0] < minLength:
+            i += 1
+        return dfs(i, k)
 
 # Top-Down FAILED
 class SolutionTLE:
