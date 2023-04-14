@@ -27,3 +27,20 @@ class Solution:
                     dp[i][j] = min(dp[i][j], k + max(dp[i][k-1], dp[k+1][j]))
 
         return dp[1][n]
+    
+class Solution:
+    def getMoneyAmount(self, n: int) -> int:
+        dp = [[inf] * (n+1) for _ in range(n+1)]
+
+        for length in range(1, n+1):
+            for i in range(n-length+1+1): # j = i+length-1 <= n
+                j = i+length-1
+
+                if length == 1: # don't need to guess
+                    dp[i][j] = 0
+                    continue
+                
+                for k in range(i, j+1): # guess
+                    dp[i][j] = min(dp[i][j], max((dp[i][k-1] if k-1 > 0 else 0), (dp[k+1][j] if k+1 <= n else 0)) + k)
+
+        return dp[1][n]
