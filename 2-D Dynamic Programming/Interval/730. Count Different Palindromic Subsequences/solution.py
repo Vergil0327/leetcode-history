@@ -45,6 +45,11 @@ class Solution:
                         dp[i][j] = dp[i+1][j-1] * 2 + 1
                     else:
                         dp[i][j] = dp[i+1][j-1] * 2 - dp[left+1][right-1]
+                        # dp[left+1][right-1] 跟s[i], s[j]組合成palindromic subseq
+                        # 以及跟s[left], s[right]組合的結果是一樣的
+                        # 所以我們要扣掉重複的部分
+                        # X ... X {dp[l+1][r-1]} X ... X
+                        # i     l                r     j
                 else:
                     dp[i][j] = dp[i+1][j] + dp[i][j-1] - dp[i+1][j-1]
                 dp[i][j] = (dp[i][j] + mod) % mod
