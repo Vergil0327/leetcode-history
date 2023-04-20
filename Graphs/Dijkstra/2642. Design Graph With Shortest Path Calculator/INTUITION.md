@@ -72,3 +72,32 @@ for shortest path:
 $O(V + ElogE)$
 
 since edges = V * (V-1) at most, $O(V + ElogE)$ = $O(V + Elog(V^2))$ = $O(V + Elog(V))$
+
+# Other Solution
+
+後來發現其實一開始的想法，求出整個dp[node1][node2] = cost是可行的
+這題其實就是graph theory裡的Floyd algo.
+
+只要沒有negative cycle
+透過O(n^3)可以求出整個圖任意兩點間的最短距離
+
+我們一樣定義dp[i][j]為: `the shortest path from i to j`
+
+然後透過三層循環遍歷所有的點
+最外層想成是我們要加入的點
+裡面兩層則是我們要求的任意兩點間的最短距離
+那狀態轉移其實就是這行:
+
+```py
+for k in range(n):
+    for i in range(n):
+        for j in range(n):
+            dp[i][j] = min(dp[i][j], dp[i][k] + dp[k][j])
+```
+
+我們持續加入k這個點來看能不能更優化i到j的最短距離, 那這樣`def shortestPath`就能以O(1時間完成)
+
+初始化則是O(N^3)
+
+那`def addEdge(self, edge: List[int]) -> None:`也跟初始化類似
+我們就利用O(N^2)時間來更新新加入的這個edge能不能有所優化

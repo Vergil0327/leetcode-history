@@ -49,3 +49,9 @@ After adding each edge, update your graph with the new edge, and you can calcula
 Use dijkstra’s algorithm to calculate the shortest paths.
 
 </details>
+
+<details>
+<summary>Explanation</summary>
+
+[HuifengGuan](https://www.youtube.com/watch?v=ATAM434umtU)
+</details>
