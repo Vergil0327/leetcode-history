@@ -127,3 +127,60 @@ while queue:
         if foundCycle: break
     if foundCycle: break
 ```
+
+# Other Solution - Still BFS
+
+但其實這題有個更優雅的解法
+不太好想，但如果知道了的話就非常簡單
+
+首先我們有這麼這些`edges`
+我們其實可以遍歷這些edges, 然後看當前的edges[i]有沒有參與環
+
+位於`edges[i]`連接的兩個節點`u`跟`v`, 我們可以先斷開`edges[i]`這個邊然後用**BFS**來找出他的最短路徑
+當我們找到最短路徑，此時再加上我們斷掉的邊，那就形成`u`, `v`兩節點間的最小的環
+如果抵達不了, 代表這個邊沒有參與環
+所以我們全部edges遍歷一遍並透過BFS找出每個最小環即可知道全局最小的環
+
+high level的框架如下:
+
+```py
+graph = defaultdict(set)
+for u, v in edges:
+    graph[u].add(v)
+    graph[v].add(u)
+
+res = inf
+for u, v in edges:
+    # 斷掉當前這個edges[i]
+    graph[u].remove(v)
+    graph[v].remove(u)
+
+    # 找出最小環的大小
+    res = min(res, BFS(u, v))
+
+    # 記得還原
+    graph[u].add(v)
+    graph[v].add(u)
+return res if res != inf else -1
+```
+
+那BFS實作如下:
+由於我們外層取`min()`, 所以如果找不到環, 那我們返回**inf**
+如果找到, 那麼我們走的路徑再加上斷掉的那條邊(edges[i]), 就是環的大小
+```py
+def BFS(start, target):
+    queue = deque([start])
+    visited = set([start])
+
+    step = 0
+    while queue:
+        for _ in range(len(queue)):
+            node = queue.popleft()
+            if node == target: return step+1 # steps+1 = cycle size
+            for nei in graph[node]:
+                if nei in visited: continue
+                visited.add(nei)
+                queue.append(nei)
+        step += 1
+    return inf
+```

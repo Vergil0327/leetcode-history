@@ -57,3 +57,37 @@ class Solution:
                 if foundCycle: break
 
         return self.res if self.res != inf else -1
+    
+class Solution:
+    def findShortestCycle(self, n: int, edges: List[List[int]]) -> int:
+        graph = defaultdict(set)
+        for u, v in edges:
+            graph[u].add(v)
+            graph[v].add(u)
+
+        def BFS(start, target):
+            queue = deque([start])
+            visited = set([start])
+
+            step = 0
+            while queue:
+                for _ in range(len(queue)):
+                    node = queue.popleft()
+                    if node == target: return step+1 # steps+1 = cycle size
+                    for nei in graph[node]:
+                        if nei in visited: continue
+                        visited.add(nei)
+                        queue.append(nei)
+                step += 1
+            return inf
+
+        res = inf
+        for u, v in edges:
+            graph[u].remove(v)
+            graph[v].remove(u)
+
+            res = min(res, BFS(u, v))
+
+            graph[u].add(v)
+            graph[v].add(u)
+        return res if res != inf else -1
