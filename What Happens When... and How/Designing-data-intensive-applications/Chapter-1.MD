@@ -399,4 +399,3 @@ In order to discuss scalability, we first need ways of describing load and perfo
 
 - Good abstractions can help reduce complexity and make the system easier to modify and adapt for new use cases.
 - Good operability means having good visibility into the system’s health, and having effective ways of managing it.
-
