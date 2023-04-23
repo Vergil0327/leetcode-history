@@ -140,7 +140,7 @@ class Solution:
                 rowSL[i].add(j)
                 colSL[j].add(i)
 
-        queue = deque([(0, 0, 1)])
+        queue = deque([(0, 0, 1)]) # (row, col, step)
         rowSL[0].remove(0)
         colSL[0].remove(0)
         while queue:

@@ -59,3 +59,10 @@ Calculate dis[i][j] going left to right, top to bottom.
 Suppose we want to calculate dis[i][j], keep track of a priority queue that stores (dis[i][k], i, k) for all k ≤ j, and another priority queue that stores (dis[k][j], k, j) for all k ≤ i.
 
 </details>
+
+<details>
+<summary>Video Explanation in Chinese</summary>
+
+差分數組+有序multiset
+[HuifengGuan](https://www.youtube.com/watch?v=mI_IQ6YtPgI)
+</details>
