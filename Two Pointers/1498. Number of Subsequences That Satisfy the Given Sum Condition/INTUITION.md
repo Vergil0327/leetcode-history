@@ -34,7 +34,7 @@ l                       r   -> we can pick or not to pick nums[i] where i from l
 # Complexity
 
 - time complexity
-$$O(n)$$
+$$O(nlogn)$$ for sorting
 
 - space complexity
 $$O(n)$$
