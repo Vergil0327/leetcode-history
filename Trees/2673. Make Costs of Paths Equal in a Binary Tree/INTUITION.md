@@ -32,3 +32,20 @@ The path from the root to a leaf that has the maximum cost should not be modifie
 The optimal way is to increase all other paths to make their costs equal to the path with maximum cost.
 
 </details>
+
+# Other Solution
+
+we can focus on `cost` array and use `2*i+1` and `2*i+2` to find left & right child node's cost
+
+```py
+class Solution:
+    def minIncrements(self, n, cost):
+        self.res = 0
+        def dfs(node):
+            if node >= len(cost): return 0
+            a, b = dfs(2 * node + 1), dfs(2 * node + 2)
+            self.res += abs(a - b)
+            return cost[node] + max(a, b)
+        dfs(0)
+        return self.res
+```
