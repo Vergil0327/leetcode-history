@@ -1,34 +1,20 @@
 class Solution:
     def takeCharacters(self, s: str, k: int) -> int:
         n = len(s)
-        counter = Counter(s)
-        if counter["a"] < k or counter["b"] < k or counter["c"] < k:
-            return -1
-        
-        l, r = 0, 0
-        maxLen = 0
-        while r < n:
-            ch = s[r]
-            if ch == "a":
-                counter["a"] -= 1
-            elif ch == "b":
-                counter["b"] -= 1
-            else:
-                counter["c"] -= 1
-            r += 1
-            
-            while counter["a"] < k or counter["b"] < k or counter["c"] < k:
-                c = s[l]
-                if c == "a":
-                    counter["a"] += 1
-                elif c == "b":
-                    counter["b"] += 1
-                else:
-                    counter["c"] += 1
-                l += 1
-            maxLen = max(maxLen, r-l)
 
-        return n-maxLen
+        counter = Counter(s)
+        if counter["a"] < k or counter["b"] < k or counter["c"] < k: return -1
+
+        length = l = r = 0
+        while r < n:
+            counter[s[r]] -= 1
+            r += 1
+
+            while l < r and (counter["a"] < k or counter["b"] < k or counter["c"] < k):
+                counter[s[l]] += 1
+                l += 1
+            length = max(length, r-l)
+        return n-length
 
 # Brute Force
 class Solution:
