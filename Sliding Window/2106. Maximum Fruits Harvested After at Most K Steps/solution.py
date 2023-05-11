@@ -32,3 +32,42 @@ class Solution:
             elif axis[l] >= startPos-k:
                 res = max(res, presum[r+1]-presum[l])
         return res
+
+class Solution:
+    def maxTotalFruits(self, fruits: List[List[int]], startPos: int, k: int) -> int:
+        n = len(fruits)
+        positions = []
+        presum = [0]
+
+        for pos, amt in fruits:
+            positions.append(pos)
+            presum.append(presum[-1]+amt)
+
+        res = 0
+
+        # to-left then to-right
+        # X startPos X X X X X X X X => `positions` array
+        #          <-i
+        #          ->i ->->->  r
+        i = bisect.bisect_left(positions, startPos)
+        for r in range(i, n):
+            if positions[r] > startPos+k: break
+
+            dist = (k-(positions[r]-startPos))//2 # to-left back-and-forth
+            l = bisect.bisect_left(positions, startPos-dist)
+
+            res = max(res, presum[r+1]-presum[l])
+
+        # to-right then to-left
+        # X X X X X X X startPos X X X
+        #             i ->
+        #   l  <-<-<- i <-
+        i = bisect.bisect_right(positions, startPos)-1
+        for l in range(i, -1, -1):
+            if positions[l] < startPos-k: break
+
+            dist = (k-(startPos-positions[l]))//2 # to-right back-and-forth
+            r = bisect.bisect_right(positions, startPos+dist)
+            res = max(res, presum[r]-presum[l])
+
+        return res
