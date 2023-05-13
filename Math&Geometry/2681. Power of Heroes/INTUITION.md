@@ -62,3 +62,11 @@ for i in range(1, n+1):
     res += nums[i]**2 * presum % mod
     presum = presum * 2 + nums[i]
 ```
+
+# Complexity
+
+- time complexity
+$$O(nlogn)$$
+
+- space complexity
+$$O(n)$$
