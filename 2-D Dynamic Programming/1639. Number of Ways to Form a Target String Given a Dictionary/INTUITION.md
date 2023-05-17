@@ -83,3 +83,34 @@ words:
 
 dp[0][k]: 用前k個字符 (word[:k]) 來組成空字串 -> 1種方法
 dp[i][0]: 用0個字符組成target[:i] -> 0種方法
+
+
+# English
+
+## Intuition
+
+```
+target: Y Y Y Y Y Y Y Y Y
+                        i
+
+dp[i][j]: the number of ways to form target[:i] considering first k characters amoung all the words
+
+words:
+    [
+        X   X   {X}   X   X   X    j
+              k-th of words[j]
+        X   X   {X}   X   X   X    j+1
+        X   X   {X}   X   X   X    j+2
+       k-2 k-1  k
+    ]
+```
+
+first, we groups word[i] column by column
+
+for current `target[i]`, we can:
+- use k-th column of each words[i]. then `dp[i][k] += dp[i-1][k-1] * dictionary[k][target[i]]`
+- don't use k-th column of each words[i]. `then dp[i][k] += dp[i][k-1]`
+
+thus, `dp[i][k] = dp[i-1][k-1] * dictionary[k] + dp[i][k-1]`
+
+final answer should be `dp[len(targets)][len(words[0])]` 
