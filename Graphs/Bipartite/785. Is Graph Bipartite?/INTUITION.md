@@ -9,6 +9,34 @@ case:
 
 once we found invalid neighbor node, we just return `False` and don't need to traverse further
 
+## Code
+
+```py
+def isBipartite(self, graph: List[List[int]]) -> bool:
+    A, B = set(), set()
+    visited = set()
+    def dfs(node):
+        if node in visited: return True
+        visited.add(node)
+
+        if node not in A and node not in B:
+            A.add(node)
+
+        for nei in graph[node]:
+            if node in A:
+                if nei in A: return False
+                B.add(nei)
+            else:
+                if nei in B: return False
+                A.add(nei)
+            if not dfs(nei): return False
+        return True
+
+    for node, _ in enumerate(graph):
+        if not dfs(node): return False
+    return True
+```
+
 **Another way to solve**
 
 we can use a `bool` array to categorize nodes. `True` or `False`
