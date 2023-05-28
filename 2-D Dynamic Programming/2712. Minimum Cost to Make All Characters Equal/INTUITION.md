@@ -46,3 +46,23 @@
 
 可能是全翻轉為0或全翻轉為1, 我們取最佳
 `最小操作數 = min(dp[i][0]+dp2[i][0], dp[i][1]+dp2[i][1])`
+
+
+# Other Solution - One Pass Greedy
+
+每當我們需要翻轉(s[i]!=s[i-1]), 我們可以翻prefix也可以翻suffix
+我們取最佳的那個來解決`s[i]`使得他跟目前為止的s[:i-1]一致
+那當下的`min(i, n-i)`就是s[i]的所需操作數
+
+那解決s[i]之後, 這時整個s[:i]就全部翻轉成一樣的了
+我們就在看s[i+1], 持續疊加到最後就會是我們所需的最小操作數了
+
+```py
+def minimumCost(self, s: str) -> int:
+    res = 0
+    n = len(s)
+    for i in range(1, n):
+        if s[i] != s[i-1]:
+            res += min(i, n-i)
+    return res
+```
