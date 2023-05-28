@@ -26,11 +26,11 @@ class Solution:
         m = len(cuts)
 
         dp = [[inf]*m for _ in range(m)]
-        # length=1
+        # length=0
         for i in range(m):
             dp[i][i] = 0
 
-        # length=2
+        # length=1
         for i in range(m-1):
             dp[i][i+1] = 0
 
