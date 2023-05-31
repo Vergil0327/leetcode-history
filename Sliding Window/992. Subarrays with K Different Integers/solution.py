@@ -15,7 +15,7 @@ class Solution:
                         del window[nums[l]]
                     l += 1
 
-                res += r-l-1
+                res += r-l
                     
             return res
 

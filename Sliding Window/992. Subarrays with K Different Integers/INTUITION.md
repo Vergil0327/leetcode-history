@@ -8,8 +8,8 @@ sliding window 能計算的只有在不超過**k** distinct characters的情況�
 如果是這樣子的話, 我們才能:
 - 持續移動右邊界`r`
 - 直到sliding window內的distinct characters > k後移動左邊界`l`
-- 每次移動右邊界`r`時, 在左閉右開的slidwin window`[l:r)`內, 在不超過k distinct characters的情況下, 每次都有`r-l-1`個左邊界可形成不超過**k distinct characters**的subarray
-  - 相當於右邊界固定在`r-1`時, l有`r-l-1`個位置所形成的subarray都是不超過k distinct characters的
+- 每次移動右邊界`r`時, 在左閉右開的slidwin window`[l:r)`內, 在不超過k distinct characters的情況下, 每次都有`r-l`個左邊界可形成不超過**k distinct characters**的subarray
+  - 相當於右邊界固定在`r-1`時, l有`(r-1)-l+1=r-l`個位置所形成的subarray都是不超過k distinct characters的
 
 程式碼及想法如下:
 我們持續移動右邊界, 在distinct characters不超過k的情況下
@@ -41,7 +41,7 @@ while r < n:
             del window[nums[l]]
         l += 1
 
-    res += r-l-1
+    res += r-l
         
 return res
 ```
