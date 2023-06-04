@@ -134,3 +134,59 @@ return ((total-invalid)%mod + mod )%mod
 $$O(num2.length * 2 * 2 * max_sum * 10)$$
 - space complexity
 $$O(num2.length * 2 * 2 * max_sum)$$
+
+# Other Solution - bottom-up
+
+`dp[i][j]: the number of string considering first i digits and its digit_sum is j`
+
+然後用當前狀態更新未來狀態: `dp[i+1][j+digit] += dp[i][j]`
+
+[original post](https://leetcode.com/problems/count-of-integers/solutions/3595161/recusrion-dp-similar-problems-theory-of-digit-dp/)
+
+```py
+class Solution:
+    def count(self, num1: str, num2: str, min_sum: int, max_sum: int) -> int:
+        mod = 10**9+7
+
+        # the number of ways to construct digits where value < num and digit_sum within [min_sum, max_sum]
+        def calculate(num, min_sum, max_sum):
+            # 1 <= num1 <= num2 <= 10^22
+            # 1 <= min_sum <= max_sum <= 400
+            # dp[i][j]: the number of string considering first i digits and its digit_sum is j
+            dp = [[0] * (400+1) for _ in range(23)] 
+
+            n = len(num)
+
+            # base case
+            total = 0
+            for i in range(n):
+                d = int(num[i])
+                for j in range(d):
+                    if i == 0 and j == 0: continue
+                    dp[i][total+j] += 1
+                total += d
+
+            for i in range(1, n):
+                for j in range(1, 10):
+                    dp[i][j] += 1
+
+            # calculate the number of valid numbers within the sum range
+            for i in range(len(num)-1):
+                for j in range(max_sum+1):
+                    for k in range(10):
+                        if dp[i][j]:
+                            dp[i+1][j+k] += dp[i][j]
+                            dp[i+1][j+k] %= mod
+            res = 0
+            for i in range(min_sum, max_sum+1):
+                res += dp[n-1][i]
+            return res
+        answer = calculate(num2, min_sum, max_sum) - calculate(num1, min_sum, max_sum)
+
+        num2Sum = 0
+        for c in num2:
+            num2Sum += int(c)
+        if min_sum <= num2Sum <= max_sum:
+            answer += 1
+        return (answer%mod + mod)%mod
+```
