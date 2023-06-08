@@ -21,7 +21,7 @@ A number of interesting database systems are now associated with the #NoSQL hash
 
 There are several driving forces behind the adoption of NoSQL databases, including:
 
-- A need for greater scalability than relational databases can easily achieve, includ‐ ing very large datasets or very high write throughput
+- A need for greater scalability than relational databases can easily achieve, including very large datasets or very high write throughput
 - A widespread preference for free and open source software over commercial database products
 - Specialized query operations that are not well supported by the relational model
 - Frustration with the restrictiveness of relational schemas, and a desire for a more
