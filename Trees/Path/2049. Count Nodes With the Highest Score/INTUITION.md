@@ -72,6 +72,13 @@ highest = max(highest, score)
 
 這樣dfs跑完後，我們要的結果也有了，就是`counter[highest]`
 
+# Summary
+
+if we remove current node, it'll split into `left_subtree`, `right_subtree`, `parent_subtree`,
+and `parent_subtree.size = total_size - left_subtree.size - right_subtree.size - 1(current node)` 
+
+thus, score = left_subtree.size * right_subtree.size * (n-1-left_subtree.size-right_subtree.size) if value is non-zero value
+
 # Complexity
 
 - time complexity

@@ -1,37 +1,38 @@
 class Solution:
     def countHighestScoreNodes(self, parents: List[int]) -> int:
         n = len(parents)
-        children = defaultdict(list)
-        for child, parent in enumerate(parents):
-            if parent != -1:
-                children[parent].append(child)
 
-        highest = -inf
+        nxt = defaultdict(list)
+        for node, parent in enumerate(parents):
+            if parent != -1:
+                nxt[parent].append(node)
+
         counter = defaultdict(int)
+        highest = -inf
+
+        # iterate through bi-directional graph
         def dfs(node, prev):
             nonlocal highest
-            if len(children[node]) == 1 and children[node] == prev:
-                return 0
-            
-            size = 0
+
+            size = 1
             scores = []
-            for child in children[node]:
+            for child in nxt[node]:
                 if child == prev: continue
-                childSize = dfs(child, node)
-                if childSize > 0:
-                    scores.append(childSize)
-                size += childSize
-            parentSubtreeSize = n-1-size
-            if parentSubtreeSize > 0:
-                scores.append(parentSubtreeSize)
+                subtree_size = dfs(child, node)
+                scores.append(subtree_size)
+                size += subtree_size
+
+            # parent_subtree_size
+            if n-size > 0:
+                scores.append(n-size)
 
             score = 1
-            for subscore in scores:
-                score *= subscore
+            for sc in scores:
+                score *= sc
             counter[score] += 1
             highest = max(highest, score)
-            
-            return size + 1
+
+            return size
 
         dfs(0, -1)
         return counter[highest]
