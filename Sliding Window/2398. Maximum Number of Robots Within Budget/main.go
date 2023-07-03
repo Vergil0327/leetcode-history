@@ -17,7 +17,7 @@ func maximumRobots(chargeTimes []int, runningCosts []int, budget int64) int {
 	N := len(chargeTimes)
 	robot := 0
 
-	// monotonically increasing
+	// monotonically decreasing
 	dequeue := []int{}
 
 	sum := 0
