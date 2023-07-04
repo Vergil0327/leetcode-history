@@ -48,3 +48,10 @@ For each column, find the number of consecutive ones ending at each position.
 For each row, sort the cumulative ones in non-increasing order and "fit" the largest submatrix.
 
 </details>
+
+<details>
+<summary>Video Explanation by HuifengGuan</summary>
+
+[here](https://www.youtube.com/watch?v=_4G_266Glqk&ab_channel=HuifengGuan)
+
+</details>
