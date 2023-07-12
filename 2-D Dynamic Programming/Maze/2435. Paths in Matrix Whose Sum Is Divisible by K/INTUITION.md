@@ -28,3 +28,19 @@ return dfs(0, 0, 0)
 
 由於用hashmap做cache會TLE
 我們可以直接開個3維array，效率會高一點
+
+# Other Solution - bottom-up
+
+定義dp[i][j][m]: the ways to reach (i, j) when sum%k = m
+
+對於走到當前grid[i][j]來說, 他的可能餘數為`0 <= m < k`:
+所以我們遍歷所有可能的餘數`m`, 兩個方向的所有可能數相加:
+```py
+for m in range(k):
+    dp[i][j][(m + grid[i][j])%k] = dp[i-1][j][m] + dp[i][j-1][m]
+```
+
+**base case**
+
+起始狀態為一種方法數
+dp[0][0][grid[0][0]%k] = 1
