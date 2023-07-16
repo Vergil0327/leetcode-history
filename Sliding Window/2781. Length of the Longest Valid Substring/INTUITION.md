@@ -40,3 +40,35 @@ X X X X [X X X X X X X X X X] X
 我們可以找出以`i`為左端點的每個subarray的合法最長長度, 由於forbidden內的長度不超過10
 所以我們可以用`O(10n * string slice O(10))`來找出有沒有存在一個不合法的forbidden string
 如果長度超出10都沒找到的話, 那也不用再找了, 代表以`i`為左端點一路到最後都沒有forbidden string
+
+# Core Concept
+
+其實不管是第一種還是第二種解法
+最重要的是要從後往前遍歷來找出非法端點後, 排除掉最遠端點
+
+以brute force來說會是這樣
+```py
+for i in range(n):
+    for j in range(i, n):
+        # ...
+```
+
+如果由左到右的話每次都要重新找右端點
+但從右往左的話我們可以用一個數組紀錄當前合法最右端點
+
+因為如果像下圖一樣, [i:j]為forbidden[k]的話
+那麼以i為左端點的位置第一個非法右端點為`j`, 也表示word[i:j-1](both inclusive)為以i為左端點的最長substring
+
+```
+X X X X X X X [X X X] X
+            i' i   j
+```
+
+在下一輪`i'`時, 我們也只需要檢查到`min(i'+10, j)`即可
+這時最長substring長度為[i':j-1] (both inclusive) => `length = j-i' = dp[i]-i'`
+不能包含到j, 不然的話[i':j]就會包含forbidden[i:j]
+所以從右到左遍歷，反過來找dp[i]的話, 才能沿用資訊
+
+第一個sliding window解法也是一樣概念，只是他是排除左端點
+但也是由後往前遍歷:
+`word[left:r] in forbidden => l = left+1 排除左端點使得[l:r]為最長合法substring`
