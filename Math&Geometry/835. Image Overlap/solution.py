@@ -11,7 +11,11 @@ class Solution:
                 if img2[r][c] == 1:
                     pos2.append((r,c))
         
-        vectorCount = defaultdict(lambda: 0)
+        # vectorCount means if we move every 1-position in img1 by a vector,
+        # how many overlapping position do we have?
+        vectorCount = defaultdict(int)
+
+        # try to overlapy (r1,c1) in img1 on every 1-position in img2
         for r1,c1 in pos1:
             for r2, c2 in pos2:
                 vector = (r1-r2,c1-c2)
