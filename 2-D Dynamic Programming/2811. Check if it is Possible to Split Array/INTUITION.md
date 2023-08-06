@@ -28,3 +28,34 @@ def dfs(l, r):
 
 只要兩個subarray都滿足上述兩條件其中一個, 那就是個合法的split
 我們就看當前nums能有多少個合法的split, n個subarray需要n-1個split, 最後就看split的數目有沒有大於等於n-1即可
+
+# Other Solution
+
+另外有個更聰明的O(n)解法來自leetcode大神 `lee215`
+
+
+n = len(nums)
+- 如果 n = 1 => already True
+- 如果 n = 2 => split once =>  True
+
+- 如果 n > 2 => 如果存在一個subarray他的size=2並且sum(subarray) >= m, 那麼我們一定可以藉由這個這個subarray將整個array分成 1 + 包含這個subarray的subarray
+  ```
+  如果sum([Y Y]) >= m
+  num = X X X X X [Y Y] X X
+    => {X} + {X X X X [Y Y] X X}
+         =>  {X} + {X X X [Y Y] X X}
+                => {X} + {X X [Y Y] X X}
+                      => {X} + {X [Y Y] X X}
+                            => {X} + {[Y Y] X X}
+                                => {[Y Y] X} + {X}
+                                    => {[Y Y]} + {X}
+                                        => split [Y Y]
+  ```
+
+所以對於一個nums來說, 我們只要看存不存在一個subarray使得`sum(subarray) >= m and len(subarray) == 2`即可
+如果至少存在一個滿足條件的size=2的subarray, 那必定能分成n個subarray
+
+```py
+def canSplitArray(self, A: List[int], m: int) -> bool:
+    return len(A) <= 2 or any(A[i] + A[i + 1] >= m for i in range(len(A) - 1))
+```
