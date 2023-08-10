@@ -43,82 +43,31 @@ for nums in m.values():
 2. do DFS like above. since valid answer is non-empty subset, final answer is `dfs(0, n-1)-1`
 
 ```py
-def dfs(i, prevIdx):
-    if i == n: return 1
-    if i > n: return 0
+class Solution:
+    def beautifulSubsets(self, nums: List[int], k: int) -> int:
+        m = defaultdict(list)
+        for num in nums:
+            m[num%k].append(num)
 
-    isUgly = arr[i] - arr[prevIdx] == k
-    if (i, isUgly) in cache: return cache[(i, isUgly)]
+        arr = []
+        for nums in m.values():
+            arr += sorted(nums)
 
-    # skip
-    cache[(i, isUgly)] = dfs(i+1, prevIdx)
-    # take
-    if not isUgly:
-        cache[(i, isUgly)] += dfs(i+1, i)
-    return cache[(i, isUgly)]
+        n = len(arr)
 
-return dfs(0, n-1)-1
-```
+        cache = {}
+        def dfs(i, prevIdx):
+            if i == n: return 1
 
+            if (i, prevIdx) in cache: return cache[(i, prevIdx)]
 
-[also like a house rubber @lee215](https://leetcode.com/problems/the-number-of-beautiful-subsets/solutions/3314361/python-house-robber-o-nlogn/)
+            # skip
+            cache[(i, prevIdx)] = dfs(i+1, prevIdx)
+            # take
+            isUgly = arr[i] - arr[prevIdx] == k
+            if not isUgly:
+                cache[(i, prevIdx)] += dfs(i+1, i)
+            return cache[(i, prevIdx)]
 
-in a similar way, we still group nums[i] with its modulo with k
-
-then we calculate by group:
-
-```py
-count = [Counter() for i in range(k)]
-for a in A:
-    count[a % k][a] += 1
-
-res = 1
-for i in range(k):
-    # calculate...
-```
-
-for each group, just like smart arrangement, we sort first.
-
-```py
-prev, dp0, dp1 = 0, 1, 0
-for a in sorted(count[i]):
-    # then we have `v` possible subsets for `a`
-    v = pow(2, count[i][a])
-    # since we want non-empty, valid subsets are `v-1`
-
-    # dp0: not pick a
-    # dp1: pick a
-    if a-prev == k:
-        # if we don't pick a, dp0 = prev_dp0 + prev_dp1
-        # if we pick a we can transfer from state which we didn't pick previous a
-        # thus, dp0 = prev_dp0 * (v-1)
-        dp0, dp1 = dp0+dp1, dp0 * (v-1)
-    else:
-        # if a is beautiful with previous a
-        # dp1 can transfer from prev_dp0 and prev_dp1 and times possible subset of current a
-        dp0, dp1 = dp0+dp1, (dp0+dp1) * (v-1)
-    
-    res *= (dp0+dp1)
-
-return res-1 # must non-empty subset
-```
-
-
-```py
-def beautifulSubsets(self, A: List[int], k: int) -> int:
-    count = [Counter() for i in range(k)]
-    for a in A:
-        count[a % k][a] += 1
-    res = 1
-    for i in range(k):
-        prev, dp0, dp1 = 0, 1, 0
-        for a in sorted(count[i]):
-            v = pow(2, count[i][a])
-            if a-prev == k:
-                dp0, dp1 = dp0 + dp1, dp0 * (v - 1)
-            else:
-                dp0, dp1 = dp0 + dp1, (dp0 + dp1) * (v - 1)
-            prev = a
-        res *= dp0 + dp1
-    return res - 1
+        return dfs(0, n-1)-1
 ```
