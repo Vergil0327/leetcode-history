@@ -47,3 +47,43 @@ answer += (targetPrice-1)*remainOrder
 可以這樣進行binary search是因為我們一定是從最大的分數開始取
 一個一個取，每個球的分數都會是單調遞減的
 所以我們猜的threshold一定有機會被取到，然後就能透過取到的單數來判斷我們猜的太低或太高
+
+# Other Solution
+
+排序後由大到小來取inventory[i], 如果inventory[i]一直拿拿到inventory[i+1]都還有剩orders
+那就直接透過數學計算, batch calculation
+
+並且下一輪我們相當於有2個inventory[i]
+```
+inventory = [X Y Z] -> [Y Y Z] -> [Z Z Z] where X > Y > Z
+```
+
+```py
+class Solution:
+    def maxProfit(self, inventory: List[int], orders: int) -> int:
+        mod = 10**9 + 7
+        inventory.sort(reverse=True)
+        inventory.append(0)
+
+        n = len(inventory)
+        cnt = 1 # number of inventory[i]
+        res = 0
+        for i in range(n-1):
+            if cnt*(inventory[i] - inventory[i+1]) < orders: 
+                res += cnt*(inventory[i] + inventory[i+1]+1)*(inventory[i]-inventory[i+1])//2 # arithmic sum
+                res %= mod
+
+                orders -= cnt*(inventory[i] - inventory[i+1])
+            else: 
+                # 目前有 cnt 個 inventory[i]
+                m, r = divmod(orders, cnt)
+                res += cnt*(inventory[i] + inventory[i]-m+1) * m//2 # arithmic sum
+                # 經過上面拿取步驟, 此時inventory[i] = inventory[i]-m
+                # 還剩下r個order要拿
+                res += r*(inventory[i] - m)
+                res %= mod
+                break
+
+            cnt += 1
+        return res
+```
