@@ -26,3 +26,45 @@ $$O(nlogn + nlogk)$$
 - space complexity
 
 $$O(n)$$
+
+# Other Intuition
+
+由於有兩個變因，先試著想有沒有辦法使得其中一個變因只需要用O(1)時間知道
+
+首先想到的是如果將nums2由大到小排列, 那麼nums2[i]永遠都會是該subseq.的min
+
+```
+ex.1
+nums1 = [2 3 1] 3
+nums2 = [4 3 2] 1
+          k個
+```
+
+這樣下一回合加進[3,1] [nums1, nums2] pair後, 由於這時min nums2[i]一定是1
+所以我們應該從上一輪k個裡面踢出nums1最小的一個
+
+所以我們先對(nums2, nums1) pair最由大到小排序
+再來再透過min heap持續找出最小的踢出並維持k-size
+
+最終找出全局最高分數即可
+
+```py
+class Solution:
+    def maxScore(self, nums1: List[int], nums2: List[int], k: int) -> int:
+        n = len(nums1)
+        arr = sorted(zip(nums2, nums1), reverse=True)
+        minHeap = []
+        tot = 0
+        for i in range(k):
+            tot += arr[i][1]
+            heapq.heappush(minHeap, arr[i][1])
+
+        res = arr[k-1][0] * tot
+        for i in range(k, n):
+            tot += arr[i][1]
+            tot -= heapq.heappop(minHeap)
+            res = max(res, tot * arr[i][0])
+            
+            heapq.heappush(minHeap, arr[i][1])
+        return res
+```
