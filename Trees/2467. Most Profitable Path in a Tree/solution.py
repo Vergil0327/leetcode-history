@@ -5,6 +5,13 @@ Intuition:
 2. find bob's path to root node
 3. backtracking to find alice's max income and bob's position
 4. stuck on how to find leaf node... later I found I can use `visited` set  to find if there's a way to go. if all the neighbor nodes are visited, and current node must be a leaf node.
+
+首先我們能用DFS預先計算bob的移動路線
+nxtBobPos[i] 代表 bob在i節點時的下一個位置
+
+再來用dfs來看alice's path並同時確認bob position
+Alice at 0 and Bob at bob first
+
 """
 class Solution:
     def mostProfitablePath(self, edges: List[List[int]], bob: int, amount: List[int]) -> int:
@@ -13,21 +20,19 @@ class Solution:
             graph[u].append(v)
             graph[v].append(u)
         
-        prev = {0: 0}
-        def findBob(node, visited):
-            if node == bob: return True
+        nxtBobPos = {0: 0}
+        def findBobPath(root, parent):
+            if root == bob:
+                return True
 
-            for nei in graph[node]:
-                if nei not in visited:
-                    visited.add(nei)
-                    
-                    prev[nei] = node
-                    if findBob(nei, visited):
-                        return True
+            for nei in graph[root]:
+                if nei == parent: continue
+                nxtBobPos[nei] = root
+                if findBobPath(nei, root): return True
             return False
         
         # find Bob's path
-        findBob(0, set([0]))
+        findBobPath(0, set([0]))
         
         maxIncome = float("-inf")
         def dfs(state, node, visited, bobNode, path): 
@@ -35,9 +40,8 @@ class Solution:
             
             if node == bobNode:
                 state += amount[node]//2
-            else:
-                if node not in path:
-                    state += amount[node]
+            elif node not in path:
+                state += amount[node]
 
             nexts = set(graph[node])
             if len(nexts) == len(nexts & visited): # reach leaf node
@@ -49,7 +53,7 @@ class Solution:
                     visited.add(nei)
 
                     path.add(bobNode)
-                    dfs(state, nei, visited, prev[bobNode], path)
+                    dfs(state, nei, visited, nxtBobPos[bobNode], path)
                     path.discard(bobNode) # backtracking
             
             return
@@ -65,17 +69,15 @@ class SolutionOptimized:
             graph[u].append(v)
             graph[v].append(u)
         
-        prev = {0: 0}
-        def findBob(node, visited):
-            if node == bob: return True
+        nxtBobPos = {0: 0}
+        def findBob(root, parent):
+            if root == bob:
+                return True
 
-            for nei in graph[node]:
-                if nei not in visited:
-                    visited.add(nei)
-                    
-                    prev[nei] = node
-                    if findBob(nei, visited):
-                        return True
+            for nei in graph[root]:
+                if nei == parent: continue
+                nxtBobPos[nei] = root
+                if findBob(nei, root): return True
             return False
         
         # find Bob's path
@@ -85,19 +87,18 @@ class SolutionOptimized:
             ret = 0
             if node == bobNode:
                 ret = amount[node]//2
-            else:
-                if node not in path:
-                    ret = amount[node]
+            elif node not in path:
+                ret = amount[node]
 
             maxIncome = float("-inf")
 
             for nei in graph[node]:
                 if nei != parent: # we don't need visited set, we can use parent node to find leaf node and stop traversal
                     path.add(bobNode)
-                    maxIncome = max(maxIncome, dfs(nei, node, prev[bobNode], path))
+                    maxIncome = max(maxIncome, dfs(nei, node, nxtBobPos[bobNode], path))
                     path.discard(bobNode) # backtracking bob's position
 
-            if maxIncome == float('-inf'):
+            if maxIncome == float('-inf'): # alice at leaf node
                 return ret
             else:
                 return maxIncome + ret
