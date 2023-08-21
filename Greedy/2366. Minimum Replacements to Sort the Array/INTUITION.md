@@ -66,3 +66,13 @@ summary:
     - if nums[i]%nums[i+1] == 0, totally nums[i]//nums[i+1] pieces => nums[i]//nums[i+1]-1 split
     - if nums[i]%nums[i+1] != 0, totally nums[i]//nums[i+1]+1 pieces => nums[i]//nums[i+1] split
 - break up nums[i] into remain as largest as possible
+
+
+# Concise Solution
+
+based on above discussion:
+
+upperbound = nums[-1] initially
+
+and we can split nums[i] into k pieces where `k = ceil(nums[i]/upperbound)`
+and update `upperbound = floor(nums[i]/k)`

@@ -21,3 +21,13 @@ class Solution:
                     else:
                         nums[i] = x-1
         return res
+
+class Solution:
+    def minimumReplacement(self, nums):
+        upperbound = nums[-1]
+        res = 0
+        for num in reversed(nums):
+            k = ceil(num/upperbound)
+            upperbound = floor(num / k) # or upperbound = num//k
+            res += k - 1
+        return res
