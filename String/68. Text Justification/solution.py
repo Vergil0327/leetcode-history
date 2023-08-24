@@ -44,55 +44,49 @@ class Solution:
 
 
 # first try
+# # Intuition
+
+# 1. find words in each line first
+# 2. distribute spaces
+#     - if current line is last line or only 1 word: left-justified
+#     - else distribute spaces equally and distribute remainder of spaces from left to right
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
-        remain = deque(words)
-
-        groups = []
-        state = []
-        currWordLen = 0
-
-        # split group by group by maxWidth
-        while remain:
-            word = remain.popleft()
-            
-            numPad = len(state)
-            if currWordLen+numPad+len(word)<=maxWidth:
-                state.append(word)
-                currWordLen += len(word)
+        lines = []
+        for word in words:
+            if not lines or lines[-1][0] + len(word)+1 > maxWidth:
+                lines.append([len(word), word])
             else:
-                groups.append(state.copy())
-                state.clear()
+                lines[-1][0] += len(word)+1
+                lines[-1].append(word)
 
-                state.append(word)
-                currWordLen = len(word)
-        else:
-            groups.append(state.copy())
-        
+        def formatLine(words, isLastLine, wordsLength):
+            if isLastLine or len(words)==1:
+                s = " ".join(words)
+                return s + " " * (maxWidth-len(s))
+            else:
+                numWords = len(words)
+                totSpace = maxWidth - wordsLength
+                space = totSpace//(numWords-1)
+                extra = totSpace - (numWords-1)*space
+                spaces = [space] * numWords
+                for i in range(len(spaces)):
+                    if extra:
+                        spaces[i] += 1
+                        extra -= 1
+                
+                s = ""
+                for i, word in enumerate(words):
+                    if i == len(words)-1:
+                        s += word
+                    else:
+                        s += word + " " * spaces[i]
+
+                return s
+            return res
 
         res = []
-        for strs in groups[:-1]: # 由於最後一個規則不同，是靠左對齊，因此特別處理
-            n = len(strs)
-            wordLen = sum([len(s) for s in strs])
-            padding = maxWidth - wordLen
-
-            padLen = padding//(n-1) if n-1>0 else 0
-            padRemain = padding%(n-1) if n-1>0 else 0
-            rslt = ""
-            for j, s in enumerate(strs):
-                if j != n-1:
-                    extra = 1 if padRemain > 0 else 0
-                    rslt += s + " " * (padLen+extra)
-                    if padRemain > 0:
-                        padRemain -= 1
-                else:
-                    rslt += s
-            
-            rslt += " " * (maxWidth-len(rslt))
-            res.append(rslt)
-        
-        # 由於最後一個規則不同，是靠左對齊，因此特別處理
-        lastWord = " ".join(groups[-1])
-        lastWord += " " * (maxWidth-len(lastWord))
-        res.append(lastWord)
+        for i, line in enumerate(lines):
+            wordsLength = line[0]-(len(line)-2)
+            res.append(formatLine(line[1:], i == len(lines)-1, wordsLength))
         return res
