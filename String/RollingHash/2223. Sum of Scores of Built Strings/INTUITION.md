@@ -1,6 +1,6 @@
 # Intuition
 
-實際上這題是知名的Z-function algorithm, 可以用O(n)時間解
+實際上這題是知名的[Z-function algorithm](https://cp-algorithms.com/string/z-function.html), 可以用O(n)時間解
 但太技術性所以沒特別研究
 
 from description, the total scores is:
