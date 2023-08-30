@@ -130,3 +130,31 @@ class Solution:
                     dp[state] = max(dp[state], dp[subState] + i*scores[(x,y)])
 
         return dp[(1<<(2*n))-1]
+    
+# top-down dp + bitmask
+class Solution:
+    def maxScore(self, nums: List[int]) -> int:
+        m = len(nums)
+
+        scores = {}
+        for i in range(m):
+            for j in range(i+1, m):
+                scores[(i,j)] = gcd(nums[i], nums[j])
+
+        @cache
+        def dfs(i, state):
+            if state == 0: return 0
+            
+            res = 0
+            for j in range(m):
+                if (state>>j)&1 == 0: continue
+                for k in range(j+1, m):
+                    if (state>>k)&1 == 0: continue
+                    nxt = state^(1<<j)
+                    nxt ^= (1<<k)
+                    # res = max(res, dfs(i+1, nxt) + i * gcd(nums[j], nums[k]))
+                    res = max(res, dfs(i+1, nxt) + i * scores[(j, k)])
+            return res
+
+
+        return dfs(1, (1<<m) - 1)
