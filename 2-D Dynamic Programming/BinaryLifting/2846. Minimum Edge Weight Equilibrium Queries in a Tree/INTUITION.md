@@ -35,6 +35,24 @@ return res
 
 但由於`1 <= queries.length == m <= 2 * 10^4`並且`1 <= n <= 10^4`
 我們在找LCA(u,v)時會需要O(n)的時間
+```py
+# find LCA in O(n)
+def lca(root, prev, u, v):
+    if root == u or root == v: return root
+    
+    res = None
+    cnt = 0
+    for w, nei in graph[root]:
+        if nei == prev: continue
+        children = lca(nei, root, u, v)
+        if children:
+            cnt += 1
+            res = children
+
+    if cnt == 2:
+        return root
+    return res
+```
 那這樣時間複雜度會變成O(mn)會超時, 所以我們需要一個比較高效的方式來找LCA
 
 這時就需要binary lifting來將O(n)拆解成二進制`n = 2^a + 2^b + 2^c ...`將找尋LCA的時間複雜度降成O(logn)
