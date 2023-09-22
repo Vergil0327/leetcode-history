@@ -1,5 +1,19 @@
 class Solution:
     def countSpecialSubsequences(self, nums: List[int]) -> int:
+        zero = one = two = 0
+        for num in nums:
+            if num == 0:
+                zero += zero+1
+                zero %= 1_000_000_007
+            elif num == 1:
+                one += zero + one
+                one %= 1_000_000_007
+            elif num == 2:
+                two += one + two
+                two %= 1_000_000_007
+        return two
+class Solution:
+    def countSpecialSubsequences(self, nums: List[int]) -> int:
         mod = 10**9 + 7
         n = len(nums)
 

@@ -53,3 +53,40 @@ $$O(n)$$
 
 - space complexity
 $$O(n*3)$$
+
+# Concise Solution 2023/09/22
+
+## Intuition
+
+三種狀態
+zero: the ways to form a subseq. ended at 0
+one: the ways to form a subseq. ended at 1
+two: the ways to form a subseq. ended at 2
+
+0只能接在0後面, 或是自立門戶
+zero只會從結尾是zero的狀態轉移過來或是單獨新開一個subseq.
+zero += zero+1
+
+1只能接在0或1後面
+one只會從結尾是zero或one轉移過來
+one += zero + one
+
+2只能接在1或2後面
+two只會從結尾是one或two轉移過來
+two += one+two
+
+```py
+def countSpecialSubsequences(self, nums: List[int]) -> int:
+    zero = one = two = 0
+    for num in nums:
+        if num == 0:
+            zero += zero+1
+            zero %= 1_000_000_007
+        elif num == 1:
+            one += zero + one
+            one %= 1_000_000_007
+        elif num == 2:
+            two += one + two
+            two %= 1_000_000_007
+    return two
+```
