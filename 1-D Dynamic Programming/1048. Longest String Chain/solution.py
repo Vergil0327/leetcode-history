@@ -17,27 +17,13 @@ class Solution:
 
         return max(dp.values())
 
-# Barely TLE
-# O(n^2*L*L)
-# Runtime: 4524 ms, faster than 8.47% of Python3 online submissions
+# daily challenge 2023/09/23
 class Solution:
-    def longestStrChain(self, words: List[str]) -> int:
-        # dp[i]: the length of the longest possible word chain of words[:i]
-        words.sort(key=len)
-        
-        # O(L*L), string generation is also O(L)
-        def check(word, target):
-            for i in range(len(target)+1):
-                s = target[:i] + target[i+1:]
-                if s == word: return True
-            return False
+    def longestStrChain(self, words: List[str]) -> int:        
+        dp = defaultdict(lambda: 1)
+        for word in sorted(words, key=len):
+            for i in range(len(word)):
+                if (s := word[:i] + word[i+1:]) in dp:
+                    dp[word] = max(dp[word], dp[s]+1)
 
-        # O(n^2)
-        dp = [1] * len(words)
-        for i in range(len(words)):
-            for j in range(0, i):
-                if len(words[i])-1 != len(words[j]): continue
-                if check(words[j], words[i]):
-                    dp[i] = max(dp[i], dp[j]+1)
-
-        return max(dp)
+        return max(dp.values())

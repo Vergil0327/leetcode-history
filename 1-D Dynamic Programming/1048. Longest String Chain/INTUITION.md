@@ -25,3 +25,14 @@ dp[word] = max(dp[word], dp[predecessor]+1), where dp is a hashmap
 ```
 
 now, we can use `dp` with `check function` to find if there is a valid predecessor in our `dp`
+
+since **len(word) = len(predecessor)+1**, we can sort words first, then find predecessor by remove one character from words[i].
+
+therefore:
+
+```py
+for word in sorted(words, key=len):
+    for i in range(len(word)):
+        if (pre := word[:i] + word[i+1:]) in dp:
+            dp[word] = max(dp[word], dp[pre]+1)
+```
