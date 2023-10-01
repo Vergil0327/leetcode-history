@@ -47,12 +47,18 @@ Acceptance Rate
 <details>
 <summary>Hint 1</summary>
 
-If the frequency of some element is 1, then it is not possible to make the array empty.
+The minimum score will always be the bitwise AND of all elements of the array.
 
 </details>
 <details>
 <summary>Hint 2</summary>
 
-Count the frequency of each element in the array, and solve the problem independently for each element, then finally sum up the answers.
+If the minimum score is not equal to 0, the only possible split will be to keep all elements in one subarray.
+
+</details>
+<details>
+<summary>Hint 3</summary>
+
+Otherwise, all of the subarrays should have a score of 0, we can greedily split the array while trying to make each subarray as small as possible.
 
 </details>
