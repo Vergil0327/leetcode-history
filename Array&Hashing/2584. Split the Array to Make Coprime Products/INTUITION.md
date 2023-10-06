@@ -38,12 +38,12 @@ for num in nums:
 
 根據題意, 遍歷範圍為[0,n-1]
 每當我們把一個數加到左側，那右側就要扣掉: `right[fac] -= 1`
+先掃過一遍把`left`跟`right`更新完後, 我們在遍歷factors[i]一遍
 
 一但右側不再包含該因數, 亦即`right[fac] == 0`時，代表該因數不再是共同的因數
 因此也從左側扣掉: `del left[fac] if right[fac] == 0`
 
-一但我們發現一個位置是，左側沒有任何因數存在時(因為把該因數從右側移到左側後，右側為0且我們也同步從左側刪除)
-代表該位置就是一個合適的split位置
+一但我們發現一個位置是，左側沒有任何因數存在時(因為把該因數從右側移到左側後，右側為0且我們也同步從左側刪除), i.e. len(left) == 0, 代表該位置就是一個合適的split位置
 由於index越靠前越好，因此找到的第一個合法index就直接返回即可
 
 ```py
@@ -51,9 +51,16 @@ left = defaultdict(int)
 for i in range(n-1): # check split at i
     for fac in factors[i]:
         left[fac] += 1
-
         right[fac] -= 1
 
+    for fac in factors[i]:
         if right[fac] == 0: # doesn't share fac in both left and right anymore
             del left[fac]
 ```
+
+**Edge Case**
+
+ex. nums = [1,1,89]
+
+如果`nums[i]`為**1**的話, 因為不會進到factors[i]的loop裡, 所以需要特別處理
+直接判斷`if len(left) == 0: return i`即可

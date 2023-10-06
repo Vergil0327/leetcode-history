@@ -1,6 +1,6 @@
 [2584. Split the Array to Make Coprime Products](https://leetcode.com/problems/split-the-array-to-make-coprime-products/description/)
 
-`Medium`
+`Hard`
 
 You are given a 0-indexed integer array nums of length n.
 

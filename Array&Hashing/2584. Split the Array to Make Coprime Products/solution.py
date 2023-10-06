@@ -22,10 +22,13 @@ class Solution:
 
         left = defaultdict(int)
         for i in range(n-1): # check split at i
+            if nums[i] == 1 and len(left) == 0: return i
+            
             for fac in factors[i]:
                 left[fac] += 1
-
                 right[fac] -= 1
+
+            for fac in factors[i]:
                 if right[fac] == 0: # doesn't share fac in both left and right anymore
                     del left[fac]
                     if len(left) == 0:
