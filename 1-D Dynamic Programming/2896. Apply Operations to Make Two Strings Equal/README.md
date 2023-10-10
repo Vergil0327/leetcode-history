@@ -53,3 +53,9 @@ Save all the indices that have different characters on s1 and s2 into a list, an
 Try to use dynamic programming on this list to solve the problem. What will be the states and transitions of this dp?
 
 </details>
+
+<details>
+<summary>Explanation (Chinese)</summary>
+
+[wisdompeak](https://www.youtube.com/watch?v=NBUwpGuqAzY)
+</details>
