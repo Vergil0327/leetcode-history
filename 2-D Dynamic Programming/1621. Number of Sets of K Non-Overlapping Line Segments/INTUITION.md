@@ -94,3 +94,30 @@ for i in range(n):
         presum[i][k][1] = (presum[i-1][k][1] + dp[i][k][1])%mod
         presum[i][k-1][0] = (presum[i-1][k-1][0] + dp[i][k-1][0])%mod
 ```
+
+# Intuition for Solution 2
+
+# Intuition
+
+dp[i][k]: considering first i points, construct k line segments
+
+```
+X X X X X X i
+          ___
+        _____
+      _______
+      ...
+_____________      
+          * *
+        * * *
+      * * * *
+      ...
+* * * * * * *
+```
+
+狀態轉移:
+dp[i][k] += dp[i-1][k] + sum(dp[j][k-1] for j in range(i))
+
+1. dp[i-1][k]為到i-1為止的所有建構k個line segments的可能方法, 其中這些方法都將i這個點與所有可能方法的結尾的區間空置下來
+2. dp[j][k-1]為到j為止建構了k-1 line segments的可能方法, 將j跟i連成一條segment, 就形成到i為止建構k line segments的方法數
+上面兩個方法數就包含了連線與空置兩種可能, 也就是dp[i][k]

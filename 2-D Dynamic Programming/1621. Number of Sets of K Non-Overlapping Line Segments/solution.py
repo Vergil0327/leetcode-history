@@ -28,3 +28,28 @@ class Solution:
                 presum[i][k-1][0] = (presum[i-1][k-1][0] + dp[i][k-1][0])%mod
                 
         return (dp[n-1][K][0] + dp[n-1][K][1])%mod
+
+class Solution2:
+    def numberOfSets(self, n: int, k: int) -> int:
+        mod = 10**9 + 7
+
+        # dp[i][k]: considering first i points, construct k line segments
+        dp = [[0]*(k+1) for _ in range(n)]
+        presum_dp = [[0]*(k+1) for _ in range(n)]
+        for i in range(n):
+            dp[i][0] = 1
+            presum_dp[i][0] = (presum_dp[i-1][0] if i-1>=0 else 0) + dp[i][0]
+
+        for i in range(1, n):
+            for kk in range(1, min(i, k)+1):
+                dp[i][kk] = dp[i-1][kk]
+
+                # for j in range(i-1, -1, -1):
+                #     dp[i][kk] += dp[j][kk-1]
+                dp[i][kk] += presum_dp[i-1][kk-1]
+                
+                dp[i][kk] %= mod
+
+                presum_dp[i][kk] = (presum_dp[i-1][kk] + dp[i][kk]) % mod
+
+        return dp[n-1][k]%mod
