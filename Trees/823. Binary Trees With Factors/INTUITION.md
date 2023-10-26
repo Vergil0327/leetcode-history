@@ -50,3 +50,10 @@ for i in rnage(n):
 ```
 
 那最後答案就是每個可能方法數的總和並對1e9+7取餘數
+
+# Intuition 2
+或者以值域來看, root = left*right
+我們遍歷root跟left來找right
+那麼dp[root] = dp[left]*dp[right]%mod
+
+記得對arr排序, 遍歷root時要由小到大, 這樣才能bottom-up建立dp[root] table

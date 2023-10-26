@@ -18,3 +18,22 @@ class Solution:
                     dp[i] += dp[j] * dp[idx] % MOD
 
         return sum(dp)%MOD
+
+class Solution:
+    def numFactoredBinaryTrees(self, arr: List[int]) -> int:
+        mod = 10**9+7
+        n = len(arr)
+        dp = defaultdict(int)
+        for num in arr:
+            dp[num] += 1
+        arr.sort()
+        for i in range(n):
+            root = arr[i]
+            for j in range(i+1):
+                left = arr[j]
+                if root%left != 0: continue
+                right = root//left
+                if right not in dp: continue
+                dp[root] += dp[left]*dp[right]%mod
+        
+        return sum(dp.values())%mod
