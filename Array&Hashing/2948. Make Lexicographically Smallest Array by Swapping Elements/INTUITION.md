@@ -69,3 +69,37 @@ $$O(nlogn)$$ for sorting every index onces
 
 - Space complexity:
 $$O(n)$$
+
+# Intuition 2
+
+另外這題也能用union-find
+想法一樣, 先將nums排序後找出所有可以自由互換的index, 把他們union在一起
+
+然後找出每個groups後, 把該groups裡的所有數值找出來, 數值由小到大依序擺置在該group的index即可
+
+[@votrubac](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/solutions/4330378/union-find-1202-smallest-string-with-swaps/)
+```c++
+int find(vector<int> &ds, int i) {
+    return ds[i] < 0 ? i : ds[i] = find(ds, ds[i]);
+}
+vector<int> lexicographicallySmallestArray(vector<int>& nums, int limit) {
+    vector<int> ds(nums.size(), -1), ids(nums.size()), res(nums.size());
+    iota(begin(ids), end(ids), 0);
+    sort(begin(ids), end(ids), [&](int i, int j){ return nums[i] < nums[j]; });
+    for (int i = 1; i < nums.size(); ++i)
+        if (nums[ids[i]] - nums[ids[i - 1]] <= limit)
+            if (int a = find(ds, ids[i]), b = find(ds, ids[i - 1]); a != b)
+                ds[b] = a;
+    unordered_map<int, vector<int>> groups;
+    for (int i = 0; i < nums.size(); ++i)
+        groups[find(ds, i)].push_back(i);
+    for (auto &[g, ids] : groups) {
+        vector<int> sorted = ids;
+        sort(begin(sorted), end(sorted), [&](int i, int j){ return nums[i] < nums[j]; });
+        for (int i = 0; i < ids.size(); ++i) {
+            res[ids[i]] = nums[sorted[i]];
+        }
+    }
+    return res;
+}
+```
