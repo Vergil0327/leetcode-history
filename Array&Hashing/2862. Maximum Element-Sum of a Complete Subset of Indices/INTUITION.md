@@ -33,3 +33,26 @@ for i, num in enumerate(nums, start=1):
 ```py
 count[key] += num
 ```
+
+<!-- 2023/12/14 -->
+
+# Intuition
+
+index subset {1, 2, 3, ..., n}, 要找出個subset使得任意配對的乘積為perfect square
+代表{i, j, k, ...} = {
+    i = a * x^2 * y^2,
+    j = b * x^2,
+    k = c * d * y^2 * z^2,
+}
+
+其中的完全平方項是完全可以去除的, 我們真正關注的就只有那些非完全平方向的係數
+所以可轉化成{
+    i = a
+    j = b
+    k = c*d
+}
+那這個subset如果要任意乘績皆為完全平方向的話, 代表:
+a*b, b*(c*d), a*(c*d)都必須是完全平方
+也就代表必須滿足 a=b, b=c*d, a=c*d, 這樣通通都能轉成k^2
+所以對於每個index來說, 他們的質因數乘積就是key, 同樣的key會落在同個complete subset裡
+我們計算這些subset的總和, 取全局最大即為答案
