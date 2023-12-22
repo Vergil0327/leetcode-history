@@ -27,3 +27,38 @@ class Solution:
             return res
         
         return dfs(0, False, False, True, 0, 0, 0)
+
+# we can use diff rather than odd and even count
+class Solution:
+    def numberOfBeautifulIntegers(self, low: int, high: int, k: int) -> int:
+        lo = str(low)
+        hi = str(high)
+        while len(lo) < len(hi):
+            lo = "0"+lo
+        
+        n = len(hi)
+        
+        @cache
+        def dfs(i, isGreaterLow, isLowerHigh, leadingZeros, diff, remainder):
+            if i == n:
+                return 1 if remainder == 0 and diff == 0 else 0
+            
+            start = 0 if isGreaterLow else int(lo[i])
+            end = 10 if isLowerHigh else int(hi[i])+1
+            
+            res = 0
+            for d in range(start, end):
+                newDiff = diff
+                if d >= 1 and d%2 != 0:
+                    newDiff += 1
+                elif (not leadingZeros and d == 0) or (d>=2 and d%2 == 0):
+                    newDiff -= 1
+                res += dfs(i+1,
+                           isGreaterLow or d > int(lo[i]),
+                           isLowerHigh or d < int(hi[i]),
+                           leadingZeros and d == 0,
+                           newDiff,
+                           (remainder*10 + d)%k)
+            return res
+        
+        return dfs(0, False, False, True, 0, 0)
