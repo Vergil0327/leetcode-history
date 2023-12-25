@@ -75,3 +75,36 @@ class Solution_DFS:
         for node in range(n):
             res = max(res, dfs(node))
         return res if res != inf else -1
+    
+# concise way to implement topological sort with DFS
+class Solution:
+    def largestPathValue(self, colors: str, edges: List[List[int]]) -> int:
+        graph = defaultdict(list)
+        for u, v in edges:
+            if u == v: return -1 # self-cycle
+            graph[u].append(v)
+
+        n = len(colors)
+        visited = defaultdict(int)
+        dp = [[0]*26 for _ in range(n)]
+        RESOLVE, VISITED = 1, 2
+
+        def dfs(node):
+            if visited[node] == VISITED: return inf
+            if visited[node] == RESOLVE: return 0
+
+            visited[node] = VISITED
+
+            color = ord(colors[node]) - ord("a")
+            dp[node][color] = 1
+            for nei in graph[node]:
+                if dfs(nei) == inf: return inf
+                for c in range(26):
+                    dp[node][c] = max(dp[node][c], dp[nei][c] + (1 if c == color else 0))
+
+            visited[node] = RESOLVE
+
+            return max(dp[node])
+
+        res = max(dfs(node) for node in range(n))
+        return res if res != inf else -1
