@@ -1,5 +1,19 @@
 class Solution:
     def numRollsToTarget(self, n: int, k: int, target: int) -> int:
+        dp1 = [0 for _ in range(target+1)]
+        dp2 = [0 for _ in range(target+1)]
+        dp1[0] = 1
+        for i in range(1, n+1):
+            for t in range(1, target+1):
+                for j in range(1, k+1):
+                    if t-j >= 0:
+                        dp2[t] += dp1[t-j]
+                        dp2[t] %= 1000000007
+            dp1, dp2 = dp2, [0 for _ in range(target+1)]
+        return dp1[target]
+
+class Solution:
+    def numRollsToTarget(self, n: int, k: int, target: int) -> int:
         dp = [[0 for _ in range(target+1)] for _ in range(n+1)]
         dp[0][0] = 1
         for i in range(1, n+1):

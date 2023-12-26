@@ -28,7 +28,29 @@ for i in range(1, n+1):
 
 那最終答案就是`dp[n][target]`
 
+# Optimization
+
+由於dp[i][t]只依賴於前一個狀態dp[i-1][t-j]
+所以我們可以用兩個dp[target] array來儲存資訊即可
+
+```py
+dp1 = [0 for _ in range(target+1)]
+dp2 = [0 for _ in range(target+1)]
+dp1[0] = 1
+for i in range(1, n+1):
+    for t in range(1, target+1):
+        for j in range(1, k+1):
+            if t-j >= 0:
+                dp2[t] += dp1[t-j]
+                dp2[t] %= 1000000007
+    dp1, dp2 = dp2, [0 for _ in range(target+1)]
+return dp1[target]
+```
+
 # Complexity
 
 - time complexity
   $$O(n * target * k)$$
+
+- space complexity
+    $$O(2 * target)$$
