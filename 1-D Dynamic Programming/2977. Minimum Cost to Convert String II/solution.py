@@ -1,7 +1,6 @@
 class Solution:
     def minimumCost(self, source: str, target: str, original: List[str], changed: List[str], cost: List[int]) -> int:
         n = len(source)
-        m = len(original)
 
         dist = defaultdict(lambda: defaultdict(lambda: inf))
         for s, t, c in zip(original, changed, cost):

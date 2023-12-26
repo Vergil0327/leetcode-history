@@ -28,6 +28,10 @@ dp = [inf] * (n+1)
 dp[0] = 0
 for i in range(1, n+1):
     # case 1
+    # 這邊如果改成j從i->1往回找看看source[j:i]以及target[j:i]存不存在於dist的話會比較慢
+    # 這樣會多出一個O(n)的時間複雜度出來
+    # 但如果遍歷dist來看有沒有符合的source[j:i]跟target[j:i]的話會比較快
+    # 因為dist.size最多就100 => 1 <= cost.length == original.length == changed.length <= 100
     for s in dist:
         if i >= len(s) and source[i-len(s):i] in dist and target[i-len(s):i] in dist[source[i-len(s):i]]:
             dp[i] = min(dp[i], dp[i-len(s)] + dist[source[i-len(s):i]][target[i-len(s):i]])
