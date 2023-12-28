@@ -73,3 +73,59 @@ s = [X X X X X X] X X X X X X
 
   - 如果ch != s[i+1], 那麼我們就是原本長度再多上一個新的s[i+1]字符
     - dp[i+1][k][or(s[i+1])-ord("a")][1] = min(dp[i+1][k][or(s[i+1])-ord("a")][1], dp[i][k][ch][cnt] + 1)
+
+# Intuition 2 - DFS
+
+top-down DP apporach我覺得是相對直覺許多
+
+對於每個s[i], 我們考慮留或不留:
+1. 不留的話:
+  ```py
+  if k > 0:
+    res = dfs(i+1, k-1, prev, cnt)
+  ```
+
+2. 留的話我們在看當前s[i]跟前個letter有沒有一樣
+
+```py
+if s[i] == prev:
+    res = min(res, dfs(i+1, k, prev, cnt+1))
+else:
+    res = min(res, dfs(i+1, k, s[i], 1) + calLen(cnt))
+```
+
+# Intuition 3
+
+我們改變一下dp的定義
+dp[i][k]: the minimum length with k letters removed considering first i letters.
+
+## base case
+
+```py
+dp = [[inf]*(k+1) for _ in range(n+1)]
+for kk in range(k+1):
+    dp[0][kk] = 0
+```
+
+那狀態轉移方程則一樣, 考慮留或不留:
+- 不留s[i]: `dp[i][kk] = dp[i-1][kk-1] if kk > 0`
+- 留s[i]: 既然要留s[i], 那就都留, 然後往回找把所有s[j:i]間跟s[i]不同的都移除掉
+
+這有點greedy的想法, a2+...+a12 => 把中間都去掉後將a拼接再一起, 長度上肯定比分開來的好或打平
+
+```py
+for i in range(1, n+1):
+    for kk in range(k+1):
+        if kk > 0:
+            dp[i][kk] = dp[i-1][kk-1]
+
+        removed = cnt = 0
+        for j in range(i, 0, -1):
+            if s[j] == s[i]:
+                cnt += 1
+            else:
+                removed += 1
+                if removed > kk: break
+
+            dp[i][kk] = min(dp[i][kk], dp[j-1][kk-removed] + calLen(cnt))
+```
