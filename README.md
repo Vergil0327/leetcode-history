@@ -23,10 +23,11 @@ print(f"All files inside the '{Path.cwd()}' working directory tree are:")
 MAP = defaultdict(list)
 for path in Path.cwd().rglob("*"):
     if path.stem.startswith("."): continue
-    if path.is_file() and path.name.endswith("README.md") and not path.name.startswith("."):
+    if path.is_file() and path.name.endswith("README.md"):
         dirname = os.path.dirname(Path.relative_to(path, Path.cwd()))
         s = str(path.relative_to(Path.cwd()))
         [head, tail] = os.path.split(dirname)
+        if ".py" in s or ".py" in head: continue
         MAP[head].append(f"[{tail}]({quote(s)})\n\n")
 
 for k, arr in MAP.items():
@@ -248,10 +249,6 @@ for k, arr in MAP.items():
 
 [687. Longest Univalue Path](Trees/Path/687.%20Longest%20Univalue%20Path/README.md)
 
-## Trees/776. Split BST
-
-[.pytest_cache](Trees/776.%20Split%20BST/.pytest_cache/README.md)
-
 ## Trees/ReRoot
 
 [2538. Difference Between Maximum and Minimum Price Sum](Trees/ReRoot/2538.%20Difference%20Between%20Maximum%20and%20Minimum%20Price%20Sum/README.md)
@@ -466,10 +463,6 @@ for k, arr in MAP.items():
 
 [981. Time Based Key-Value Store](Binary%20Search/SortedList/981.%20Time%20Based%20Key-Value%20Store/README.md)
 
-## Binary Search/2702. Minimum Operations to Make Numbers Non-positive
-
-[.pytest_cache](Binary%20Search/2702.%20Minimum%20Operations%20to%20Make%20Numbers%20Non-positive/.pytest_cache/README.md)
-
 ## Bit Manipulation
 
 [1072. Flip Columns For Maximum Number of Equal Rows](Bit%20Manipulation/1072.%20Flip%20Columns%20For%20Maximum%20Number%20of%20Equal%20Rows/README.md)
@@ -551,10 +544,6 @@ for k, arr in MAP.items():
 [89. Gray Code](Bit%20Manipulation/89.%20Gray%20Code/README.md)
 
 [898. Bitwise ORs of Subarrays](Bit%20Manipulation/898.%20Bitwise%20ORs%20of%20Subarrays/README.md)
-
-## Bit Manipulation/751. IP to CIDR
-
-[.pytest_cache](Bit%20Manipulation/751.%20IP%20to%20CIDR/.pytest_cache/README.md)
 
 ## UnionFind
 
@@ -927,10 +916,6 @@ for k, arr in MAP.items():
 [960. Delete Columns to Make Sorted III](1-D%20Dynamic%20Programming/960.%20Delete%20Columns%20to%20Make%20Sorted%20III/README.md)
 
 [983. Minimum Cost For Tickets](1-D%20Dynamic%20Programming/983.%20Minimum%20Cost%20For%20Tickets/README.md)
-
-## 1-D Dynamic Programming/1259. Handshakes That Don't Cross
-
-[.pytest_cache](1-D%20Dynamic%20Programming/1259.%20Handshakes%20That%20Don%27t%20Cross/.pytest_cache/README.md)
 
 ## 1-D Dynamic Programming/3Pass
 
@@ -1668,10 +1653,6 @@ for k, arr in MAP.items():
 
 [991. Broken Calculator](Greedy/991.%20Broken%20Calculator/README.md)
 
-## Greedy/2599. Make the Prefix Sum Non-negative
-
-[.pytest_cache](Greedy/2599.%20Make%20the%20Prefix%20Sum%20Non-negative/.pytest_cache/README.md)
-
 ## Segment Tree
 
 [1526. Minimum Number of Increments on Subarrays to Form a Target Array](Segment%20Tree/1526.%20Minimum%20Number%20of%20Increments%20on%20Subarrays%20to%20Form%20a%20Target%20Array/README.md)
@@ -1999,10 +1980,6 @@ for k, arr in MAP.items():
 [785. Is Graph Bipartite?](Graphs/Bipartite/785.%20Is%20Graph%20Bipartite%3F/README.md)
 
 [886. Possible Bipartition](Graphs/Bipartite/886.%20Possible%20Bipartition/README.md)
-
-## Graphs/Bipartite/1066.Campus-Bikes-II
-
-[.pytest_cache](Graphs/Bipartite/1066.Campus-Bikes-II/.pytest_cache/README.md)
 
 ## Graphs/BFS
 
@@ -2548,10 +2525,6 @@ for k, arr in MAP.items():
 
 [978. Longest Turbulent Subarray](2-D%20Dynamic%20Programming/978.%20Longest%20Turbulent%20Subarray/README.md)
 
-## 2-D Dynamic Programming/2431. Maximize Total Tastiness of Purchased Fruits
-
-[.pytest_cache](2-D%20Dynamic%20Programming/2431.%20Maximize%20Total%20Tastiness%20of%20Purchased%20Fruits/.pytest_cache/README.md)
-
 ## 2-D Dynamic Programming/DigitDP
 
 [1012. Numbers With Repeated Digits](2-D%20Dynamic%20Programming/DigitDP/1012.%20Numbers%20With%20Repeated%20Digits/README.md)
@@ -2644,18 +2617,6 @@ for k, arr in MAP.items():
 
 [813. Largest Sum of Averages](2-D%20Dynamic%20Programming/Interval/813.%20Largest%20Sum%20of%20Averages/README.md)
 
-## 2-D Dynamic Programming/Interval/1682. Longest Palindromic Subsequence II
-
-[.pytest_cache](2-D%20Dynamic%20Programming/Interval/1682.%20Longest%20Palindromic%20Subsequence%20II/.pytest_cache/README.md)
-
-## 2-D Dynamic Programming/Interval/471. Encode String with Shortest Length
-
-[.pytest_cache](2-D%20Dynamic%20Programming/Interval/471.%20Encode%20String%20with%20Shortest%20Length/.pytest_cache/README.md)
-
-## 2-D Dynamic Programming/Interval/1246. Palindrome Removal
-
-[.pytest_cache](2-D%20Dynamic%20Programming/Interval/1246.%20Palindrome%20Removal/.pytest_cache/README.md)
-
 ## 2-D Dynamic Programming/TwoSequence
 
 [1035. Uncrossed Lines](2-D%20Dynamic%20Programming/TwoSequence/1035.%20Uncrossed%20Lines/README.md)
@@ -2716,10 +2677,6 @@ for k, arr in MAP.items():
 
 [996. Number of Squareful Arrays](2-D%20Dynamic%20Programming/Bitmask/996.%20Number%20of%20Squareful%20Arrays/README.md)
 
-## 2-D Dynamic Programming/1692. Count Ways to Distribute Candies
-
-[.pytest_cache](2-D%20Dynamic%20Programming/1692.%20Count%20Ways%20to%20Distribute%20Candies/.pytest_cache/README.md)
-
 ## 2-D Dynamic Programming/Maze
 
 [120. Triangle](2-D%20Dynamic%20Programming/Maze/120.%20Triangle/README.md)
@@ -2742,14 +2699,6 @@ for k, arr in MAP.items():
 
 [741. Cherry Pickup](2-D%20Dynamic%20Programming/Maze/741.%20Cherry%20Pickup/README.md)
 
-## 2-D Dynamic Programming/2189. Number of Ways to Build House of Cards
-
-[.pytest_cache](2-D%20Dynamic%20Programming/2189.%20Number%20of%20Ways%20to%20Build%20House%20of%20Cards/.pytest_cache/README.md)
-
-## 2-D Dynamic Programming/1230. Toss Strange Coins
-
-[.pytest_cache](2-D%20Dynamic%20Programming/1230.%20Toss%20Strange%20Coins/.pytest_cache/README.md)
-
 ## 2-D Dynamic Programming/BinaryLifting
 
 [1483. Kth Ancestor of a Tree Node](2-D%20Dynamic%20Programming/BinaryLifting/1483.%20Kth%20Ancestor%20of%20a%20Tree%20Node/README.md)
@@ -2757,10 +2706,6 @@ for k, arr in MAP.items():
 [2836. Maximize Value of Function in a Ball Passing Game](2-D%20Dynamic%20Programming/BinaryLifting/2836.%20Maximize%20Value%20of%20Function%20in%20a%20Ball%20Passing%20Game/README.md)
 
 [2846. Minimum Edge Weight Equilibrium Queries in a Tree](2-D%20Dynamic%20Programming/BinaryLifting/2846.%20Minimum%20Edge%20Weight%20Equilibrium%20Queries%20in%20a%20Tree/README.md)
-
-## 2-D Dynamic Programming/1067. Digit Count in Range
-
-[.pytest_cache](2-D%20Dynamic%20Programming/1067.%20Digit%20Count%20in%20Range/.pytest_cache/README.md)
 
 ## PrefixSum
 
