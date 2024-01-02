@@ -43,8 +43,6 @@ for k, arr in MAP.items():
 
 ## Trees
 
-[10034. Find Number of Coins to Place in Tree Nodes](Trees/10034.%20Find%20Number%20of%20Coins%20to%20Place%20in%20Tree%20Nodes/README.md)
-
 [101. Symmetric Tree](Trees/101.%20Symmetric%20Tree/README.md)
 
 [102. Binary Tree Level Order Traversal](Trees/102.%20Binary%20Tree%20Level%20Order%20Traversal/README.md)
@@ -158,6 +156,8 @@ for k, arr in MAP.items():
 [2925. Maximum Score After Applying Operations on a Tree](Trees/2925.%20Maximum%20Score%20After%20Applying%20Operations%20on%20a%20Tree/README.md)
 
 [297. Serialize and Deserialize Binary Tree](Trees/297.%20Serialize%20and%20Deserialize%20Binary%20Tree/README.md)
+
+[2973. Find Number of Coins to Place in Tree Nodes](Trees/2973.%20Find%20Number%20of%20Coins%20to%20Place%20in%20Tree%20Nodes/README.md)
 
 [331. Verify Preorder Serialization of a Binary Tree](Trees/331.%20Verify%20Preorder%20Serialization%20of%20a%20Binary%20Tree/README.md)
 
