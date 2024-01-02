@@ -37,3 +37,14 @@ nums[i] + nums[n-1-i] = x + y <= [1,limit] + [1,limit] = [2,limit]
 然後在遍歷difference array的範圍[2, 2*limit], 就能知道當前target_sum的所需步數變化, 在找出全局最小的所需步數即可
 
 time: $O(nums.size/2 + 2*limit)$
+
+# Intuition 2
+
+那如果limit很大呢? 大到$10^9$
+
+其實我們由小到大遍歷diff的key然後持續更新當前所需步數即可
+所以我們可以將`diff`的數據結構改成sorted dict (相當於C++裡的map)
+然後我們就遍歷sorted dict裡的那些key, 也就是分界點
+這樣一個pair_sum就5個分界點, 最多就`5*n`個
+由於sorted dict要用log(n)時間更新
+所以整體時間複雜度會是: $O(nlogn)$
