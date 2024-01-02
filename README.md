@@ -6,6 +6,7 @@
   - [its summary](https://github.com/wisdompeak/LeetCode)
 - [neetcode.io](https://neetcode.io/)
   - [YT Channel](https://www.youtube.com/c/NeetCode)
+  - [YT Sub-Channel](https://www.youtube.com/@NeetCodeIO)
   - [Google Sheet for Leetcode 75](https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0)
 - [Hua Hua](https://www.youtube.com/c/HuaHuaLeetCode)
 
@@ -32,274 +33,274 @@ for k, v in MAP.items():
     if not k: continue
     with open(f"{Path.cwd()}/test.txt", "a") as f:
         f.write(f"## {k}\n\n")
+    v.sort()
     with open(f"{Path.cwd()}/test.txt", "a") as f:
         for s in v:
             f.write(s)
 ```
-
 ## Trees
-
-[1617. Count Subtrees With Max Distance Between Cities](Trees/1617.%20Count%20Subtrees%20With%20Max%20Distance%20Between%20Cities/INTUITION.md)
-
-[2646. Minimize the Total Price of the Trips](Trees/2646.%20Minimize%20the%20Total%20Price%20of%20the%20Trips/INTUITION.md)
-
-[1766. Tree of Coprimes](Trees/1766.%20Tree%20of%20Coprimes/INTUITION.md)
-
-[129. Sum Root to Leaf Numbers](Trees/129.%20Sum%20Root%20to%20Leaf%20Numbers/INTUITION.md)
-
-[109. Convert Sorted List to Binary Search Tree](Trees/109.%20Convert%20Sorted%20List%20to%20Binary%20Search%20Tree/INTUITION.md)
-
-[450. Delete Node in a BST](Trees/450.%20Delete%20Node%20in%20a%20BST/INTUITION.md)
-
-[1519. Number of Nodes in the Sub-Tree With the Same Label](Trees/1519.%20Number%20of%20Nodes%20in%20the%20Sub-Tree%20With%20the%20Same%20Label/INTUITION.md)
-
-[427. Construct Quad Tree](Trees/427.%20Construct%20Quad%20Tree/INTUITION.md)
-
-[101. Symmetric Tree](Trees/101.%20Symmetric%20Tree/INTUITION.md)
-
-[2641. Cousins in Binary Tree II](Trees/2641.%20Cousins%20in%20Binary%20Tree%20II/INTUITION.md)
-
-[779. K-th Symbol in Grammar](Trees/779.%20K-th%20Symbol%20in%20Grammar/INTUITION.md)
-
-[919. Complete Binary Tree Inserter](Trees/919.%20Complete%20Binary%20Tree%20Inserter/INTUITION.md)
-
-[1443. Minimum Time to Collect All Apples in a Tree](Trees/1443.%20Minimum%20Time%20to%20Collect%20All%20Apples%20in%20a%20Tree/INTUITION.md)
-
-[823. Binary Trees With Factors](Trees/823.%20Binary%20Trees%20With%20Factors/INTUITION.md)
-
-[894. All Possible Full Binary Trees](Trees/894.%20All%20Possible%20Full%20Binary%20Trees/INTUITION.md)
-
-[1026. Maximum Difference Between Node and Ancestor](Trees/1026.%20Maximum%20Difference%20Between%20Node%20and%20Ancestor/INTUITION.md)
-
-[1902 - Depth of BST Given Insertion Order](Trees/1902%20-%20Depth%20of%20BST%20Given%20Insertion%20Order/INTUITION.md)
-
-[173. Binary Search Tree Iterator](Trees/173.%20Binary%20Search%20Tree%20Iterator/INTUITION.md)
-
-[1028. Recover a Tree From Preorder Traversal](Trees/1028.%20Recover%20a%20Tree%20From%20Preorder%20Traversal/INTUITION.md)
-
-[958. Check Completeness of a Binary Tree](Trees/958.%20Check%20Completeness%20of%20a%20Binary%20Tree/INTUITION.md)
-
-[2003. Smallest Missing Genetic Value in Each Subtree](Trees/2003.%20Smallest%20Missing%20Genetic%20Value%20in%20Each%20Subtree/INTUITION.md)
-
-[1104. Path In Zigzag Labelled Binary Tree](Trees/1104.%20Path%20In%20Zigzag%20Labelled%20Binary%20Tree/INTUITION.md)
-
-[1361. Validate Binary Tree Nodes](Trees/1361.%20Validate%20Binary%20Tree%20Nodes/INTUITION.md)
-
-[865. Smallest Subtree with all the Deepest Nodes](Trees/865.%20Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes/INTUITION.md)
-
-[662. Maximum Width of Binary Tree](Trees/662.%20Maximum%20Width%20of%20Binary%20Tree/INTUITION.md)
-
-[2322. Minimum Score After Removals on a Tree](Trees/2322.%20Minimum%20Score%20After%20Removals%20on%20a%20Tree/INTUITION.md)
-
-[386. Lexicographical Numbers](Trees/386.%20Lexicographical%20Numbers/INTUITION.md)
-
-[331. Verify Preorder Serialization of a Binary Tree](Trees/331.%20Verify%20Preorder%20Serialization%20of%20a%20Binary%20Tree/INTUITION.md)
-
-[1932. Merge BSTs to Create Single BST](Trees/1932.%20Merge%20BSTs%20to%20Create%20Single%20BST/INTUITION.md)
-
-[1080. Insufficient Nodes in Root to Leaf Paths](Trees/1080.%20Insufficient%20Nodes%20in%20Root%20to%20Leaf%20Paths/INTUITION.md)
-
-[968. Binary Tree Cameras](Trees/968.%20Binary%20Tree%20Cameras/INTUITION.md)
-
-[776. Split BST](Trees/776.%20Split%20BST/INTUITION.md)
-
-[2872. Maximum Number of K-Divisible Components](Trees/2872.%20Maximum%20Number%20of%20K-Divisible%20Components/INTUITION.md)
-
-[1993. Operations on Tree](Trees/1993.%20Operations%20on%20Tree/INTUITION.md)
-
-[889. Construct Binary Tree from Preorder and Postorder Traversal](Trees/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal/INTIOTION.md)
-
-[2925. Maximum Score After Applying Operations on a Tree](Trees/2925.%20Maximum%20Score%20After%20Applying%20Operations%20on%20a%20Tree/INTUITION.md)
-
-[2867. Count Valid Paths in a Tree](Trees/2867.%20Count%20Valid%20Paths%20in%20a%20Tree/INTUITION.md)
-
-[2673. Make Costs of Paths Equal in a Binary Tree](Trees/2673.%20Make%20Costs%20of%20Paths%20Equal%20in%20a%20Binary%20Tree/INTUITION.md)
-
-[1373. Maximum Sum BST in Binary Tree](Trees/1373.%20Maximum%20Sum%20BST%20in%20Binary%20Tree/INTUITION.md)
-
-[124. Binary Tree Maximum Path Sum](Trees/124.%20Binary%20Tree%20Maximum%20Path%20Sum/INTUITION.md)
-
-[117. Populating Next Right Pointers in Each Node II](Trees/117.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II/INTUITION.md)
-
-[1597. Build Binary Expression Tree From Infix Expression](Trees/1597.%20Build%20Binary%20Expression%20Tree%20From%20Infix%20Expression/INTUITION.md)
-
-[114. Flatten Binary Tree to Linked List](Trees/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List/INTUITION.md)
-
-[106. Construct Binary Tree from Inorder and Postorder Traversal](Trees/106.%20Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal/INTUITION.md)
-
-[222. Count Complete Tree Nodes](Trees/222.%20Count%20Complete%20Tree%20Nodes/INTUITION.md)
-
-[1339. Maximum Product of Splitted Binary Tree](Trees/1339.%20Maximum%20Product%20of%20Splitted%20Binary%20Tree/INTUITION.md)
-
-[2920. Maximum Points After Collecting Coins From All Nodes](Trees/2920.%20Maximum%20Points%20After%20Collecting%20Coins%20From%20All%20Nodes/INTUITION.md)
-
-[971. Flip Binary Tree To Match Preorder Traversal](Trees/971.%20Flip%20Binary%20Tree%20To%20Match%20Preorder%20Traversal/INTUITION.md)
-
-[2476. Closest Nodes Queries in a Binary Search Tree](Trees/2476.%20Closest%20Nodes%20Queries%20in%20a%20Binary%20Search%20Tree/INTUITION.md)
-
-[1038. Binary Search Tree to Greater Sum Tree](Trees/1038.%20Binary%20Search%20Tree%20to%20Greater%20Sum%20Tree/INTUITION.md)
-
-[652. Find Duplicate Subtrees](Trees/652.%20Find%20Duplicate%20Subtrees/INTUITION.md)
-
-[2277.Closest-Node-to-Path-in-Tree](Trees/2277.Closest-Node-to-Path-in-Tree/INTUITION.md)
-
-[2603. Collect Coins in a Tree](Trees/2603.%20Collect%20Coins%20in%20a%20Tree/INTUITION.md)
-
-[1569. Number of Ways to Reorder Array to Get Same BST](Trees/1569.%20Number%20of%20Ways%20to%20Reorder%20Array%20to%20Get%20Same%20BST/INTUITION.md)
 
 [10034. Find Number of Coins to Place in Tree Nodes](Trees/10034.%20Find%20Number%20of%20Coins%20to%20Place%20in%20Tree%20Nodes/INTUITION.md)
 
-## Trees/LCA
+[101. Symmetric Tree](Trees/101.%20Symmetric%20Tree/INTUITION.md)
 
-[2096. Step-By-Step Directions From a Binary Tree Node to Another](Trees/LCA/2096.%20Step-By-Step%20Directions%20From%20a%20Binary%20Tree%20Node%20to%20Another/INTIOTION.md)
+[1026. Maximum Difference Between Node and Ancestor](Trees/1026.%20Maximum%20Difference%20Between%20Node%20and%20Ancestor/INTUITION.md)
+
+[1028. Recover a Tree From Preorder Traversal](Trees/1028.%20Recover%20a%20Tree%20From%20Preorder%20Traversal/INTUITION.md)
+
+[1038. Binary Search Tree to Greater Sum Tree](Trees/1038.%20Binary%20Search%20Tree%20to%20Greater%20Sum%20Tree/INTUITION.md)
+
+[106. Construct Binary Tree from Inorder and Postorder Traversal](Trees/106.%20Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal/INTUITION.md)
+
+[1080. Insufficient Nodes in Root to Leaf Paths](Trees/1080.%20Insufficient%20Nodes%20in%20Root%20to%20Leaf%20Paths/INTUITION.md)
+
+[109. Convert Sorted List to Binary Search Tree](Trees/109.%20Convert%20Sorted%20List%20to%20Binary%20Search%20Tree/INTUITION.md)
+
+[1104. Path In Zigzag Labelled Binary Tree](Trees/1104.%20Path%20In%20Zigzag%20Labelled%20Binary%20Tree/INTUITION.md)
+
+[114. Flatten Binary Tree to Linked List](Trees/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List/INTUITION.md)
+
+[117. Populating Next Right Pointers in Each Node II](Trees/117.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II/INTUITION.md)
+
+[124. Binary Tree Maximum Path Sum](Trees/124.%20Binary%20Tree%20Maximum%20Path%20Sum/INTUITION.md)
+
+[129. Sum Root to Leaf Numbers](Trees/129.%20Sum%20Root%20to%20Leaf%20Numbers/INTUITION.md)
+
+[1339. Maximum Product of Splitted Binary Tree](Trees/1339.%20Maximum%20Product%20of%20Splitted%20Binary%20Tree/INTUITION.md)
+
+[1361. Validate Binary Tree Nodes](Trees/1361.%20Validate%20Binary%20Tree%20Nodes/INTUITION.md)
+
+[1373. Maximum Sum BST in Binary Tree](Trees/1373.%20Maximum%20Sum%20BST%20in%20Binary%20Tree/INTUITION.md)
+
+[1443. Minimum Time to Collect All Apples in a Tree](Trees/1443.%20Minimum%20Time%20to%20Collect%20All%20Apples%20in%20a%20Tree/INTUITION.md)
+
+[1519. Number of Nodes in the Sub-Tree With the Same Label](Trees/1519.%20Number%20of%20Nodes%20in%20the%20Sub-Tree%20With%20the%20Same%20Label/INTUITION.md)
+
+[1569. Number of Ways to Reorder Array to Get Same BST](Trees/1569.%20Number%20of%20Ways%20to%20Reorder%20Array%20to%20Get%20Same%20BST/INTUITION.md)
+
+[1597. Build Binary Expression Tree From Infix Expression](Trees/1597.%20Build%20Binary%20Expression%20Tree%20From%20Infix%20Expression/INTUITION.md)
+
+[1617. Count Subtrees With Max Distance Between Cities](Trees/1617.%20Count%20Subtrees%20With%20Max%20Distance%20Between%20Cities/INTUITION.md)
+
+[173. Binary Search Tree Iterator](Trees/173.%20Binary%20Search%20Tree%20Iterator/INTUITION.md)
+
+[1766. Tree of Coprimes](Trees/1766.%20Tree%20of%20Coprimes/INTUITION.md)
+
+[1902 - Depth of BST Given Insertion Order](Trees/1902%20-%20Depth%20of%20BST%20Given%20Insertion%20Order/INTUITION.md)
+
+[1932. Merge BSTs to Create Single BST](Trees/1932.%20Merge%20BSTs%20to%20Create%20Single%20BST/INTUITION.md)
+
+[1993. Operations on Tree](Trees/1993.%20Operations%20on%20Tree/INTUITION.md)
+
+[2003. Smallest Missing Genetic Value in Each Subtree](Trees/2003.%20Smallest%20Missing%20Genetic%20Value%20in%20Each%20Subtree/INTUITION.md)
+
+[222. Count Complete Tree Nodes](Trees/222.%20Count%20Complete%20Tree%20Nodes/INTUITION.md)
+
+[2277.Closest-Node-to-Path-in-Tree](Trees/2277.Closest-Node-to-Path-in-Tree/INTUITION.md)
+
+[2322. Minimum Score After Removals on a Tree](Trees/2322.%20Minimum%20Score%20After%20Removals%20on%20a%20Tree/INTUITION.md)
+
+[2476. Closest Nodes Queries in a Binary Search Tree](Trees/2476.%20Closest%20Nodes%20Queries%20in%20a%20Binary%20Search%20Tree/INTUITION.md)
+
+[2603. Collect Coins in a Tree](Trees/2603.%20Collect%20Coins%20in%20a%20Tree/INTUITION.md)
+
+[2641. Cousins in Binary Tree II](Trees/2641.%20Cousins%20in%20Binary%20Tree%20II/INTUITION.md)
+
+[2646. Minimize the Total Price of the Trips](Trees/2646.%20Minimize%20the%20Total%20Price%20of%20the%20Trips/INTUITION.md)
+
+[2673. Make Costs of Paths Equal in a Binary Tree](Trees/2673.%20Make%20Costs%20of%20Paths%20Equal%20in%20a%20Binary%20Tree/INTUITION.md)
+
+[2867. Count Valid Paths in a Tree](Trees/2867.%20Count%20Valid%20Paths%20in%20a%20Tree/INTUITION.md)
+
+[2872. Maximum Number of K-Divisible Components](Trees/2872.%20Maximum%20Number%20of%20K-Divisible%20Components/INTUITION.md)
+
+[2920. Maximum Points After Collecting Coins From All Nodes](Trees/2920.%20Maximum%20Points%20After%20Collecting%20Coins%20From%20All%20Nodes/INTUITION.md)
+
+[2925. Maximum Score After Applying Operations on a Tree](Trees/2925.%20Maximum%20Score%20After%20Applying%20Operations%20on%20a%20Tree/INTUITION.md)
+
+[331. Verify Preorder Serialization of a Binary Tree](Trees/331.%20Verify%20Preorder%20Serialization%20of%20a%20Binary%20Tree/INTUITION.md)
+
+[386. Lexicographical Numbers](Trees/386.%20Lexicographical%20Numbers/INTUITION.md)
+
+[427. Construct Quad Tree](Trees/427.%20Construct%20Quad%20Tree/INTUITION.md)
+
+[450. Delete Node in a BST](Trees/450.%20Delete%20Node%20in%20a%20BST/INTUITION.md)
+
+[652. Find Duplicate Subtrees](Trees/652.%20Find%20Duplicate%20Subtrees/INTUITION.md)
+
+[662. Maximum Width of Binary Tree](Trees/662.%20Maximum%20Width%20of%20Binary%20Tree/INTUITION.md)
+
+[776. Split BST](Trees/776.%20Split%20BST/INTUITION.md)
+
+[779. K-th Symbol in Grammar](Trees/779.%20K-th%20Symbol%20in%20Grammar/INTUITION.md)
+
+[823. Binary Trees With Factors](Trees/823.%20Binary%20Trees%20With%20Factors/INTUITION.md)
+
+[865. Smallest Subtree with all the Deepest Nodes](Trees/865.%20Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes/INTUITION.md)
+
+[889. Construct Binary Tree from Preorder and Postorder Traversal](Trees/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal/INTIOTION.md)
+
+[894. All Possible Full Binary Trees](Trees/894.%20All%20Possible%20Full%20Binary%20Trees/INTUITION.md)
+
+[919. Complete Binary Tree Inserter](Trees/919.%20Complete%20Binary%20Tree%20Inserter/INTUITION.md)
+
+[958. Check Completeness of a Binary Tree](Trees/958.%20Check%20Completeness%20of%20a%20Binary%20Tree/INTUITION.md)
+
+[968. Binary Tree Cameras](Trees/968.%20Binary%20Tree%20Cameras/INTUITION.md)
+
+[971. Flip Binary Tree To Match Preorder Traversal](Trees/971.%20Flip%20Binary%20Tree%20To%20Match%20Preorder%20Traversal/INTUITION.md)
+
+## Trees/LCA
 
 [1123. Lowest Common Ancestor of Deepest Leaves](Trees/LCA/1123.%20Lowest%20Common%20Ancestor%20of%20Deepest%20Leaves/INTIOTION.md)
 
+[1644. Lowest Common Ancestor of a Binary Tree II](Trees/LCA/1644.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II/INTUITION.md)
+
 [1650. Lowest Common Ancestor of a Binary Tree III](Trees/LCA/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III/INTIOTION.md)
 
-[1644. Lowest Common Ancestor of a Binary Tree II](Trees/LCA/1644.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II/INTUITION.md)
+[2096. Step-By-Step Directions From a Binary Tree Node to Another](Trees/LCA/2096.%20Step-By-Step%20Directions%20From%20a%20Binary%20Tree%20Node%20to%20Another/INTIOTION.md)
 
 [2509. Cycle Length Queries in a Tree](Trees/LCA/2509.%20Cycle%20Length%20Queries%20in%20a%20Tree/INTUITION.md)
 
 ## Trees/Path
 
-[687. Longest Univalue Path](Trees/Path/687.%20Longest%20Univalue%20Path/INTUITION.md)
-
-[2538. Difference Between Maximum and Minimum Price Sum](Trees/Path/2538.%20Difference%20Between%20Maximum%20and%20Minimum%20Price%20Sum/INTUITION.md)
-
-[2246. Longest Path With Different Adjacent Characters](Trees/Path/2246.%20Longest%20Path%20With%20Different%20Adjacent%20Characters/INTUITION.md)
-
 [1372. Longest ZigZag Path in a Binary Tree](Trees/Path/1372.%20Longest%20ZigZag%20Path%20in%20a%20Binary%20Tree/INTUITION.md)
 
 [2049. Count Nodes With the Highest Score](Trees/Path/2049.%20Count%20Nodes%20With%20the%20Highest%20Score/INTUITION.md)
 
+[2246. Longest Path With Different Adjacent Characters](Trees/Path/2246.%20Longest%20Path%20With%20Different%20Adjacent%20Characters/INTUITION.md)
+
+[2538. Difference Between Maximum and Minimum Price Sum](Trees/Path/2538.%20Difference%20Between%20Maximum%20and%20Minimum%20Price%20Sum/INTUITION.md)
+
+[687. Longest Univalue Path](Trees/Path/687.%20Longest%20Univalue%20Path/INTUITION.md)
+
 ## Trees/ReRoot
-
-[834. Sum of Distances in Tree](Trees/ReRoot/834.%20Sum%20of%20Distances%20in%20Tree/INTUITION.md)
-
-[2858. Minimum Edge Reversals So Every Node Is Reachable](Trees/ReRoot/2858.%20Minimum%20Edge%20Reversals%20So%20Every%20Node%20Is%20Reachable/INTUITION.md)
 
 [2538. Difference Between Maximum and Minimum Price Sum](Trees/ReRoot/2538.%20Difference%20Between%20Maximum%20and%20Minimum%20Price%20Sum/INTUITION.md)
 
 [2581. Count Number of Possible Root Nodes](Trees/ReRoot/2581.%20Count%20Number%20of%20Possible%20Root%20Nodes/INTUITION.md)
 
+[2858. Minimum Edge Reversals So Every Node Is Reachable](Trees/ReRoot/2858.%20Minimum%20Edge%20Reversals%20So%20Every%20Node%20Is%20Reachable/INTUITION.md)
+
+[834. Sum of Distances in Tree](Trees/ReRoot/834.%20Sum%20of%20Distances%20in%20Tree/INTUITION.md)
+
 ## Binary Search
 
-[2009. Minimum Number of Operations to Make Array Continuous](Binary%20Search/2009.%20Minimum%20Number%20of%20Operations%20to%20Make%20Array%20Continuous/INTUITION.md)
+[1011. Capacity To Ship Packages Within D Days](Binary%20Search/1011.%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days/INTUITION.md)
 
-[2602. Minimum Operations to Make All Array Elements Equal](Binary%20Search/2602.%20Minimum%20Operations%20to%20Make%20All%20Array%20Elements%20Equal/INTUITION.md)
+[1095. Find in Mountain Array](Binary%20Search/1095.%20Find%20in%20Mountain%20Array/INTUITION.md)
 
-[2137. Pour Water Between Buckets to Make Water Levels Equal](Binary%20Search/2137.%20Pour%20Water%20Between%20Buckets%20to%20Make%20Water%20Levels%20Equal/INTUITION.md)
+[1102. Path With Maximum Minimum Value](Binary%20Search/1102.%20Path%20With%20Maximum%20Minimum%20Value/INTUITION.md)
 
-[754. Reach a Number](Binary%20Search/754.%20Reach%20a%20Number/INTUITION.md)
+[1231. Divide Chocolate](Binary%20Search/1231.%20Divide%20Chocolate/INTUITION.md)
 
-[2513. Minimize the Maximum of Two Arrays](Binary%20Search/2513.%20Minimize%20the%20Maximum%20of%20Two%20Arrays/INTUITION.md)
+[1283. Find the Smallest Divisor Given a Threshold](Binary%20Search/1283.%20Find%20the%20Smallest%20Divisor%20Given%20a%20Threshold/INTUITION.md)
 
-[2576. Find the Maximum Number of Marked Indices](Binary%20Search/2576.%20Find%20the%20Maximum%20Number%20of%20Marked%20Indices/INTUITION.md)
+[1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](Binary%20Search/1292.%20Maximum%20Side%20Length%20of%20a%20Square%20with%20Sum%20Less%20than%20or%20Equal%20to%20Threshold/INTUITION.md)
 
-[774. Minimize Max Distance to Gas Station](Binary%20Search/774.%20Minimize%20Max%20Distance%20to%20Gas%20Station/INTUITION.md)
+[1300. Sum of Mutated Array Closest to Target](Binary%20Search/1300.%20Sum%20of%20Mutated%20Array%20Closest%20to%20Target/INTUITION.md)
 
-[1648. Sell Diminishing-Valued Colored Balls](Binary%20Search/1648.%20Sell%20Diminishing-Valued%20Colored%20Balls/INTUITION.md)
+[1482. Minimum Number of Days to Make m Bouquets](Binary%20Search/1482.%20Minimum%20Number%20of%20Days%20to%20Make%20m%20Bouquets/INTUITION.md)
 
-[1818. Minimum Absolute Sum Difference](Binary%20Search/1818.%20Minimum%20Absolute%20Sum%20Difference/INTUITION.md)
+[1498. Number of Subsequences That Satisfy the Given Sum Condition](Binary%20Search/1498.%20Number%20of%20Subsequences%20That%20Satisfy%20the%20Given%20Sum%20Condition/INTUITION.md)
 
-[793. Preimage Size of Factorial Zeroes Function](Binary%20Search/793.%20Preimage%20Size%20of%20Factorial%20Zeroes%20Function/INTUITION.md)
+[1508. Range Sum of Sorted Subarray Sums](Binary%20Search/1508.%20Range%20Sum%20of%20Sorted%20Subarray%20Sums/INTUITION.md)
 
-[2071. Maximum Number of Tasks You Can Assign](Binary%20Search/2071.%20Maximum%20Number%20of%20Tasks%20You%20Can%20Assign/INTUITION.md)
+[1539. Kth Missing Positive Number](Binary%20Search/1539.%20Kth%20Missing%20Positive%20Number/INTUITION.md)
 
-[2871. Split Array Into Maximum Number of Subarrays](Binary%20Search/2871.%20Split%20Array%20Into%20Maximum%20Number%20of%20Subarrays/INTUITION.md)
-
-[2439. Minimize Maximum of Array](Binary%20Search/2439.%20Minimize%20Maximum%20of%20Array/INTUITION.md)
-
-[792. Number of Matching Subsequences](Binary%20Search/792.%20Number%20of%20Matching%20Subsequences/INTUITION.md)
-
-[668. Kth Smallest Number in Multiplication Table](Binary%20Search/668.%20Kth%20Smallest%20Number%20in%20Multiplication%20Table/INTUITION.md)
+[154. Find Minimum in Rotated Sorted Array II](Binary%20Search/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II/INTUITION.md)
 
 [1552. Magnetic Force Between Two Balls](Binary%20Search/1552.%20Magnetic%20Force%20Between%20Two%20Balls/INTUITION.md)
 
 [1608. Special Array With X Elements Greater Than or Equal X](Binary%20Search/1608.%20Special%20Array%20With%20X%20Elements%20Greater%20Than%20or%20Equal%20X/INTUITION.md)
 
+[1631. Path With Minimum Effort](Binary%20Search/1631.%20Path%20With%20Minimum%20Effort/INTUITION.md)
+
+[1648. Sell Diminishing-Valued Colored Balls](Binary%20Search/1648.%20Sell%20Diminishing-Valued%20Colored%20Balls/INTUITION.md)
+
+[1723. Find Minimum Time to Finish All Jobs](Binary%20Search/1723.%20Find%20Minimum%20Time%20to%20Finish%20All%20Jobs/INTUITION.md)
+
+[1739. Building Boxes](Binary%20Search/1739.%20Building%20Boxes/INTUITION.md)
+
+[1760. Minimum Limit of Balls in a Bag](Binary%20Search/1760.%20Minimum%20Limit%20of%20Balls%20in%20a%20Bag/INTUITION.md)
+
+[1818. Minimum Absolute Sum Difference](Binary%20Search/1818.%20Minimum%20Absolute%20Sum%20Difference/INTUITION.md)
+
+[1847. Closest Room](Binary%20Search/1847.%20Closest%20Room/INTUITION.md)
+
+[1870. Minimum Speed to Arrive on Time](Binary%20Search/1870.%20Minimum%20Speed%20to%20Arrive%20on%20Time/INTUITION.md)
+
+[1889. Minimum Space Wasted From Packaging](Binary%20Search/1889.%20Minimum%20Space%20Wasted%20From%20Packaging/INTUITION.md)
+
+[1898. Maximum Number of Removable Characters](Binary%20Search/1898.%20Maximum%20Number%20of%20Removable%20Characters/INTUITION.md)
+
+[2009. Minimum Number of Operations to Make Array Continuous](Binary%20Search/2009.%20Minimum%20Number%20of%20Operations%20to%20Make%20Array%20Continuous/INTUITION.md)
+
+[2071. Maximum Number of Tasks You Can Assign](Binary%20Search/2071.%20Maximum%20Number%20of%20Tasks%20You%20Can%20Assign/INTUITION.md)
+
+[2137. Pour Water Between Buckets to Make Water Levels Equal](Binary%20Search/2137.%20Pour%20Water%20Between%20Buckets%20to%20Make%20Water%20Levels%20Equal/INTUITION.md)
+
+[2141. Maximum Running Time of N Computers](Binary%20Search/2141.%20Maximum%20Running%20Time%20of%20N%20Computers/INTUITION.md)
+
+[2187. Minimum Time to Complete Trips](Binary%20Search/2187.%20Minimum%20Time%20to%20Complete%20Trips/INTUITION.md)
+
+[2250. Count Number of Rectangles Containing Each Point](Binary%20Search/2250.%20Count%20Number%20of%20Rectangles%20Containing%20Each%20Point/INTUITION.md)
+
+[2300. Successful Pairs of Spells and Potions](Binary%20Search/2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions/INTUITION.md)
+
+[2439. Minimize Maximum of Array](Binary%20Search/2439.%20Minimize%20Maximum%20of%20Array/INTUITION.md)
+
+[2513. Minimize the Maximum of Two Arrays](Binary%20Search/2513.%20Minimize%20the%20Maximum%20of%20Two%20Arrays/INTUITION.md)
+
+[2517. Maximum Tastiness of Candy Basket](Binary%20Search/2517.%20Maximum%20Tastiness%20of%20Candy%20Basket/INTUITION.md)
+
+[2528. Maximize the Minimum Powered City](Binary%20Search/2528.%20Maximize%20the%20Minimum%20Powered%20City/INTUITION.md)
+
+[2560. House Robber IV](Binary%20Search/2560.%20House%20Robber%20IV/INTUITION.md)
+
+[2563. Count the Number of Fair Pairs](Binary%20Search/2563.%20Count%20the%20Number%20of%20Fair%20Pairs/INTUITION.md)
+
+[2576. Find the Maximum Number of Marked Indices](Binary%20Search/2576.%20Find%20the%20Maximum%20Number%20of%20Marked%20Indices/INTUITION.md)
+
+[2594. Minimum Time to Repair Cars](Binary%20Search/2594.%20Minimum%20Time%20to%20Repair%20Cars/INTUITION.md)
+
+[2602. Minimum Operations to Make All Array Elements Equal](Binary%20Search/2602.%20Minimum%20Operations%20to%20Make%20All%20Array%20Elements%20Equal/INTUITION.md)
+
+[2616. Minimize the Maximum Difference of Pairs](Binary%20Search/2616.%20Minimize%20the%20Maximum%20Difference%20of%20Pairs/INTUITION.md)
+
+[2702. Minimum Operations to Make Numbers Non-positive](Binary%20Search/2702.%20Minimum%20Operations%20to%20Make%20Numbers%20Non-positive/INTUITION.md)
+
 [274. H-Index](Binary%20Search/274.%20H-Index/INTUITION.md)
 
 [2861. Maximum Number of Alloys](Binary%20Search/2861.%20Maximum%20Number%20of%20Alloys/INTUITION.md)
 
-[1011. Capacity To Ship Packages Within D Days](Binary%20Search/1011.%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days/INTUITION.md)
-
-[2594. Minimum Time to Repair Cars](Binary%20Search/2594.%20Minimum%20Time%20to%20Repair%20Cars/INTUITION.md)
-
-[1723. Find Minimum Time to Finish All Jobs](Binary%20Search/1723.%20Find%20Minimum%20Time%20to%20Finish%20All%20Jobs/INTUITION.md)
-
-[352. Data Stream as Disjoint Intervals](Binary%20Search/352.%20Data%20Stream%20as%20Disjoint%20Intervals/INTUITION.md)
-
-[1508. Range Sum of Sorted Subarray Sums](Binary%20Search/1508.%20Range%20Sum%20of%20Sorted%20Subarray%20Sums/INTUITION.md)
-
-[2528. Maximize the Minimum Powered City](Binary%20Search/2528.%20Maximize%20the%20Minimum%20Powered%20City/INTUITION.md)
-
-[1898. Maximum Number of Removable Characters](Binary%20Search/1898.%20Maximum%20Number%20of%20Removable%20Characters/INTUITION.md)
-
-[2141. Maximum Running Time of N Computers](Binary%20Search/2141.%20Maximum%20Running%20Time%20of%20N%20Computers/INTUITION.md)
-
-[410. Split Array Largest Sum](Binary%20Search/410.%20Split%20Array%20Largest%20Sum/INTUITION.md)
-
-[1847. Closest Room](Binary%20Search/1847.%20Closest%20Room/INTUITION.md)
-
-[878. Nth Magical Number](Binary%20Search/878.%20Nth%20Magical%20Number/INTUITION.md)
-
-[2616. Minimize the Maximum Difference of Pairs](Binary%20Search/2616.%20Minimize%20the%20Maximum%20Difference%20of%20Pairs/INTUITION.md)
-
-[1870. Minimum Speed to Arrive on Time](Binary%20Search/1870.%20Minimum%20Speed%20to%20Arrive%20on%20Time/INTUITION.md)
-
-[786. K-th Smallest Prime Fraction](Binary%20Search/786.%20K-th%20Smallest%20Prime%20Fraction/INTUITION.md)
-
-[81. Search in Rotated Sorted Array II](Binary%20Search/81.%20Search%20in%20Rotated%20Sorted%20Array%20II/INTUITION.md)
-
-[911. Online Election](Binary%20Search/911.%20Online%20Election/INTUITION.md)
-
-[2702. Minimum Operations to Make Numbers Non-positive](Binary%20Search/2702.%20Minimum%20Operations%20to%20Make%20Numbers%20Non-positive/INTUITION.md)
-
-[1102. Path With Maximum Minimum Value](Binary%20Search/1102.%20Path%20With%20Maximum%20Minimum%20Value/INTUITION.md)
-
-[2250. Count Number of Rectangles Containing Each Point](Binary%20Search/2250.%20Count%20Number%20of%20Rectangles%20Containing%20Each%20Point/INTUITION.md)
-
-[1498. Number of Subsequences That Satisfy the Given Sum Condition](Binary%20Search/1498.%20Number%20of%20Subsequences%20That%20Satisfy%20the%20Given%20Sum%20Condition/INTUITION.md)
-
-[1889. Minimum Space Wasted From Packaging](Binary%20Search/1889.%20Minimum%20Space%20Wasted%20From%20Packaging/INTUITION.md)
-
-[1095. Find in Mountain Array](Binary%20Search/1095.%20Find%20in%20Mountain%20Array/INTUITION.md)
-
-[1231. Divide Chocolate](Binary%20Search/1231.%20Divide%20Chocolate/INTUITION.md)
-
-[1482. Minimum Number of Days to Make m Bouquets](Binary%20Search/1482.%20Minimum%20Number%20of%20Days%20to%20Make%20m%20Bouquets/INTUITION.md)
-
-[1539. Kth Missing Positive Number](Binary%20Search/1539.%20Kth%20Missing%20Positive%20Number/INTUITION.md)
-
-[1283. Find the Smallest Divisor Given a Threshold](Binary%20Search/1283.%20Find%20the%20Smallest%20Divisor%20Given%20a%20Threshold/INTUITION.md)
-
-[2563. Count the Number of Fair Pairs](Binary%20Search/2563.%20Count%20the%20Number%20of%20Fair%20Pairs/INTUITION.md)
-
-[1760. Minimum Limit of Balls in a Bag](Binary%20Search/1760.%20Minimum%20Limit%20of%20Balls%20in%20a%20Bag/INTUITION.md)
-
-[2517. Maximum Tastiness of Candy Basket](Binary%20Search/2517.%20Maximum%20Tastiness%20of%20Candy%20Basket/INTUITION.md)
-
-[154. Find Minimum in Rotated Sorted Array II](Binary%20Search/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II/INTUITION.md)
-
-[852. Peak Index in a Mountain Array](Binary%20Search/852.%20Peak%20Index%20in%20a%20Mountain%20Array/INTUITION.md)
-
-[1631. Path With Minimum Effort](Binary%20Search/1631.%20Path%20With%20Minimum%20Effort/INTUITION.md)
-
-[2187. Minimum Time to Complete Trips](Binary%20Search/2187.%20Minimum%20Time%20to%20Complete%20Trips/INTUITION.md)
-
-[1300. Sum of Mutated Array Closest to Target](Binary%20Search/1300.%20Sum%20of%20Mutated%20Array%20Closest%20to%20Target/INTUITION.md)
-
-[1739. Building Boxes](Binary%20Search/1739.%20Building%20Boxes/INTUITION.md)
+[2871. Split Array Into Maximum Number of Subarrays](Binary%20Search/2871.%20Split%20Array%20Into%20Maximum%20Number%20of%20Subarrays/INTUITION.md)
 
 [35. Search Insert Position](Binary%20Search/35.%20Search%20Insert%20Position/INTUITION.md)
 
-[1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](Binary%20Search/1292.%20Maximum%20Side%20Length%20of%20a%20Square%20with%20Sum%20Less%20than%20or%20Equal%20to%20Threshold/INTUITION.md)
+[352. Data Stream as Disjoint Intervals](Binary%20Search/352.%20Data%20Stream%20as%20Disjoint%20Intervals/INTUITION.md)
 
-[2560. House Robber IV](Binary%20Search/2560.%20House%20Robber%20IV/INTUITION.md)
+[410. Split Array Largest Sum](Binary%20Search/410.%20Split%20Array%20Largest%20Sum/INTUITION.md)
 
-[2300. Successful Pairs of Spells and Potions](Binary%20Search/2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions/INTUITION.md)
+[668. Kth Smallest Number in Multiplication Table](Binary%20Search/668.%20Kth%20Smallest%20Number%20in%20Multiplication%20Table/INTUITION.md)
+
+[754. Reach a Number](Binary%20Search/754.%20Reach%20a%20Number/INTUITION.md)
+
+[774. Minimize Max Distance to Gas Station](Binary%20Search/774.%20Minimize%20Max%20Distance%20to%20Gas%20Station/INTUITION.md)
+
+[786. K-th Smallest Prime Fraction](Binary%20Search/786.%20K-th%20Smallest%20Prime%20Fraction/INTUITION.md)
+
+[792. Number of Matching Subsequences](Binary%20Search/792.%20Number%20of%20Matching%20Subsequences/INTUITION.md)
+
+[793. Preimage Size of Factorial Zeroes Function](Binary%20Search/793.%20Preimage%20Size%20of%20Factorial%20Zeroes%20Function/INTUITION.md)
+
+[81. Search in Rotated Sorted Array II](Binary%20Search/81.%20Search%20in%20Rotated%20Sorted%20Array%20II/INTUITION.md)
+
+[852. Peak Index in a Mountain Array](Binary%20Search/852.%20Peak%20Index%20in%20a%20Mountain%20Array/INTUITION.md)
+
+[878. Nth Magical Number](Binary%20Search/878.%20Nth%20Magical%20Number/INTUITION.md)
+
+[911. Online Election](Binary%20Search/911.%20Online%20Election/INTUITION.md)
 
 ## Binary Search/540. Single Element in a Sorted Array
 
@@ -307,841 +308,841 @@ for k, v in MAP.items():
 
 ## Binary Search/SortedList
 
-[2179. Count Good Triplets in an Array](Binary%20Search/SortedList/2179.%20Count%20Good%20Triplets%20in%20an%20Array/INTUITION.md)
+[1912. Design Movie Rental System](Binary%20Search/SortedList/1912.%20Design%20Movie%20Rental%20System/INTUITION.md)
 
-[2817. Minimum Absolute Difference Between Elements With Constraint](Binary%20Search/SortedList/2817.%20Minimum%20Absolute%20Difference%20Between%20Elements%20With%20Constraint/INTUITION.md)
+[2179. Count Good Triplets in an Array](Binary%20Search/SortedList/2179.%20Count%20Good%20Triplets%20in%20an%20Array/INTUITION.md)
 
 [2382. Maximum Segment Sum After Removals](Binary%20Search/SortedList/2382.%20Maximum%20Segment%20Sum%20After%20Removals/INTUITION.md)
 
-[1912. Design Movie Rental System](Binary%20Search/SortedList/1912.%20Design%20Movie%20Rental%20System/INTUITION.md)
+[2817. Minimum Absolute Difference Between Elements With Constraint](Binary%20Search/SortedList/2817.%20Minimum%20Absolute%20Difference%20Between%20Elements%20With%20Constraint/INTUITION.md)
 
 ## Bit Manipulation
 
-[260. Single Number III](Bit%20Manipulation/260.%20Single%20Number%20III/INTUITION.md)
-
-[2935. Maximum Strong Pair XOR II](Bit%20Manipulation/2935.%20Maximum%20Strong%20Pair%20XOR%20II/INTUITION.md)
-
-[2683. Neighboring Bitwise XOR](Bit%20Manipulation/2683.%20Neighboring%20Bitwise%20XOR/INTUITION.md)
-
-[751. IP to CIDR](Bit%20Manipulation/751.%20IP%20to%20CIDR/INTUITION.md)
-
-[2568. Minimum Impossible OR](Bit%20Manipulation/2568.%20Minimum%20Impossible%20OR/INTUITION.md)
-
-[2749. Minimum Operations to Make the Integer Zero](Bit%20Manipulation/2749.%20Minimum%20Operations%20to%20Make%20the%20Integer%20Zero/INTUITION.md)
-
-[898. Bitwise ORs of Subarrays](Bit%20Manipulation/898.%20Bitwise%20ORs%20of%20Subarrays/INTUITION.md)
+[1072. Flip Columns For Maximum Number of Equal Rows](Bit%20Manipulation/1072.%20Flip%20Columns%20For%20Maximum%20Number%20of%20Equal%20Rows/INTUITION.md)
 
 [1073. Adding Two Negabinary Numbers](Bit%20Manipulation/1073.%20Adding%20Two%20Negabinary%20Numbers/INTUITION.md)
 
-[2857. Count Pairs of Points With Distance k](Bit%20Manipulation/2857.%20Count%20Pairs%20of%20Points%20With%20Distance%20k/INTUITION.md)
-
-[1611. Minimum One Bit Operations to Make Integers Zero](Bit%20Manipulation/1611.%20Minimum%20One%20Bit%20Operations%20to%20Make%20Integers%20Zero/INTUITION.md)
-
-[318. Maximum Product of Word Lengths](Bit%20Manipulation/318.%20Maximum%20Product%20of%20Word%20Lengths/INTUITION.md)
-
-[201. Bitwise AND of Numbers Range](Bit%20Manipulation/201.%20Bitwise%20AND%20of%20Numbers%20Range/INTUITION.md)
-
-[2897. Apply Operations on Array to Maximize Sum of Squares](Bit%20Manipulation/2897.%20Apply%20Operations%20on%20Array%20to%20Maximize%20Sum%20of%20Squares/INTUITION.md)
-
-[2151. Maximum Good People Based on Statements](Bit%20Manipulation/2151.%20Maximum%20Good%20People%20Based%20on%20Statements/INTUITION.md)
-
-[2564. Substring XOR Queries](Bit%20Manipulation/2564.%20Substring%20XOR%20Queries/INTUITION.md)
-
-[2527. Find Xor-Beauty of Array](Bit%20Manipulation/2527.%20Find%20Xor-Beauty%20of%20Array/INTUITION.md)
-
 [137. Single Number II](Bit%20Manipulation/137.%20Single%20Number%20II/INTUITION.md)
-
-[477. Total Hamming Distance](Bit%20Manipulation/477.%20Total%20Hamming%20Distance/INTUITION.md)
-
-[289. Game of Life](Bit%20Manipulation/289.%20Game%20of%20Life/INTUITION.md)
-
-[1835. Find XOR Sum of All Pairs Bitwise AND](Bit%20Manipulation/1835.%20Find%20XOR%20Sum%20of%20All%20Pairs%20Bitwise%20AND/INTUITION.md)
-
-[2571. Minimum Operations to Reduce an Integer to 0](Bit%20Manipulation/2571.%20Minimum%20Operations%20to%20Reduce%20an%20Integer%20to%200/INTUITION.md)
-
-[393. UTF-8 Validation](Bit%20Manipulation/393.%20UTF-8%20Validation/INTUITION.md)
-
-[2569. Handling Sum Queries After Update](Bit%20Manipulation/2569.%20Handling%20Sum%20Queries%20After%20Update/INTUITION.md)
 
 [1461. Check If a String Contains All Binary Codes of Size K](Bit%20Manipulation/1461.%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K/INTUITION.md)
 
-[29. Divide Two Integers](Bit%20Manipulation/29.%20Divide%20Two%20Integers/INTUITION.md)
+[1611. Minimum One Bit Operations to Make Integers Zero](Bit%20Manipulation/1611.%20Minimum%20One%20Bit%20Operations%20to%20Make%20Integers%20Zero/INTUITION.md)
 
-[1072. Flip Columns For Maximum Number of Equal Rows](Bit%20Manipulation/1072.%20Flip%20Columns%20For%20Maximum%20Number%20of%20Equal%20Rows/INTUITION.md)
+[1835. Find XOR Sum of All Pairs Bitwise AND](Bit%20Manipulation/1835.%20Find%20XOR%20Sum%20of%20All%20Pairs%20Bitwise%20AND/INTUITION.md)
 
-[89. Gray Code](Bit%20Manipulation/89.%20Gray%20Code/INTUITION.md)
+[201. Bitwise AND of Numbers Range](Bit%20Manipulation/201.%20Bitwise%20AND%20of%20Numbers%20Range/INTUITION.md)
+
+[2151. Maximum Good People Based on Statements](Bit%20Manipulation/2151.%20Maximum%20Good%20People%20Based%20on%20Statements/INTUITION.md)
+
+[2527. Find Xor-Beauty of Array](Bit%20Manipulation/2527.%20Find%20Xor-Beauty%20of%20Array/INTUITION.md)
 
 [2546. Apply Bitwise Operations to Make Strings Equal](Bit%20Manipulation/2546.%20Apply%20Bitwise%20Operations%20to%20Make%20Strings%20Equal/INTUITION.md)
 
+[2564. Substring XOR Queries](Bit%20Manipulation/2564.%20Substring%20XOR%20Queries/INTUITION.md)
+
+[2568. Minimum Impossible OR](Bit%20Manipulation/2568.%20Minimum%20Impossible%20OR/INTUITION.md)
+
+[2569. Handling Sum Queries After Update](Bit%20Manipulation/2569.%20Handling%20Sum%20Queries%20After%20Update/INTUITION.md)
+
+[2571. Minimum Operations to Reduce an Integer to 0](Bit%20Manipulation/2571.%20Minimum%20Operations%20to%20Reduce%20an%20Integer%20to%200/INTUITION.md)
+
+[260. Single Number III](Bit%20Manipulation/260.%20Single%20Number%20III/INTUITION.md)
+
+[2683. Neighboring Bitwise XOR](Bit%20Manipulation/2683.%20Neighboring%20Bitwise%20XOR/INTUITION.md)
+
+[2749. Minimum Operations to Make the Integer Zero](Bit%20Manipulation/2749.%20Minimum%20Operations%20to%20Make%20the%20Integer%20Zero/INTUITION.md)
+
+[2857. Count Pairs of Points With Distance k](Bit%20Manipulation/2857.%20Count%20Pairs%20of%20Points%20With%20Distance%20k/INTUITION.md)
+
+[289. Game of Life](Bit%20Manipulation/289.%20Game%20of%20Life/INTUITION.md)
+
+[2897. Apply Operations on Array to Maximize Sum of Squares](Bit%20Manipulation/2897.%20Apply%20Operations%20on%20Array%20to%20Maximize%20Sum%20of%20Squares/INTUITION.md)
+
+[29. Divide Two Integers](Bit%20Manipulation/29.%20Divide%20Two%20Integers/INTUITION.md)
+
+[2935. Maximum Strong Pair XOR II](Bit%20Manipulation/2935.%20Maximum%20Strong%20Pair%20XOR%20II/INTUITION.md)
+
+[318. Maximum Product of Word Lengths](Bit%20Manipulation/318.%20Maximum%20Product%20of%20Word%20Lengths/INTUITION.md)
+
+[393. UTF-8 Validation](Bit%20Manipulation/393.%20UTF-8%20Validation/INTUITION.md)
+
+[477. Total Hamming Distance](Bit%20Manipulation/477.%20Total%20Hamming%20Distance/INTUITION.md)
+
+[751. IP to CIDR](Bit%20Manipulation/751.%20IP%20to%20CIDR/INTUITION.md)
+
+[89. Gray Code](Bit%20Manipulation/89.%20Gray%20Code/INTUITION.md)
+
+[898. Bitwise ORs of Subarrays](Bit%20Manipulation/898.%20Bitwise%20ORs%20of%20Subarrays/INTUITION.md)
+
 ## UnionFind
-
-[685. Redundant Connection II](UnionFind/685.%20Redundant%20Connection%20II/INTUITION.md)
-
-[952. Largest Component Size by Common Factor](UnionFind/952.%20Largest%20Component%20Size%20by%20Common%20Factor/INTUITION.md)
 
 [1061. Lexicographically Smallest Equivalent String](UnionFind/1061.%20Lexicographically%20Smallest%20Equivalent%20String/INTUITION.md)
 
-[200. Number of Islands](UnionFind/200.%20Number%20of%20Islands/INTUITION.md)
-
 [1202. Smallest String With Swaps](UnionFind/1202.%20Smallest%20String%20With%20Swaps/INTUITION.md)
 
-[2316. Count Unreachable Pairs of Nodes in an Undirected Graph](UnionFind/2316.%20Count%20Unreachable%20Pairs%20of%20Nodes%20in%20an%20Undirected%20Graph/INTUITION.md)
+[128. Longest Consecutive Sequence](UnionFind/128.%20Longest%20Consecutive%20Sequence/INTUITION.md)
+
+[1319. Number of Operations to Make Network Connected](UnionFind/1319.%20Number%20of%20Operations%20to%20Make%20Network%20Connected/INTUITION.md)
 
 [1562. Find Latest Group of Size M](UnionFind/1562.%20Find%20Latest%20Group%20of%20Size%20M/INTUITION.md)
 
 [1568. Minimum Number of Days to Disconnect Island](UnionFind/1568.%20Minimum%20Number%20of%20Days%20to%20Disconnect%20Island/INTUITION.md)
 
-[827. Making A Large Island](UnionFind/827.%20Making%20A%20Large%20Island/INTUITION.md)
-
-[2685. Count the Number of Complete Components](UnionFind/2685.%20Count%20the%20Number%20of%20Complete%20Components/INTUITION.md)
-
-[959. Regions Cut By Slashes](UnionFind/959.%20Regions%20Cut%20By%20Slashes/INTUITION.md)
-
-[1970. Last Day Where You Can Still Cross](UnionFind/1970.%20Last%20Day%20Where%20You%20Can%20Still%20Cross/INTUITION.md)
-
-[2076. Process Restricted Friend Requests](UnionFind/2076.%20Process%20Restricted%20Friend%20Requests/INTUITION.md)
+[1627. Graph Connectivity With Threshold](UnionFind/1627.%20Graph%20Connectivity%20With%20Threshold/INTUITION.md)
 
 [1697. Checking Existence of Edge Length Limited Paths](UnionFind/1697.%20Checking%20Existence%20of%20Edge%20Length%20Limited%20Paths/INTUITION.md)
 
-[1627. Graph Connectivity With Threshold](UnionFind/1627.%20Graph%20Connectivity%20With%20Threshold/INTUITION.md)
+[1722. Minimize Hamming Distance After Swap Operations](UnionFind/1722.%20Minimize%20Hamming%20Distance%20After%20Swap%20Operations/INTUITION.md)
 
-[2421. Number of Good Paths](UnionFind/2421.%20Number%20of%20Good%20Paths/INTUITION.md)
+[1970. Last Day Where You Can Still Cross](UnionFind/1970.%20Last%20Day%20Where%20You%20Can%20Still%20Cross/INTUITION.md)
+
+[200. Number of Islands](UnionFind/200.%20Number%20of%20Islands/INTUITION.md)
+
+[2076. Process Restricted Friend Requests](UnionFind/2076.%20Process%20Restricted%20Friend%20Requests/INTUITION.md)
 
 [2092. Find All People With Secret](UnionFind/2092.%20Find%20All%20People%20With%20Secret/INTUITION.md)
 
+[2316. Count Unreachable Pairs of Nodes in an Undirected Graph](UnionFind/2316.%20Count%20Unreachable%20Pairs%20of%20Nodes%20in%20an%20Undirected%20Graph/INTUITION.md)
+
 [2382. Maximum Segment Sum After Removals](UnionFind/2382.%20Maximum%20Segment%20Sum%20After%20Removals/INTUITION.md)
 
-[947. Most Stones Removed with Same Row or Column](UnionFind/947.%20Most%20Stones%20Removed%20with%20Same%20Row%20or%20Column/INTUITION.md)
+[2421. Number of Good Paths](UnionFind/2421.%20Number%20of%20Good%20Paths/INTUITION.md)
 
-[765. Couples Holding Hands](UnionFind/765.%20Couples%20Holding%20Hands/UNTIOTION.md)
+[2685. Count the Number of Complete Components](UnionFind/2685.%20Count%20the%20Number%20of%20Complete%20Components/INTUITION.md)
 
 [2709. Greatest Common Divisor Traversal](UnionFind/2709.%20Greatest%20Common%20Divisor%20Traversal/INTUITION.md)
 
-[1722. Minimize Hamming Distance After Swap Operations](UnionFind/1722.%20Minimize%20Hamming%20Distance%20After%20Swap%20Operations/INTUITION.md)
+[685. Redundant Connection II](UnionFind/685.%20Redundant%20Connection%20II/INTUITION.md)
 
-[928. Minimize Malware Spread II](UnionFind/928.%20Minimize%20Malware%20Spread%20II/INTUITION.md)
+[765. Couples Holding Hands](UnionFind/765.%20Couples%20Holding%20Hands/UNTIOTION.md)
 
-[1319. Number of Operations to Make Network Connected](UnionFind/1319.%20Number%20of%20Operations%20to%20Make%20Network%20Connected/INTUITION.md)
-
-[990. Satisfiability of Equality Equations](UnionFind/990.%20Satisfiability%20of%20Equality%20Equations/INTUITION.md)
-
-[128. Longest Consecutive Sequence](UnionFind/128.%20Longest%20Consecutive%20Sequence/INTUITION.md)
-
-[924. Minimize Malware Spread](UnionFind/924.%20Minimize%20Malware%20Spread/INTUITION.md)
+[827. Making A Large Island](UnionFind/827.%20Making%20A%20Large%20Island/INTUITION.md)
 
 [839. Similar String Groups](UnionFind/839.%20Similar%20String%20Groups/INTUITION.md)
 
+[924. Minimize Malware Spread](UnionFind/924.%20Minimize%20Malware%20Spread/INTUITION.md)
+
+[928. Minimize Malware Spread II](UnionFind/928.%20Minimize%20Malware%20Spread%20II/INTUITION.md)
+
+[947. Most Stones Removed with Same Row or Column](UnionFind/947.%20Most%20Stones%20Removed%20with%20Same%20Row%20or%20Column/INTUITION.md)
+
+[952. Largest Component Size by Common Factor](UnionFind/952.%20Largest%20Component%20Size%20by%20Common%20Factor/INTUITION.md)
+
+[959. Regions Cut By Slashes](UnionFind/959.%20Regions%20Cut%20By%20Slashes/INTUITION.md)
+
+[990. Satisfiability of Equality Equations](UnionFind/990.%20Satisfiability%20of%20Equality%20Equations/INTUITION.md)
+
 ## Two Pointers
-
-[927. Three Equal Parts](Two%20Pointers/927.%20Three%20Equal%20Parts/INTUITION.md)
-
-[2422. Merge Operations to Turn Array Into a Palindrome](Two%20Pointers/2422.%20Merge%20Operations%20to%20Turn%20Array%20Into%20a%20Palindrome/INTUITION.md)
-
-[189. Rotate Array](Two%20Pointers/189.%20Rotate%20Array/INTUITION.md)
-
-[360. Sort Transformed Array](Two%20Pointers/360.%20Sort%20Transformed%20Array/INTUITION.md)
-
-[881. Boats to Save People](Two%20Pointers/881.%20Boats%20to%20Save%20People/INTUITION.md)
-
-[1775. Equal Sum Arrays With Minimum Number of Operations](Two%20Pointers/1775.%20Equal%20Sum%20Arrays%20With%20Minimum%20Number%20of%20Operations/INTUITION.md)
-
-[28. Implement strStr()](Two%20Pointers/28.%20Implement%20strStr%28%29/INTUITION.md)
-
-[1574. Shortest Subarray to be Removed to Make Array Sorted](Two%20Pointers/1574.%20Shortest%20Subarray%20to%20be%20Removed%20to%20Make%20Array%20Sorted/INTUITION.md)
-
-[31. Next Permutation](Two%20Pointers/31.%20Next%20Permutation/INTUITION.md)
-
-[2348. Number of Zero-Filled Subarrays](Two%20Pointers/2348.%20Number%20of%20Zero-Filled%20Subarrays/INTUITION.md)
-
-[1687. Delivering Boxes from Storage to Ports](Two%20Pointers/1687.%20Delivering%20Boxes%20from%20Storage%20to%20Ports/INTUITION.md)
-
-[1989. Maximum Number of People That Can Be Caught in Tag](Two%20Pointers/1989.%20Maximum%20Number%20of%20People%20That%20Can%20Be%20Caught%20in%20Tag/INTUITION.md)
-
-[2731. Movement of Robots](Two%20Pointers/2731.%20Movement%20of%20Robots/INTUITION.md)
-
-[1616. Split Two Strings to Make Palindrome](Two%20Pointers/1616.%20Split%20Two%20Strings%20to%20Make%20Palindrome/INTUITION.md)
-
-[2147. Number of Ways to Divide a Long Corridor](Two%20Pointers/2147.%20Number%20of%20Ways%20to%20Divide%20a%20Long%20Corridor/INTUITION.md)
-
-[1868. Product of Two Run-Length Encoded Arrays](Two%20Pointers/1868.%20Product%20of%20Two%20Run-Length%20Encoded%20Arrays/INTUITION.md)
-
-[923. 3Sum With Multiplicity](Two%20Pointers/923.%203Sum%20With%20Multiplicity/INTUITION.md)
-
-[1580. Put Boxes Into the Warehouse II](Two%20Pointers/1580.%20Put%20Boxes%20Into%20the%20Warehouse%20II/INTUITION.md)
-
-[1498. Number of Subsequences That Satisfy the Given Sum Condition](Two%20Pointers/1498.%20Number%20of%20Subsequences%20That%20Satisfy%20the%20Given%20Sum%20Condition/INTUITION.md)
 
 [1163. Last Substring in Lexicographical Order](Two%20Pointers/1163.%20Last%20Substring%20in%20Lexicographical%20Order/INTUITION.md)
 
-[2972. Count the Number of Incremovable Subarrays II](Two%20Pointers/2972.%20Count%20the%20Number%20of%20Incremovable%20Subarrays%20II/INTUITION.md)
-
-[80. Remove Duplicates from Sorted Array II](Two%20Pointers/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II/INTUITION.md)
-
-[6. Zigzag Conversion](Two%20Pointers/6.%20Zigzag%20Conversion/INTUITION.md)
-
 [1234. Replace the Substring for Balanced String](Two%20Pointers/1234.%20Replace%20the%20Substring%20for%20Balanced%20String/INTUITION.md)
 
-[2730. Find the Longest Semi-Repetitive Substring](Two%20Pointers/2730.%20Find%20the%20Longest%20Semi-Repetitive%20Substring/INTUITION.md)
+[1498. Number of Subsequences That Satisfy the Given Sum Condition](Two%20Pointers/1498.%20Number%20of%20Subsequences%20That%20Satisfy%20the%20Given%20Sum%20Condition/INTUITION.md)
 
-[1839. Longest Substring Of All Vowels in Order](Two%20Pointers/1839.%20Longest%20Substring%20Of%20All%20Vowels%20in%20Order/INTUITION.md)
+[1574. Shortest Subarray to be Removed to Make Array Sorted](Two%20Pointers/1574.%20Shortest%20Subarray%20to%20be%20Removed%20to%20Make%20Array%20Sorted/INTUITION.md)
 
-[2354. Number of Excellent Pairs](Two%20Pointers/2354.%20Number%20of%20Excellent%20Pairs/INTUITION.md)
+[1580. Put Boxes Into the Warehouse II](Two%20Pointers/1580.%20Put%20Boxes%20Into%20the%20Warehouse%20II/INTUITION.md)
+
+[1616. Split Two Strings to Make Palindrome](Two%20Pointers/1616.%20Split%20Two%20Strings%20to%20Make%20Palindrome/INTUITION.md)
+
+[1687. Delivering Boxes from Storage to Ports](Two%20Pointers/1687.%20Delivering%20Boxes%20from%20Storage%20to%20Ports/INTUITION.md)
+
+[1775. Equal Sum Arrays With Minimum Number of Operations](Two%20Pointers/1775.%20Equal%20Sum%20Arrays%20With%20Minimum%20Number%20of%20Operations/INTUITION.md)
 
 [1793. Maximum Score of a Good Subarray](Two%20Pointers/1793.%20Maximum%20Score%20of%20a%20Good%20Subarray/INTUITION.md)
 
+[1839. Longest Substring Of All Vowels in Order](Two%20Pointers/1839.%20Longest%20Substring%20Of%20All%20Vowels%20in%20Order/INTUITION.md)
+
+[1868. Product of Two Run-Length Encoded Arrays](Two%20Pointers/1868.%20Product%20of%20Two%20Run-Length%20Encoded%20Arrays/INTUITION.md)
+
+[189. Rotate Array](Two%20Pointers/189.%20Rotate%20Array/INTUITION.md)
+
+[1989. Maximum Number of People That Can Be Caught in Tag](Two%20Pointers/1989.%20Maximum%20Number%20of%20People%20That%20Can%20Be%20Caught%20in%20Tag/INTUITION.md)
+
+[2147. Number of Ways to Divide a Long Corridor](Two%20Pointers/2147.%20Number%20of%20Ways%20to%20Divide%20a%20Long%20Corridor/INTUITION.md)
+
+[2348. Number of Zero-Filled Subarrays](Two%20Pointers/2348.%20Number%20of%20Zero-Filled%20Subarrays/INTUITION.md)
+
+[2354. Number of Excellent Pairs](Two%20Pointers/2354.%20Number%20of%20Excellent%20Pairs/INTUITION.md)
+
+[2422. Merge Operations to Turn Array Into a Palindrome](Two%20Pointers/2422.%20Merge%20Operations%20to%20Turn%20Array%20Into%20a%20Palindrome/INTUITION.md)
+
+[2730. Find the Longest Semi-Repetitive Substring](Two%20Pointers/2730.%20Find%20the%20Longest%20Semi-Repetitive%20Substring/INTUITION.md)
+
+[2731. Movement of Robots](Two%20Pointers/2731.%20Movement%20of%20Robots/INTUITION.md)
+
+[28. Implement strStr()](Two%20Pointers/28.%20Implement%20strStr%28%29/INTUITION.md)
+
+[2972. Count the Number of Incremovable Subarrays II](Two%20Pointers/2972.%20Count%20the%20Number%20of%20Incremovable%20Subarrays%20II/INTUITION.md)
+
+[31. Next Permutation](Two%20Pointers/31.%20Next%20Permutation/INTUITION.md)
+
+[360. Sort Transformed Array](Two%20Pointers/360.%20Sort%20Transformed%20Array/INTUITION.md)
+
+[6. Zigzag Conversion](Two%20Pointers/6.%20Zigzag%20Conversion/INTUITION.md)
+
+[80. Remove Duplicates from Sorted Array II](Two%20Pointers/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II/INTUITION.md)
+
+[881. Boats to Save People](Two%20Pointers/881.%20Boats%20to%20Save%20People/INTUITION.md)
+
+[923. 3Sum With Multiplicity](Two%20Pointers/923.%203Sum%20With%20Multiplicity/INTUITION.md)
+
+[927. Three Equal Parts](Two%20Pointers/927.%20Three%20Equal%20Parts/INTUITION.md)
+
 ## Interval
 
-[223. Rectangle Area](Interval/223.%20Rectangle%20Area/INTUITION.md)
+[1024. Video Stitching](Interval/1024.%20Video%20Stitching/INTUITION.md)
 
-[1851. Minimum Interval to Include Each Query](Interval/1851.%20Minimum%20Interval%20to%20Include%20Each%20Query/INTUITION.md)
-
-[435. Non-overlapping Intervals](Interval/435.%20Non-overlapping%20Intervals/INTUITION.md)
-
-[850. Rectangle Area II](Interval/850.%20Rectangle%20Area%20II/INTUITION.md)
+[1288. Remove Covered Intervals](Interval/1288.%20Remove%20Covered%20Intervals/INTUITION.md)
 
 [1326. Minimum Number of Taps to Open to Water a Garden](Interval/1326.%20Minimum%20Number%20of%20Taps%20to%20Open%20to%20Water%20a%20Garden/INTUITION.md)
 
-[57. Insert Interval](Interval/57.%20Insert%20Interval/INTUITION.md)
+[1353. Maximum Number of Events That Can Be Attended](Interval/1353.%20Maximum%20Number%20of%20Events%20That%20Can%20Be%20Attended/INTUITION.md)
 
-[2963. Count the Number of Good Partitions](Interval/2963.%20Count%20the%20Number%20of%20Good%20Partitions/INTUITION.md)
+[1851. Minimum Interval to Include Each Query](Interval/1851.%20Minimum%20Interval%20to%20Include%20Each%20Query/INTUITION.md)
 
 [1943. Describe the Painting](Interval/1943.%20Describe%20the%20Painting/INTUITION.md)
 
 [2054. Two Best Non-Overlapping Events](Interval/2054.%20Two%20Best%20Non-Overlapping%20Events/INTUITION.md)
 
-[1024. Video Stitching](Interval/1024.%20Video%20Stitching/INTUITION.md)
-
-[1353. Maximum Number of Events That Can Be Attended](Interval/1353.%20Maximum%20Number%20of%20Events%20That%20Can%20Be%20Attended/INTUITION.md)
-
-[2589. Minimum Time to Complete All Tasks](Interval/2589.%20Minimum%20Time%20to%20Complete%20All%20Tasks/INTUITION.md)
+[223. Rectangle Area](Interval/223.%20Rectangle%20Area/INTUITION.md)
 
 [2276. Count Integers in Intervals](Interval/2276.%20Count%20Integers%20in%20Intervals/INTUITION.md)
 
-[986. Interval List Intersections](Interval/986.%20Interval%20List%20Intersections/INTUITION.md)
+[2589. Minimum Time to Complete All Tasks](Interval/2589.%20Minimum%20Time%20to%20Complete%20All%20Tasks/INTUITION.md)
 
 [2779. Maximum Beauty of an Array After Applying Operation](Interval/2779.%20Maximum%20Beauty%20of%20an%20Array%20After%20Applying%20Operation/INTUITION.md)
 
-[1288. Remove Covered Intervals](Interval/1288.%20Remove%20Covered%20Intervals/INTUITION.md)
+[2963. Count the Number of Good Partitions](Interval/2963.%20Count%20the%20Number%20of%20Good%20Partitions/INTUITION.md)
+
+[435. Non-overlapping Intervals](Interval/435.%20Non-overlapping%20Intervals/INTUITION.md)
 
 [452. Minimum Number of Arrows to Burst Balloons](Interval/452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons/INTUITION.md)
 
+[57. Insert Interval](Interval/57.%20Insert%20Interval/INTUITION.md)
+
 [646. Maximum Length of Pair Chain](Interval/646.%20Maximum%20Length%20of%20Pair%20Chain/INTUITION.md)
+
+[850. Rectangle Area II](Interval/850.%20Rectangle%20Area%20II/INTUITION.md)
+
+[986. Interval List Intersections](Interval/986.%20Interval%20List%20Intersections/INTUITION.md)
 
 ## 1-D Dynamic Programming
 
-[2111. Minimum Operations to Make the Array K-Increasing](1-D%20Dynamic%20Programming/2111.%20Minimum%20Operations%20to%20Make%20the%20Array%20K-Increasing/INTUITION.md)
+[1027. Longest Arithmetic Subsequence](1-D%20Dynamic%20Programming/1027.%20Longest%20Arithmetic%20Subsequence/INTUITION.md)
 
-[1671. Minimum Number of Removals to Make Mountain Array](1-D%20Dynamic%20Programming/1671.%20Minimum%20Number%20of%20Removals%20to%20Make%20Mountain%20Array/INTUITION.md)
+[1043. Partition Array for Maximum Sum](1-D%20Dynamic%20Programming/1043.%20Partition%20Array%20for%20Maximum%20Sum/INTUITION.md)
+
+[1048. Longest String Chain](1-D%20Dynamic%20Programming/1048.%20Longest%20String%20Chain/INTUITION.md)
+
+[123. Best Time to Buy and Sell Stock III](1-D%20Dynamic%20Programming/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III/INTUITION.md)
+
+[1235. Maximum Profit in Job Scheduling](1-D%20Dynamic%20Programming/1235.%20Maximum%20Profit%20in%20Job%20Scheduling/INTUITION.md)
+
+[1259. Handshakes That Don't Cross](1-D%20Dynamic%20Programming/1259.%20Handshakes%20That%20Don%27t%20Cross/INTUITION.md)
+
+[1340. Jump Game V](1-D%20Dynamic%20Programming/1340.%20Jump%20Game%20V/INTUITION.md)
+
+[1553. Minimum Number of Days to Eat N Oranges](1-D%20Dynamic%20Programming/1553.%20Minimum%20Number%20of%20Days%20to%20Eat%20N%20Oranges/INTUITION.md)
 
 [1626. Best Team With No Conflicts](1-D%20Dynamic%20Programming/1626.%20Best%20Team%20With%20No%20Conflicts/INTUITION.md)
 
+[1653. Minimum Deletions to Make String Balanced](1-D%20Dynamic%20Programming/1653.%20Minimum%20Deletions%20to%20Make%20String%20Balanced/INTUITION.md)
+
+[1671. Minimum Number of Removals to Make Mountain Array](1-D%20Dynamic%20Programming/1671.%20Minimum%20Number%20of%20Removals%20to%20Make%20Mountain%20Array/INTUITION.md)
+
+[1696. Jump Game VI](1-D%20Dynamic%20Programming/1696.%20Jump%20Game%20VI/INTUITION.md)
+
+[1872. Stone Game VIII](1-D%20Dynamic%20Programming/1872.%20Stone%20Game%20VIII/INTUITION.md)
+
+[1964. Find the Longest Valid Obstacle Course at Each Position](1-D%20Dynamic%20Programming/1964.%20Find%20the%20Longest%20Valid%20Obstacle%20Course%20at%20Each%20Position/INTUITION.md)
+
+[1997. First Day Where You Have Been in All the Rooms](1-D%20Dynamic%20Programming/1997.%20First%20Day%20Where%20You%20Have%20Been%20in%20All%20the%20Rooms/INTUITION.md)
+
+[2008. Maximum Earnings From Taxi](1-D%20Dynamic%20Programming/2008.%20Maximum%20Earnings%20From%20Taxi/INTUITION.md)
+
+[2052. Minimum Cost to Separate Sentence Into Rows](1-D%20Dynamic%20Programming/2052.%20Minimum%20Cost%20to%20Separate%20Sentence%20Into%20Rows/INTUITION.md)
+
+[2111. Minimum Operations to Make the Array K-Increasing](1-D%20Dynamic%20Programming/2111.%20Minimum%20Operations%20to%20Make%20the%20Array%20K-Increasing/INTUITION.md)
+
+[2167. Minimum Time to Remove All Cars Containing Illegal Goods](1-D%20Dynamic%20Programming/2167.%20Minimum%20Time%20to%20Remove%20All%20Cars%20Containing%20Illegal%20Goods/INTUITION.md)
+
+[2266. Count Number of Texts](1-D%20Dynamic%20Programming/2266.%20Count%20Number%20of%20Texts/INTUITION.md)
+
+[2327. Number of People Aware of a Secret](1-D%20Dynamic%20Programming/2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/INTUITION.md)
+
+[2369. Check if There is a Valid Partition For The Array](1-D%20Dynamic%20Programming/2369.%20Check%20if%20There%20is%20a%20Valid%20Partition%20For%20The%20Array/INTUITION.md)
+
+[2407. Longest Increasing Subsequence II](1-D%20Dynamic%20Programming/2407.%20Longest%20Increasing%20Subsequence%20II/INTUITION.md)
+
+[2501. Longest Square Streak in an Array](1-D%20Dynamic%20Programming/2501.%20Longest%20Square%20Streak%20in%20an%20Array/INTUITION.md)
+
+[2638. Count the Number of K-Free Subsets](1-D%20Dynamic%20Programming/2638.%20Count%20the%20Number%20of%20K-Free%20Subsets/INTUITION.md)
+
+[2684. Maximum Number of Moves in a Grid](1-D%20Dynamic%20Programming/2684.%20Maximum%20Number%20of%20Moves%20in%20a%20Grid/INTUITION.md)
+
+[2735. Collecting Chocolates](1-D%20Dynamic%20Programming/2735.%20Collecting%20Chocolates/INTUITION.md)
+
+[2830. Maximize the Profit as the Salesman](1-D%20Dynamic%20Programming/2830.%20Maximize%20the%20Profit%20as%20the%20Salesman/INTUITION.md)
+
 [2896. Apply Operations to Make Two Strings Equal](1-D%20Dynamic%20Programming/2896.%20Apply%20Operations%20to%20Make%20Two%20Strings%20Equal/INTUITION.md)
+
+[2919. Minimum Increment Operations to Make Array Beautiful](1-D%20Dynamic%20Programming/2919.%20Minimum%20Increment%20Operations%20to%20Make%20Array%20Beautiful/INTUITION.md)
+
+[2926. Maximum Balanced Subsequence Sum](1-D%20Dynamic%20Programming/2926.%20Maximum%20Balanced%20Subsequence%20Sum/INTUITION.md)
+
+[2944. Minimum Number of Coins for Fruits](1-D%20Dynamic%20Programming/2944.%20Minimum%20Number%20of%20Coins%20for%20Fruits/INTUITION.md)
+
+[2977. Minimum Cost to Convert String II](1-D%20Dynamic%20Programming/2977.%20Minimum%20Cost%20to%20Convert%20String%20II/INTUITION.md)
+
+[343. Integer Break](1-D%20Dynamic%20Programming/343.%20Integer%20Break/INTUITION.md)
+
+[376. Wiggle Subsequence](1-D%20Dynamic%20Programming/376.%20Wiggle%20Subsequence/INTUITION.md)
 
 [397. Integer Replacement](1-D%20Dynamic%20Programming/397.%20Integer%20Replacement/INTUITION.md)
 
 [413. Arithmetic Slices](1-D%20Dynamic%20Programming/413.%20Arithmetic%20Slices/INTUITION.md)
 
-[2977. Minimum Cost to Convert String II](1-D%20Dynamic%20Programming/2977.%20Minimum%20Cost%20to%20Convert%20String%20II/INTUITION.md)
-
-[1259. Handshakes That Don't Cross](1-D%20Dynamic%20Programming/1259.%20Handshakes%20That%20Don%27t%20Cross/INTUITION.md)
-
-[2919. Minimum Increment Operations to Make Array Beautiful](1-D%20Dynamic%20Programming/2919.%20Minimum%20Increment%20Operations%20to%20Make%20Array%20Beautiful/INTUITION.md)
-
-[1340. Jump Game V](1-D%20Dynamic%20Programming/1340.%20Jump%20Game%20V/INTUITION.md)
-
-[790. Domino and Tromino Tiling](1-D%20Dynamic%20Programming/790.%20Domino%20and%20Tromino%20Tiling/INTUITION.md)
-
-[2266. Count Number of Texts](1-D%20Dynamic%20Programming/2266.%20Count%20Number%20of%20Texts/INTUITION.md)
-
-[2008. Maximum Earnings From Taxi](1-D%20Dynamic%20Programming/2008.%20Maximum%20Earnings%20From%20Taxi/INTUITION.md)
-
-[673. Number of Longest Increasing Subsequence](1-D%20Dynamic%20Programming/673.%20Number%20of%20Longest%20Increasing%20Subsequence/INTUITION.md)
-
-[983. Minimum Cost For Tickets](1-D%20Dynamic%20Programming/983.%20Minimum%20Cost%20For%20Tickets/INTUITION.md)
-
-[1964. Find the Longest Valid Obstacle Course at Each Position](1-D%20Dynamic%20Programming/1964.%20Find%20the%20Longest%20Valid%20Obstacle%20Course%20at%20Each%20Position/INTUITION.md)
-
-[2407. Longest Increasing Subsequence II](1-D%20Dynamic%20Programming/2407.%20Longest%20Increasing%20Subsequence%20II/INTUITION.md)
-
-[2327. Number of People Aware of a Secret](1-D%20Dynamic%20Programming/2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/INTUITION.md)
-
-[1997. First Day Where You Have Been in All the Rooms](1-D%20Dynamic%20Programming/1997.%20First%20Day%20Where%20You%20Have%20Been%20in%20All%20the%20Rooms/INTUITION.md)
-
-[960. Delete Columns to Make Sorted III](1-D%20Dynamic%20Programming/960.%20Delete%20Columns%20to%20Make%20Sorted%20III/INTUITION.md)
-
-[1027. Longest Arithmetic Subsequence](1-D%20Dynamic%20Programming/1027.%20Longest%20Arithmetic%20Subsequence/INTUITION.md)
-
-[123. Best Time to Buy and Sell Stock III](1-D%20Dynamic%20Programming/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III/INTUITION.md)
-
-[2735. Collecting Chocolates](1-D%20Dynamic%20Programming/2735.%20Collecting%20Chocolates/INTUITION.md)
-
-[1872. Stone Game VIII](1-D%20Dynamic%20Programming/1872.%20Stone%20Game%20VIII/INTUITION.md)
-
-[2167. Minimum Time to Remove All Cars Containing Illegal Goods](1-D%20Dynamic%20Programming/2167.%20Minimum%20Time%20to%20Remove%20All%20Cars%20Containing%20Illegal%20Goods/INTUITION.md)
-
-[343. Integer Break](1-D%20Dynamic%20Programming/343.%20Integer%20Break/INTUITION.md)
+[416. Partition Equal Subset Sum](1-D%20Dynamic%20Programming/416.%20Partition%20Equal%20Subset%20Sum/INTUITION.md)
 
 [650. 2 Keys Keyboard](1-D%20Dynamic%20Programming/650.%202%20Keys%20Keyboard/INTUITION.md)
 
-[2830. Maximize the Profit as the Salesman](1-D%20Dynamic%20Programming/2830.%20Maximize%20the%20Profit%20as%20the%20Salesman/INTUITION.md)
-
-[1048. Longest String Chain](1-D%20Dynamic%20Programming/1048.%20Longest%20String%20Chain/INTUITION.md)
-
-[1696. Jump Game VI](1-D%20Dynamic%20Programming/1696.%20Jump%20Game%20VI/INTUITION.md)
-
-[2944. Minimum Number of Coins for Fruits](1-D%20Dynamic%20Programming/2944.%20Minimum%20Number%20of%20Coins%20for%20Fruits/INTUITION.md)
-
-[2052. Minimum Cost to Separate Sentence Into Rows](1-D%20Dynamic%20Programming/2052.%20Minimum%20Cost%20to%20Separate%20Sentence%20Into%20Rows/INTUITION.md)
-
-[935. Knight Dialer](1-D%20Dynamic%20Programming/935.%20Knight%20Dialer/INTUITION.md)
-
-[1653. Minimum Deletions to Make String Balanced](1-D%20Dynamic%20Programming/1653.%20Minimum%20Deletions%20to%20Make%20String%20Balanced/INTUITION.md)
-
-[2369. Check if There is a Valid Partition For The Array](1-D%20Dynamic%20Programming/2369.%20Check%20if%20There%20is%20a%20Valid%20Partition%20For%20The%20Array/INTUITION.md)
-
-[416. Partition Equal Subset Sum](1-D%20Dynamic%20Programming/416.%20Partition%20Equal%20Subset%20Sum/INTUITION.md)
-
-[837. New 21 Game](1-D%20Dynamic%20Programming/837.%20New%2021%20Game/INTUITION.md)
-
-[799. Champagne Tower](1-D%20Dynamic%20Programming/799.%20Champagne%20Tower/INTUITION.md)
-
-[1235. Maximum Profit in Job Scheduling](1-D%20Dynamic%20Programming/1235.%20Maximum%20Profit%20in%20Job%20Scheduling/INTUITION.md)
-
-[2684. Maximum Number of Moves in a Grid](1-D%20Dynamic%20Programming/2684.%20Maximum%20Number%20of%20Moves%20in%20a%20Grid/INTUITION.md)
-
-[2501. Longest Square Streak in an Array](1-D%20Dynamic%20Programming/2501.%20Longest%20Square%20Streak%20in%20an%20Array/INTUITION.md)
+[673. Number of Longest Increasing Subsequence](1-D%20Dynamic%20Programming/673.%20Number%20of%20Longest%20Increasing%20Subsequence/INTUITION.md)
 
 [740. Delete and Earn](1-D%20Dynamic%20Programming/740.%20Delete%20and%20Earn/INTUITION.md)
 
-[1553. Minimum Number of Days to Eat N Oranges](1-D%20Dynamic%20Programming/1553.%20Minimum%20Number%20of%20Days%20to%20Eat%20N%20Oranges/INTUITION.md)
+[790. Domino and Tromino Tiling](1-D%20Dynamic%20Programming/790.%20Domino%20and%20Tromino%20Tiling/INTUITION.md)
 
-[376. Wiggle Subsequence](1-D%20Dynamic%20Programming/376.%20Wiggle%20Subsequence/INTUITION.md)
+[799. Champagne Tower](1-D%20Dynamic%20Programming/799.%20Champagne%20Tower/INTUITION.md)
 
-[1043. Partition Array for Maximum Sum](1-D%20Dynamic%20Programming/1043.%20Partition%20Array%20for%20Maximum%20Sum/INTUITION.md)
+[837. New 21 Game](1-D%20Dynamic%20Programming/837.%20New%2021%20Game/INTUITION.md)
+
+[935. Knight Dialer](1-D%20Dynamic%20Programming/935.%20Knight%20Dialer/INTUITION.md)
 
 [96. Unique Binary Search Trees](1-D%20Dynamic%20Programming/96.%20Unique%20Binary%20Search%20Trees/INTUITION.md)
 
-[2638. Count the Number of K-Free Subsets](1-D%20Dynamic%20Programming/2638.%20Count%20the%20Number%20of%20K-Free%20Subsets/INTUITION.md)
+[960. Delete Columns to Make Sorted III](1-D%20Dynamic%20Programming/960.%20Delete%20Columns%20to%20Make%20Sorted%20III/INTUITION.md)
 
-[2926. Maximum Balanced Subsequence Sum](1-D%20Dynamic%20Programming/2926.%20Maximum%20Balanced%20Subsequence%20Sum/INTUITION.md)
+[983. Minimum Cost For Tickets](1-D%20Dynamic%20Programming/983.%20Minimum%20Cost%20For%20Tickets/INTUITION.md)
 
 ## 1-D Dynamic Programming/3Pass
 
-[2565. Subsequence With the Minimum Score](1-D%20Dynamic%20Programming/3Pass/2565.%20Subsequence%20With%20the%20Minimum%20Score/INTUITION.md)
-
 [2555. Maximize Win From Two Segments](1-D%20Dynamic%20Programming/3Pass/2555.%20Maximize%20Win%20From%20Two%20Segments/INTUITION.md)
+
+[2565. Subsequence With the Minimum Score](1-D%20Dynamic%20Programming/3Pass/2565.%20Subsequence%20With%20the%20Minimum%20Score/INTUITION.md)
 
 [689. Maximum Sum of 3 Non-Overlapping Subarrays](1-D%20Dynamic%20Programming/3Pass/689.%20Maximum%20Sum%20of%203%20Non-Overlapping%20Subarrays/INTUITION.md)
 
 ## Backtracking
 
-[131. Palindrome Partitioning](Backtracking/131.%20Palindrome%20Partitioning/INTUITION.md)
-
-[282. Expression Add Operators](Backtracking/282.%20Expression%20Add%20Operators/INTUITION.md)
-
-[2597. The Number of Beautiful Subsets](Backtracking/2597.%20The%20Number%20of%20Beautiful%20Subsets/INTUITION.md)
-
-[1415. The k-th Lexicographical String of All Happy Strings of Length n](Backtracking/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n/INTUITION.md)
-
-[1307. Verbal Arithmetic Puzzle](Backtracking/1307.%20Verbal%20Arithmetic%20Puzzle/INTUITION.md)
-
-[1986. Minimum Number of Work Sessions to Finish the Tasks](Backtracking/1986.%20Minimum%20Number%20of%20Work%20Sessions%20to%20Finish%20the%20Tasks/INTUITION.md)
-
-[698. Partition to K Equal Sum Subsets](Backtracking/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets/INTUITION.md)
-
-[980. Unique Paths III](Backtracking/980.%20Unique%20Paths%20III/INTUITION.md)
-
-[306. Additive Number](Backtracking/306.%20Additive%20Number/INTUITION.md)
-
 [1079. Letter Tile Possibilities](Backtracking/1079.%20Letter%20Tile%20Possibilities/INTUITION.md)
-
-[2305. Fair Distribution of Cookies](Backtracking/2305.%20Fair%20Distribution%20of%20Cookies/INTUITION.md)
-
-[93. Restore IP Addresses](Backtracking/93.%20Restore%20IP%20Addresses/INTUITION.md)
 
 [1240. Tiling a Rectangle with the Fewest Squares](Backtracking/1240.%20Tiling%20a%20Rectangle%20with%20the%20Fewest%20Squares/INTUITION.md)
 
-[2212. Maximum Points in an Archery Competition](Backtracking/2212.%20Maximum%20Points%20in%20an%20Archery%20Competition/INTUITION.md)
-
-[1601. Maximum Number of Achievable Transfer Requests](Backtracking/1601.%20Maximum%20Number%20of%20Achievable%20Transfer%20Requests/INTUITION.md)
-
-[679. 24 Game](Backtracking/679.%2024%20Game/INTUITION.md)
+[1255. Maximum Score Words Formed by Letters](Backtracking/1255.%20Maximum%20Score%20Words%20Formed%20by%20Letters/INTUITION.md)
 
 [1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](Backtracking/1284.%20Minimum%20Number%20of%20Flips%20to%20Convert%20Binary%20Matrix%20to%20Zero%20Matrix/INTUITION.md)
 
-[1255. Maximum Score Words Formed by Letters](Backtracking/1255.%20Maximum%20Score%20Words%20Formed%20by%20Letters/INTUITION.md)
+[1307. Verbal Arithmetic Puzzle](Backtracking/1307.%20Verbal%20Arithmetic%20Puzzle/INTUITION.md)
+
+[131. Palindrome Partitioning](Backtracking/131.%20Palindrome%20Partitioning/INTUITION.md)
+
+[1415. The k-th Lexicographical String of All Happy Strings of Length n](Backtracking/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n/INTUITION.md)
+
+[1601. Maximum Number of Achievable Transfer Requests](Backtracking/1601.%20Maximum%20Number%20of%20Achievable%20Transfer%20Requests/INTUITION.md)
+
+[1986. Minimum Number of Work Sessions to Finish the Tasks](Backtracking/1986.%20Minimum%20Number%20of%20Work%20Sessions%20to%20Finish%20the%20Tasks/INTUITION.md)
 
 [2002. Maximum Product of the Length of Two Palindromic Subsequences](Backtracking/2002.%20Maximum%20Product%20of%20the%20Length%20of%20Two%20Palindromic%20Subsequences/INTUITION.md)
 
+[2212. Maximum Points in an Archery Competition](Backtracking/2212.%20Maximum%20Points%20in%20an%20Archery%20Competition/INTUITION.md)
+
+[2305. Fair Distribution of Cookies](Backtracking/2305.%20Fair%20Distribution%20of%20Cookies/INTUITION.md)
+
+[2597. The Number of Beautiful Subsets](Backtracking/2597.%20The%20Number%20of%20Beautiful%20Subsets/INTUITION.md)
+
+[282. Expression Add Operators](Backtracking/282.%20Expression%20Add%20Operators/INTUITION.md)
+
+[306. Additive Number](Backtracking/306.%20Additive%20Number/INTUITION.md)
+
+[679. 24 Game](Backtracking/679.%2024%20Game/INTUITION.md)
+
+[698. Partition to K Equal Sum Subsets](Backtracking/698.%20Partition%20to%20K%20Equal%20Sum%20Subsets/INTUITION.md)
+
+[93. Restore IP Addresses](Backtracking/93.%20Restore%20IP%20Addresses/INTUITION.md)
+
+[980. Unique Paths III](Backtracking/980.%20Unique%20Paths%20III/INTUITION.md)
+
 ## Array&Hashing
-
-[2763. Sum of Imbalance Numbers of All Subarrays](Array%26Hashing/2763.%20Sum%20of%20Imbalance%20Numbers%20of%20All%20Subarrays/INTUITION.md)
-
-[27. Remove Element](Array%26Hashing/27.%20Remove%20Element/DESC.md)
-
-[2482. Difference Between Ones and Zeros in Row and Column](Array%26Hashing/2482.%20Difference%20Between%20Ones%20and%20Zeros%20in%20Row%20and%20Column/INTUITION.md)
-
-[2449. Minimum Number of Operations to Make Arrays Similar](Array%26Hashing/2449.%20Minimum%20Number%20of%20Operations%20to%20Make%20Arrays%20Similar/INTUITION.md)
-
-[2350. Shortest Impossible Sequence of Rolls](Array%26Hashing/2350.%20Shortest%20Impossible%20Sequence%20of%20Rolls/INTUITION.md)
-
-[1647. Minimum Deletions to Make Character Frequencies Unique](Array%26Hashing/1647.%20Minimum%20Deletions%20to%20Make%20Character%20Frequencies%20Unique/INTUITION.md)
-
-[2262. Total Appeal of A String](Array%26Hashing/2262.%20Total%20Appeal%20of%20A%20String/INTUITION.md)
-
-[2227. Encrypt and Decrypt Strings](Array%26Hashing/2227.%20Encrypt%20and%20Decrypt%20Strings/INTUITION.md)
-
-[2948. Make Lexicographically Smallest Array by Swapping Elements](Array%26Hashing/2948.%20Make%20Lexicographically%20Smallest%20Array%20by%20Swapping%20Elements/INTUITION.md)
-
-[2808. Minimum Seconds to Equalize a Circular Array](Array%26Hashing/2808.%20Minimum%20Seconds%20to%20Equalize%20a%20Circular%20Array/INTUITION.md)
-
-[1396. Design Underground System](Array%26Hashing/1396.%20Design%20Underground%20System/INTUITION.md)
-
-[2671. Frequency Tracker](Array%26Hashing/2671.%20Frequency%20Tracker/INTUITION.md)
-
-[1452. People Whose List of Favorite Companies Is Not a Subset of Another List](Array%26Hashing/1452.%20People%20Whose%20List%20of%20Favorite%20Companies%20Is%20Not%20a%20Subset%20of%20Another%20List/INTUITION.md)
-
-[229. Majority Element II](Array%26Hashing/229.%20Majority%20Element%20II/INTUITION.md)
-
-[2512. Reward Top K Students](Array%26Hashing/2512.%20Reward%20Top%20K%20Students/INTUITION.md)
-
-[954. Array of Doubled Pairs](Array%26Hashing/954.%20Array%20of%20Doubled%20Pairs/INTUITION.md)
-
-[1348. Tweet Counts Per Frequency](Array%26Hashing/1348.%20Tweet%20Counts%20Per%20Frequency/INTUITION.md)
-
-[2488. Count Subarrays With Median K](Array%26Hashing/2488.%20Count%20Subarrays%20With%20Median%20K/INTUITION.md)
-
-[1224. Maximum Equal Frequency](Array%26Hashing/1224.%20Maximum%20Equal%20Frequency/INTUITION.md)
-
-[2122. Recover the Original Array](Array%26Hashing/2122.%20Recover%20the%20Original%20Array/INTUITION.md)
-
-[828. Count Unique Characters of All Substrings of a Given String](Array%26Hashing/828.%20Count%20Unique%20Characters%20of%20All%20Substrings%20of%20a%20Given%20String/INTUITION.md)
-
-[1424. Diagonal Traverse II](Array%26Hashing/1424.%20Diagonal%20Traverse%20II/INTUITION.md)
-
-[1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers](Array%26Hashing/1577.%20Number%20of%20Ways%20Where%20Square%20of%20Number%20Is%20Equal%20to%20Product%20of%20Two%20Numbers/INTUITION.md)
-
-[2135. Count Words Obtained After Adding a Letter](Array%26Hashing/2135.%20Count%20Words%20Obtained%20After%20Adding%20a%20Letter/INTUITION.md)
-
-[2672. Number of Adjacent Elements With the Same Color](Array%26Hashing/2672.%20Number%20of%20Adjacent%20Elements%20With%20the%20Same%20Color/INTUITION.md)
-
-[2780. Minimum Index of a Valid Split](Array%26Hashing/2780.%20Minimum%20Index%20of%20a%20Valid%20Split/INTUITION.md)
-
-[2561. Rearranging Fruits](Array%26Hashing/2561.%20Rearranging%20Fruits/INTUITION.md)
-
-[2768. Number of Black Blocks](Array%26Hashing/2768.%20Number%20of%20Black%20Blocks/INTUITION.md)
-
-[1488. Avoid Flood in The City](Array%26Hashing/1488.%20Avoid%20Flood%20in%20The%20City/INTUITION.md)
-
-[41. First Missing Positive](Array%26Hashing/41.%20First%20Missing%20Positive/INTUITION.md)
-
-[2862. Maximum Element-Sum of a Complete Subset of Indices](Array%26Hashing/2862.%20Maximum%20Element-Sum%20of%20a%20Complete%20Subset%20of%20Indices/INTUITION.md)
-
-[2584. Split the Array to Make Coprime Products](Array%26Hashing/2584.%20Split%20the%20Array%20to%20Make%20Coprime%20Products/INTUITION.md)
-
-[1733. Minimum Number of People to Teach](Array%26Hashing/1733.%20Minimum%20Number%20of%20People%20to%20Teach/INTUITION.md)
 
 [1001. Grid Illumination](Array%26Hashing/1001.%20Grid%20Illumination/INTUITION.md)
 
-[2389. Longest Subsequence With Limited Sum](Array%26Hashing/2389.%20Longest%20Subsequence%20With%20Limited%20Sum/INTUITION.md)
-
-[2607. Make K-Subarray Sums Equal](Array%26Hashing/2607.%20Make%20K-Subarray%20Sums%20Equal/INTUITION.md)
-
-[2732. Find a Good Subset of the Matrix](Array%26Hashing/2732.%20Find%20a%20Good%20Subset%20of%20the%20Matrix/INTUITION.md)
-
-[2502. Design Memory Allocator](Array%26Hashing/2502.%20Design%20Memory%20Allocator/INTUITION.md)
-
-[2306. Naming a Company](Array%26Hashing/2306.%20Naming%20a%20Company/INTUITION.md)
-
-[895. Maximum Frequency Stack](Array%26Hashing/895.%20Maximum%20Frequency%20Stack/INTUITION.md)
+[1224. Maximum Equal Frequency](Array%26Hashing/1224.%20Maximum%20Equal%20Frequency/INTUITION.md)
 
 [1306. Jump Game III](Array%26Hashing/1306.%20Jump%20Game%20III/INTUITION.md)
 
-[982. Triples with Bitwise AND Equal To Zero](Array%26Hashing/982.%20Triples%20with%20Bitwise%20AND%20Equal%20To%20Zero/INTUITION.md)
+[1348. Tweet Counts Per Frequency](Array%26Hashing/1348.%20Tweet%20Counts%20Per%20Frequency/INTUITION.md)
 
-[381. Insert Delete GetRandom O(1) - Duplicates allowed](Array%26Hashing/381.%20Insert%20Delete%20GetRandom%20O%281%29%20-%20Duplicates%20allowed/INTUITION.md)
+[1396. Design Underground System](Array%26Hashing/1396.%20Design%20Underground%20System/INTUITION.md)
 
-[2531. Make Number of Distinct Characters Equal](Array%26Hashing/2531.%20Make%20Number%20of%20Distinct%20Characters%20Equal/INTUITION.md)
+[1424. Diagonal Traverse II](Array%26Hashing/1424.%20Diagonal%20Traverse%20II/INTUITION.md)
 
-[457. Circular Array Loop](Array%26Hashing/457.%20Circular%20Array%20Loop/INTUITION.md)
+[1452. People Whose List of Favorite Companies Is Not a Subset of Another List](Array%26Hashing/1452.%20People%20Whose%20List%20of%20Favorite%20Companies%20Is%20Not%20a%20Subset%20of%20Another%20List/INTUITION.md)
+
+[1488. Avoid Flood in The City](Array%26Hashing/1488.%20Avoid%20Flood%20in%20The%20City/INTUITION.md)
+
+[1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers](Array%26Hashing/1577.%20Number%20of%20Ways%20Where%20Square%20of%20Number%20Is%20Equal%20to%20Product%20of%20Two%20Numbers/INTUITION.md)
+
+[1647. Minimum Deletions to Make Character Frequencies Unique](Array%26Hashing/1647.%20Minimum%20Deletions%20to%20Make%20Character%20Frequencies%20Unique/INTUITION.md)
+
+[1733. Minimum Number of People to Teach](Array%26Hashing/1733.%20Minimum%20Number%20of%20People%20to%20Teach/INTUITION.md)
+
+[2122. Recover the Original Array](Array%26Hashing/2122.%20Recover%20the%20Original%20Array/INTUITION.md)
+
+[2135. Count Words Obtained After Adding a Letter](Array%26Hashing/2135.%20Count%20Words%20Obtained%20After%20Adding%20a%20Letter/INTUITION.md)
+
+[2227. Encrypt and Decrypt Strings](Array%26Hashing/2227.%20Encrypt%20and%20Decrypt%20Strings/INTUITION.md)
+
+[2262. Total Appeal of A String](Array%26Hashing/2262.%20Total%20Appeal%20of%20A%20String/INTUITION.md)
+
+[229. Majority Element II](Array%26Hashing/229.%20Majority%20Element%20II/INTUITION.md)
+
+[2306. Naming a Company](Array%26Hashing/2306.%20Naming%20a%20Company/INTUITION.md)
+
+[2350. Shortest Impossible Sequence of Rolls](Array%26Hashing/2350.%20Shortest%20Impossible%20Sequence%20of%20Rolls/INTUITION.md)
+
+[2389. Longest Subsequence With Limited Sum](Array%26Hashing/2389.%20Longest%20Subsequence%20With%20Limited%20Sum/INTUITION.md)
+
+[2449. Minimum Number of Operations to Make Arrays Similar](Array%26Hashing/2449.%20Minimum%20Number%20of%20Operations%20to%20Make%20Arrays%20Similar/INTUITION.md)
+
+[2482. Difference Between Ones and Zeros in Row and Column](Array%26Hashing/2482.%20Difference%20Between%20Ones%20and%20Zeros%20in%20Row%20and%20Column/INTUITION.md)
+
+[2488. Count Subarrays With Median K](Array%26Hashing/2488.%20Count%20Subarrays%20With%20Median%20K/INTUITION.md)
 
 [2501. Longest Square Streak in an Array](Array%26Hashing/2501.%20Longest%20Square%20Streak%20in%20an%20Array/INTUITION.md)
 
+[2502. Design Memory Allocator](Array%26Hashing/2502.%20Design%20Memory%20Allocator/INTUITION.md)
+
+[2512. Reward Top K Students](Array%26Hashing/2512.%20Reward%20Top%20K%20Students/INTUITION.md)
+
+[2531. Make Number of Distinct Characters Equal](Array%26Hashing/2531.%20Make%20Number%20of%20Distinct%20Characters%20Equal/INTUITION.md)
+
+[2561. Rearranging Fruits](Array%26Hashing/2561.%20Rearranging%20Fruits/INTUITION.md)
+
+[2584. Split the Array to Make Coprime Products](Array%26Hashing/2584.%20Split%20the%20Array%20to%20Make%20Coprime%20Products/INTUITION.md)
+
+[2607. Make K-Subarray Sums Equal](Array%26Hashing/2607.%20Make%20K-Subarray%20Sums%20Equal/INTUITION.md)
+
+[2671. Frequency Tracker](Array%26Hashing/2671.%20Frequency%20Tracker/INTUITION.md)
+
+[2672. Number of Adjacent Elements With the Same Color](Array%26Hashing/2672.%20Number%20of%20Adjacent%20Elements%20With%20the%20Same%20Color/INTUITION.md)
+
+[27. Remove Element](Array%26Hashing/27.%20Remove%20Element/DESC.md)
+
+[2732. Find a Good Subset of the Matrix](Array%26Hashing/2732.%20Find%20a%20Good%20Subset%20of%20the%20Matrix/INTUITION.md)
+
+[2763. Sum of Imbalance Numbers of All Subarrays](Array%26Hashing/2763.%20Sum%20of%20Imbalance%20Numbers%20of%20All%20Subarrays/INTUITION.md)
+
+[2768. Number of Black Blocks](Array%26Hashing/2768.%20Number%20of%20Black%20Blocks/INTUITION.md)
+
+[2780. Minimum Index of a Valid Split](Array%26Hashing/2780.%20Minimum%20Index%20of%20a%20Valid%20Split/INTUITION.md)
+
+[2808. Minimum Seconds to Equalize a Circular Array](Array%26Hashing/2808.%20Minimum%20Seconds%20to%20Equalize%20a%20Circular%20Array/INTUITION.md)
+
+[2862. Maximum Element-Sum of a Complete Subset of Indices](Array%26Hashing/2862.%20Maximum%20Element-Sum%20of%20a%20Complete%20Subset%20of%20Indices/INTUITION.md)
+
+[2948. Make Lexicographically Smallest Array by Swapping Elements](Array%26Hashing/2948.%20Make%20Lexicographically%20Smallest%20Array%20by%20Swapping%20Elements/INTUITION.md)
+
+[381. Insert Delete GetRandom O(1) - Duplicates allowed](Array%26Hashing/381.%20Insert%20Delete%20GetRandom%20O%281%29%20-%20Duplicates%20allowed/INTUITION.md)
+
+[41. First Missing Positive](Array%26Hashing/41.%20First%20Missing%20Positive/INTUITION.md)
+
+[457. Circular Array Loop](Array%26Hashing/457.%20Circular%20Array%20Loop/INTUITION.md)
+
+[828. Count Unique Characters of All Substrings of a Given String](Array%26Hashing/828.%20Count%20Unique%20Characters%20of%20All%20Substrings%20of%20a%20Given%20String/INTUITION.md)
+
+[895. Maximum Frequency Stack](Array%26Hashing/895.%20Maximum%20Frequency%20Stack/INTUITION.md)
+
+[954. Array of Doubled Pairs](Array%26Hashing/954.%20Array%20of%20Doubled%20Pairs/INTUITION.md)
+
+[982. Triples with Bitwise AND Equal To Zero](Array%26Hashing/982.%20Triples%20with%20Bitwise%20AND%20Equal%20To%20Zero/INTUITION.md)
+
 ## Sliding Window
-
-[2009. Minimum Number of Operations to Make Array Continuous](Sliding%20Window/2009.%20Minimum%20Number%20of%20Operations%20to%20Make%20Array%20Continuous/INTUITION.md)
-
-[2953. Count Complete Substrings](Sliding%20Window/2953.%20Count%20Complete%20Substrings/INTUITION.md)
-
-[2302. Count Subarrays With Score Less Than K](Sliding%20Window/2302.%20Count%20Subarrays%20With%20Score%20Less%20Than%20K/INTUITION.md)
-
-[220. Contains Duplicate III](Sliding%20Window/220.%20Contains%20Duplicate%20III/INTUITION.md)
-
-[532. K-diff Pairs in an Array](Sliding%20Window/532.%20K-diff%20Pairs%20in%20an%20Array/INTUITION.md)
-
-[209. Minimum Size Subarray Sum](Sliding%20Window/209.%20Minimum%20Size%20Subarray%20Sum/INTUITION.md)
-
-[567. Permutation in String](Sliding%20Window/567.%20Permutation%20in%20String/INTUITION.md)
-
-[2537. Count the Number of Good Subarrays](Sliding%20Window/2537.%20Count%20the%20Number%20of%20Good%20Subarrays/INTUITION.md)
-
-[2106. Maximum Fruits Harvested After at Most K Steps](Sliding%20Window/2106.%20Maximum%20Fruits%20Harvested%20After%20at%20Most%20K%20Steps/INTUITION.md)
-
-[992. Subarrays with K Different Integers](Sliding%20Window/992.%20Subarrays%20with%20K%20Different%20Integers/INTUITION.md)
-
-[2781. Length of the Longest Valid Substring](Sliding%20Window/2781.%20Length%20of%20the%20Longest%20Valid%20Substring/INTUITION.md)
-
-[2398. Maximum Number of Robots Within Budget](Sliding%20Window/2398.%20Maximum%20Number%20of%20Robots%20Within%20Budget/INTUITION.md)
-
-[438. Find All Anagrams in a String](Sliding%20Window/438.%20Find%20All%20Anagrams%20in%20a%20String/INTUITION.md)
-
-[862. Shortest Subarray with Sum at Least K](Sliding%20Window/862.%20Shortest%20Subarray%20with%20Sum%20at%20Least%20K/INTUITION.md)
-
-[30. Substring with Concatenation of All Words](Sliding%20Window/30.%20Substring%20with%20Concatenation%20of%20All%20Words/INTUITION.md)
-
-[795. Number of Subarrays with Bounded Maximum](Sliding%20Window/795.%20Number%20of%20Subarrays%20with%20Bounded%20Maximum/INTUITION.md)
-
-[1888. Minimum Number of Flips to Make the Binary String Alternating](Sliding%20Window/1888.%20Minimum%20Number%20of%20Flips%20to%20Make%20the%20Binary%20String%20Alternating/INTUITION.md)
-
-[1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](Sliding%20Window/1477.%20Find%20Two%20Non-overlapping%20Sub-arrays%20Each%20With%20Target%20Sum/INTUITION.md)
-
-[2841. Maximum Sum of Almost Unique Subarray](Sliding%20Window/2841.%20Maximum%20Sum%20of%20Almost%20Unique%20Subarray/INTUITION.md)
-
-[904. Fruit Into Baskets](Sliding%20Window/904.%20Fruit%20Into%20Baskets/INTUITION.md)
-
-[2747. Count Zero Request Servers](Sliding%20Window/2747.%20Count%20Zero%20Request%20Servers/INTUITION.md)
-
-[713. Subarray Product Less Than K](Sliding%20Window/713.%20Subarray%20Product%20Less%20Than%20K/INTUITION.md)
-
-[611. Valid Triangle Number](Sliding%20Window/611.%20Valid%20Triangle%20Number/INTUITION.md)
-
-[2401. Longest Nice Subarray](Sliding%20Window/2401.%20Longest%20Nice%20Subarray/INTUITION.md)
-
-[6911. Continuous Subarrays](Sliding%20Window/6911.%20Continuous%20Subarrays/INTUITION.md)
-
-[1763. Longest Nice Substring](Sliding%20Window/1763.%20Longest%20Nice%20Substring/INTUITION.md)
-
-[2653. Sliding Subarray Beauty](Sliding%20Window/2653.%20Sliding%20Subarray%20Beauty/INTUITION.md)
-
-[2968. Apply Operations to Maximize Frequency Score](Sliding%20Window/2968.%20Apply%20Operations%20to%20Maximize%20Frequency%20Score/INTUITION.md)
-
-[2516. Take K of Each Character From Left and Right](Sliding%20Window/2516.%20Take%20K%20of%20Each%20Character%20From%20Left%20and%20Right/INTUITION.md)
-
-[1838. Frequency of the Most Frequent Element](Sliding%20Window/1838.%20Frequency%20of%20the%20Most%20Frequent%20Element/INTUITION.md)
-
-[1052. Grumpy Bookstore Owner](Sliding%20Window/1052.%20Grumpy%20Bookstore%20Owner/INTUITION.md)
-
-[1493. Longest Subarray of 1's After Deleting One Element](Sliding%20Window/1493.%20Longest%20Subarray%20of%201%27s%20After%20Deleting%20One%20Element/INTUITION.md)
-
-[2098. Subsequence of Size K With the Largest Even Sum](Sliding%20Window/2098.%20Subsequence%20of%20Size%20K%20With%20the%20Largest%20Even%20Sum/INTUITION.md)
-
-[1248. Count Number of Nice Subarrays](Sliding%20Window/1248.%20Count%20Number%20of%20Nice%20Subarrays/INTUITION.md)
-
-[2831. Find the Longest Equal Subarray](Sliding%20Window/2831.%20Find%20the%20Longest%20Equal%20Subarray/INTUITION.md)
 
 [1004. Max Consecutive Ones III](Sliding%20Window/1004.%20Max%20Consecutive%20Ones%20III/INTUITION.md)
 
+[1052. Grumpy Bookstore Owner](Sliding%20Window/1052.%20Grumpy%20Bookstore%20Owner/INTUITION.md)
+
+[1248. Count Number of Nice Subarrays](Sliding%20Window/1248.%20Count%20Number%20of%20Nice%20Subarrays/INTUITION.md)
+
+[1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](Sliding%20Window/1477.%20Find%20Two%20Non-overlapping%20Sub-arrays%20Each%20With%20Target%20Sum/INTUITION.md)
+
+[1493. Longest Subarray of 1's After Deleting One Element](Sliding%20Window/1493.%20Longest%20Subarray%20of%201%27s%20After%20Deleting%20One%20Element/INTUITION.md)
+
 [1537. Get the Maximum Score](Sliding%20Window/1537.%20Get%20the%20Maximum%20Score/INTUITION.md)
 
-[424. Longest Repeating Character Replacement](Sliding%20Window/424.%20Longest%20Repeating%20Character%20Replacement/INTUITION.md)
+[1763. Longest Nice Substring](Sliding%20Window/1763.%20Longest%20Nice%20Substring/INTUITION.md)
+
+[1838. Frequency of the Most Frequent Element](Sliding%20Window/1838.%20Frequency%20of%20the%20Most%20Frequent%20Element/INTUITION.md)
+
+[1888. Minimum Number of Flips to Make the Binary String Alternating](Sliding%20Window/1888.%20Minimum%20Number%20of%20Flips%20to%20Make%20the%20Binary%20String%20Alternating/INTUITION.md)
+
+[2009. Minimum Number of Operations to Make Array Continuous](Sliding%20Window/2009.%20Minimum%20Number%20of%20Operations%20to%20Make%20Array%20Continuous/INTUITION.md)
 
 [2024. Maximize the Confusion of an Exam](Sliding%20Window/2024.%20Maximize%20the%20Confusion%20of%20an%20Exam/INTUITION.md)
 
+[209. Minimum Size Subarray Sum](Sliding%20Window/209.%20Minimum%20Size%20Subarray%20Sum/INTUITION.md)
+
+[2098. Subsequence of Size K With the Largest Even Sum](Sliding%20Window/2098.%20Subsequence%20of%20Size%20K%20With%20the%20Largest%20Even%20Sum/INTUITION.md)
+
+[2106. Maximum Fruits Harvested After at Most K Steps](Sliding%20Window/2106.%20Maximum%20Fruits%20Harvested%20After%20at%20Most%20K%20Steps/INTUITION.md)
+
+[220. Contains Duplicate III](Sliding%20Window/220.%20Contains%20Duplicate%20III/INTUITION.md)
+
+[2302. Count Subarrays With Score Less Than K](Sliding%20Window/2302.%20Count%20Subarrays%20With%20Score%20Less%20Than%20K/INTUITION.md)
+
+[2398. Maximum Number of Robots Within Budget](Sliding%20Window/2398.%20Maximum%20Number%20of%20Robots%20Within%20Budget/INTUITION.md)
+
+[2401. Longest Nice Subarray](Sliding%20Window/2401.%20Longest%20Nice%20Subarray/INTUITION.md)
+
+[2516. Take K of Each Character From Left and Right](Sliding%20Window/2516.%20Take%20K%20of%20Each%20Character%20From%20Left%20and%20Right/INTUITION.md)
+
+[2537. Count the Number of Good Subarrays](Sliding%20Window/2537.%20Count%20the%20Number%20of%20Good%20Subarrays/INTUITION.md)
+
+[2653. Sliding Subarray Beauty](Sliding%20Window/2653.%20Sliding%20Subarray%20Beauty/INTUITION.md)
+
+[2747. Count Zero Request Servers](Sliding%20Window/2747.%20Count%20Zero%20Request%20Servers/INTUITION.md)
+
+[2781. Length of the Longest Valid Substring](Sliding%20Window/2781.%20Length%20of%20the%20Longest%20Valid%20Substring/INTUITION.md)
+
+[2831. Find the Longest Equal Subarray](Sliding%20Window/2831.%20Find%20the%20Longest%20Equal%20Subarray/INTUITION.md)
+
+[2841. Maximum Sum of Almost Unique Subarray](Sliding%20Window/2841.%20Maximum%20Sum%20of%20Almost%20Unique%20Subarray/INTUITION.md)
+
+[2953. Count Complete Substrings](Sliding%20Window/2953.%20Count%20Complete%20Substrings/INTUITION.md)
+
+[2968. Apply Operations to Maximize Frequency Score](Sliding%20Window/2968.%20Apply%20Operations%20to%20Maximize%20Frequency%20Score/INTUITION.md)
+
+[30. Substring with Concatenation of All Words](Sliding%20Window/30.%20Substring%20with%20Concatenation%20of%20All%20Words/INTUITION.md)
+
+[424. Longest Repeating Character Replacement](Sliding%20Window/424.%20Longest%20Repeating%20Character%20Replacement/INTUITION.md)
+
+[438. Find All Anagrams in a String](Sliding%20Window/438.%20Find%20All%20Anagrams%20in%20a%20String/INTUITION.md)
+
+[532. K-diff Pairs in an Array](Sliding%20Window/532.%20K-diff%20Pairs%20in%20an%20Array/INTUITION.md)
+
+[567. Permutation in String](Sliding%20Window/567.%20Permutation%20in%20String/INTUITION.md)
+
+[611. Valid Triangle Number](Sliding%20Window/611.%20Valid%20Triangle%20Number/INTUITION.md)
+
+[6911. Continuous Subarrays](Sliding%20Window/6911.%20Continuous%20Subarrays/INTUITION.md)
+
+[713. Subarray Product Less Than K](Sliding%20Window/713.%20Subarray%20Product%20Less%20Than%20K/INTUITION.md)
+
+[795. Number of Subarrays with Bounded Maximum](Sliding%20Window/795.%20Number%20of%20Subarrays%20with%20Bounded%20Maximum/INTUITION.md)
+
+[862. Shortest Subarray with Sum at Least K](Sliding%20Window/862.%20Shortest%20Subarray%20with%20Sum%20at%20Least%20K/INTUITION.md)
+
+[904. Fruit Into Baskets](Sliding%20Window/904.%20Fruit%20Into%20Baskets/INTUITION.md)
+
+[992. Subarrays with K Different Integers](Sliding%20Window/992.%20Subarrays%20with%20K%20Different%20Integers/INTUITION.md)
+
 ## Math&Geometry
 
-[396. Rotate Function](Math%26Geometry/396.%20Rotate%20Function/INTUITION.md)
+[1015. Smallest Integer Divisible by K](Math%26Geometry/1015.%20Smallest%20Integer%20Divisible%20by%20K/INTUITION.md)
 
-[2217. Find Palindrome With Fixed Length](Math%26Geometry/2217.%20Find%20Palindrome%20With%20Fixed%20Length/INTUITION.md)
+[1017. Convert to Base -2](Math%26Geometry/1017.%20Convert%20to%20Base%20-2/INTUITION.md)
 
-[2842. Count K-Subsequences of a String With Maximum Beauty](Math%26Geometry/2842.%20Count%20K-Subsequences%20of%20a%20String%20With%20Maximum%20Beauty/INTUITION.md)
-
-[2521. Distinct Prime Factors of Product of Array](Math%26Geometry/2521.%20Distinct%20Prime%20Factors%20of%20Product%20of%20Array/INTUITION.md)
-
-[932. Beautiful Array](Math%26Geometry/932.%20Beautiful%20Array/INTUITION.md)
-
-[858. Mirror Reflection](Math%26Geometry/858.%20Mirror%20Reflection/INTUITION.md)
-
-[2183. Count Array Pairs Divisible by K](Math%26Geometry/2183.%20Count%20Array%20Pairs%20Divisible%20by%20K/INTUITION.md)
-
-[1610. Maximum Number of Visible Points](Math%26Geometry/1610.%20Maximum%20Number%20of%20Visible%20Points/INTUITION.md)
-
-[202. Happy Number](Math%26Geometry/202.%20Happy%20Number/INTUITION.md)
-
-[1453. Maximum Number of Darts Inside of a Circular Dartboard](Math%26Geometry/1453.%20Maximum%20Number%20of%20Darts%20Inside%20of%20a%20Circular%20Dartboard/INTUITION.md)
-
-[780. Reaching Points](Math%26Geometry/780.%20Reaching%20Points/INTUITION.md)
-
-[453. Minimum Moves to Equal Array Elements](Math%26Geometry/453.%20Minimum%20Moves%20to%20Equal%20Array%20Elements/INTUITION.md)
-
-[2750. Ways to Split Array Into Good Subarrays](Math%26Geometry/2750.%20Ways%20to%20Split%20Array%20Into%20Good%20Subarrays/INTUITION.md)
-
-[313. Super Ugly Number](Math%26Geometry/313.%20Super%20Ugly%20Number/INTUITION.md)
-
-[2954. Count the Number of Infection Sequences](Math%26Geometry/2954.%20Count%20the%20Number%20of%20Infection%20Sequences/INTUITION.md)
-
-[2162. Minimum Cost to Set Cooking Time](Math%26Geometry/2162.%20Minimum%20Cost%20to%20Set%20Cooking%20Time/INTUITION.md)
-
-[365. Water and Jug Problem](Math%26Geometry/365.%20Water%20and%20Jug%20Problem/INTUITION.md)
-
-[335. Self Crossing](Math%26Geometry/335.%20Self%20Crossing/INTUITION.md)
+[1131. Maximum of Absolute Value Expression](Math%26Geometry/1131.%20Maximum%20of%20Absolute%20Value%20Expression/INTUITION.md)
 
 [1250. Check If It Is a Good Array](Math%26Geometry/1250.%20Check%20If%20It%20Is%20a%20Good%20Array/INTUITION.md)
 
-[390. Elimination Game](Math%26Geometry/390.%20Elimination%20Game/INTUITION.md)
+[1359. Count All Valid Pickup and Delivery Options](Math%26Geometry/1359.%20Count%20All%20Valid%20Pickup%20and%20Delivery%20Options/INTUITION.md)
 
-[2523. Closest Prime Numbers in Range](Math%26Geometry/2523.%20Closest%20Prime%20Numbers%20in%20Range/INTUITION.md)
+[1453. Maximum Number of Darts Inside of a Circular Dartboard](Math%26Geometry/1453.%20Maximum%20Number%20of%20Darts%20Inside%20of%20a%20Circular%20Dartboard/INTUITION.md)
+
+[149. Max Points on a Line](Math%26Geometry/149.%20Max%20Points%20on%20a%20Line/INTUITION.md)
+
+[1515. Best Position for a Service Centre](Math%26Geometry/1515.%20Best%20Position%20for%20a%20Service%20Centre/INTUITION.md)
+
+[1610. Maximum Number of Visible Points](Math%26Geometry/1610.%20Maximum%20Number%20of%20Visible%20Points/INTUITION.md)
+
+[1643. Kth Smallest Instructions](Math%26Geometry/1643.%20Kth%20Smallest%20Instructions/INTUITION.md)
+
+[172. Factorial Trailing Zeroes](Math%26Geometry/172.%20Factorial%20Trailing%20Zeroes/INTUITION.md)
+
+[1808. Maximize Number of Nice Divisors](Math%26Geometry/1808.%20Maximize%20Number%20of%20Nice%20Divisors/INTUITION.md)
+
+[1927. Sum Game](Math%26Geometry/1927.%20Sum%20Game/INTUITION.md)
+
+[1969. Minimum Non-Zero Product of the Array Elements](Math%26Geometry/1969.%20Minimum%20Non-Zero%20Product%20of%20the%20Array%20Elements/INTUITION.md)
+
+[202. Happy Number](Math%26Geometry/202.%20Happy%20Number/INTUITION.md)
+
+[2069. Walking Robot Simulation II](Math%26Geometry/2069.%20Walking%20Robot%20Simulation%20II/INTUITION.md)
+
+[2162. Minimum Cost to Set Cooking Time](Math%26Geometry/2162.%20Minimum%20Cost%20to%20Set%20Cooking%20Time/INTUITION.md)
+
+[2183. Count Array Pairs Divisible by K](Math%26Geometry/2183.%20Count%20Array%20Pairs%20Divisible%20by%20K/INTUITION.md)
+
+[2217. Find Palindrome With Fixed Length](Math%26Geometry/2217.%20Find%20Palindrome%20With%20Fixed%20Length/INTUITION.md)
 
 [241. Different Ways to Add Parentheses](Math%26Geometry/241.%20Different%20Ways%20to%20Add%20Parentheses/INTUITION.md)
 
 [2507. Smallest Value After Replacing With Sum of Prime Factors](Math%26Geometry/2507.%20Smallest%20Value%20After%20Replacing%20With%20Sum%20of%20Prime%20Factors/INTUITION.md)
 
-[1515. Best Position for a Service Centre](Math%26Geometry/1515.%20Best%20Position%20for%20a%20Service%20Centre/INTUITION.md)
-
-[149. Max Points on a Line](Math%26Geometry/149.%20Max%20Points%20on%20a%20Line/INTUITION.md)
-
-[1969. Minimum Non-Zero Product of the Array Elements](Math%26Geometry/1969.%20Minimum%20Non-Zero%20Product%20of%20the%20Array%20Elements/INTUITION.md)
-
-[1015. Smallest Integer Divisible by K](Math%26Geometry/1015.%20Smallest%20Integer%20Divisible%20by%20K/INTUITION.md)
-
-[391. Perfect Rectangle](Math%26Geometry/391.%20Perfect%20Rectangle/INTUITION.md)
-
-[400. Nth Digit](Math%26Geometry/400.%20Nth%20Digit/INTUITION.md)
-
-[60. Permutation Sequence](Math%26Geometry/60.%20Permutation%20Sequence/INTUITION.md)
-
-[1131. Maximum of Absolute Value Expression](Math%26Geometry/1131.%20Maximum%20of%20Absolute%20Value%20Expression/INTUITION.md)
-
-[2069. Walking Robot Simulation II](Math%26Geometry/2069.%20Walking%20Robot%20Simulation%20II/INTUITION.md)
-
-[1359. Count All Valid Pickup and Delivery Options](Math%26Geometry/1359.%20Count%20All%20Valid%20Pickup%20and%20Delivery%20Options/INTUITION.md)
-
 [2514. Count Anagrams](Math%26Geometry/2514.%20Count%20Anagrams/INTUITION.md)
 
-[902. Numbers At Most N Given Digit Set](Math%26Geometry/902.%20Numbers%20At%20Most%20N%20Given%20Digit%20Set/INTUITION.md)
+[2521. Distinct Prime Factors of Product of Array](Math%26Geometry/2521.%20Distinct%20Prime%20Factors%20of%20Product%20of%20Array/INTUITION.md)
 
-[357. Count Numbers with Unique Digits](Math%26Geometry/357.%20Count%20Numbers%20with%20Unique%20Digits/INTUITION.md)
-
-[1017. Convert to Base -2](Math%26Geometry/1017.%20Convert%20to%20Base%20-2/INTUITION.md)
-
-[458. Poor Pigs](Math%26Geometry/458.%20Poor%20Pigs/INTUITION.md)
-
-[1808. Maximize Number of Nice Divisors](Math%26Geometry/1808.%20Maximize%20Number%20of%20Nice%20Divisors/INTUITION.md)
-
-[172. Factorial Trailing Zeroes](Math%26Geometry/172.%20Factorial%20Trailing%20Zeroes/INTUITION.md)
-
-[2598. Smallest Missing Non-negative Integer After Operations](Math%26Geometry/2598.%20Smallest%20Missing%20Non-negative%20Integer%20After%20Operations/INTUITION.md)
+[2523. Closest Prime Numbers in Range](Math%26Geometry/2523.%20Closest%20Prime%20Numbers%20in%20Range/INTUITION.md)
 
 [2550. Count Collisions of Monkeys on a Polygon](Math%26Geometry/2550.%20Count%20Collisions%20of%20Monkeys%20on%20a%20Polygon/INTUITION.md)
 
-[843. Guess the Word](Math%26Geometry/843.%20Guess%20the%20Word/INTUITION.md)
+[2575. Find the Divisibility Array of a String](Math%26Geometry/2575.%20Find%20the%20Divisibility%20Array%20of%20a%20String/INTUITION.md)
 
-[483. Smallest Good Base](Math%26Geometry/483.%20Smallest%20Good%20Base/INTUITION.md)
+[2598. Smallest Missing Non-negative Integer After Operations](Math%26Geometry/2598.%20Smallest%20Missing%20Non-negative%20Integer%20After%20Operations/INTUITION.md)
 
 [2681. Power of Heroes](Math%26Geometry/2681.%20Power%20of%20Heroes/INTUITION.md)
 
-[2575. Find the Divisibility Array of a String](Math%26Geometry/2575.%20Find%20the%20Divisibility%20Array%20of%20a%20String/INTUITION.md)
+[2750. Ways to Split Array Into Good Subarrays](Math%26Geometry/2750.%20Ways%20to%20Split%20Array%20Into%20Good%20Subarrays/INTUITION.md)
 
-[1643. Kth Smallest Instructions](Math%26Geometry/1643.%20Kth%20Smallest%20Instructions/INTUITION.md)
+[2842. Count K-Subsequences of a String With Maximum Beauty](Math%26Geometry/2842.%20Count%20K-Subsequences%20of%20a%20String%20With%20Maximum%20Beauty/INTUITION.md)
 
-[1927. Sum Game](Math%26Geometry/1927.%20Sum%20Game/INTUITION.md)
+[2954. Count the Number of Infection Sequences](Math%26Geometry/2954.%20Count%20the%20Number%20of%20Infection%20Sequences/INTUITION.md)
+
+[313. Super Ugly Number](Math%26Geometry/313.%20Super%20Ugly%20Number/INTUITION.md)
+
+[335. Self Crossing](Math%26Geometry/335.%20Self%20Crossing/INTUITION.md)
+
+[357. Count Numbers with Unique Digits](Math%26Geometry/357.%20Count%20Numbers%20with%20Unique%20Digits/INTUITION.md)
+
+[365. Water and Jug Problem](Math%26Geometry/365.%20Water%20and%20Jug%20Problem/INTUITION.md)
+
+[390. Elimination Game](Math%26Geometry/390.%20Elimination%20Game/INTUITION.md)
+
+[391. Perfect Rectangle](Math%26Geometry/391.%20Perfect%20Rectangle/INTUITION.md)
+
+[396. Rotate Function](Math%26Geometry/396.%20Rotate%20Function/INTUITION.md)
+
+[400. Nth Digit](Math%26Geometry/400.%20Nth%20Digit/INTUITION.md)
+
+[453. Minimum Moves to Equal Array Elements](Math%26Geometry/453.%20Minimum%20Moves%20to%20Equal%20Array%20Elements/INTUITION.md)
+
+[458. Poor Pigs](Math%26Geometry/458.%20Poor%20Pigs/INTUITION.md)
+
+[483. Smallest Good Base](Math%26Geometry/483.%20Smallest%20Good%20Base/INTUITION.md)
+
+[60. Permutation Sequence](Math%26Geometry/60.%20Permutation%20Sequence/INTUITION.md)
+
+[780. Reaching Points](Math%26Geometry/780.%20Reaching%20Points/INTUITION.md)
+
+[843. Guess the Word](Math%26Geometry/843.%20Guess%20the%20Word/INTUITION.md)
+
+[858. Mirror Reflection](Math%26Geometry/858.%20Mirror%20Reflection/INTUITION.md)
+
+[902. Numbers At Most N Given Digit Set](Math%26Geometry/902.%20Numbers%20At%20Most%20N%20Given%20Digit%20Set/INTUITION.md)
+
+[932. Beautiful Array](Math%26Geometry/932.%20Beautiful%20Array/INTUITION.md)
 
 [963. Minimum Area Rectangle II](Math%26Geometry/963.%20Minimum%20Area%20Rectangle%20II/INTUITION.md)
 
 ## Heap
 
-[2034. Stock Price Fluctuation](Heap/2034.%20Stock%20Price%20Fluctuation/INTUITION.md)
-
-[2102. Sequentially Ordinal Rank Tracker](Heap/2102.%20Sequentially%20Ordinal%20Rank%20Tracker/INTUITION.md)
-
-[355. Design Twitter](Heap/355.%20Design%20Twitter/INTUITION.md)
-
-[1882. Process Tasks Using Servers](Heap/1882.%20Process%20Tasks%20Using%20Servers/INTUITION.md)
-
-[2542. Maximum Subsequence Score](Heap/2542.%20Maximum%20Subsequence%20Score/INTUITION.md)
+[1172. Dinner Plate Stacks](Heap/1172.%20Dinner%20Plate%20Stacks/INTUITION.md)
 
 [1354. Construct Target Array With Multiple Sums](Heap/1354.%20Construct%20Target%20Array%20With%20Multiple%20Sums/INTUITION.md)
 
-[1675. Minimize Deviation in Array](Heap/1675.%20Minimize%20Deviation%20in%20Array/INTUITION.md)
-
 [1383. Maximum Performance of a Team](Heap/1383.%20Maximum%20Performance%20of%20a%20Team/INTUITION.md)
-
-[1172. Dinner Plate Stacks](Heap/1172.%20Dinner%20Plate%20Stacks/INTUITION.md)
-
-[2532. Time to Cross a Bridge](Heap/2532.%20Time%20to%20Cross%20a%20Bridge/INTUITION.md)
-
-[1996. The Number of Weak Characters in the Game](Heap/1996.%20The%20Number%20of%20Weak%20Characters%20in%20the%20Game/INTUITION.md)
-
-[1642. Furthest Building You Can Reach](Heap/1642.%20Furthest%20Building%20You%20Can%20Reach/INTUITION.md)
-
-[1834. Single-Threaded CPU](Heap/1834.%20Single-Threaded%20CPU/INTUITION.md)
-
-[632. Smallest Range Covering Elements from K Lists](Heap/632.%20Smallest%20Range%20Covering%20Elements%20from%20K%20Lists/INTUITION.md)
-
-[1962. Remove Stones to Minimize the Total](Heap/1962.%20Remove%20Stones%20to%20Minimize%20the%20Total/INTUITION.md)
-
-[352. Data Stream as Disjoint Intervals](Heap/352.%20Data%20Stream%20as%20Disjoint%20Intervals/INTUITION.md)
-
-[1606. Find Servers That Handled Most Number of Requests](Heap/1606.%20Find%20Servers%20That%20Handled%20Most%20Number%20of%20Requests/INTUITION.md)
-
-[502. IPO](Heap/502.%20IPO/INTUITION.md)
-
-[2500. Delete Greatest Value in Each Row](Heap/2500.%20Delete%20Greatest%20Value%20in%20Each%20Row/INTUITION.md)
-
-[857. Minimum Cost to Hire K Workers](Heap/857.%20Minimum%20Cost%20to%20Hire%20K%20Workers/INTUITION.md)
-
-[373. Find K Pairs with Smallest Sums](Heap/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums/INTUITION.md)
-
-[1792. Maximum Average Pass Ratio](Heap/1792.%20Maximum%20Average%20Pass%20Ratio/INTUITION.md)
 
 [1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows](Heap/1439.%20Find%20the%20Kth%20Smallest%20Sum%20of%20a%20Matrix%20With%20Sorted%20Rows/INTUITION.md)
 
-[2251. Number of Flowers in Full Bloom](Heap/2251.%20Number%20of%20Flowers%20in%20Full%20Bloom/INTUITION.md)
+[1606. Find Servers That Handled Most Number of Requests](Heap/1606.%20Find%20Servers%20That%20Handled%20Most%20Number%20of%20Requests/INTUITION.md)
+
+[1642. Furthest Building You Can Reach](Heap/1642.%20Furthest%20Building%20You%20Can%20Reach/INTUITION.md)
+
+[1675. Minimize Deviation in Array](Heap/1675.%20Minimize%20Deviation%20in%20Array/INTUITION.md)
+
+[1792. Maximum Average Pass Ratio](Heap/1792.%20Maximum%20Average%20Pass%20Ratio/INTUITION.md)
+
+[1834. Single-Threaded CPU](Heap/1834.%20Single-Threaded%20CPU/INTUITION.md)
+
+[1882. Process Tasks Using Servers](Heap/1882.%20Process%20Tasks%20Using%20Servers/INTUITION.md)
+
+[1962. Remove Stones to Minimize the Total](Heap/1962.%20Remove%20Stones%20to%20Minimize%20the%20Total/INTUITION.md)
+
+[1996. The Number of Weak Characters in the Game](Heap/1996.%20The%20Number%20of%20Weak%20Characters%20in%20the%20Game/INTUITION.md)
+
+[2034. Stock Price Fluctuation](Heap/2034.%20Stock%20Price%20Fluctuation/INTUITION.md)
+
+[2102. Sequentially Ordinal Rank Tracker](Heap/2102.%20Sequentially%20Ordinal%20Rank%20Tracker/INTUITION.md)
 
 [2163. Minimum Difference in Sums After Removal of Elements](Heap/2163.%20Minimum%20Difference%20in%20Sums%20After%20Removal%20of%20Elements/INTUITION.md)
 
 [2163. Minimum Difference in Sums After Removal of Elements](Heap/2163.%20Minimum%20Difference%20in%20Sums%20After%20Removal%20of%20Elements/RAEDME.md)
 
+[2251. Number of Flowers in Full Bloom](Heap/2251.%20Number%20of%20Flowers%20in%20Full%20Bloom/INTUITION.md)
+
 [2353. Design a Food Rating System](Heap/2353.%20Design%20a%20Food%20Rating%20System/INTUITION.md)
+
+[2500. Delete Greatest Value in Each Row](Heap/2500.%20Delete%20Greatest%20Value%20in%20Each%20Row/INTUITION.md)
+
+[2532. Time to Cross a Bridge](Heap/2532.%20Time%20to%20Cross%20a%20Bridge/INTUITION.md)
+
+[2542. Maximum Subsequence Score](Heap/2542.%20Maximum%20Subsequence%20Score/INTUITION.md)
+
+[352. Data Stream as Disjoint Intervals](Heap/352.%20Data%20Stream%20as%20Disjoint%20Intervals/INTUITION.md)
+
+[355. Design Twitter](Heap/355.%20Design%20Twitter/INTUITION.md)
+
+[373. Find K Pairs with Smallest Sums](Heap/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums/INTUITION.md)
+
+[502. IPO](Heap/502.%20IPO/INTUITION.md)
+
+[632. Smallest Range Covering Elements from K Lists](Heap/632.%20Smallest%20Range%20Covering%20Elements%20from%20K%20Lists/INTUITION.md)
+
+[857. Minimum Cost to Hire K Workers](Heap/857.%20Minimum%20Cost%20to%20Hire%20K%20Workers/INTUITION.md)
 
 ## What Happens When... and How
 
-[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-3%20Storage%20and%20Retrieval%20-%202.md)
-
-[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-9%20Consistency%20and%20Consensus.md)
-
-[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-8%20The%20Trouble%20with%20Distributed%20Systems.md)
-
-[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-6%20Partitioning.md)
-
-[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-5%20Replication%20-%202.md)
-
-[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-3%20Storage%20and%20Retrieval%20-%203.md)
-
-[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-2.md)
-
-[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-7%20Transactions.md)
-
-[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-5%20Distributed%20Data%20-%201.md)
-
-[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-4%20Encoding%20and%20Evolution.md)
+[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-10%20Batch%20Processing.md)
 
 [Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-11%20Stream%20Processing.md)
 
-[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-10%20Batch%20Processing.md)
+[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-2.md)
 
 [Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-3%20Storage%20and%20Retrieval%20-%201.md)
 
+[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-3%20Storage%20and%20Retrieval%20-%202.md)
+
+[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-3%20Storage%20and%20Retrieval%20-%203.md)
+
+[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-4%20Encoding%20and%20Evolution.md)
+
+[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-5%20Distributed%20Data%20-%201.md)
+
+[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-5%20Replication%20-%202.md)
+
+[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-6%20Partitioning.md)
+
+[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-7%20Transactions.md)
+
+[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-8%20The%20Trouble%20with%20Distributed%20Systems.md)
+
+[Designing-data-intensive-applications](What%20Happens%20When...%20and%20How/Designing-data-intensive-applications/Chapter-9%20Consistency%20and%20Consensus.md)
+
 ## Greedy
-
-[1702. Maximum Binary String After Change](Greedy/1702.%20Maximum%20Binary%20String%20After%20Change/INTUITION.md)
-
-[2311. Longest Binary Subsequence Less Than or Equal to K](Greedy/2311.%20Longest%20Binary%20Subsequence%20Less%20Than%20or%20Equal%20to%20K/INTUITION.md)
-
-[330. Patching Array](Greedy/330.%20Patching%20Array/INTUITION.md)
-
-[2116. Check if a Parentheses String Can Be Valid](Greedy/2116.%20Check%20if%20a%20Parentheses%20String%20Can%20Be%20Valid/INTUITION.md)
-
-[2279. Maximum Bags With Full Capacity of Rocks](Greedy/2279.%20Maximum%20Bags%20With%20Full%20Capacity%20of%20Rocks/INTUITION.md)
-
-[991. Broken Calculator](Greedy/991.%20Broken%20Calculator/INTUITION.md)
-
-[2565. Subsequence With the Minimum Score](Greedy/2565.%20Subsequence%20With%20the%20Minimum%20Score/INTUITION.md)
-
-[2499. Minimum Total Cost to Make Arrays Unequal](Greedy/2499.%20Minimum%20Total%20Cost%20to%20Make%20Arrays%20Unequal/INTUITION.md)
-
-[2333. Minimum Sum of Squared Difference](Greedy/2333.%20Minimum%20Sum%20of%20Squared%20Difference/INTUITION.md)
-
-[2856. Minimum Array Length After Pair Removals](Greedy/2856.%20Minimum%20Array%20Length%20After%20Pair%20Removals/INTUITION.md)
-
-[406. Queue Reconstruction by Height](Greedy/406.%20Queue%20Reconstruction%20by%20Height/INTUITION.md)
-
-[2366. Minimum Replacements to Sort the Array](Greedy/2366.%20Minimum%20Replacements%20to%20Sort%20the%20Array/INTUITION.md)
-
-[1798. Maximum Number of Consecutive Values You Can Make](Greedy/1798.%20Maximum%20Number%20of%20Consecutive%20Values%20You%20Can%20Make/INTUITION.md)
-
-[1605. Find Valid Matrix Given Row and Column Sums](Greedy/1605.%20Find%20Valid%20Matrix%20Given%20Row%20and%20Column%20Sums/INTUITION.md)
-
-[2829. Determine the Minimum Sum of a k-avoiding Array](Greedy/2829.%20Determine%20the%20Minimum%20Sum%20of%20a%20k-avoiding%20Array/INTUITION.md)
-
-[1665. Minimum Initial Energy to Finish Tasks](Greedy/1665.%20Minimum%20Initial%20Energy%20to%20Finish%20Tasks/INTUITION.md)
-
-[2790. Maximum Number of Groups With Increasing Length](Greedy/2790.%20Maximum%20Number%20of%20Groups%20With%20Increasing%20Length/INTUITION.md)
-
-[1405. Longest Happy String](Greedy/1405.%20Longest%20Happy%20String/INTUITION.md)
-
-[659. Split Array into Consecutive Subsequences](Greedy/659.%20Split%20Array%20into%20Consecutive%20Subsequences/INTUITION.md)
-
-[2680. Maximum OR](Greedy/2680.%20Maximum%20OR/INTUITION.md)
-
-[2332. The Latest Time to Catch a Bus](Greedy/2332.%20The%20Latest%20Time%20to%20Catch%20a%20Bus/INTUITION.md)
-
-[1686. Stone Game VI](Greedy/1686.%20Stone%20Game%20VI/INTUITION.md)
-
-[1536. Minimum Swaps to Arrange a Binary Grid](Greedy/1536.%20Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid/INTUITION.md)
-
-[1718. Construct the Lexicographically Largest Valid Sequence](Greedy/1718.%20Construct%20the%20Lexicographically%20Largest%20Valid%20Sequence/INTUITION.md)
-
-[2654. Minimum Number of Operations to Make All Array Elements Equal to 1](Greedy/2654.%20Minimum%20Number%20of%20Operations%20to%20Make%20All%20Array%20Elements%20Equal%20to%201/INTUITION.md)
-
-[2567. Minimum Score by Changing Two Elements](Greedy/2567.%20Minimum%20Score%20by%20Changing%20Two%20Elements/INTUITION.md)
-
-[2611. Mice and Cheese](Greedy/2611.%20Mice%20and%20Cheese/INTUITION.md)
-
-[955. Delete Columns to Make Sorted II](Greedy/955.%20Delete%20Columns%20to%20Make%20Sorted%20II/INTUITION.md)
-
-[2244. Minimum Rounds to Complete All Tasks](Greedy/2244.%20Minimum%20Rounds%20to%20Complete%20All%20Tasks/INTUITION.md)
-
-[2029. Stone Game IX](Greedy/2029.%20Stone%20Game%20IX/INTUITION.md)
-
-[2136. Earliest Possible Day of Full Bloom](Greedy/2136.%20Earliest%20Possible%20Day%20of%20Full%20Bloom/INTUITION.md)
-
-[918. Maximum Sum Circular Subarray](Greedy/918.%20Maximum%20Sum%20Circular%20Subarray/INTUITION.md)
-
-[135. Candy](Greedy/135.%20Candy/INTUITION.md)
-
-[2589. Minimum Time to Complete All Tasks](Greedy/2589.%20Minimum%20Time%20to%20Complete%20All%20Tasks/INTUITION.md)
-
-[871. Minimum Number of Refueling Stops](Greedy/871.%20Minimum%20Number%20of%20Refueling%20Stops/INTUITION.md)
-
-[2910. Minimum Number of Groups to Create a Valid Assignment](Greedy/2910.%20Minimum%20Number%20of%20Groups%20to%20Create%20a%20Valid%20Assignment/INTUITION.md)
 
 [1247. Minimum Swaps to Make Strings Equal](Greedy/1247.%20Minimum%20Swaps%20to%20Make%20Strings%20Equal/INTUITION.md)
 
-[861. Score After Flipping Matrix](Greedy/861.%20Score%20After%20Flipping%20Matrix/INTUITION.md)
+[135. Candy](Greedy/135.%20Candy/INTUITION.md)
 
-[1717. Maximum Score From Removing Substrings](Greedy/1717.%20Maximum%20Score%20From%20Removing%20Substrings/INTUITION.md)
+[1405. Longest Happy String](Greedy/1405.%20Longest%20Happy%20String/INTUITION.md)
 
 [1419. Minimum Number of Frogs Croaking](Greedy/1419.%20Minimum%20Number%20of%20Frogs%20Croaking/INTUITION.md)
 
-[2939. Maximum Xor Product](Greedy/2939.%20Maximum%20Xor%20Product/INTUITION.md)
+[1536. Minimum Swaps to Arrange a Binary Grid](Greedy/1536.%20Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid/INTUITION.md)
 
-[2571. Minimum Operations to Reduce an Integer to 0](Greedy/2571.%20Minimum%20Operations%20to%20Reduce%20an%20Integer%20to%200/INTUITION.md)
+[1605. Find Valid Matrix Given Row and Column Sums](Greedy/1605.%20Find%20Valid%20Matrix%20Given%20Row%20and%20Column%20Sums/INTUITION.md)
 
-[2599. Make the Prefix Sum Non-negative](Greedy/2599.%20Make%20the%20Prefix%20Sum%20Non-negative/INTUITION.md)
+[1665. Minimum Initial Energy to Finish Tasks](Greedy/1665.%20Minimum%20Initial%20Energy%20to%20Finish%20Tasks/INTUITION.md)
 
-[517. Super Washing Machines](Greedy/517.%20Super%20Washing%20Machines/INTUITION.md)
+[1686. Stone Game VI](Greedy/1686.%20Stone%20Game%20VI/INTUITION.md)
 
-[2498. Frog Jump II](Greedy/2498.%20Frog%20Jump%20II/INTUITION.md)
+[1702. Maximum Binary String After Change](Greedy/1702.%20Maximum%20Binary%20String%20After%20Change/INTUITION.md)
 
-[1953. Maximum Number of Weeks for Which You Can Work](Greedy/1953.%20Maximum%20Number%20of%20Weeks%20for%20Which%20You%20Can%20Work/INTUITION.md)
+[1705. Maximum Number of Eaten Apples](Greedy/1705.%20Maximum%20Number%20of%20Eaten%20Apples/INTUITION.md)
 
-[1839. Longest Substring Of All Vowels in Order](Greedy/1839.%20Longest%20Substring%20Of%20All%20Vowels%20in%20Order/INTUITION.md)
+[1717. Maximum Score From Removing Substrings](Greedy/1717.%20Maximum%20Score%20From%20Removing%20Substrings/INTUITION.md)
 
-[2835. Minimum Operations to Form Subsequence With Target Sum](Greedy/2835.%20Minimum%20Operations%20to%20Form%20Subsequence%20With%20Target%20Sum/INTUITION.md)
+[1718. Construct the Lexicographically Largest Valid Sequence](Greedy/1718.%20Construct%20the%20Lexicographically%20Largest%20Valid%20Sequence/INTUITION.md)
 
 [1754. Largest Merge Of Two Strings](Greedy/1754.%20Largest%20Merge%20Of%20Two%20Strings/INTUITION.md)
 
-[334. Increasing Triplet Subsequence](Greedy/334.%20Increasing%20Triplet%20Subsequence/INTUITION.md)
+[1798. Maximum Number of Consecutive Values You Can Make](Greedy/1798.%20Maximum%20Number%20of%20Consecutive%20Values%20You%20Can%20Make/INTUITION.md)
 
-[2860. Happy Students](Greedy/2860.%20Happy%20Students/INTUITION.md)
+[1839. Longest Substring Of All Vowels in Order](Greedy/1839.%20Longest%20Substring%20Of%20All%20Vowels%20in%20Order/INTUITION.md)
 
-[2522. Partition String Into Substrings With Values at Most K](Greedy/2522.%20Partition%20String%20Into%20Substrings%20With%20Values%20at%20Most%20K/INTUITION.md)
+[1953. Maximum Number of Weeks for Which You Can Work](Greedy/1953.%20Maximum%20Number%20of%20Weeks%20for%20Which%20You%20Can%20Work/INTUITION.md)
+
+[2029. Stone Game IX](Greedy/2029.%20Stone%20Game%20IX/INTUITION.md)
+
+[2116. Check if a Parentheses String Can Be Valid](Greedy/2116.%20Check%20if%20a%20Parentheses%20String%20Can%20Be%20Valid/INTUITION.md)
+
+[2136. Earliest Possible Day of Full Bloom](Greedy/2136.%20Earliest%20Possible%20Day%20of%20Full%20Bloom/INTUITION.md)
 
 [2193. Minimum Number of Moves to Make Palindrome](Greedy/2193.%20Minimum%20Number%20of%20Moves%20to%20Make%20Palindrome/INTUITION.md)
 
+[2244. Minimum Rounds to Complete All Tasks](Greedy/2244.%20Minimum%20Rounds%20to%20Complete%20All%20Tasks/INTUITION.md)
+
+[2279. Maximum Bags With Full Capacity of Rocks](Greedy/2279.%20Maximum%20Bags%20With%20Full%20Capacity%20of%20Rocks/INTUITION.md)
+
+[2311. Longest Binary Subsequence Less Than or Equal to K](Greedy/2311.%20Longest%20Binary%20Subsequence%20Less%20Than%20or%20Equal%20to%20K/INTUITION.md)
+
+[2332. The Latest Time to Catch a Bus](Greedy/2332.%20The%20Latest%20Time%20to%20Catch%20a%20Bus/INTUITION.md)
+
+[2333. Minimum Sum of Squared Difference](Greedy/2333.%20Minimum%20Sum%20of%20Squared%20Difference/INTUITION.md)
+
+[2366. Minimum Replacements to Sort the Array](Greedy/2366.%20Minimum%20Replacements%20to%20Sort%20the%20Array/INTUITION.md)
+
+[2498. Frog Jump II](Greedy/2498.%20Frog%20Jump%20II/INTUITION.md)
+
+[2499. Minimum Total Cost to Make Arrays Unequal](Greedy/2499.%20Minimum%20Total%20Cost%20to%20Make%20Arrays%20Unequal/INTUITION.md)
+
+[2522. Partition String Into Substrings With Values at Most K](Greedy/2522.%20Partition%20String%20Into%20Substrings%20With%20Values%20at%20Most%20K/INTUITION.md)
+
+[2565. Subsequence With the Minimum Score](Greedy/2565.%20Subsequence%20With%20the%20Minimum%20Score/INTUITION.md)
+
+[2567. Minimum Score by Changing Two Elements](Greedy/2567.%20Minimum%20Score%20by%20Changing%20Two%20Elements/INTUITION.md)
+
+[2571. Minimum Operations to Reduce an Integer to 0](Greedy/2571.%20Minimum%20Operations%20to%20Reduce%20an%20Integer%20to%200/INTUITION.md)
+
+[2589. Minimum Time to Complete All Tasks](Greedy/2589.%20Minimum%20Time%20to%20Complete%20All%20Tasks/INTUITION.md)
+
+[2599. Make the Prefix Sum Non-negative](Greedy/2599.%20Make%20the%20Prefix%20Sum%20Non-negative/INTUITION.md)
+
+[2611. Mice and Cheese](Greedy/2611.%20Mice%20and%20Cheese/INTUITION.md)
+
+[2654. Minimum Number of Operations to Make All Array Elements Equal to 1](Greedy/2654.%20Minimum%20Number%20of%20Operations%20to%20Make%20All%20Array%20Elements%20Equal%20to%201/INTUITION.md)
+
+[2680. Maximum OR](Greedy/2680.%20Maximum%20OR/INTUITION.md)
+
+[2790. Maximum Number of Groups With Increasing Length](Greedy/2790.%20Maximum%20Number%20of%20Groups%20With%20Increasing%20Length/INTUITION.md)
+
 [2813. Maximum Elegance of a K-Length Subsequence](Greedy/2813.%20Maximum%20Elegance%20of%20a%20K-Length%20Subsequence/INTUITION.md)
 
-[1705. Maximum Number of Eaten Apples](Greedy/1705.%20Maximum%20Number%20of%20Eaten%20Apples/INTUITION.md)
+[2829. Determine the Minimum Sum of a k-avoiding Array](Greedy/2829.%20Determine%20the%20Minimum%20Sum%20of%20a%20k-avoiding%20Array/INTUITION.md)
+
+[2835. Minimum Operations to Form Subsequence With Target Sum](Greedy/2835.%20Minimum%20Operations%20to%20Form%20Subsequence%20With%20Target%20Sum/INTUITION.md)
+
+[2856. Minimum Array Length After Pair Removals](Greedy/2856.%20Minimum%20Array%20Length%20After%20Pair%20Removals/INTUITION.md)
+
+[2860. Happy Students](Greedy/2860.%20Happy%20Students/INTUITION.md)
+
+[2910. Minimum Number of Groups to Create a Valid Assignment](Greedy/2910.%20Minimum%20Number%20of%20Groups%20to%20Create%20a%20Valid%20Assignment/INTUITION.md)
+
+[2939. Maximum Xor Product](Greedy/2939.%20Maximum%20Xor%20Product/INTUITION.md)
+
+[330. Patching Array](Greedy/330.%20Patching%20Array/INTUITION.md)
+
+[334. Increasing Triplet Subsequence](Greedy/334.%20Increasing%20Triplet%20Subsequence/INTUITION.md)
+
+[406. Queue Reconstruction by Height](Greedy/406.%20Queue%20Reconstruction%20by%20Height/INTUITION.md)
+
+[517. Super Washing Machines](Greedy/517.%20Super%20Washing%20Machines/INTUITION.md)
+
+[659. Split Array into Consecutive Subsequences](Greedy/659.%20Split%20Array%20into%20Consecutive%20Subsequences/INTUITION.md)
+
+[861. Score After Flipping Matrix](Greedy/861.%20Score%20After%20Flipping%20Matrix/INTUITION.md)
+
+[871. Minimum Number of Refueling Stops](Greedy/871.%20Minimum%20Number%20of%20Refueling%20Stops/INTUITION.md)
+
+[918. Maximum Sum Circular Subarray](Greedy/918.%20Maximum%20Sum%20Circular%20Subarray/INTUITION.md)
+
+[955. Delete Columns to Make Sorted II](Greedy/955.%20Delete%20Columns%20to%20Make%20Sorted%20II/INTUITION.md)
+
+[991. Broken Calculator](Greedy/991.%20Broken%20Calculator/INTUITION.md)
 
 ## Segment Tree
 
@@ -1155,29 +1156,29 @@ for k, v in MAP.items():
 
 ## Sorting
 
-[910. Smallest Range II](Sorting/910.%20Smallest%20Range%20II/INTUITION.md)
-
-[969. Pancake Sorting](Sorting/969.%20Pancake%20Sorting/INTUITION.md)
-
 [1630. Arithmetic Subarrays](Sorting/1630.%20Arithmetic%20Subarrays/INTUITION.md)
 
-[324. Wiggle Sort II](Sorting/324.%20Wiggle%20Sort%20II/INTUITION.md)
-
-[1996. The Number of Weak Characters in the Game](Sorting/1996.%20The%20Number%20of%20Weak%20Characters%20in%20the%20Game/INTUITION.md)
-
-[2659. Make Array Empty](Sorting/2659.%20Make%20Array%20Empty/INTUITION.md)
-
-[2500. Delete Greatest Value in Each Row](Sorting/2500.%20Delete%20Greatest%20Value%20in%20Each%20Row/INTUITION.md)
-
-[539. Minimum Time Difference](Sorting/539.%20Minimum%20Time%20Difference/INTUITION.md)
+[164. Maximum Gap](Sorting/164.%20Maximum%20Gap/INTUITION.md)
 
 [1727. Largest Submatrix With Rearrangements](Sorting/1727.%20Largest%20Submatrix%20With%20Rearrangements/INTUITION.md)
 
 [1833. Maximum Ice Cream Bars](Sorting/1833.%20Maximum%20Ice%20Cream%20Bars/INTUITION.md)
 
+[1996. The Number of Weak Characters in the Game](Sorting/1996.%20The%20Number%20of%20Weak%20Characters%20in%20the%20Game/INTUITION.md)
+
+[2500. Delete Greatest Value in Each Row](Sorting/2500.%20Delete%20Greatest%20Value%20in%20Each%20Row/INTUITION.md)
+
 [2551. Put Marbles in Bags](Sorting/2551.%20Put%20Marbles%20in%20Bags/INTUITION.md)
 
-[164. Maximum Gap](Sorting/164.%20Maximum%20Gap/INTUITION.md)
+[2659. Make Array Empty](Sorting/2659.%20Make%20Array%20Empty/INTUITION.md)
+
+[324. Wiggle Sort II](Sorting/324.%20Wiggle%20Sort%20II/INTUITION.md)
+
+[539. Minimum Time Difference](Sorting/539.%20Minimum%20Time%20Difference/INTUITION.md)
+
+[910. Smallest Range II](Sorting/910.%20Smallest%20Range%20II/INTUITION.md)
+
+[969. Pancake Sorting](Sorting/969.%20Pancake%20Sorting/INTUITION.md)
 
 ## Sorting/SortedDict
 
@@ -1187,33 +1188,33 @@ for k, v in MAP.items():
 
 ## Queue
 
+[341. Flatten Nested List Iterator](Queue/341.%20Flatten%20Nested%20List%20Iterator/INTUITION.md)
+
 [649. Dota2 Senate](Queue/649.%20Dota2%20Senate/INTUITION.md)
 
 [841. Keys and Rooms](Queue/841.%20Keys%20and%20Rooms/INTUITION.md)
 
-[341. Flatten Nested List Iterator](Queue/341.%20Flatten%20Nested%20List%20Iterator/INTUITION.md)
-
 ## Tries
-
-[648. Replace Words](Tries/648.%20Replace%20Words/INTUITION.md)
-
-[440. K-th Smallest in Lexicographical Order](Tries/440.%20K-th%20Smallest%20in%20Lexicographical%20Order/INTUITION.md)
-
-[677. Map Sum Pairs](Tries/677.%20Map%20Sum%20Pairs/INTUITION.md)
 
 [1032. Stream of Characters](Tries/1032.%20Stream%20of%20Characters/INTUITION.md)
 
 [1948. Delete Duplicate Folders in System](Tries/1948.%20Delete%20Duplicate%20Folders%20in%20System/INTUITION.md)
 
+[440. K-th Smallest in Lexicographical Order](Tries/440.%20K-th%20Smallest%20in%20Lexicographical%20Order/INTUITION.md)
+
 [472. Concatenated Words](Tries/472.%20Concatenated%20Words/INTUITION.md)
+
+[648. Replace Words](Tries/648.%20Replace%20Words/INTUITION.md)
+
+[677. Map Sum Pairs](Tries/677.%20Map%20Sum%20Pairs/INTUITION.md)
 
 ## String/RollingHash
 
-[2223. Sum of Scores of Built Strings](String/RollingHash/2223.%20Sum%20of%20Scores%20of%20Built%20Strings/INTUITION.md)
+[1923. Longest Common Subpath](String/RollingHash/1923.%20Longest%20Common%20Subpath/INTUITION.md)
 
 [2156. Find Substring With Given Hash Value](String/RollingHash/2156.%20Find%20Substring%20With%20Given%20Hash%20Value/INTUITION.md)
 
-[1923. Longest Common Subpath](String/RollingHash/1923.%20Longest%20Common%20Subpath/INTUITION.md)
+[2223. Sum of Scores of Built Strings](String/RollingHash/2223.%20Sum%20of%20Scores%20of%20Built%20Strings/INTUITION.md)
 
 [2261. K Divisible Elements Subarrays](String/RollingHash/2261.%20K%20Divisible%20Elements%20Subarrays/INTUITION.md)
 
@@ -1221,61 +1222,61 @@ for k, v in MAP.items():
 
 [1178. Number of Valid Words for Each Puzzle](String/1178.%20Number%20of%20Valid%20Words%20for%20Each%20Puzzle/INTUITION.md)
 
+[1392. Longest Happy Prefix](String/1392.%20Longest%20Happy%20Prefix/INTUITION.md)
+
+[1461. Check If a String Contains All Binary Codes of Size K](String/1461.%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K/INTUITION.md)
+
+[1542. Find Longest Awesome Substring](String/1542.%20Find%20Longest%20Awesome%20Substring/INTUITION.md)
+
+[1585. Check If String Is Transformable With Substring Sort Operations](String/1585.%20Check%20If%20String%20Is%20Transformable%20With%20Substring%20Sort%20Operations/INTUITION.md)
+
+[165. Compare Version Numbers](String/165.%20Compare%20Version%20Numbers/INTUITION.md)
+
 [166. Fraction to Recurring Decimal](String/166.%20Fraction%20to%20Recurring%20Decimal/INTUITION.md)
 
 [166. Fraction to Recurring Decimal](String/166.%20Fraction%20to%20Recurring%20Decimal/RAEDME.md)
 
-[1542. Find Longest Awesome Substring](String/1542.%20Find%20Longest%20Awesome%20Substring/INTUITION.md)
+[1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number](String/1850.%20Minimum%20Adjacent%20Swaps%20to%20Reach%20the%20Kth%20Smallest%20Number/INTUITION.md)
+
+[2018. Check if Word Can Be Placed In Crossword](String/2018.%20Check%20if%20Word%20Can%20Be%20Placed%20In%20Crossword/INTUITION.md)
+
+[2573. Find the String with LCP](String/2573.%20Find%20the%20String%20with%20LCP/INTUITION.md)
+
+[2663. Lexicographically Smallest Beautiful String](String/2663.%20Lexicographically%20Smallest%20Beautiful%20String/INTUITION.md)
+
+[273. Integer to English Words](String/273.%20Integer%20to%20English%20Words/INTUITION.md)
+
+[28. Implement strStr()](String/28.%20Implement%20strStr%28%29/INTUITION.md)
+
+[2825. Make String a Subsequence Using Cyclic Increments](String/2825.%20Make%20String%20a%20Subsequence%20Using%20Cyclic%20Increments/INTUITION.md)
+
+[2967. Minimum Cost to Make Array Equalindromic](String/2967.%20Minimum%20Cost%20to%20Make%20Array%20Equalindromic/INTUITION.md)
 
 [38. Count and Say](String/38.%20Count%20and%20Say/INTUITION.md)
 
 [420. Strong Password Checker](String/420.%20Strong%20Password%20Checker/INTUITION.md)
 
-[2018. Check if Word Can Be Placed In Crossword](String/2018.%20Check%20if%20Word%20Can%20Be%20Placed%20In%20Crossword/INTUITION.md)
-
-[972. Equal Rational Numbers](String/972.%20Equal%20Rational%20Numbers/INTUITION.md)
-
-[28. Implement strStr()](String/28.%20Implement%20strStr%28%29/INTUITION.md)
-
-[1392. Longest Happy Prefix](String/1392.%20Longest%20Happy%20Prefix/INTUITION.md)
-
 [466. Count The Repetitions](String/466.%20Count%20The%20Repetitions/INTUITION.md)
-
-[880. Decoded String at Index](String/880.%20Decoded%20String%20at%20Index/INTUITION.md)
-
-[777. Swap Adjacent in LR String](String/777.%20Swap%20Adjacent%20in%20LR%20String/INTUITION.md)
-
-[761. Special Binary String](String/761.%20Special%20Binary%20String/INTUITION.md)
-
-[2825. Make String a Subsequence Using Cyclic Increments](String/2825.%20Make%20String%20a%20Subsequence%20Using%20Cyclic%20Increments/INTUITION.md)
-
-[273. Integer to English Words](String/273.%20Integer%20to%20English%20Words/INTUITION.md)
-
-[165. Compare Version Numbers](String/165.%20Compare%20Version%20Numbers/INTUITION.md)
-
-[2967. Minimum Cost to Make Array Equalindromic](String/2967.%20Minimum%20Cost%20to%20Make%20Array%20Equalindromic/INTUITION.md)
-
-[1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number](String/1850.%20Minimum%20Adjacent%20Swaps%20to%20Reach%20the%20Kth%20Smallest%20Number/INTUITION.md)
-
-[2573. Find the String with LCP](String/2573.%20Find%20the%20String%20with%20LCP/INTUITION.md)
-
-[1461. Check If a String Contains All Binary Codes of Size K](String/1461.%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K/INTUITION.md)
-
-[1585. Check If String Is Transformable With Substring Sort Operations](String/1585.%20Check%20If%20String%20Is%20Transformable%20With%20Substring%20Sort%20Operations/INTUITION.md)
 
 [564. Find the Closest Palindrome](String/564.%20Find%20the%20Closest%20Palindrome/INTIOTION.md)
 
-[2663. Lexicographically Smallest Beautiful String](String/2663.%20Lexicographically%20Smallest%20Beautiful%20String/INTUITION.md)
+[761. Special Binary String](String/761.%20Special%20Binary%20String/INTUITION.md)
+
+[777. Swap Adjacent in LR String](String/777.%20Swap%20Adjacent%20in%20LR%20String/INTUITION.md)
+
+[880. Decoded String at Index](String/880.%20Decoded%20String%20at%20Index/INTUITION.md)
+
+[972. Equal Rational Numbers](String/972.%20Equal%20Rational%20Numbers/INTUITION.md)
 
 ## String/Enumeration
-
-[906. Super Palindromes](String/Enumeration/906.%20Super%20Palindromes/INTUITION.md)
-
-[479. Largest Palindrome Product](String/Enumeration/479.%20Largest%20Palindrome%20Product/INTUITION.md)
 
 [1625. Lexicographically Smallest String After Applying Operations](String/Enumeration/1625.%20Lexicographically%20Smallest%20String%20After%20Applying%20Operations/INTUITION.md)
 
 [2081. Sum of k-Mirror Numbers](String/Enumeration/2081.%20Sum%20of%20k-Mirror%20Numbers/INTUITION.md)
+
+[479. Largest Palindrome Product](String/Enumeration/479.%20Largest%20Palindrome%20Product/INTUITION.md)
+
+[906. Super Palindromes](String/Enumeration/906.%20Super%20Palindromes/INTUITION.md)
 
 ## Graphs/Floyd
 
@@ -1285,69 +1286,69 @@ for k, v in MAP.items():
 
 ## Graphs
 
-[934. Shortest Bridge](Graphs/934.%20Shortest%20Bridge/INTUITION.md)
-
-[1377. Frog Position After T Seconds](Graphs/1377.%20Frog%20Position%20After%20T%20Seconds/INTUITION.md)
-
-[2101. Detonate the Maximum Bombs](Graphs/2101.%20Detonate%20the%20Maximum%20Bombs/INTUITION.md)
+[1020. Number of Enclaves](Graphs/1020.%20Number%20of%20Enclaves/INTUITION.md)
 
 [1192. Critical Connections in a Network](Graphs/1192.%20Critical%20Connections%20in%20a%20Network/INTUITION.md)
 
-[2493. Divide Nodes Into the Maximum Number of Groups](Graphs/2493.%20Divide%20Nodes%20Into%20the%20Maximum%20Number%20of%20Groups/INTUITION.md)
+[1254. Number of Closed Islands](Graphs/1254.%20Number%20of%20Closed%20Islands/INTUITION.md)
+
+[133. Clone Graph](Graphs/133.%20Clone%20Graph/INTUITION.md)
+
+[1377. Frog Position After T Seconds](Graphs/1377.%20Frog%20Position%20After%20T%20Seconds/INTUITION.md)
+
+[1466. Reorder Routes to Make All Paths Lead to the City Zero](Graphs/1466.%20Reorder%20Routes%20to%20Make%20All%20Paths%20Lead%20to%20the%20City%20Zero/INTUITION.md)
 
 [1559. Detect Cycles in 2D Grid](Graphs/1559.%20Detect%20Cycles%20in%202D%20Grid/INTUITION.md)
 
-[2503. Maximum Number of Points From Grid Queries](Graphs/2503.%20Maximum%20Number%20of%20Points%20From%20Grid%20Queries/INTUITION.md)
+[1615. Maximal Network Rank](Graphs/1615.%20Maximal%20Network%20Rank/INTUITION.md)
 
-[332. Reconstruct Itinerary](Graphs/332.%20Reconstruct%20Itinerary/INTUITION.md)
-
-[802. Find Eventual Safe States](Graphs/802.%20Find%20Eventual%20Safe%20States/INTUITION.md)
+[1761. Minimum Degree of a Connected Trio in a Graph](Graphs/1761.%20Minimum%20Degree%20of%20a%20Connected%20Trio%20in%20a%20Graph/INTUITION.md)
 
 [1786. Number of Restricted Paths From First to Last Node](Graphs/1786.%20Number%20of%20Restricted%20Paths%20From%20First%20to%20Last%20Node/INTUITION.md)
 
-[2359. Find Closest Node to Given Two Nodes](Graphs/2359.%20Find%20Closest%20Node%20to%20Given%20Two%20Nodes/INTUITION.md)
+[1905. Count Sub Islands](Graphs/1905.%20Count%20Sub%20Islands/INTUITION.md)
 
-[2812. Find the Safest Path in a Grid](Graphs/2812.%20Find%20the%20Safest%20Path%20in%20a%20Grid/INTUITION.md)
+[2065. Maximum Path Quality of a Graph](Graphs/2065.%20Maximum%20Path%20Quality%20of%20a%20Graph/INTUITION.md)
 
-[2301. Match Substring After Replacement](Graphs/2301.%20Match%20Substring%20After%20Replacement/INTUITION.md)
-
-[2477. Minimum Fuel Cost to Report to the Capital](Graphs/2477.%20Minimum%20Fuel%20Cost%20to%20Report%20to%20the%20Capital/INTUITION.md)
-
-[874. Walking Robot Simulation](Graphs/874.%20Walking%20Robot%20Simulation/INTUITION.md)
+[2101. Detonate the Maximum Bombs](Graphs/2101.%20Detonate%20the%20Maximum%20Bombs/INTUITION.md)
 
 [2127. Maximum Employees to Be Invited to a Meeting](Graphs/2127.%20Maximum%20Employees%20to%20Be%20Invited%20to%20a%20Meeting/INTUITION.md)
 
 [2242. Maximum Score of a Node Sequence](Graphs/2242.%20Maximum%20Score%20of%20a%20Node%20Sequence/INTUITION.md)
 
-[695. Max Area of Island](Graphs/695.%20Max%20Area%20of%20Island/READEME.md)
+[2301. Match Substring After Replacement](Graphs/2301.%20Match%20Substring%20After%20Replacement/INTUITION.md)
+
+[2359. Find Closest Node to Given Two Nodes](Graphs/2359.%20Find%20Closest%20Node%20to%20Given%20Two%20Nodes/INTUITION.md)
+
+[2477. Minimum Fuel Cost to Report to the Capital](Graphs/2477.%20Minimum%20Fuel%20Cost%20to%20Report%20to%20the%20Capital/INTUITION.md)
+
+[2493. Divide Nodes Into the Maximum Number of Groups](Graphs/2493.%20Divide%20Nodes%20Into%20the%20Maximum%20Number%20of%20Groups/INTUITION.md)
+
+[2497. Maximum Star Sum of a Graph](Graphs/2497.%20Maximum%20Star%20Sum%20of%20a%20Graph/INTUITION.md)
+
+[2503. Maximum Number of Points From Grid Queries](Graphs/2503.%20Maximum%20Number%20of%20Points%20From%20Grid%20Queries/INTUITION.md)
 
 [2508. Add Edges to Make Degrees of All Nodes Even](Graphs/2508.%20Add%20Edges%20to%20Make%20Degrees%20of%20All%20Nodes%20Even/INTUITION.md)
 
-[2065. Maximum Path Quality of a Graph](Graphs/2065.%20Maximum%20Path%20Quality%20of%20a%20Graph/INTUITION.md)
-
-[1761. Minimum Degree of a Connected Trio in a Graph](Graphs/1761.%20Minimum%20Degree%20of%20a%20Connected%20Trio%20in%20a%20Graph/INTUITION.md)
-
 [2556. Disconnect Path in a Binary Matrix by at Most One Flip](Graphs/2556.%20Disconnect%20Path%20in%20a%20Binary%20Matrix%20by%20at%20Most%20One%20Flip/INTUITION.md)
-
-[1466. Reorder Routes to Make All Paths Lead to the City Zero](Graphs/1466.%20Reorder%20Routes%20to%20Make%20All%20Paths%20Lead%20to%20the%20City%20Zero/INTUITION.md)
 
 [2608. Shortest Cycle in a Graph](Graphs/2608.%20Shortest%20Cycle%20in%20a%20Graph/INTUITION.md)
 
+[2812. Find the Safest Path in a Grid](Graphs/2812.%20Find%20the%20Safest%20Path%20in%20a%20Grid/INTUITION.md)
+
+[332. Reconstruct Itinerary](Graphs/332.%20Reconstruct%20Itinerary/INTUITION.md)
+
+[695. Max Area of Island](Graphs/695.%20Max%20Area%20of%20Island/READEME.md)
+
 [749. Contain Virus](Graphs/749.%20Contain%20Virus/INTUITION.md)
-
-[133. Clone Graph](Graphs/133.%20Clone%20Graph/INTUITION.md)
-
-[1905. Count Sub Islands](Graphs/1905.%20Count%20Sub%20Islands/INTUITION.md)
-
-[1254. Number of Closed Islands](Graphs/1254.%20Number%20of%20Closed%20Islands/INTUITION.md)
-
-[1020. Number of Enclaves](Graphs/1020.%20Number%20of%20Enclaves/INTUITION.md)
 
 [753. Cracking the Safe](Graphs/753.%20Cracking%20the%20Safe/INTUITION.md)
 
-[1615. Maximal Network Rank](Graphs/1615.%20Maximal%20Network%20Rank/INTUITION.md)
+[802. Find Eventual Safe States](Graphs/802.%20Find%20Eventual%20Safe%20States/INTUITION.md)
 
-[2497. Maximum Star Sum of a Graph](Graphs/2497.%20Maximum%20Star%20Sum%20of%20a%20Graph/INTUITION.md)
+[874. Walking Robot Simulation](Graphs/874.%20Walking%20Robot%20Simulation/INTUITION.md)
+
+[934. Shortest Bridge](Graphs/934.%20Shortest%20Bridge/INTUITION.md)
 
 ## Graphs/TopologicalSort
 
@@ -1355,17 +1356,17 @@ for k, v in MAP.items():
 
 [1462. Course Schedule IV](Graphs/TopologicalSort/1462.%20Course%20Schedule%20IV/INTUITION.md)
 
+[1591. Strange Printer II](Graphs/TopologicalSort/1591.%20Strange%20Printer%20II/INTUITION.md)
+
 [1857. Largest Color Value in a Directed Graph](Graphs/TopologicalSort/1857.%20Largest%20Color%20Value%20in%20a%20Directed%20Graph/INTUITION.md)
 
-[2392. Build a Matrix With Conditions](Graphs/TopologicalSort/2392.%20Build%20a%20Matrix%20With%20Conditions/INTUITION.md)
-
-[1591. Strange Printer II](Graphs/TopologicalSort/1591.%20Strange%20Printer%20II/INTUITION.md)
+[2050. Parallel Courses III](Graphs/TopologicalSort/2050.%20Parallel%20Courses%20III/INTUITION.md)
 
 [207. Course Schedule](Graphs/TopologicalSort/207.%20Course%20Schedule/INTUITION.md)
 
 [2360. Longest Cycle in a Graph](Graphs/TopologicalSort/2360.%20Longest%20Cycle%20in%20a%20Graph/INTUITION.md)
 
-[2050. Parallel Courses III](Graphs/TopologicalSort/2050.%20Parallel%20Courses%20III/INTUITION.md)
+[2392. Build a Matrix With Conditions](Graphs/TopologicalSort/2392.%20Build%20a%20Matrix%20With%20Conditions/INTUITION.md)
 
 [2876. Count Visited Nodes in a Directed Graph](Graphs/TopologicalSort/2876.%20Count%20Visited%20Nodes%20in%20a%20Directed%20Graph/INTUITION.md)
 
@@ -1381,147 +1382,147 @@ for k, v in MAP.items():
 
 ## Graphs/BFS
 
+[1036. Escape a Large Maze](Graphs/BFS/1036.%20Escape%20a%20Large%20Maze/INTUITION.md)
+
+[1129. Shortest Path with Alternating Color](Graphs/BFS/1129.%20Shortest%20Path%20with%20Alternating%20Color/INTUITION.md)
+
+[1162. As Far from Land as Possible](Graphs/BFS/1162.%20As%20Far%20from%20Land%20as%20Possible/INTUITION.md)
+
+[1210. Minimum Moves to Reach Target with Rotations](Graphs/BFS/1210.%20Minimum%20Moves%20to%20Reach%20Target%20with%20Rotations/INTUITION.md)
+
+[1263. Minimum Moves to Move a Box to Their Target Location](Graphs/BFS/1263.%20Minimum%20Moves%20to%20Move%20a%20Box%20to%20Their%20Target%20Location/INTUITION.md)
+
+[1293. Shortest Path in a Grid with Obstacles Elimination](Graphs/BFS/1293.%20Shortest%20Path%20in%20a%20Grid%20with%20Obstacles%20Elimination/INTUITION.md)
+
+[1298. Maximum Candies You Can Get from Boxes](Graphs/BFS/1298.%20Maximum%20Candies%20You%20Can%20Get%20from%20Boxes/INTUITION.md)
+
+[1345. Jump Game IV](Graphs/BFS/1345.%20Jump%20Game%20IV/INTUITION.md)
+
 [1368. Minimum Cost to Make at Least One Valid Path in a Grid](Graphs/BFS/1368.%20Minimum%20Cost%20to%20Make%20at%20Least%20One%20Valid%20Path%20in%20a%20Grid/INTUITION.md)
 
 [1654. Minimum Jumps to Reach Home](Graphs/BFS/1654.%20Minimum%20Jumps%20to%20Reach%20Home/INTUITION.md)
 
-[1162. As Far from Land as Possible](Graphs/BFS/1162.%20As%20Far%20from%20Land%20as%20Possible/INTUITION.md)
-
-[1036. Escape a Large Maze](Graphs/BFS/1036.%20Escape%20a%20Large%20Maze/INTUITION.md)
-
-[675. Cut Off Trees for Golf Event](Graphs/BFS/675.%20Cut%20Off%20Trees%20for%20Golf%20Event/INTUITION.md)
-
-[773. Sliding Puzzle](Graphs/BFS/773.%20Sliding%20Puzzle/INTUITION.md)
+[1926. Nearest Exit from Entrance in Maze](Graphs/BFS/1926.%20Nearest%20Exit%20from%20Entrance%20in%20Maze/INTUITION.md)
 
 [2039. The Time When the Network Becomes Idle](Graphs/BFS/2039.%20The%20Time%20When%20the%20Network%20Becomes%20Idle/INTUITION.md)
 
-[1293. Shortest Path in a Grid with Obstacles Elimination](Graphs/BFS/1293.%20Shortest%20Path%20in%20a%20Grid%20with%20Obstacles%20Elimination/INTUITION.md)
-
-[365. Water and Jug Problem](Graphs/BFS/365.%20Water%20and%20Jug%20Problem/INTUITION.md)
-
-[864. Shortest Path to Get All Keys](Graphs/BFS/864.%20Shortest%20Path%20to%20Get%20All%20Keys/INTUITION.md)
-
-[1298. Maximum Candies You Can Get from Boxes](Graphs/BFS/1298.%20Maximum%20Candies%20You%20Can%20Get%20from%20Boxes/INTUITION.md)
+[2045. Second Minimum Time to Reach Destination](Graphs/BFS/2045.%20Second%20Minimum%20Time%20to%20Reach%20Destination/INTUITION.md)
 
 [2059. Minimum Operations to Convert Number](Graphs/BFS/2059.%20Minimum%20Operations%20to%20Convert%20Number/INTUITION.md)
 
 [2146. K Highest Ranked Items Within a Price Range](Graphs/BFS/2146.%20K%20Highest%20Ranked%20Items%20Within%20a%20Price%20Range/INTUITION.md)
 
-[1926. Nearest Exit from Entrance in Maze](Graphs/BFS/1926.%20Nearest%20Exit%20from%20Entrance%20in%20Maze/INTUITION.md)
+[2596. Check Knight Tour Configuration](Graphs/BFS/2596.%20Check%20Knight%20Tour%20Configuration/INTUITION.md)
 
 [2617. Minimum Number of Visited Cells in a Grid](Graphs/BFS/2617.%20Minimum%20Number%20of%20Visited%20Cells%20in%20a%20Grid/INTUITION.md)
 
-[2045. Second Minimum Time to Reach Destination](Graphs/BFS/2045.%20Second%20Minimum%20Time%20to%20Reach%20Destination/INTUITION.md)
+[365. Water and Jug Problem](Graphs/BFS/365.%20Water%20and%20Jug%20Problem/INTUITION.md)
 
-[1129. Shortest Path with Alternating Color](Graphs/BFS/1129.%20Shortest%20Path%20with%20Alternating%20Color/INTUITION.md)
+[675. Cut Off Trees for Golf Event](Graphs/BFS/675.%20Cut%20Off%20Trees%20for%20Golf%20Event/INTUITION.md)
 
-[1345. Jump Game IV](Graphs/BFS/1345.%20Jump%20Game%20IV/INTUITION.md)
-
-[2596. Check Knight Tour Configuration](Graphs/BFS/2596.%20Check%20Knight%20Tour%20Configuration/INTUITION.md)
-
-[909. Snakes and Ladders](Graphs/BFS/909.%20Snakes%20and%20Ladders/INTUITION.md)
-
-[1263. Minimum Moves to Move a Box to Their Target Location](Graphs/BFS/1263.%20Minimum%20Moves%20to%20Move%20a%20Box%20to%20Their%20Target%20Location/INTUITION.md)
+[773. Sliding Puzzle](Graphs/BFS/773.%20Sliding%20Puzzle/INTUITION.md)
 
 [847. Shortest Path Visiting All Nodes](Graphs/BFS/847.%20Shortest%20Path%20Visiting%20All%20Nodes/INTUITION.md)
 
-[1210. Minimum Moves to Reach Target with Rotations](Graphs/BFS/1210.%20Minimum%20Moves%20to%20Reach%20Target%20with%20Rotations/INTUITION.md)
+[864. Shortest Path to Get All Keys](Graphs/BFS/864.%20Shortest%20Path%20to%20Get%20All%20Keys/INTUITION.md)
+
+[909. Snakes and Ladders](Graphs/BFS/909.%20Snakes%20and%20Ladders/INTUITION.md)
 
 ## Graphs/Dijkstra
 
+[1102. Path With Maximum Minimum Value](Graphs/Dijkstra/1102.%20Path%20With%20Maximum%20Minimum%20Value/INTUITION.md)
+
 [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](Graphs/Dijkstra/1334.%20Find%20the%20City%20With%20the%20Smallest%20Number%20of%20Neighbors%20at%20a%20Threshold%20Distance/INTUITION.md)
 
-[2699. Modify Graph Edge Weights](Graphs/Dijkstra/2699.%20Modify%20Graph%20Edge%20Weights/INTUITION.md)
-
-[2976. Minimum Cost to Convert String I](Graphs/Dijkstra/2976.%20Minimum%20Cost%20to%20Convert%20String%20I/INTUITION.md)
-
-[2577. Minimum Time to Visit a Cell In a Grid](Graphs/Dijkstra/2577.%20Minimum%20Time%20to%20Visit%20a%20Cell%20In%20a%20Grid/INTUITION.md)
-
-[407. Trapping Rain Water II](Graphs/Dijkstra/407.%20Trapping%20Rain%20Water%20II/INTUITION.md)
-
-[2662. Minimum Cost of a Path With Special Roads](Graphs/Dijkstra/2662.%20Minimum%20Cost%20of%20a%20Path%20With%20Special%20Roads/INTUITION.md)
-
-[2642. Design Graph With Shortest Path Calculator](Graphs/Dijkstra/2642.%20Design%20Graph%20With%20Shortest%20Path%20Calculator/INTUITION.md)
-
-[882. Reachable Nodes In Subdivided Graph](Graphs/Dijkstra/882.%20Reachable%20Nodes%20In%20Subdivided%20Graph/INTUITION.md)
-
-[1102. Path With Maximum Minimum Value](Graphs/Dijkstra/1102.%20Path%20With%20Maximum%20Minimum%20Value/INTUITION.md)
+[1631. Path With Minimum Effort](Graphs/Dijkstra/1631.%20Path%20With%20Minimum%20Effort/INTUITION.md)
 
 [1976. Number of Ways to Arrive at Destination](Graphs/Dijkstra/1976.%20Number%20of%20Ways%20to%20Arrive%20at%20Destination/INTUITION.md)
 
 [2290. Minimum Obstacle Removal to Reach Corner](Graphs/Dijkstra/2290.%20Minimum%20Obstacle%20Removal%20to%20Reach%20Corner/INTUITION.md)
 
-[1631. Path With Minimum Effort](Graphs/Dijkstra/1631.%20Path%20With%20Minimum%20Effort/INTUITION.md)
+[2577. Minimum Time to Visit a Cell In a Grid](Graphs/Dijkstra/2577.%20Minimum%20Time%20to%20Visit%20a%20Cell%20In%20a%20Grid/INTUITION.md)
+
+[2642. Design Graph With Shortest Path Calculator](Graphs/Dijkstra/2642.%20Design%20Graph%20With%20Shortest%20Path%20Calculator/INTUITION.md)
+
+[2662. Minimum Cost of a Path With Special Roads](Graphs/Dijkstra/2662.%20Minimum%20Cost%20of%20a%20Path%20With%20Special%20Roads/INTUITION.md)
+
+[2699. Modify Graph Edge Weights](Graphs/Dijkstra/2699.%20Modify%20Graph%20Edge%20Weights/INTUITION.md)
+
+[2976. Minimum Cost to Convert String I](Graphs/Dijkstra/2976.%20Minimum%20Cost%20to%20Convert%20String%20I/INTUITION.md)
+
+[407. Trapping Rain Water II](Graphs/Dijkstra/407.%20Trapping%20Rain%20Water%20II/INTUITION.md)
+
+[882. Reachable Nodes In Subdivided Graph](Graphs/Dijkstra/882.%20Reachable%20Nodes%20In%20Subdivided%20Graph/INTUITION.md)
 
 ## Graphs/Minimum Spanning Tree
 
 [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](Graphs/Minimum%20Spanning%20Tree/1489.%20Find%20Critical%20and%20Pseudo-Critical%20Edges%20in%20Minimum%20Spanning%20Tree/INTUITION.md)
 
+[1579. Remove Max Number of Edges to Keep Graph Fully Traversable](Graphs/Minimum%20Spanning%20Tree/1579.%20Remove%20Max%20Number%20of%20Edges%20to%20Keep%20Graph%20Fully%20Traversable/INTUITION.md)
+
 [1584. Min Cost to Connect All Points](Graphs/Minimum%20Spanning%20Tree/1584.%20Min%20Cost%20to%20Connect%20All%20Points/INTUITION.md)
 
 [2492. Minimum Score of a Path Between Two Cities](Graphs/Minimum%20Spanning%20Tree/2492.%20Minimum%20Score%20of%20a%20Path%20Between%20Two%20Cities/INTUITION.md)
 
-[1579. Remove Max Number of Edges to Keep Graph Fully Traversable](Graphs/Minimum%20Spanning%20Tree/1579.%20Remove%20Max%20Number%20of%20Edges%20to%20Keep%20Graph%20Fully%20Traversable/INTUITION.md)
-
 ## Stack
 
+[1106. Parsing A Boolean Expression](Stack/1106.%20Parsing%20A%20Boolean%20Expression/INTUITION.md)
+
+[1541. Minimum Insertions to Balance a Parentheses String](Stack/1541.%20Minimum%20Insertions%20to%20Balance%20a%20Parentheses%20String/INTUITION.md)
+
 [1963. Minimum Number of Swaps to Make the String Balanced](Stack/1963.%20Minimum%20Number%20of%20Swaps%20to%20Make%20the%20String%20Balanced/INTUITION.md)
+
+[2197. Replace Non-Coprime Numbers in Array](Stack/2197.%20Replace%20Non-Coprime%20Numbers%20in%20Array/INTUITION.md)
 
 [2751. Robot Collisions](Stack/2751.%20Robot%20Collisions/INTUITION.md)
 
 [2751. Robot Collisions](Stack/2751.%20Robot%20Collisions/REAME.md)
 
-[591. Tag Validator](Stack/591.%20Tag%20Validator/INTUITION.md)
-
-[735. Asteroid Collision](Stack/735.%20Asteroid%20Collision/INTUITION.md)
-
-[946. Validate Stack Sequences](Stack/946.%20Validate%20Stack%20Sequences/INTUITION.md)
-
-[1541. Minimum Insertions to Balance a Parentheses String](Stack/1541.%20Minimum%20Insertions%20to%20Balance%20a%20Parentheses%20String/INTUITION.md)
-
-[1106. Parsing A Boolean Expression](Stack/1106.%20Parsing%20A%20Boolean%20Expression/INTUITION.md)
-
-[921. Minimum Add to Make Parentheses Valid](Stack/921.%20Minimum%20Add%20to%20Make%20Parentheses%20Valid/INTUITION.md)
-
 [341. Flatten Nested List Iterator](Stack/341.%20Flatten%20Nested%20List%20Iterator/INTUITION.md)
 
 [388. Longest Absolute File Path](Stack/388.%20Longest%20Absolute%20File%20Path/INTUITION.md)
 
-[2197. Replace Non-Coprime Numbers in Array](Stack/2197.%20Replace%20Non-Coprime%20Numbers%20in%20Array/INTUITION.md)
+[591. Tag Validator](Stack/591.%20Tag%20Validator/INTUITION.md)
 
 [71. Simplify Path](Stack/71.%20Simplify%20Path/INTUITION.md)
 
+[735. Asteroid Collision](Stack/735.%20Asteroid%20Collision/INTUITION.md)
+
+[921. Minimum Add to Make Parentheses Valid](Stack/921.%20Minimum%20Add%20to%20Make%20Parentheses%20Valid/INTUITION.md)
+
+[946. Validate Stack Sequences](Stack/946.%20Validate%20Stack%20Sequences/INTUITION.md)
+
 ## Stack/Monotone Stack
+
+[1081. Smallest Subsequence of Distinct Characters](Stack/Monotone%20Stack/1081.%20Smallest%20Subsequence%20of%20Distinct%20Characters/INTUITION.md)
+
+[1124. Longest Well-Performing Interval](Stack/Monotone%20Stack/1124.%20Longest%20Well-Performing%20Interval/INTUITION.md)
 
 [1130. Minimum Cost Tree From Leaf Values](Stack/Monotone%20Stack/1130.%20Minimum%20Cost%20Tree%20From%20Leaf%20Values/INTUITION.md)
 
 [1504. Count Submatrices With All Ones](Stack/Monotone%20Stack/1504.%20Count%20Submatrices%20With%20All%20Ones/INTUITION.md)
 
-[907. Sum of Subarray Minimums](Stack/Monotone%20Stack/907.%20Sum%20of%20Subarray%20Minimums/INTUITION.md)
+[1673. Find the Most Competitive Subsequence](Stack/Monotone%20Stack/1673.%20Find%20the%20Most%20Competitive%20Subsequence/INTUITION.md)
 
-[321. Create Maximum Number](Stack/Monotone%20Stack/321.%20Create%20Maximum%20Number/INTUITION.md)
+[1856. Maximum Subarray Min-Product](Stack/Monotone%20Stack/1856.%20Maximum%20Subarray%20Min-Product/INTUITION.md)
+
+[1944. Number of Visible People in a Queue](Stack/Monotone%20Stack/1944.%20Number%20of%20Visible%20People%20in%20a%20Queue/INTUITION.md)
+
+[2818. Apply Operations to Maximize Score](Stack/Monotone%20Stack/2818.%20Apply%20Operations%20to%20Maximize%20Score/INTUITION.md)
+
+[2866. Beautiful Towers II](Stack/Monotone%20Stack/2866.%20Beautiful%20Towers%20II/INTUITION.md)
 
 [2940. Find Building Where Alice and Bob Can Meet](Stack/Monotone%20Stack/2940.%20Find%20Building%20Where%20Alice%20and%20Bob%20Can%20Meet/INTUITION.md)
 
 [316. Remove Duplicate Letters](Stack/Monotone%20Stack/316.%20Remove%20Duplicate%20Letters/INTUITION.md)
 
-[1944. Number of Visible People in a Queue](Stack/Monotone%20Stack/1944.%20Number%20of%20Visible%20People%20in%20a%20Queue/INTUITION.md)
+[321. Create Maximum Number](Stack/Monotone%20Stack/321.%20Create%20Maximum%20Number/INTUITION.md)
 
 [402. Remove K Digits](Stack/Monotone%20Stack/402.%20Remove%20K%20Digits/INTUITION.md)
 
-[2866. Beautiful Towers II](Stack/Monotone%20Stack/2866.%20Beautiful%20Towers%20II/INTUITION.md)
-
-[1673. Find the Most Competitive Subsequence](Stack/Monotone%20Stack/1673.%20Find%20the%20Most%20Competitive%20Subsequence/INTUITION.md)
-
-[1081. Smallest Subsequence of Distinct Characters](Stack/Monotone%20Stack/1081.%20Smallest%20Subsequence%20of%20Distinct%20Characters/INTUITION.md)
-
-[1856. Maximum Subarray Min-Product](Stack/Monotone%20Stack/1856.%20Maximum%20Subarray%20Min-Product/INTUITION.md)
-
-[1124. Longest Well-Performing Interval](Stack/Monotone%20Stack/1124.%20Longest%20Well-Performing%20Interval/INTUITION.md)
-
-[2818. Apply Operations to Maximize Score](Stack/Monotone%20Stack/2818.%20Apply%20Operations%20to%20Maximize%20Score/INTUITION.md)
-
 [456. 132 Pattern](Stack/Monotone%20Stack/456.%20132%20Pattern/INTUITION.md)
+
+[907. Sum of Subarray Minimums](Stack/Monotone%20Stack/907.%20Sum%20of%20Subarray%20Minimums/INTUITION.md)
 
 ## Random
 
@@ -1531,247 +1532,257 @@ for k, v in MAP.items():
 
 ## Linked List
 
+[138. Copy List with Random Pointer](Linked%20List/138.%20Copy%20List%20with%20Random%20Pointer/INTUITION.md)
+
+[1721. Swapping Nodes in a Linked List](Linked%20List/1721.%20Swapping%20Nodes%20in%20a%20Linked%20List/INTUITION.md)
+
 [2130. Maximum Twin Sum of a Linked List](Linked%20List/2130.%20Maximum%20Twin%20Sum%20of%20a%20Linked%20List/INTUITION.md)
 
 [2296. Design a Text Editor](Linked%20List/2296.%20Design%20a%20Text%20Editor/INTUITION.md)
 
-[430. Flatten a Multilevel Doubly Linked List](Linked%20List/430.%20Flatten%20a%20Multilevel%20Doubly%20Linked%20List/INTUITION.md)
-
-[460. LFU Cache](Linked%20List/460.%20LFU%20Cache/INTUITION.md)
-
-[86. Partition List](Linked%20List/86.%20Partition%20List/INTUITION.md)
-
-[82. Remove Duplicates from Sorted List II](Linked%20List/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II/INTUITION.md)
-
-[432. All O`one Data Structure](Linked%20List/432.%20All%20O%60one%20Data%20Structure/INTUITION.md)
-
 [237. Delete Node in a Linked List](Linked%20List/237.%20Delete%20Node%20in%20a%20Linked%20List/INTUITION.md)
-
-[138. Copy List with Random Pointer](Linked%20List/138.%20Copy%20List%20with%20Random%20Pointer/INTUITION.md)
 
 [2487. Remove Nodes From Linked List](Linked%20List/2487.%20Remove%20Nodes%20From%20Linked%20List/INTUITION.md)
 
-[1721. Swapping Nodes in a Linked List](Linked%20List/1721.%20Swapping%20Nodes%20in%20a%20Linked%20List/INTUITION.md)
+[430. Flatten a Multilevel Doubly Linked List](Linked%20List/430.%20Flatten%20a%20Multilevel%20Doubly%20Linked%20List/INTUITION.md)
+
+[432. All O`one Data Structure](Linked%20List/432.%20All%20O%60one%20Data%20Structure/INTUITION.md)
+
+[460. LFU Cache](Linked%20List/460.%20LFU%20Cache/INTUITION.md)
 
 [61. Rotate List](Linked%20List/61.%20Rotate%20List/INTUITION.md)
 
+[82. Remove Duplicates from Sorted List II](Linked%20List/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II/INTUITION.md)
+
+[86. Partition List](Linked%20List/86.%20Partition%20List/INTUITION.md)
+
 ## 2-D Dynamic Programming
-
-[1510. Stone Game IV](2-D%20Dynamic%20Programming/1510.%20Stone%20Game%20IV/INTUITION.md)
-
-[2464. Minimum Subarrays in a Valid Split](2-D%20Dynamic%20Programming/2464.%20Minimum%20Subarrays%20in%20a%20Valid%20Split/INTUITION.md)
-
-[2930. Number of Strings Which Can Be Rearranged to Contain Substring](2-D%20Dynamic%20Programming/2930.%20Number%20of%20Strings%20Which%20Can%20Be%20Rearranged%20to%20Contain%20Substring/INTUITION.md)
-
-[2809. Minimum Time to Make Array Sum At Most x](2-D%20Dynamic%20Programming/2809.%20Minimum%20Time%20to%20Make%20Array%20Sum%20At%20Most%20x/INTUITION.md)
-
-[1186. Maximum Subarray Sum with One Deletion](2-D%20Dynamic%20Programming/1186.%20Maximum%20Subarray%20Sum%20with%20One%20Deletion/INTUITION.md)
-
-[2088. Count Fertile Pyramids in a Land](2-D%20Dynamic%20Programming/2088.%20Count%20Fertile%20Pyramids%20in%20a%20Land/INTUITION.md)
-
-[1406. Stone Game III](2-D%20Dynamic%20Programming/1406.%20Stone%20Game%20III/INTUITION.md)
-
-[1269. Number of Ways to Stay in the Same Place After Some Steps](2-D%20Dynamic%20Programming/1269.%20Number%20of%20Ways%20to%20Stay%20in%20the%20Same%20Place%20After%20Some%20Steps/INTUITION.md)
-
-[2911. Minimum Changes to Make K Semi-palindromes](2-D%20Dynamic%20Programming/2911.%20Minimum%20Changes%20to%20Make%20K%20Semi-palindromes/INTUITION.md)
-
-[1548 - The Most Similar Path in a Graph](2-D%20Dynamic%20Programming/1548%20-%20The%20Most%20Similar%20Path%20in%20a%20Graph/INTUITION.md)
-
-[2787. Ways to Express an Integer as Sum of Powers](2-D%20Dynamic%20Programming/2787.%20Ways%20to%20Express%20an%20Integer%20as%20Sum%20of%20Powers/INTUITION.md)
-
-[2188. Minimum Time to Finish the Race](2-D%20Dynamic%20Programming/2188.%20Minimum%20Time%20to%20Finish%20the%20Race/INTUITION.md)
-
-[465. Optimal Account Balancing](2-D%20Dynamic%20Programming/465.%20Optimal%20Account%20Balancing/INTUITION.md)
-
-[2713. Maximum Strictly Increasing Cells in a Matrix](2-D%20Dynamic%20Programming/2713.%20Maximum%20Strictly%20Increasing%20Cells%20in%20a%20Matrix/INTUITION.md)
-
-[2786. Visit Array Positions to Maximize Score](2-D%20Dynamic%20Programming/2786.%20Visit%20Array%20Positions%20to%20Maximize%20Score/INTUITION.md)
-
-[1937. Maximum Number of Points with Cost](2-D%20Dynamic%20Programming/1937.%20Maximum%20Number%20of%20Points%20with%20Cost/INTUITION.md)
-
-[1900. The Earliest and Latest Rounds Where Players Compete](2-D%20Dynamic%20Programming/1900.%20The%20Earliest%20and%20Latest%20Rounds%20Where%20Players%20Compete/INTUITION.md)
-
-[920. Number of Music Playlists](2-D%20Dynamic%20Programming/920.%20Number%20of%20Music%20Playlists/INTUITION.md)
-
-[546. Remove Boxes](2-D%20Dynamic%20Programming/546.%20Remove%20Boxes/INTUITION.md)
-
-[975. Odd Even Jump](2-D%20Dynamic%20Programming/975.%20Odd%20Even%20Jump/INTUITION.md)
-
-[664. Strange Printer](2-D%20Dynamic%20Programming/664.%20Strange%20Printer/INTUITION.md)
-
-[1691. Maximum Height by Stacking Cuboids](2-D%20Dynamic%20Programming/1691.%20Maximum%20Height%20by%20Stacking%20Cuboids/INTUITION.md)
-
-[879. Profitable Schemes](2-D%20Dynamic%20Programming/879.%20Profitable%20Schemes/INTUITION.md)
-
-[2431. Maximize Total Tastiness of Purchased Fruits](2-D%20Dynamic%20Programming/2431.%20Maximize%20Total%20Tastiness%20of%20Purchased%20Fruits/INTUITION.md)
-
-[2902. Count of Sub-Multisets With Bounded Sum](2-D%20Dynamic%20Programming/2902.%20Count%20of%20Sub-Multisets%20With%20Bounded%20Sum/INTUITION.md)
-
-[1787. Make the XOR of All Segments Equal to Zero](2-D%20Dynamic%20Programming/1787.%20Make%20the%20XOR%20of%20All%20Segments%20Equal%20to%20Zero/INTUITION.md)
-
-[552. Student Attendance Record II](2-D%20Dynamic%20Programming/552.%20Student%20Attendance%20Record%20II/INTUITION.md)
-
-[1140. Stone Game II](2-D%20Dynamic%20Programming/1140.%20Stone%20Game%20II/INTUITION.md)
-
-[2143. Choose Numbers From Two Arrays in Range](2-D%20Dynamic%20Programming/2143.%20Choose%20Numbers%20From%20Two%20Arrays%20in%20Range/INTUITION.md)
-
-[943. Find the Shortest Superstring](2-D%20Dynamic%20Programming/943.%20Find%20the%20Shortest%20Superstring/INTUITION.md)
-
-[87. Scramble String](2-D%20Dynamic%20Programming/87.%20Scramble%20String/INTUITION.md)
-
-[1681. Minimum Incompatibility](2-D%20Dynamic%20Programming/1681.%20Minimum%20Incompatibility/INTUITION.md)
-
-[1402. Reducing Dishes](2-D%20Dynamic%20Programming/1402.%20Reducing%20Dishes/INTUITION.md)
-
-[1955. Count Number of Special Subsequences](2-D%20Dynamic%20Programming/1955.%20Count%20Number%20of%20Special%20Subsequences/INTUITION.md)
-
-[887. Super Egg Drop](2-D%20Dynamic%20Programming/887.%20Super%20Egg%20Drop/INTUITION.md)
-
-[2312. Selling Pieces of Wood](2-D%20Dynamic%20Programming/2312.%20Selling%20Pieces%20of%20Wood/INTUITION.md)
-
-[2140. Solving Questions With Brainpower](2-D%20Dynamic%20Programming/2140.%20Solving%20Questions%20With%20Brainpower/INTUITION.md)
-
-[1659. Maximize Grid Happiness](2-D%20Dynamic%20Programming/1659.%20Maximize%20Grid%20Happiness/INTUITION.md)
-
-[1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target](2-D%20Dynamic%20Programming/1546.%20Maximum%20Number%20of%20Non-Overlapping%20Subarrays%20With%20Sum%20Equals%20Target/INTUITION.md)
-
-[1320. Minimum Distance to Type a Word Using Two Fingers](2-D%20Dynamic%20Programming/1320.%20Minimum%20Distance%20to%20Type%20a%20Word%20Using%20Two%20Fingers/INTUITION.md)
-
-[44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/INTUITION.md)
-
-[1824. Minimum Sideway Jumps](2-D%20Dynamic%20Programming/1824.%20Minimum%20Sideway%20Jumps/INTUITION.md)
-
-[1147. Longest Chunked Palindrome Decomposition](2-D%20Dynamic%20Programming/1147.%20Longest%20Chunked%20Palindrome%20Decomposition/INTUITION.md)
-
-[2218. Maximum Value of K Coins From Piles](2-D%20Dynamic%20Programming/2218.%20Maximum%20Value%20of%20K%20Coins%20From%20Piles/INTUITION.md)
-
-[688. Knight Probability in Chessboard](2-D%20Dynamic%20Programming/688.%20Knight%20Probability%20in%20Chessboard/INTUITION.md)
-
-[801. Minimum Swaps To Make Sequences Increasing](2-D%20Dynamic%20Programming/801.%20Minimum%20Swaps%20To%20Make%20Sequences%20Increasing/INTUITION.md)
-
-[1473. Paint House III](2-D%20Dynamic%20Programming/1473.%20Paint%20House%20III/INTUITION.md)
-
-[2826. Sorting Three Groups](2-D%20Dynamic%20Programming/2826.%20Sorting%20Three%20Groups/INTUITION.md)
-
-[1277. Count Square Submatrices with All Ones](2-D%20Dynamic%20Programming/1277.%20Count%20Square%20Submatrices%20with%20All%20Ones/DISCUSSION.md)
-
-[1692. Count Ways to Distribute Candies](2-D%20Dynamic%20Programming/1692.%20Count%20Ways%20to%20Distribute%20Candies/INTUITION.md)
-
-[1883. Minimum Skips to Arrive at Meeting On Time](2-D%20Dynamic%20Programming/1883.%20Minimum%20Skips%20to%20Arrive%20at%20Meeting%20On%20Time/INTUITION.md)
-
-[1434. Number of Ways to Wear Different Hats to Each Other](2-D%20Dynamic%20Programming/1434.%20Number%20of%20Ways%20to%20Wear%20Different%20Hats%20to%20Each%20Other/INTUITION.md)
-
-[1575. Count All Possible Routes](2-D%20Dynamic%20Programming/1575.%20Count%20All%20Possible%20Routes/INTUITION.md)
-
-[1531. String Compression II](2-D%20Dynamic%20Programming/1531.%20String%20Compression%20II/INTUITION.md)
-
-[2771. Longest Non-decreasing Subarray From Two Arrays](2-D%20Dynamic%20Programming/2771.%20Longest%20Non-decreasing%20Subarray%20From%20Two%20Arrays/INTUITION.md)
-
-[514. Freedom Trail](2-D%20Dynamic%20Programming/514.%20Freedom%20Trail/INTUITION.md)
-
-[2719. Count of Integers](2-D%20Dynamic%20Programming/2719.%20Count%20of%20Integers/INTUITION.md)
-
-[1444. Number of Ways of Cutting a Pizza](2-D%20Dynamic%20Programming/1444.%20Number%20of%20Ways%20of%20Cutting%20a%20Pizza/INTUITION.md)
 
 [10. Regular Expression Matching](2-D%20Dynamic%20Programming/10.%20Regular%20Expression%20Matching/INTUITION.md)
 
-[2746. Decremental String Concatenation](2-D%20Dynamic%20Programming/2746.%20Decremental%20String%20Concatenation/INTUITION.md)
+[1067. Digit Count in Range](2-D%20Dynamic%20Programming/1067.%20Digit%20Count%20in%20Range/INTUITION.md)
 
-[714. Best Time to Buy and Sell Stock with Transaction Fee](2-D%20Dynamic%20Programming/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee/INTUITION.md)
+[1140. Stone Game II](2-D%20Dynamic%20Programming/1140.%20Stone%20Game%20II/INTUITION.md)
 
-[2811. Check if it is Possible to Split Array](2-D%20Dynamic%20Programming/2811.%20Check%20if%20it%20is%20Possible%20to%20Split%20Array/INTUITION.md)
-
-[2361. Minimum Costs Using the Train Line](2-D%20Dynamic%20Programming/2361.%20Minimum%20Costs%20Using%20the%20Train%20Line/INTUITION.md)
-
-[2328. Number of Increasing Paths in a Grid](2-D%20Dynamic%20Programming/2328.%20Number%20of%20Increasing%20Paths%20in%20a%20Grid/INTUITION.md)
-
-[978. Longest Turbulent Subarray](2-D%20Dynamic%20Programming/978.%20Longest%20Turbulent%20Subarray/INTUITION.md)
-
-[629. K Inverse Pairs Array](2-D%20Dynamic%20Programming/629.%20K%20Inverse%20Pairs%20Array/INTUITION.md)
-
-[1959. Minimum Total Space Wasted With K Resizing Operations](2-D%20Dynamic%20Programming/1959.%20Minimum%20Total%20Space%20Wasted%20With%20K%20Resizing%20Operations/INTUITION.md)
-
-[2318. Number of Distinct Roll Sequences](2-D%20Dynamic%20Programming/2318.%20Number%20of%20Distinct%20Roll%20Sequences/INTUITION.md)
-
-[808. Soup Servings](2-D%20Dynamic%20Programming/808.%20Soup%20Servings/INTUITION.md)
-
-[1866. Number of Ways to Rearrange Sticks With K Sticks Visible](2-D%20Dynamic%20Programming/1866.%20Number%20of%20Ways%20to%20Rearrange%20Sticks%20With%20K%20Sticks%20Visible/INTUITION.md)
-
-[931. Minimum Falling Path Sum](2-D%20Dynamic%20Programming/931.%20Minimum%20Falling%20Path%20Sum/INTUITION.md)
+[1147. Longest Chunked Palindrome Decomposition](2-D%20Dynamic%20Programming/1147.%20Longest%20Chunked%20Palindrome%20Decomposition/INTUITION.md)
 
 [1155. Number of Dice Rolls With Target Sum](2-D%20Dynamic%20Programming/1155.%20Number%20of%20Dice%20Rolls%20With%20Target%20Sum/INTUITION.md)
 
-[63. Unique Paths II](2-D%20Dynamic%20Programming/63.%20Unique%20Paths%20II/INTUITION.md)
+[1186. Maximum Subarray Sum with One Deletion](2-D%20Dynamic%20Programming/1186.%20Maximum%20Subarray%20Sum%20with%20One%20Deletion/INTUITION.md)
 
-[2189. Number of Ways to Build House of Cards](2-D%20Dynamic%20Programming/2189.%20Number%20of%20Ways%20to%20Build%20House%20of%20Cards/INTUITION.md)
-
-[2272. Substring With Largest Variance](2-D%20Dynamic%20Programming/2272.%20Substring%20With%20Largest%20Variance/INTUITION.md)
-
-[873. Length of Longest Fibonacci Subsequence](2-D%20Dynamic%20Programming/873.%20Length%20of%20Longest%20Fibonacci%20Subsequence/INTUITION.md)
-
-[1419. Minimum Number of Frogs Croaking](2-D%20Dynamic%20Programming/1419.%20Minimum%20Number%20of%20Frogs%20Croaking/INTUITION.md)
-
-[1316. Distinct Echo Substrings](2-D%20Dynamic%20Programming/1316.%20Distinct%20Echo%20Substrings/INTUITION.md)
-
-[1909. Remove One Element to Make the Array Strictly Increasing](2-D%20Dynamic%20Programming/1909.%20Remove%20One%20Element%20to%20Make%20the%20Array%20Strictly%20Increasing/INTUITION.md)
-
-[1230. Toss Strange Coins](2-D%20Dynamic%20Programming/1230.%20Toss%20Strange%20Coins/INTUITION.md)
-
-[1493. Longest Subarray of 1's After Deleting One Element](2-D%20Dynamic%20Programming/1493.%20Longest%20Subarray%20of%201%27s%20After%20Deleting%20One%20Element/INTUITION.md)
-
-[1746. Maximum Subarray Sum After One Operation](2-D%20Dynamic%20Programming/1746.%20Maximum%20Subarray%20Sum%20After%20One%20Operation/INTUITION.md)
+[1187. Make Array Strictly Increasing](2-D%20Dynamic%20Programming/1187.%20Make%20Array%20Strictly%20Increasing/INTUITION.md)
 
 [1220. Count Vowels Permutation](2-D%20Dynamic%20Programming/1220.%20Count%20Vowels%20Permutation/INTUITION.md)
 
 [1223. Dice Roll Simulation](2-D%20Dynamic%20Programming/1223.%20Dice%20Roll%20Simulation/INTUITION.md)
 
-[940. Distinct Subsequences II](2-D%20Dynamic%20Programming/940.%20Distinct%20Subsequences%20II/INTUITION.md)
-
-[2209. Minimum White Tiles After Covering With Carpets](2-D%20Dynamic%20Programming/2209.%20Minimum%20White%20Tiles%20After%20Covering%20With%20Carpets/INTUITION.md)
-
-[2338. Count the Number of Ideal Arrays](2-D%20Dynamic%20Programming/2338.%20Count%20the%20Number%20of%20Ideal%20Arrays/INTUITION.md)
-
-[1751. Maximum Number of Events That Can Be Attended II](2-D%20Dynamic%20Programming/1751.%20Maximum%20Number%20of%20Events%20That%20Can%20Be%20Attended%20II/INTUITION.md)
-
-[1639. Number of Ways to Form a Target String Given a Dictionary](2-D%20Dynamic%20Programming/1639.%20Number%20of%20Ways%20to%20Form%20a%20Target%20String%20Given%20a%20Dictionary/INTUITION.md)
-
-[1067. Digit Count in Range](2-D%20Dynamic%20Programming/1067.%20Digit%20Count%20in%20Range/INTUITION.md)
-
-[2002. Maximum Product of the Length of Two Palindromic Subsequences](2-D%20Dynamic%20Programming/2002.%20Maximum%20Product%20of%20the%20Length%20of%20Two%20Palindromic%20Subsequences/INTUITION.md)
-
-[1839. Longest Substring Of All Vowels in Order](2-D%20Dynamic%20Programming/1839.%20Longest%20Substring%20Of%20All%20Vowels%20in%20Order/INTUITION.md)
-
-[1363. Largest Multiple of Three](2-D%20Dynamic%20Programming/1363.%20Largest%20Multiple%20of%20Three/INTUITION.md)
-
-[1420. Build Array Where You Can Find The Maximum Exactly K Comparisons](2-D%20Dynamic%20Programming/1420.%20Build%20Array%20Where%20You%20Can%20Find%20The%20Maximum%20Exactly%20K%20Comparisons/INTUITION.md)
-
-[1621. Number of Sets of K Non-Overlapping Line Segments](2-D%20Dynamic%20Programming/1621.%20Number%20of%20Sets%20of%20K%20Non-Overlapping%20Line%20Segments/INTUITION.md)
-
-[877. Stone Game](2-D%20Dynamic%20Programming/877.%20Stone%20Game/INTUITION.md)
-
-[756. Pyramid Transition Matrix](2-D%20Dynamic%20Programming/756.%20Pyramid%20Transition%20Matrix/INTUITION.md)
-
-[1425. Constrained Subsequence Sum](2-D%20Dynamic%20Programming/1425.%20Constrained%20Subsequence%20Sum/INTUITION.md)
-
-[1187. Make Array Strictly Increasing](2-D%20Dynamic%20Programming/1187.%20Make%20Array%20Strictly%20Increasing/INTUITION.md)
+[1230. Toss Strange Coins](2-D%20Dynamic%20Programming/1230.%20Toss%20Strange%20Coins/INTUITION.md)
 
 [1262. Greatest Sum Divisible by Three](2-D%20Dynamic%20Programming/1262.%20Greatest%20Sum%20Divisible%20by%20Three/INTUITION.md)
 
-[2742. Painting the Walls](2-D%20Dynamic%20Programming/2742.%20Painting%20the%20Walls/INTUITION.md)
+[1269. Number of Ways to Stay in the Same Place After Some Steps](2-D%20Dynamic%20Programming/1269.%20Number%20of%20Ways%20to%20Stay%20in%20the%20Same%20Place%20After%20Some%20Steps/INTUITION.md)
+
+[1277. Count Square Submatrices with All Ones](2-D%20Dynamic%20Programming/1277.%20Count%20Square%20Submatrices%20with%20All%20Ones/DISCUSSION.md)
+
+[1316. Distinct Echo Substrings](2-D%20Dynamic%20Programming/1316.%20Distinct%20Echo%20Substrings/INTUITION.md)
+
+[1320. Minimum Distance to Type a Word Using Two Fingers](2-D%20Dynamic%20Programming/1320.%20Minimum%20Distance%20to%20Type%20a%20Word%20Using%20Two%20Fingers/INTUITION.md)
+
+[1363. Largest Multiple of Three](2-D%20Dynamic%20Programming/1363.%20Largest%20Multiple%20of%20Three/INTUITION.md)
+
+[1402. Reducing Dishes](2-D%20Dynamic%20Programming/1402.%20Reducing%20Dishes/INTUITION.md)
+
+[1406. Stone Game III](2-D%20Dynamic%20Programming/1406.%20Stone%20Game%20III/INTUITION.md)
+
+[1419. Minimum Number of Frogs Croaking](2-D%20Dynamic%20Programming/1419.%20Minimum%20Number%20of%20Frogs%20Croaking/INTUITION.md)
+
+[1420. Build Array Where You Can Find The Maximum Exactly K Comparisons](2-D%20Dynamic%20Programming/1420.%20Build%20Array%20Where%20You%20Can%20Find%20The%20Maximum%20Exactly%20K%20Comparisons/INTUITION.md)
+
+[1425. Constrained Subsequence Sum](2-D%20Dynamic%20Programming/1425.%20Constrained%20Subsequence%20Sum/INTUITION.md)
+
+[1434. Number of Ways to Wear Different Hats to Each Other](2-D%20Dynamic%20Programming/1434.%20Number%20of%20Ways%20to%20Wear%20Different%20Hats%20to%20Each%20Other/INTUITION.md)
+
+[1444. Number of Ways of Cutting a Pizza](2-D%20Dynamic%20Programming/1444.%20Number%20of%20Ways%20of%20Cutting%20a%20Pizza/INTUITION.md)
+
+[1473. Paint House III](2-D%20Dynamic%20Programming/1473.%20Paint%20House%20III/INTUITION.md)
+
+[1493. Longest Subarray of 1's After Deleting One Element](2-D%20Dynamic%20Programming/1493.%20Longest%20Subarray%20of%201%27s%20After%20Deleting%20One%20Element/INTUITION.md)
+
+[1510. Stone Game IV](2-D%20Dynamic%20Programming/1510.%20Stone%20Game%20IV/INTUITION.md)
+
+[1531. String Compression II](2-D%20Dynamic%20Programming/1531.%20String%20Compression%20II/INTUITION.md)
+
+[1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target](2-D%20Dynamic%20Programming/1546.%20Maximum%20Number%20of%20Non-Overlapping%20Subarrays%20With%20Sum%20Equals%20Target/INTUITION.md)
+
+[1548 - The Most Similar Path in a Graph](2-D%20Dynamic%20Programming/1548%20-%20The%20Most%20Similar%20Path%20in%20a%20Graph/INTUITION.md)
+
+[1575. Count All Possible Routes](2-D%20Dynamic%20Programming/1575.%20Count%20All%20Possible%20Routes/INTUITION.md)
+
+[1621. Number of Sets of K Non-Overlapping Line Segments](2-D%20Dynamic%20Programming/1621.%20Number%20of%20Sets%20of%20K%20Non-Overlapping%20Line%20Segments/INTUITION.md)
+
+[1639. Number of Ways to Form a Target String Given a Dictionary](2-D%20Dynamic%20Programming/1639.%20Number%20of%20Ways%20to%20Form%20a%20Target%20String%20Given%20a%20Dictionary/INTUITION.md)
+
+[1659. Maximize Grid Happiness](2-D%20Dynamic%20Programming/1659.%20Maximize%20Grid%20Happiness/INTUITION.md)
+
+[1681. Minimum Incompatibility](2-D%20Dynamic%20Programming/1681.%20Minimum%20Incompatibility/INTUITION.md)
+
+[1691. Maximum Height by Stacking Cuboids](2-D%20Dynamic%20Programming/1691.%20Maximum%20Height%20by%20Stacking%20Cuboids/INTUITION.md)
+
+[1692. Count Ways to Distribute Candies](2-D%20Dynamic%20Programming/1692.%20Count%20Ways%20to%20Distribute%20Candies/INTUITION.md)
+
+[1746. Maximum Subarray Sum After One Operation](2-D%20Dynamic%20Programming/1746.%20Maximum%20Subarray%20Sum%20After%20One%20Operation/INTUITION.md)
+
+[1751. Maximum Number of Events That Can Be Attended II](2-D%20Dynamic%20Programming/1751.%20Maximum%20Number%20of%20Events%20That%20Can%20Be%20Attended%20II/INTUITION.md)
+
+[1787. Make the XOR of All Segments Equal to Zero](2-D%20Dynamic%20Programming/1787.%20Make%20the%20XOR%20of%20All%20Segments%20Equal%20to%20Zero/INTUITION.md)
+
+[1824. Minimum Sideway Jumps](2-D%20Dynamic%20Programming/1824.%20Minimum%20Sideway%20Jumps/INTUITION.md)
+
+[1839. Longest Substring Of All Vowels in Order](2-D%20Dynamic%20Programming/1839.%20Longest%20Substring%20Of%20All%20Vowels%20in%20Order/INTUITION.md)
+
+[1866. Number of Ways to Rearrange Sticks With K Sticks Visible](2-D%20Dynamic%20Programming/1866.%20Number%20of%20Ways%20to%20Rearrange%20Sticks%20With%20K%20Sticks%20Visible/INTUITION.md)
+
+[1883. Minimum Skips to Arrive at Meeting On Time](2-D%20Dynamic%20Programming/1883.%20Minimum%20Skips%20to%20Arrive%20at%20Meeting%20On%20Time/INTUITION.md)
+
+[1900. The Earliest and Latest Rounds Where Players Compete](2-D%20Dynamic%20Programming/1900.%20The%20Earliest%20and%20Latest%20Rounds%20Where%20Players%20Compete/INTUITION.md)
+
+[1909. Remove One Element to Make the Array Strictly Increasing](2-D%20Dynamic%20Programming/1909.%20Remove%20One%20Element%20to%20Make%20the%20Array%20Strictly%20Increasing/INTUITION.md)
+
+[1937. Maximum Number of Points with Cost](2-D%20Dynamic%20Programming/1937.%20Maximum%20Number%20of%20Points%20with%20Cost/INTUITION.md)
+
+[1955. Count Number of Special Subsequences](2-D%20Dynamic%20Programming/1955.%20Count%20Number%20of%20Special%20Subsequences/INTUITION.md)
+
+[1959. Minimum Total Space Wasted With K Resizing Operations](2-D%20Dynamic%20Programming/1959.%20Minimum%20Total%20Space%20Wasted%20With%20K%20Resizing%20Operations/INTUITION.md)
+
+[2002. Maximum Product of the Length of Two Palindromic Subsequences](2-D%20Dynamic%20Programming/2002.%20Maximum%20Product%20of%20the%20Length%20of%20Two%20Palindromic%20Subsequences/INTUITION.md)
+
+[2088. Count Fertile Pyramids in a Land](2-D%20Dynamic%20Programming/2088.%20Count%20Fertile%20Pyramids%20in%20a%20Land/INTUITION.md)
+
+[2140. Solving Questions With Brainpower](2-D%20Dynamic%20Programming/2140.%20Solving%20Questions%20With%20Brainpower/INTUITION.md)
+
+[2143. Choose Numbers From Two Arrays in Range](2-D%20Dynamic%20Programming/2143.%20Choose%20Numbers%20From%20Two%20Arrays%20in%20Range/INTUITION.md)
+
+[2188. Minimum Time to Finish the Race](2-D%20Dynamic%20Programming/2188.%20Minimum%20Time%20to%20Finish%20the%20Race/INTUITION.md)
+
+[2189. Number of Ways to Build House of Cards](2-D%20Dynamic%20Programming/2189.%20Number%20of%20Ways%20to%20Build%20House%20of%20Cards/INTUITION.md)
+
+[2209. Minimum White Tiles After Covering With Carpets](2-D%20Dynamic%20Programming/2209.%20Minimum%20White%20Tiles%20After%20Covering%20With%20Carpets/INTUITION.md)
+
+[2218. Maximum Value of K Coins From Piles](2-D%20Dynamic%20Programming/2218.%20Maximum%20Value%20of%20K%20Coins%20From%20Piles/INTUITION.md)
+
+[2272. Substring With Largest Variance](2-D%20Dynamic%20Programming/2272.%20Substring%20With%20Largest%20Variance/INTUITION.md)
+
+[2312. Selling Pieces of Wood](2-D%20Dynamic%20Programming/2312.%20Selling%20Pieces%20of%20Wood/INTUITION.md)
+
+[2318. Number of Distinct Roll Sequences](2-D%20Dynamic%20Programming/2318.%20Number%20of%20Distinct%20Roll%20Sequences/INTUITION.md)
+
+[2328. Number of Increasing Paths in a Grid](2-D%20Dynamic%20Programming/2328.%20Number%20of%20Increasing%20Paths%20in%20a%20Grid/INTUITION.md)
+
+[2338. Count the Number of Ideal Arrays](2-D%20Dynamic%20Programming/2338.%20Count%20the%20Number%20of%20Ideal%20Arrays/INTUITION.md)
+
+[2361. Minimum Costs Using the Train Line](2-D%20Dynamic%20Programming/2361.%20Minimum%20Costs%20Using%20the%20Train%20Line/INTUITION.md)
+
+[2431. Maximize Total Tastiness of Purchased Fruits](2-D%20Dynamic%20Programming/2431.%20Maximize%20Total%20Tastiness%20of%20Purchased%20Fruits/INTUITION.md)
+
+[2464. Minimum Subarrays in a Valid Split](2-D%20Dynamic%20Programming/2464.%20Minimum%20Subarrays%20in%20a%20Valid%20Split/INTUITION.md)
 
 [2712. Minimum Cost to Make All Characters Equal](2-D%20Dynamic%20Programming/2712.%20Minimum%20Cost%20to%20Make%20All%20Characters%20Equal/INTUITION.md)
 
+[2713. Maximum Strictly Increasing Cells in a Matrix](2-D%20Dynamic%20Programming/2713.%20Maximum%20Strictly%20Increasing%20Cells%20in%20a%20Matrix/INTUITION.md)
+
+[2719. Count of Integers](2-D%20Dynamic%20Programming/2719.%20Count%20of%20Integers/INTUITION.md)
+
+[2742. Painting the Walls](2-D%20Dynamic%20Programming/2742.%20Painting%20the%20Walls/INTUITION.md)
+
+[2746. Decremental String Concatenation](2-D%20Dynamic%20Programming/2746.%20Decremental%20String%20Concatenation/INTUITION.md)
+
+[2771. Longest Non-decreasing Subarray From Two Arrays](2-D%20Dynamic%20Programming/2771.%20Longest%20Non-decreasing%20Subarray%20From%20Two%20Arrays/INTUITION.md)
+
+[2786. Visit Array Positions to Maximize Score](2-D%20Dynamic%20Programming/2786.%20Visit%20Array%20Positions%20to%20Maximize%20Score/INTUITION.md)
+
+[2787. Ways to Express an Integer as Sum of Powers](2-D%20Dynamic%20Programming/2787.%20Ways%20to%20Express%20an%20Integer%20as%20Sum%20of%20Powers/INTUITION.md)
+
+[2809. Minimum Time to Make Array Sum At Most x](2-D%20Dynamic%20Programming/2809.%20Minimum%20Time%20to%20Make%20Array%20Sum%20At%20Most%20x/INTUITION.md)
+
+[2811. Check if it is Possible to Split Array](2-D%20Dynamic%20Programming/2811.%20Check%20if%20it%20is%20Possible%20to%20Split%20Array/INTUITION.md)
+
+[2826. Sorting Three Groups](2-D%20Dynamic%20Programming/2826.%20Sorting%20Three%20Groups/INTUITION.md)
+
+[2902. Count of Sub-Multisets With Bounded Sum](2-D%20Dynamic%20Programming/2902.%20Count%20of%20Sub-Multisets%20With%20Bounded%20Sum/INTUITION.md)
+
+[2911. Minimum Changes to Make K Semi-palindromes](2-D%20Dynamic%20Programming/2911.%20Minimum%20Changes%20to%20Make%20K%20Semi-palindromes/INTUITION.md)
+
+[2930. Number of Strings Which Can Be Rearranged to Contain Substring](2-D%20Dynamic%20Programming/2930.%20Number%20of%20Strings%20Which%20Can%20Be%20Rearranged%20to%20Contain%20Substring/INTUITION.md)
+
+[44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/INTUITION.md)
+
+[465. Optimal Account Balancing](2-D%20Dynamic%20Programming/465.%20Optimal%20Account%20Balancing/INTUITION.md)
+
+[514. Freedom Trail](2-D%20Dynamic%20Programming/514.%20Freedom%20Trail/INTUITION.md)
+
+[546. Remove Boxes](2-D%20Dynamic%20Programming/546.%20Remove%20Boxes/INTUITION.md)
+
+[552. Student Attendance Record II](2-D%20Dynamic%20Programming/552.%20Student%20Attendance%20Record%20II/INTUITION.md)
+
+[629. K Inverse Pairs Array](2-D%20Dynamic%20Programming/629.%20K%20Inverse%20Pairs%20Array/INTUITION.md)
+
+[63. Unique Paths II](2-D%20Dynamic%20Programming/63.%20Unique%20Paths%20II/INTUITION.md)
+
+[664. Strange Printer](2-D%20Dynamic%20Programming/664.%20Strange%20Printer/INTUITION.md)
+
+[688. Knight Probability in Chessboard](2-D%20Dynamic%20Programming/688.%20Knight%20Probability%20in%20Chessboard/INTUITION.md)
+
+[714. Best Time to Buy and Sell Stock with Transaction Fee](2-D%20Dynamic%20Programming/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee/INTUITION.md)
+
+[756. Pyramid Transition Matrix](2-D%20Dynamic%20Programming/756.%20Pyramid%20Transition%20Matrix/INTUITION.md)
+
+[801. Minimum Swaps To Make Sequences Increasing](2-D%20Dynamic%20Programming/801.%20Minimum%20Swaps%20To%20Make%20Sequences%20Increasing/INTUITION.md)
+
+[808. Soup Servings](2-D%20Dynamic%20Programming/808.%20Soup%20Servings/INTUITION.md)
+
+[87. Scramble String](2-D%20Dynamic%20Programming/87.%20Scramble%20String/INTUITION.md)
+
+[873. Length of Longest Fibonacci Subsequence](2-D%20Dynamic%20Programming/873.%20Length%20of%20Longest%20Fibonacci%20Subsequence/INTUITION.md)
+
+[877. Stone Game](2-D%20Dynamic%20Programming/877.%20Stone%20Game/INTUITION.md)
+
+[879. Profitable Schemes](2-D%20Dynamic%20Programming/879.%20Profitable%20Schemes/INTUITION.md)
+
+[887. Super Egg Drop](2-D%20Dynamic%20Programming/887.%20Super%20Egg%20Drop/INTUITION.md)
+
+[920. Number of Music Playlists](2-D%20Dynamic%20Programming/920.%20Number%20of%20Music%20Playlists/INTUITION.md)
+
+[931. Minimum Falling Path Sum](2-D%20Dynamic%20Programming/931.%20Minimum%20Falling%20Path%20Sum/INTUITION.md)
+
+[940. Distinct Subsequences II](2-D%20Dynamic%20Programming/940.%20Distinct%20Subsequences%20II/INTUITION.md)
+
+[943. Find the Shortest Superstring](2-D%20Dynamic%20Programming/943.%20Find%20the%20Shortest%20Superstring/INTUITION.md)
+
+[975. Odd Even Jump](2-D%20Dynamic%20Programming/975.%20Odd%20Even%20Jump/INTUITION.md)
+
+[978. Longest Turbulent Subarray](2-D%20Dynamic%20Programming/978.%20Longest%20Turbulent%20Subarray/INTUITION.md)
+
 ## 2-D Dynamic Programming/DigitDP
-
-[2801. Count Stepping Numbers in Rang](2-D%20Dynamic%20Programming/DigitDP/2801.%20Count%20Stepping%20Numbers%20in%20Rang/INTUITION.md)
-
-[2376. Count Special Integers](2-D%20Dynamic%20Programming/DigitDP/2376.%20Count%20Special%20Integers/INTUITION.md)
-
-[2827. Number of Beautiful Integers in the Range](2-D%20Dynamic%20Programming/DigitDP/2827.%20Number%20of%20Beautiful%20Integers%20in%20the%20Range/INTUITION.md)
 
 [1012. Numbers With Repeated Digits](2-D%20Dynamic%20Programming/DigitDP/1012.%20Numbers%20With%20Repeated%20Digits/INTUITION.md)
 
+[2376. Count Special Integers](2-D%20Dynamic%20Programming/DigitDP/2376.%20Count%20Special%20Integers/INTUITION.md)
+
+[2801. Count Stepping Numbers in Rang](2-D%20Dynamic%20Programming/DigitDP/2801.%20Count%20Stepping%20Numbers%20in%20Rang/INTUITION.md)
+
+[2827. Number of Beautiful Integers in the Range](2-D%20Dynamic%20Programming/DigitDP/2827.%20Number%20of%20Beautiful%20Integers%20in%20the%20Range/INTUITION.md)
+
 ## 2-D Dynamic Programming/Knapsack
+
+[1049. Last Stone Weight II](2-D%20Dynamic%20Programming/Knapsack/1049.%20Last%20Stone%20Weight%20II/INTUITION.md)
+
+[1416. Restore The Array](2-D%20Dynamic%20Programming/Knapsack/1416.%20Restore%20The%20Array/INTUITION.md)
+
+[1449. Form Largest Integer With Digits That Add up to Target](2-D%20Dynamic%20Programming/Knapsack/1449.%20Form%20Largest%20Integer%20With%20Digits%20That%20Add%20up%20to%20Target/INTUITION.md)
+
+[1981. Minimize the Difference Between Target and Chosen Elements](2-D%20Dynamic%20Programming/Knapsack/1981.%20Minimize%20the%20Difference%20Between%20Target%20and%20Chosen%20Elements/INTUITION.md)
+
+[2291. Maximum Profit From Trading Stocks](2-D%20Dynamic%20Programming/Knapsack/2291.%20Maximum%20Profit%20From%20Trading%20Stocks/INTUITION.md)
 
 [2518. Number of Great Partitions](2-D%20Dynamic%20Programming/Knapsack/2518.%20Number%20of%20Great%20Partitions/INTUITION.md)
 
@@ -1779,229 +1790,219 @@ for k, v in MAP.items():
 
 [474. Ones and Zeroes](2-D%20Dynamic%20Programming/Knapsack/474.%20Ones%20and%20Zeroes/INTUITION.md)
 
-[1449. Form Largest Integer With Digits That Add up to Target](2-D%20Dynamic%20Programming/Knapsack/1449.%20Form%20Largest%20Integer%20With%20Digits%20That%20Add%20up%20to%20Target/INTUITION.md)
-
-[1981. Minimize the Difference Between Target and Chosen Elements](2-D%20Dynamic%20Programming/Knapsack/1981.%20Minimize%20the%20Difference%20Between%20Target%20and%20Chosen%20Elements/INTUITION.md)
-
 [805. Split Array With Same Average](2-D%20Dynamic%20Programming/Knapsack/805.%20Split%20Array%20With%20Same%20Average/INTUITION.md)
-
-[1049. Last Stone Weight II](2-D%20Dynamic%20Programming/Knapsack/1049.%20Last%20Stone%20Weight%20II/INTUITION.md)
-
-[1416. Restore The Array](2-D%20Dynamic%20Programming/Knapsack/1416.%20Restore%20The%20Array/INTUITION.md)
-
-[2291. Maximum Profit From Trading Stocks](2-D%20Dynamic%20Programming/Knapsack/2291.%20Maximum%20Profit%20From%20Trading%20Stocks/INTUITION.md)
 
 [956. Tallest Billboard](2-D%20Dynamic%20Programming/Knapsack/956.%20Tallest%20Billboard/INTUITION.md)
 
 ## 2-D Dynamic Programming/Interval
 
+[1000. Minimum Cost to Merge Stones](2-D%20Dynamic%20Programming/Interval/1000.%20Minimum%20Cost%20to%20Merge%20Stones/INTUITION.md)
+
+[1039. Minimum Score Triangulation of Polygon](2-D%20Dynamic%20Programming/Interval/1039.%20Minimum%20Score%20Triangulation%20of%20Polygon/INTUITION.md)
+
 [1130. Minimum Cost Tree From Leaf Values](2-D%20Dynamic%20Programming/Interval/1130.%20Minimum%20Cost%20Tree%20From%20Leaf%20Values/INTUITION.md)
-
-[1682. Longest Palindromic Subsequence II](2-D%20Dynamic%20Programming/Interval/1682.%20Longest%20Palindromic%20Subsequence%20II/INTUITION.md)
-
-[1478. Allocate Mailboxes](2-D%20Dynamic%20Programming/Interval/1478.%20Allocate%20Mailboxes/INTUITION.md)
-
-[1312. Minimum Insertion Steps to Make a String Palindrome](2-D%20Dynamic%20Programming/Interval/1312.%20Minimum%20Insertion%20Steps%20to%20Make%20a%20String%20Palindrome/INTUITION.md)
-
-[471. Encode String with Shortest Length](2-D%20Dynamic%20Programming/Interval/471.%20Encode%20String%20with%20Shortest%20Length/INTUITION.md)
-
-[1335. Minimum Difficulty of a Job Schedule](2-D%20Dynamic%20Programming/Interval/1335.%20Minimum%20Difficulty%20of%20a%20Job%20Schedule/INTUITION.md)
-
-[516. Longest Palindromic Subsequence](2-D%20Dynamic%20Programming/Interval/516.%20Longest%20Palindromic%20Subsequence/INTUITION.md)
 
 [1216. Valid Palindrome III](2-D%20Dynamic%20Programming/Interval/1216.%20Valid%20Palindrome%20III/INTUITION.md)
 
-[2547. Minimum Cost to Split an Array](2-D%20Dynamic%20Programming/Interval/2547.%20Minimum%20Cost%20to%20Split%20an%20Array/INTUITION.md)
-
-[813. Largest Sum of Averages](2-D%20Dynamic%20Programming/Interval/813.%20Largest%20Sum%20of%20Averages/INTUITION.md)
-
-[375. Guess Number Higher or Lower II](2-D%20Dynamic%20Programming/Interval/375.%20Guess%20Number%20Higher%20or%20Lower%20II/INTUITION.md)
-
-[2478. Number of Beautiful Partitions](2-D%20Dynamic%20Programming/Interval/2478.%20Number%20of%20Beautiful%20Partitions/INTIOTION.md)
-
-[2463. Minimum Total Distance Traveled](2-D%20Dynamic%20Programming/Interval/2463.%20Minimum%20Total%20Distance%20Traveled/INTUITION.md)
-
 [1246. Palindrome Removal](2-D%20Dynamic%20Programming/Interval/1246.%20Palindrome%20Removal/INTUITION.md)
-
-[1547. Minimum Cost to Cut a Stick](2-D%20Dynamic%20Programming/Interval/1547.%20Minimum%20Cost%20to%20Cut%20a%20Stick/INTUITION.md)
-
-[410. Split Array Largest Sum](2-D%20Dynamic%20Programming/Interval/410.%20Split%20Array%20Largest%20Sum/INTUITION.md)
-
-[1977. Number of Ways to Separate Numbers](2-D%20Dynamic%20Programming/Interval/1977.%20Number%20of%20Ways%20to%20Separate%20Numbers/INTUITION.md)
-
-[2472. Maximum Number of Non-overlapping Palindrome Substrings](2-D%20Dynamic%20Programming/Interval/2472.%20Maximum%20Number%20of%20Non-overlapping%20Palindrome%20Substrings/INTUITION.md)
-
-[1000. Minimum Cost to Merge Stones](2-D%20Dynamic%20Programming/Interval/1000.%20Minimum%20Cost%20to%20Merge%20Stones/INTUITION.md)
-
-[1745. Palindrome Partitioning IV](2-D%20Dynamic%20Programming/Interval/1745.%20Palindrome%20Partitioning%20IV/INTUITION.md)
-
-[730. Count Different Palindromic Subsequences](2-D%20Dynamic%20Programming/Interval/730.%20Count%20Different%20Palindromic%20Subsequences/INTUITION.md)
-
-[1770. Maximum Score from Performing Multiplication Operations](2-D%20Dynamic%20Programming/Interval/1770.%20Maximum%20Score%20from%20Performing%20Multiplication%20Operations/INTUITION.md)
-
-[1690. Stone Game VII](2-D%20Dynamic%20Programming/Interval/1690.%20Stone%20Game%20VII/INTUITION.md)
 
 [1278. Palindrome Partitioning III](2-D%20Dynamic%20Programming/Interval/1278.%20Palindrome%20Partitioning%20III/INTUITION.md)
 
-[1039. Minimum Score Triangulation of Polygon](2-D%20Dynamic%20Programming/Interval/1039.%20Minimum%20Score%20Triangulation%20of%20Polygon/INTUITION.md)
+[1312. Minimum Insertion Steps to Make a String Palindrome](2-D%20Dynamic%20Programming/Interval/1312.%20Minimum%20Insertion%20Steps%20to%20Make%20a%20String%20Palindrome/INTUITION.md)
+
+[1335. Minimum Difficulty of a Job Schedule](2-D%20Dynamic%20Programming/Interval/1335.%20Minimum%20Difficulty%20of%20a%20Job%20Schedule/INTUITION.md)
+
+[1478. Allocate Mailboxes](2-D%20Dynamic%20Programming/Interval/1478.%20Allocate%20Mailboxes/INTUITION.md)
+
+[1547. Minimum Cost to Cut a Stick](2-D%20Dynamic%20Programming/Interval/1547.%20Minimum%20Cost%20to%20Cut%20a%20Stick/INTUITION.md)
+
+[1682. Longest Palindromic Subsequence II](2-D%20Dynamic%20Programming/Interval/1682.%20Longest%20Palindromic%20Subsequence%20II/INTUITION.md)
+
+[1690. Stone Game VII](2-D%20Dynamic%20Programming/Interval/1690.%20Stone%20Game%20VII/INTUITION.md)
+
+[1745. Palindrome Partitioning IV](2-D%20Dynamic%20Programming/Interval/1745.%20Palindrome%20Partitioning%20IV/INTUITION.md)
+
+[1770. Maximum Score from Performing Multiplication Operations](2-D%20Dynamic%20Programming/Interval/1770.%20Maximum%20Score%20from%20Performing%20Multiplication%20Operations/INTUITION.md)
+
+[1977. Number of Ways to Separate Numbers](2-D%20Dynamic%20Programming/Interval/1977.%20Number%20of%20Ways%20to%20Separate%20Numbers/INTUITION.md)
+
+[2463. Minimum Total Distance Traveled](2-D%20Dynamic%20Programming/Interval/2463.%20Minimum%20Total%20Distance%20Traveled/INTUITION.md)
+
+[2472. Maximum Number of Non-overlapping Palindrome Substrings](2-D%20Dynamic%20Programming/Interval/2472.%20Maximum%20Number%20of%20Non-overlapping%20Palindrome%20Substrings/INTUITION.md)
+
+[2478. Number of Beautiful Partitions](2-D%20Dynamic%20Programming/Interval/2478.%20Number%20of%20Beautiful%20Partitions/INTIOTION.md)
+
+[2547. Minimum Cost to Split an Array](2-D%20Dynamic%20Programming/Interval/2547.%20Minimum%20Cost%20to%20Split%20an%20Array/INTUITION.md)
+
+[375. Guess Number Higher or Lower II](2-D%20Dynamic%20Programming/Interval/375.%20Guess%20Number%20Higher%20or%20Lower%20II/INTUITION.md)
+
+[410. Split Array Largest Sum](2-D%20Dynamic%20Programming/Interval/410.%20Split%20Array%20Largest%20Sum/INTUITION.md)
+
+[471. Encode String with Shortest Length](2-D%20Dynamic%20Programming/Interval/471.%20Encode%20String%20with%20Shortest%20Length/INTUITION.md)
+
+[516. Longest Palindromic Subsequence](2-D%20Dynamic%20Programming/Interval/516.%20Longest%20Palindromic%20Subsequence/INTUITION.md)
+
+[730. Count Different Palindromic Subsequences](2-D%20Dynamic%20Programming/Interval/730.%20Count%20Different%20Palindromic%20Subsequences/INTUITION.md)
+
+[813. Largest Sum of Averages](2-D%20Dynamic%20Programming/Interval/813.%20Largest%20Sum%20of%20Averages/INTUITION.md)
 
 ## 2-D Dynamic Programming/TwoSequence
 
 [1035. Uncrossed Lines](2-D%20Dynamic%20Programming/TwoSequence/1035.%20Uncrossed%20Lines/INTUITION.md)
 
-[1458. Max Dot Product of Two Subsequences](2-D%20Dynamic%20Programming/TwoSequence/1458.%20Max%20Dot%20Product%20of%20Two%20Subsequences/INTUITION.md)
-
-[727. Minimum Window Subsequence](2-D%20Dynamic%20Programming/TwoSequence/727.%20Minimum%20Window%20Subsequence/INTUITION.md)
-
 [1092. Shortest Common Supersequence](2-D%20Dynamic%20Programming/TwoSequence/1092.%20Shortest%20Common%20Supersequence/INTUITION.md)
 
-[583. Delete Operation for Two Strings](2-D%20Dynamic%20Programming/TwoSequence/583.%20Delete%20Operation%20for%20Two%20Strings/INTUITION.md)
+[1458. Max Dot Product of Two Subsequences](2-D%20Dynamic%20Programming/TwoSequence/1458.%20Max%20Dot%20Product%20of%20Two%20Subsequences/INTUITION.md)
 
 [1771. Maximize Palindrome Length From Subsequences](2-D%20Dynamic%20Programming/TwoSequence/1771.%20Maximize%20Palindrome%20Length%20From%20Subsequences/INTUITION.md)
 
+[583. Delete Operation for Two Strings](2-D%20Dynamic%20Programming/TwoSequence/583.%20Delete%20Operation%20for%20Two%20Strings/INTUITION.md)
+
+[727. Minimum Window Subsequence](2-D%20Dynamic%20Programming/TwoSequence/727.%20Minimum%20Window%20Subsequence/INTUITION.md)
+
 ## 2-D Dynamic Programming/Bitmask
 
-[2741. Special Permutations](2-D%20Dynamic%20Programming/Bitmask/2741.%20Special%20Permutations/INTUITION.md)
+[1125. Smallest Sufficient Team](2-D%20Dynamic%20Programming/Bitmask/1125.%20Smallest%20Sufficient%20Team/INTUITION.md)
 
-[1986. Minimum Number of Work Sessions to Finish the Tasks](2-D%20Dynamic%20Programming/Bitmask/1986.%20Minimum%20Number%20of%20Work%20Sessions%20to%20Finish%20the%20Tasks/INTUITION.md)
-
-[1655. Distribute Repeating Integers](2-D%20Dynamic%20Programming/Bitmask/1655.%20Distribute%20Repeating%20Integers/INTUITION.md)
-
-[1799. Maximize Score After N Operations](2-D%20Dynamic%20Programming/Bitmask/1799.%20Maximize%20Score%20After%20N%20Operations/INTUITION.md)
-
-[1494. Parallel Courses II](2-D%20Dynamic%20Programming/Bitmask/1494.%20Parallel%20Courses%20II/INTUITION.md)
-
-[1994. The Number of Good Subsets](2-D%20Dynamic%20Programming/Bitmask/1994.%20The%20Number%20of%20Good%20Subsets/INTUITION.md)
-
-[996. Number of Squareful Arrays](2-D%20Dynamic%20Programming/Bitmask/996.%20Number%20of%20Squareful%20Arrays/INTUITION.md)
+[1349. Maximum Students Taking Exam](2-D%20Dynamic%20Programming/Bitmask/1349.%20Maximum%20Students%20Taking%20Exam/INTUITION.md)
 
 [1411. Number of Ways to Paint N × 3 Grid](2-D%20Dynamic%20Programming/Bitmask/1411.%20Number%20of%20Ways%20to%20Paint%20N%20%C3%97%203%20Grid/INTUITION.md)
 
-[691. Stickers to Spell Word](2-D%20Dynamic%20Programming/Bitmask/691.%20Stickers%20to%20Spell%20Word/INTUITION.md)
+[1494. Parallel Courses II](2-D%20Dynamic%20Programming/Bitmask/1494.%20Parallel%20Courses%20II/INTUITION.md)
+
+[1655. Distribute Repeating Integers](2-D%20Dynamic%20Programming/Bitmask/1655.%20Distribute%20Repeating%20Integers/INTUITION.md)
 
 [1723. Find Minimum Time to Finish All Jobs](2-D%20Dynamic%20Programming/Bitmask/1723.%20Find%20Minimum%20Time%20to%20Finish%20All%20Jobs/INTUITION.md)
 
-[2184. Number of Ways to Build Sturdy Brick Wall](2-D%20Dynamic%20Programming/Bitmask/2184.%20Number%20of%20Ways%20to%20Build%20Sturdy%20Brick%20Wall/INTUITION.md)
+[1799. Maximize Score After N Operations](2-D%20Dynamic%20Programming/Bitmask/1799.%20Maximize%20Score%20After%20N%20Operations/INTUITION.md)
 
-[1349. Maximum Students Taking Exam](2-D%20Dynamic%20Programming/Bitmask/1349.%20Maximum%20Students%20Taking%20Exam/INTUITION.md)
+[1879. Minimum XOR Sum of Two Arrays](2-D%20Dynamic%20Programming/Bitmask/1879.%20Minimum%20XOR%20Sum%20of%20Two%20Arrays/INTUITION.md)
+
+[1931. Painting a Grid With Three Different Colors](2-D%20Dynamic%20Programming/Bitmask/1931.%20Painting%20a%20Grid%20With%20Three%20Different%20Colors/INTUITION.md)
+
+[1986. Minimum Number of Work Sessions to Finish the Tasks](2-D%20Dynamic%20Programming/Bitmask/1986.%20Minimum%20Number%20of%20Work%20Sessions%20to%20Finish%20the%20Tasks/INTUITION.md)
+
+[1994. The Number of Good Subsets](2-D%20Dynamic%20Programming/Bitmask/1994.%20The%20Number%20of%20Good%20Subsets/INTUITION.md)
+
+[2184. Number of Ways to Build Sturdy Brick Wall](2-D%20Dynamic%20Programming/Bitmask/2184.%20Number%20of%20Ways%20to%20Build%20Sturdy%20Brick%20Wall/INTUITION.md)
 
 [2403. Minimum Time to Kill All Monsters](2-D%20Dynamic%20Programming/Bitmask/2403.%20Minimum%20Time%20to%20Kill%20All%20Monsters/INTUITION.md)
 
 [2572. Count the Number of Square-Free Subsets](2-D%20Dynamic%20Programming/Bitmask/2572.%20Count%20the%20Number%20of%20Square-Free%20Subsets/INTUITION.md)
 
+[2741. Special Permutations](2-D%20Dynamic%20Programming/Bitmask/2741.%20Special%20Permutations/INTUITION.md)
+
 [2791. Count Paths That Can Form a Palindrome in a Tree](2-D%20Dynamic%20Programming/Bitmask/2791.%20Count%20Paths%20That%20Can%20Form%20a%20Palindrome%20in%20a%20Tree/INTUITION.md)
 
-[1931. Painting a Grid With Three Different Colors](2-D%20Dynamic%20Programming/Bitmask/1931.%20Painting%20a%20Grid%20With%20Three%20Different%20Colors/INTUITION.md)
+[691. Stickers to Spell Word](2-D%20Dynamic%20Programming/Bitmask/691.%20Stickers%20to%20Spell%20Word/INTUITION.md)
 
-[1879. Minimum XOR Sum of Two Arrays](2-D%20Dynamic%20Programming/Bitmask/1879.%20Minimum%20XOR%20Sum%20of%20Two%20Arrays/INTUITION.md)
-
-[1125. Smallest Sufficient Team](2-D%20Dynamic%20Programming/Bitmask/1125.%20Smallest%20Sufficient%20Team/INTUITION.md)
+[996. Number of Squareful Arrays](2-D%20Dynamic%20Programming/Bitmask/996.%20Number%20of%20Squareful%20Arrays/INTUITION.md)
 
 ## 2-D Dynamic Programming/Maze
 
-[1301. Number of Paths with Max Score](2-D%20Dynamic%20Programming/Maze/1301.%20Number%20of%20Paths%20with%20Max%20Score/INTUITION.md)
-
-[741. Cherry Pickup](2-D%20Dynamic%20Programming/Maze/741.%20Cherry%20Pickup/INTUITION.md)
-
-[2435. Paths in Matrix Whose Sum Is Divisible by K](2-D%20Dynamic%20Programming/Maze/2435.%20Paths%20in%20Matrix%20Whose%20Sum%20Is%20Divisible%20by%20K/INTUITION.md)
-
 [120. Triangle](2-D%20Dynamic%20Programming/Maze/120.%20Triangle/INTUITION.md)
 
-[2267. Check if There Is a Valid Parentheses String Path](2-D%20Dynamic%20Programming/Maze/2267.%20Check%20if%20There%20Is%20a%20Valid%20Parentheses%20String%20Path/INTUITION.md)
+[1289. Minimum Falling Path Sum II](2-D%20Dynamic%20Programming/Maze/1289.%20Minimum%20Falling%20Path%20Sum%20II/INTUITION.md)
 
-[576. Out of Boundary Paths](2-D%20Dynamic%20Programming/Maze/576.%20Out%20of%20Boundary%20Paths/INTUITION.md)
+[1301. Number of Paths with Max Score](2-D%20Dynamic%20Programming/Maze/1301.%20Number%20of%20Paths%20with%20Max%20Score/INTUITION.md)
 
 [1463. Cherry Pickup II](2-D%20Dynamic%20Programming/Maze/1463.%20Cherry%20Pickup%20II/INTUITION.md)
 
 [1594. Maximum Non Negative Product in a Matrix](2-D%20Dynamic%20Programming/Maze/1594.%20Maximum%20Non%20Negative%20Product%20in%20a%20Matrix/INTUITION.md)
 
-[1289. Minimum Falling Path Sum II](2-D%20Dynamic%20Programming/Maze/1289.%20Minimum%20Falling%20Path%20Sum%20II/INTUITION.md)
+[2267. Check if There Is a Valid Parentheses String Path](2-D%20Dynamic%20Programming/Maze/2267.%20Check%20if%20There%20Is%20a%20Valid%20Parentheses%20String%20Path/INTUITION.md)
+
+[2435. Paths in Matrix Whose Sum Is Divisible by K](2-D%20Dynamic%20Programming/Maze/2435.%20Paths%20in%20Matrix%20Whose%20Sum%20Is%20Divisible%20by%20K/INTUITION.md)
+
+[576. Out of Boundary Paths](2-D%20Dynamic%20Programming/Maze/576.%20Out%20of%20Boundary%20Paths/INTUITION.md)
+
+[741. Cherry Pickup](2-D%20Dynamic%20Programming/Maze/741.%20Cherry%20Pickup/INTUITION.md)
 
 ## 2-D Dynamic Programming/BinaryLifting
 
-[2846. Minimum Edge Weight Equilibrium Queries in a Tree](2-D%20Dynamic%20Programming/BinaryLifting/2846.%20Minimum%20Edge%20Weight%20Equilibrium%20Queries%20in%20a%20Tree/INTUITION.md)
+[1483. Kth Ancestor of a Tree Node](2-D%20Dynamic%20Programming/BinaryLifting/1483.%20Kth%20Ancestor%20of%20a%20Tree%20Node/INTUITION.md)
 
 [2836. Maximize Value of Function in a Ball Passing Game](2-D%20Dynamic%20Programming/BinaryLifting/2836.%20Maximize%20Value%20of%20Function%20in%20a%20Ball%20Passing%20Game/INTUITION.md)
 
-[1483. Kth Ancestor of a Tree Node](2-D%20Dynamic%20Programming/BinaryLifting/1483.%20Kth%20Ancestor%20of%20a%20Tree%20Node/INTUITION.md)
+[2846. Minimum Edge Weight Equilibrium Queries in a Tree](2-D%20Dynamic%20Programming/BinaryLifting/2846.%20Minimum%20Edge%20Weight%20Equilibrium%20Queries%20in%20a%20Tree/INTUITION.md)
 
 ## PrefixSum
 
-[363. Max Sum of Rectangle No Larger Than K](PrefixSum/363.%20Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K/INTUITION.md)
-
 [1074. Number of Submatrices That Sum to Target](PrefixSum/1074.%20Number%20of%20Submatrices%20That%20Sum%20to%20Target/INTUITION.md)
-
-[974. Subarray Sums Divisible by K](PrefixSum/974.%20Subarray%20Sums%20Divisible%20by%20K/INTUITION.md)
 
 [1177. Can Make Palindrome from Substring](PrefixSum/1177.%20Can%20Make%20Palindrome%20from%20Substring/INTUITION.md)
 
-[930. Binary Subarrays With Sum](PrefixSum/930.%20Binary%20Subarrays%20With%20Sum/INTUITION.md)
-
-[2845. Count of Interesting Subarrays](PrefixSum/2845.%20Count%20of%20Interesting%20Subarrays/INTUITION.md)
-
-[1590. Make Sum Divisible by P](PrefixSum/1590.%20Make%20Sum%20Divisible%20by%20P/INTUITION.md)
-
-[2588. Count the Number of Beautiful Subarrays](PrefixSum/2588.%20Count%20the%20Number%20of%20Beautiful%20Subarrays/INTUITION.md)
-
-[926. Flip String to Monotone Increasing](PrefixSum/926.%20Flip%20String%20to%20Monotone%20Increasing/INTUITION.md)
-
-[1906. Minimum Absolute Difference Queries](PrefixSum/1906.%20Minimum%20Absolute%20Difference%20Queries/INTUITION.md)
+[1371. Find the Longest Substring Containing Vowels in Even Counts](PrefixSum/1371.%20Find%20the%20Longest%20Substring%20Containing%20Vowels%20in%20Even%20Counts/INTUITION.md)
 
 [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](PrefixSum/1477.%20Find%20Two%20Non-overlapping%20Sub-arrays%20Each%20With%20Target%20Sum/INTUITION.md)
 
-[2875. Minimum Size Subarray in Infinite Array](PrefixSum/2875.%20Minimum%20Size%20Subarray%20in%20Infinite%20Array/INTUITION.md)
+[1590. Make Sum Divisible by P](PrefixSum/1590.%20Make%20Sum%20Divisible%20by%20P/INTUITION.md)
 
-[1862. Sum of Floored Pairs](PrefixSum/1862.%20Sum%20of%20Floored%20Pairs/INTUITION.md)
+[1653. Minimum Deletions to Make String Balanced](PrefixSum/1653.%20Minimum%20Deletions%20to%20Make%20String%20Balanced/INTUITION.md)
 
-[1814. Count Nice Pairs in an Array](PrefixSum/1814.%20Count%20Nice%20Pairs%20in%20an%20Array/INTUITION.md)
+[1712. Ways to Split Array Into Three Subarrays](PrefixSum/1712.%20Ways%20to%20Split%20Array%20Into%20Three%20Subarrays/INTUITION.md)
 
-[2615. Sum of Distances](PrefixSum/2615.%20Sum%20of%20Distances/INTUITION.md)
-
-[2245. Maximum Trailing Zeros in a Cornered Path](PrefixSum/2245.%20Maximum%20Trailing%20Zeros%20in%20a%20Cornered%20Path/INTUITION.md)
-
-[2483. Minimum Penalty for a Shop](PrefixSum/2483.%20Minimum%20Penalty%20for%20a%20Shop/INTUITION.md)
-
-[1915. Number of Wonderful Substrings](PrefixSum/1915.%20Number%20of%20Wonderful%20Substrings/INTUITION.md)
-
-[2271. Maximum White Tiles Covered by a Carpet](PrefixSum/2271.%20Maximum%20White%20Tiles%20Covered%20by%20a%20Carpet/INTUITION.md)
+[1737. Change Minimum Characters to Satisfy One of Three Conditions](PrefixSum/1737.%20Change%20Minimum%20Characters%20to%20Satisfy%20One%20of%20Three%20Conditions/INTUITION.md)
 
 [1744. Can You Eat Your Favorite Candy on Your Favorite Day?](PrefixSum/1744.%20Can%20You%20Eat%20Your%20Favorite%20Candy%20on%20Your%20Favorite%20Day%3F/INTUITION.md)
 
-[2906. Construct Product Matrix](PrefixSum/2906.%20Construct%20Product%20Matrix/INTUITION.md)
+[1814. Count Nice Pairs in an Array](PrefixSum/1814.%20Count%20Nice%20Pairs%20in%20an%20Array/INTUITION.md)
 
-[1712. Ways to Split Array Into Three Subarrays](PrefixSum/1712.%20Ways%20to%20Split%20Array%20Into%20Three%20Subarrays/INTUITION.md)
+[1862. Sum of Floored Pairs](PrefixSum/1862.%20Sum%20of%20Floored%20Pairs/INTUITION.md)
+
+[1906. Minimum Absolute Difference Queries](PrefixSum/1906.%20Minimum%20Absolute%20Difference%20Queries/INTUITION.md)
+
+[1915. Number of Wonderful Substrings](PrefixSum/1915.%20Number%20of%20Wonderful%20Substrings/INTUITION.md)
 
 [2025. Maximum Number of Ways to Partition an Array](PrefixSum/2025.%20Maximum%20Number%20of%20Ways%20to%20Partition%20an%20Array/INTUITION.md)
 
 [2055. Plates Between Candles](PrefixSum/2055.%20Plates%20Between%20Candles/INTUITION.md)
 
-[1653. Minimum Deletions to Make String Balanced](PrefixSum/1653.%20Minimum%20Deletions%20to%20Make%20String%20Balanced/INTUITION.md)
+[2245. Maximum Trailing Zeros in a Cornered Path](PrefixSum/2245.%20Maximum%20Trailing%20Zeros%20in%20a%20Cornered%20Path/INTUITION.md)
 
-[1737. Change Minimum Characters to Satisfy One of Three Conditions](PrefixSum/1737.%20Change%20Minimum%20Characters%20to%20Satisfy%20One%20of%20Three%20Conditions/INTUITION.md)
+[2271. Maximum White Tiles Covered by a Carpet](PrefixSum/2271.%20Maximum%20White%20Tiles%20Covered%20by%20a%20Carpet/INTUITION.md)
+
+[2483. Minimum Penalty for a Shop](PrefixSum/2483.%20Minimum%20Penalty%20for%20a%20Shop/INTUITION.md)
+
+[2588. Count the Number of Beautiful Subarrays](PrefixSum/2588.%20Count%20the%20Number%20of%20Beautiful%20Subarrays/INTUITION.md)
+
+[2615. Sum of Distances](PrefixSum/2615.%20Sum%20of%20Distances/INTUITION.md)
+
+[2845. Count of Interesting Subarrays](PrefixSum/2845.%20Count%20of%20Interesting%20Subarrays/INTUITION.md)
+
+[2875. Minimum Size Subarray in Infinite Array](PrefixSum/2875.%20Minimum%20Size%20Subarray%20in%20Infinite%20Array/INTUITION.md)
+
+[2906. Construct Product Matrix](PrefixSum/2906.%20Construct%20Product%20Matrix/INTUITION.md)
 
 [2983. Palindrome Rearrangement Queries](PrefixSum/2983.%20Palindrome%20Rearrangement%20Queries/INTUITION.md)
 
-[1371. Find the Longest Substring Containing Vowels in Even Counts](PrefixSum/1371.%20Find%20the%20Longest%20Substring%20Containing%20Vowels%20in%20Even%20Counts/INTUITION.md)
+[363. Max Sum of Rectangle No Larger Than K](PrefixSum/363.%20Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K/INTUITION.md)
+
+[926. Flip String to Monotone Increasing](PrefixSum/926.%20Flip%20String%20to%20Monotone%20Increasing/INTUITION.md)
+
+[930. Binary Subarrays With Sum](PrefixSum/930.%20Binary%20Subarrays%20With%20Sum/INTUITION.md)
+
+[974. Subarray Sums Divisible by K](PrefixSum/974.%20Subarray%20Sums%20Divisible%20by%20K/INTUITION.md)
 
 ## PrefixSum/DiffSum
 
-[2327. Number of People Aware of a Secret](PrefixSum/DiffSum/2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/INTUITION.md)
-
-[798. Smallest Rotation with Highest Score](PrefixSum/DiffSum/798.%20Smallest%20Rotation%20with%20Highest%20Score/INTUITION.md)
+[1589. Maximum Sum Obtained of Any Permutation](PrefixSum/DiffSum/1589.%20Maximum%20Sum%20Obtained%20of%20Any%20Permutation/INTUITION.md)
 
 [1674. Minimum Moves to Make Array Complementary](PrefixSum/DiffSum/1674.%20Minimum%20Moves%20to%20Make%20Array%20Complementary/INTUITION.md)
 
 [1871. Jump Game VII](PrefixSum/DiffSum/1871.%20Jump%20Game%20VII/INTUITION.md)
 
+[2327. Number of People Aware of a Secret](PrefixSum/DiffSum/2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/INTUITION.md)
+
 [2772. Apply Operations to Make All Array Elements Equal to Zero](PrefixSum/DiffSum/2772.%20Apply%20Operations%20to%20Make%20All%20Array%20Elements%20Equal%20to%20Zero/INTUITION.md)
 
-[1589. Maximum Sum Obtained of Any Permutation](PrefixSum/DiffSum/1589.%20Maximum%20Sum%20Obtained%20of%20Any%20Permutation/INTUITION.md)
+[798. Smallest Rotation with Highest Score](PrefixSum/DiffSum/798.%20Smallest%20Rotation%20with%20Highest%20Score/INTUITION.md)
 
 [995. Minimum Number of K Consecutive Bit Flips](PrefixSum/DiffSum/995.%20Minimum%20Number%20of%20K%20Consecutive%20Bit%20Flips/INTUITION.md)
 
 ## PrefixSum/DiffSum/2D-Difference Array
 
-[850. Rectangle Area II](PrefixSum/DiffSum/2D-Difference%20Array/850.%20Rectangle%20Area%20II/INTUITION.md)
-
 [2536. Increment Submatrices by One](PrefixSum/DiffSum/2D-Difference%20Array/2536.%20Increment%20Submatrices%20by%20One/INTUITION.md)
+
+[850. Rectangle Area II](PrefixSum/DiffSum/2D-Difference%20Array/850.%20Rectangle%20Area%20II/INTUITION.md)
 
