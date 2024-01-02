@@ -88,7 +88,7 @@ for k, arr in MAP.items():
 
 [1766. Tree of Coprimes](Trees/1766.%20Tree%20of%20Coprimes/INTUITION.md)
 
-[1902 - Depth of BST Given Insertion Order](Trees/1902%20-%20Depth%20of%20BST%20Given%20Insertion%20Order/INTUITION.md)
+[1902. Depth of BST Given Insertion Order](Trees/1902.%20Depth%20of%20BST%20Given%20Insertion%20Order/README.md)
 
 [1932. Merge BSTs to Create Single BST](Trees/1932.%20Merge%20BSTs%20to%20Create%20Single%20BST/INTUITION.md)
 
