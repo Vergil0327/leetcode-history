@@ -1667,6 +1667,8 @@ for k, arr in MAP.items():
 
 [148. Sort List](Sorting/148.%20Sort%20List/README.md)
 
+[1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](Segment%20Tree/1505.%20Minimum%20Possible%20Integer%20After%20at%20Most%20K%20Adjacent%20Swaps%20On%20Digits/README.md)
+
 [1630. Arithmetic Subarrays](Sorting/1630.%20Arithmetic%20Subarrays/README.md)
 
 [164. Maximum Gap](Sorting/164.%20Maximum%20Gap/README.md)
