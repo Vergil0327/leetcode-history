@@ -1,5 +1,27 @@
 # Intuition
 
+首先應該要想到brute force solution, 這邊就會帶出greedy的想法出來
+```py
+# brute force O(n^2)
+def minInteger(self, num: str, k: int) -> str:
+        # base case
+    if k <= 0: return num
+    # the total number of swaps if you need to reverse the whole string is n*(n-1)//2.
+    # therefore, if k is >= this number, any order is achievable.
+    n = len(num)
+    if k >= n*(n-1)//2: 
+        return "".join(sorted(list(num)))
+
+    # starting from the smallest number
+    for digit in range(10):
+        # find the smallest index
+        idx = num.find(str(digit))
+        # if this index is valid
+        if 0 <= idx <= k:
+            # move the digit to the front and deal with the rest of the string recursively.
+            return str(num[idx]) + self.minInteger(num[0:idx] + num[idx+1:], k-idx)
+```
+
 num=43219, k = 4, can swap k times, answer is 13429
 
 ```
@@ -119,3 +141,21 @@ return res
 
 time: $O(nlogn)$
 space: $O(n)$
+
+# Optimization, O(n) time
+
+[by @HuifengGuan](https://www.youtube.com/watch?v=qE5M1sz6j9U)
+
+核心概念就是直接維護offset, 而不另外透過segment tree查找
+
+首先:
+- `nxt[digit] = index`維護的是當前digit的最靠左的index
+- `offset[digit]`則維護當前digit的offset
+
+- swap = nxt[digit] + offset[digit] - i
+  - 如果滿足`swap <= k`, 那麼`res[i] = digit`
+  - 更新nxt[digit], offset[digit], k
+    - k -= swap
+    - nxt[digit] = idx, 從[idx+1, n)範圍內找下個digit, 如果找不到就標記nxt[digit] = -1
+      - 每次都從idx+1往後搜索, 整體是O(n)
+    - offset[digit]: 當我們從當前nxt[digit]更新成nxt[digit']時, 這中間[i:nxt[digit]]區間, 所有有被左移的digit只影響nxt[digit]而不影響下個digit', 所以offset[digit] -= sum(removed[i:nxt[digit]])
