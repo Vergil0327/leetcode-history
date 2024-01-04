@@ -541,6 +541,8 @@ for k, arr in MAP.items():
 
 [751. IP to CIDR](Bit%20Manipulation/751.%20IP%20to%20CIDR/README.md)
 
+[810. Chalkboard XOR Game](Bit%20Manipulation/810.%20Chalkboard%20XOR%20Game/README.md)
+
 [89. Gray Code](Bit%20Manipulation/89.%20Gray%20Code/README.md)
 
 [898. Bitwise ORs of Subarrays](Bit%20Manipulation/898.%20Bitwise%20ORs%20of%20Subarrays/README.md)
