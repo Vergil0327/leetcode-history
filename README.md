@@ -2021,6 +2021,8 @@ for k, arr in MAP.items():
 
 [2146. K Highest Ranked Items Within a Price Range](Graphs/BFS/2146.%20K%20Highest%20Ranked%20Items%20Within%20a%20Price%20Range/README.md)
 
+[2258. Escape the Spreading Fire](Graphs/BFS/2258.%20Escape%20the%20Spreading%20Fire/README.md)
+
 [2596. Check Knight Tour Configuration](Graphs/BFS/2596.%20Check%20Knight%20Tour%20Configuration/README.md)
 
 [2612. Minimum Reverse Operations](Graphs/BFS/2612.%20Minimum%20Reverse%20Operations/README.md)
