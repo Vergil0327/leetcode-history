@@ -2571,6 +2571,8 @@ for k, arr in MAP.items():
 
 [2827. Number of Beautiful Integers in the Range](2-D%20Dynamic%20Programming/DigitDP/2827.%20Number%20of%20Beautiful%20Integers%20in%20the%20Range/README.md)
 
+[10034. Count the Number of Powerful Integers](./2-D%20Dynamic%20Programming/DigitDP/10034.%20Count%20the%20Number%20of%20Powerful%20Integers/README.md)
+
 ## 2-D Dynamic Programming/Knapsack
 
 [1049. Last Stone Weight II](2-D%20Dynamic%20Programming/Knapsack/1049.%20Last%20Stone%20Weight%20II/README.md)
