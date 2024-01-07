@@ -2681,6 +2681,8 @@ for k, arr in MAP.items():
 
 ## 2-D Dynamic Programming/Bitmask
 
+[10038. Maximize the Number of Partitions After Operations](2-D%20Dynamic%20Programming/Bitmask/10038.%20Maximize%20the%20Number%20of%20Partitions%20After%20Operations/README.md)
+
 [1125. Smallest Sufficient Team](2-D%20Dynamic%20Programming/Bitmask/1125.%20Smallest%20Sufficient%20Team/README.md)
 
 [1349. Maximum Students Taking Exam](2-D%20Dynamic%20Programming/Bitmask/1349.%20Maximum%20Students%20Taking%20Exam/README.md)
