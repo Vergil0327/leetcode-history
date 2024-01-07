@@ -1539,6 +1539,8 @@ for k, arr in MAP.items():
 
 ## Greedy
 
+[10037. Maximum Size of a Set After Removals](Greedy/10037.%20Maximum%20Size%20of%20a%20Set%20After%20Removals/README.md)
+
 [1247. Minimum Swaps to Make Strings Equal](Greedy/1247.%20Minimum%20Swaps%20to%20Make%20Strings%20Equal/README.md)
 
 [134. Gas Station](Greedy/134.%20Gas%20Station/README.md)
