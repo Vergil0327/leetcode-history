@@ -2101,6 +2101,8 @@ for k, arr in MAP.items():
 
 ## Stack
 
+[1096. Brace Expansion II](Stack/1096.%20Brace%20Expansion%20II/README.md)
+
 [1106. Parsing A Boolean Expression](Stack/1106.%20Parsing%20A%20Boolean%20Expression/README.md)
 
 [1209. Remove All Adjacent Duplicates in String II](Stack/1209.%20Remove%20All%20Adjacent%20Duplicates%20in%20String%20II/README.md)
