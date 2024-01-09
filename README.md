@@ -805,6 +805,8 @@ for k, arr in MAP.items():
 
 [1696. Jump Game VI](1-D%20Dynamic%20Programming/1696.%20Jump%20Game%20VI/README.md)
 
+[1713. Minimum Operations to Make a Subsequence](1-D%20Dynamic%20Programming/1713.%20Minimum%20Operations%20to%20Make%20a%20Subsequence/README.md)
+
 [1872. Stone Game VIII](1-D%20Dynamic%20Programming/1872.%20Stone%20Game%20VIII/README.md)
 
 [1964. Find the Longest Valid Obstacle Course at Each Position](1-D%20Dynamic%20Programming/1964.%20Find%20the%20Longest%20Valid%20Obstacle%20Course%20at%20Each%20Position/README.md)
