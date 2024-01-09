@@ -805,11 +805,7 @@ for k, arr in MAP.items():
 
 [1696. Jump Game VI](1-D%20Dynamic%20Programming/1696.%20Jump%20Game%20VI/README.md)
 
-[1713. Minimum Operations to Make a Subsequence](1-D%20Dynamic%20Programming/1713.%20Minimum%20Operations%20to%20Make%20a%20Subsequence/README.md)
-
 [1872. Stone Game VIII](1-D%20Dynamic%20Programming/1872.%20Stone%20Game%20VIII/README.md)
-
-[1964. Find the Longest Valid Obstacle Course at Each Position](1-D%20Dynamic%20Programming/1964.%20Find%20the%20Longest%20Valid%20Obstacle%20Course%20at%20Each%20Position/README.md)
 
 [198. House Robber](1-D%20Dynamic%20Programming/198.%20House%20Robber/README.md)
 
@@ -818,8 +814,6 @@ for k, arr in MAP.items():
 [2008. Maximum Earnings From Taxi](1-D%20Dynamic%20Programming/2008.%20Maximum%20Earnings%20From%20Taxi/README.md)
 
 [2052. Minimum Cost to Separate Sentence Into Rows](1-D%20Dynamic%20Programming/2052.%20Minimum%20Cost%20to%20Separate%20Sentence%20Into%20Rows/README.md)
-
-[2111. Minimum Operations to Make the Array K-Increasing](1-D%20Dynamic%20Programming/2111.%20Minimum%20Operations%20to%20Make%20the%20Array%20K-Increasing/README.md)
 
 [213. House Robber II](1-D%20Dynamic%20Programming/213.%20House%20Robber%20II/README.md)
 
@@ -867,13 +861,9 @@ for k, arr in MAP.items():
 
 [2977. Minimum Cost to Convert String II](1-D%20Dynamic%20Programming/2977.%20Minimum%20Cost%20to%20Convert%20String%20II/README.md)
 
-[300. Longest Increasing Subsequence](1-D%20Dynamic%20Programming/300.%20Longest%20Increasing%20Subsequence/README.md)
-
 [337. House Robber III](1-D%20Dynamic%20Programming/337.%20House%20Robber%20III/README.md)
 
 [343. Integer Break](1-D%20Dynamic%20Programming/343.%20Integer%20Break/README.md)
-
-[354. Russian Doll Envelopes](1-D%20Dynamic%20Programming/354.%20Russian%20Doll%20Envelopes/README.md)
 
 [368. Largest Divisible Subset](1-D%20Dynamic%20Programming/368.%20Largest%20Divisible%20Subset/README.md)
 
@@ -920,6 +910,19 @@ for k, arr in MAP.items():
 [960. Delete Columns to Make Sorted III](1-D%20Dynamic%20Programming/960.%20Delete%20Columns%20to%20Make%20Sorted%20III/README.md)
 
 [983. Minimum Cost For Tickets](1-D%20Dynamic%20Programming/983.%20Minimum%20Cost%20For%20Tickets/README.md)
+
+## 1-D Dynamic Programming/LIS
+
+[1713. Minimum Operations to Make a Subsequence](1-D%20Dynamic%20Programming/LIS/1713.%20Minimum%20Operations%20to%20Make%20a%20Subsequence/README.md)
+
+
+[1964. Find the Longest Valid Obstacle Course at Each Position](1-D%20Dynamic%20Programming/LIS/1964.%20Find%20the%20Longest%20Valid%20Obstacle%20Course%20at%20Each%20Position/README.md)
+
+[2111. Minimum Operations to Make the Array K-Increasing](1-D%20Dynamic%20Programming/LIS/2111.%20Minimum%20Operations%20to%20Make%20the%20Array%20K-Increasing/README.md)
+
+[300. Longest Increasing Subsequence](1-D%20Dynamic%20Programming/LIS/300.%20Longest%20Increasing%20Subsequence/README.md)
+
+[354. Russian Doll Envelopes](1-D%20Dynamic%20Programming/LIS/354.%20Russian%20Doll%20Envelopes/README.md)
 
 ## 1-D Dynamic Programming/3Pass
 
