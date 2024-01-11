@@ -1543,6 +1543,8 @@ for k, arr in MAP.items():
 
 [1419. Minimum Number of Frogs Croaking](Greedy/1419.%20Minimum%20Number%20of%20Frogs%20Croaking/README.md)
 
+[1520. Maximum Number of Non-Overlapping Substrings](Greedy/1520.%20Maximum%20Number%20of%20Non-Overlapping%20Substrings/README.md)
+
 [1536. Minimum Swaps to Arrange a Binary Grid](Greedy/1536.%20Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid/README.md)
 
 [1605. Find Valid Matrix Given Row and Column Sums](Greedy/1605.%20Find%20Valid%20Matrix%20Given%20Row%20and%20Column%20Sums/README.md)
