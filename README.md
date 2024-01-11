@@ -525,7 +525,6 @@ for k, arr in MAP.items():
 
 [29. Divide Two Integers](Bit%20Manipulation/29.%20Divide%20Two%20Integers/README.md)
 
-[2935. Maximum Strong Pair XOR II](Bit%20Manipulation/2935.%20Maximum%20Strong%20Pair%20XOR%20II/README.md)
 
 [318. Maximum Product of Word Lengths](Bit%20Manipulation/318.%20Maximum%20Product%20of%20Word%20Lengths/README.md)
 
@@ -546,6 +545,12 @@ for k, arr in MAP.items():
 [89. Gray Code](Bit%20Manipulation/89.%20Gray%20Code/README.md)
 
 [898. Bitwise ORs of Subarrays](Bit%20Manipulation/898.%20Bitwise%20ORs%20of%20Subarrays/README.md)
+
+## Bit Manipulation/Trie
+
+[1707. Maximum XOR With an Element From Array](Bit%20Manipulation/Trie/1707.%20Maximum%20XOR%20With%20an%20Element%20From%20Array/README.md)
+
+[2935. Maximum Strong Pair XOR II](Bit%20Manipulation/Trie/2935.%20Maximum%20Strong%20Pair%20XOR%20II/README.md)
 
 ## UnionFind
 
