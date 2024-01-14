@@ -13,7 +13,7 @@ def rabinKarp(txt: str, pattern: str) -> int:
 
     # R ** (L-1)
     RL = 1
-    for i in range(len(txt)):
+    for i in range(1, L):
         RL = (RL * R) % Q # avoid overflow
     
     # construct pattern's hash

@@ -1791,6 +1791,8 @@ for k, arr in MAP.items():
 
 [2261. K Divisible Elements Subarrays](String/RollingHash/2261.%20K%20Divisible%20Elements%20Subarrays/README.md)
 
+[3008. Find Beautiful Indices in the Given Array II](String/RollingHash/3008.%20Find%20Beautiful%20Indices%20in%20the%20Given%20Array%20II/README.md)
+
 ## String
 
 [1178. Number of Valid Words for Each Puzzle](String/1178.%20Number%20of%20Valid%20Words%20for%20Each%20Puzzle/README.md)
