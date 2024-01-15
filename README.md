@@ -319,6 +319,8 @@ for k, arr in MAP.items():
 
 [1739. Building Boxes](Binary%20Search/1739.%20Building%20Boxes/README.md)
 
+[1755. Closest Subsequence Sum](Binary%20Search/1755.%20Closest%20Subsequence%20Sum/README.md)
+
 [1760. Minimum Limit of Balls in a Bag](Binary%20Search/1760.%20Minimum%20Limit%20of%20Balls%20in%20a%20Bag/README.md)
 
 [1802. Maximum Value at a Given Index in a Bounded Array](Binary%20Search/1802.%20Maximum%20Value%20at%20a%20Given%20Index%20in%20a%20Bounded%20Array/README.md)
