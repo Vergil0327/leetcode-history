@@ -2079,6 +2079,8 @@ for k, arr in MAP.items():
 
 [1976. Number of Ways to Arrive at Destination](Graphs/Dijkstra/1976.%20Number%20of%20Ways%20to%20Arrive%20at%20Destination/README.md)
 
+[2203. Minimum Weighted Subgraph With the Required Paths](Graphs/Dijkstra/2203.%20Minimum%20Weighted%20Subgraph%20With%20the%20Required%20Paths/README.md)
+
 [2290. Minimum Obstacle Removal to Reach Corner](Graphs/Dijkstra/2290.%20Minimum%20Obstacle%20Removal%20to%20Reach%20Corner/README.md)
 
 [2577. Minimum Time to Visit a Cell In a Grid](Graphs/Dijkstra/2577.%20Minimum%20Time%20to%20Visit%20a%20Cell%20In%20a%20Grid/README.md)
