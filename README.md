@@ -2807,6 +2807,12 @@ for k, arr in MAP.items():
 
 [974. Subarray Sums Divisible by K](PrefixSum/974.%20Subarray%20Sums%20Divisible%20by%20K/README.md)
 
+## PrefixSum/2D Prefix Sum
+
+[1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](./PrefixSum/2D%20PrefixSum/1292.%20Maximum%20Side%20Length%20of%20a%20Square%20with%20Sum%20Less%20than%20or%20Equal%20to%20Threshold/README.md)
+
+[2132. Stamping the Grid](PrefixSum/2D%20PrefixSum/2132.%20Stamping%20the%20Grid/README.md)
+
 ## PrefixSum/DiffSum
 
 [1109. Corporate Flight Bookings](PrefixSum/DiffSum/1109.%20Corporate%20Flight%20Bookings/README.md)
