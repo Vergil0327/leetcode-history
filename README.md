@@ -808,8 +808,6 @@ for k, arr in MAP.items():
 
 [1653. Minimum Deletions to Make String Balanced](1-D%20Dynamic%20Programming/1653.%20Minimum%20Deletions%20to%20Make%20String%20Balanced/README.md)
 
-[1671. Minimum Number of Removals to Make Mountain Array](1-D%20Dynamic%20Programming/1671.%20Minimum%20Number%20of%20Removals%20to%20Make%20Mountain%20Array/README.md)
-
 [1696. Jump Game VI](1-D%20Dynamic%20Programming/1696.%20Jump%20Game%20VI/README.md)
 
 [1872. Stone Game VIII](1-D%20Dynamic%20Programming/1872.%20Stone%20Game%20VIII/README.md)
@@ -823,8 +821,6 @@ for k, arr in MAP.items():
 [2052. Minimum Cost to Separate Sentence Into Rows](1-D%20Dynamic%20Programming/2052.%20Minimum%20Cost%20to%20Separate%20Sentence%20Into%20Rows/README.md)
 
 [213. House Robber II](1-D%20Dynamic%20Programming/213.%20House%20Robber%20II/README.md)
-
-[2167. Minimum Time to Remove All Cars Containing Illegal Goods](1-D%20Dynamic%20Programming/2167.%20Minimum%20Time%20to%20Remove%20All%20Cars%20Containing%20Illegal%20Goods/README.md)
 
 [2266. Count Number of Texts](1-D%20Dynamic%20Programming/2266.%20Count%20Number%20of%20Texts/README.md)
 
@@ -932,6 +928,10 @@ for k, arr in MAP.items():
 [354. Russian Doll Envelopes](1-D%20Dynamic%20Programming/LIS/354.%20Russian%20Doll%20Envelopes/README.md)
 
 ## 1-D Dynamic Programming/3Pass
+
+[1671. Minimum Number of Removals to Make Mountain Array](1-D%20Dynamic%20Programming/3Pass/1671.%20Minimum%20Number%20of%20Removals%20to%20Make%20Mountain%20Array/README.md)
+
+[2167. Minimum Time to Remove All Cars Containing Illegal Goods](1-D%20Dynamic%20Programming/3Pass/2167.%20Minimum%20Time%20to%20Remove%20All%20Cars%20Containing%20Illegal%20Goods/README.md)
 
 [2555. Maximize Win From Two Segments](1-D%20Dynamic%20Programming/3Pass/2555.%20Maximize%20Win%20From%20Two%20Segments/README.md)
 
@@ -1541,8 +1541,6 @@ for k, arr in MAP.items():
 
 [134. Gas Station](Greedy/134.%20Gas%20Station/README.md)
 
-[135. Candy](Greedy/135.%20Candy/README.md)
-
 [1405. Longest Happy String](Greedy/1405.%20Longest%20Happy%20String/README.md)
 
 [1419. Minimum Number of Frogs Croaking](Greedy/1419.%20Minimum%20Number%20of%20Frogs%20Croaking/README.md)
@@ -1637,8 +1635,6 @@ for k, arr in MAP.items():
 
 [330. Patching Array](Greedy/330.%20Patching%20Array/README.md)
 
-[334. Increasing Triplet Subsequence](Greedy/334.%20Increasing%20Triplet%20Subsequence/README.md)
-
 [406. Queue Reconstruction by Height](Greedy/406.%20Queue%20Reconstruction%20by%20Height/README.md)
 
 [45. Jump Game II](Greedy/45.%20Jump%20Game%20II/README.md)
@@ -1670,6 +1666,12 @@ for k, arr in MAP.items():
 [955. Delete Columns to Make Sorted II](Greedy/955.%20Delete%20Columns%20to%20Make%20Sorted%20II/README.md)
 
 [991. Broken Calculator](Greedy/991.%20Broken%20Calculator/README.md)
+
+## Greedy/2Pass
+
+[135. Candy](Greedy/2Pass/135.%20Candy/README.md)
+
+[334. Increasing Triplet Subsequence](Greedy/2Pass/334.%20Increasing%20Triplet%20Subsequence/README.md)
 
 ## Segment Tree
 
