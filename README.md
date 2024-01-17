@@ -1671,6 +1671,8 @@ for k, arr in MAP.items():
 
 [135. Candy](Greedy/2Pass/135.%20Candy/README.md)
 
+[1840. Maximum Building Height](Greedy/2Pass/1840.%20Maximum%20Building%20Height/README.md)
+
 [334. Increasing Triplet Subsequence](Greedy/2Pass/334.%20Increasing%20Triplet%20Subsequence/README.md)
 
 ## Segment Tree
