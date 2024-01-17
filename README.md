@@ -1841,6 +1841,8 @@ for k, arr in MAP.items():
 
 [8. String to Integer (atoi)](String/8.%20String%20to%20Integer%20%28atoi%29/README.md)
 
+[854. K-Similar Strings](String/854.%20K-Similar%20Strings/README.md)
+
 [87. Scramble String](String/87.%20Scramble%20String/README.md)
 
 [880. Decoded String at Index](String/880.%20Decoded%20String%20at%20Index/README.md)
