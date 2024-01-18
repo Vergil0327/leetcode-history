@@ -2201,6 +2201,8 @@ for k, arr in MAP.items():
 
 [2104. Sum of Subarray Ranges](Stack/Monotone%20Stack/2104.%20Sum%20of%20Subarray%20Ranges/README.md)
 
+[2334. Subarray With Elements Greater Than Varying Threshold](Stack/Monotone%20Stack/2334.%20Subarray%20With%20Elements%20Greater%20Than%20Varying%20Threshold/README.md)
+
 [2454. Next Greater Element IV](Stack/Monotone%20Stack/2454.%20Next%20Greater%20Element%20IV/README.md)
 
 [2818. Apply Operations to Maximize Score](Stack/Monotone%20Stack/2818.%20Apply%20Operations%20to%20Maximize%20Score/README.md)
