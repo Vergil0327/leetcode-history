@@ -1,7 +1,7 @@
 class Solution:
     def maxStudents(self, seats: List[List[str]]) -> int:
         ROWS, COLS = len(seats), len(seats[0])
-        
+
         # dp[row][state] = max(dp[row][state], dp[row-1][state'])
         dp = [[0] * (1<<COLS) for _ in range(ROWS)]
 
@@ -26,16 +26,17 @@ class Solution:
             #     if bits1[i] == 1 and ((i>0 and bits2[i-1] == 1) or (i+1<COLS and bits2[i+1] == 1)): return True
             # return False
 
+        states = 1<<COLS
         for row in range(ROWS):
-            for state in range(1<<COLS):
+            for state in range(states):
                 if not valid(row, state): continue
 
                 oneBits = bin(state).count("1")
-                for prevState in range(1<<COLS):
-                    if row==0:
-                        dp[row][state] = max(dp[row][state], dp[row-1][prevState]+oneBits)
-                        continue
+                if row==0:
+                    dp[row][state] = max(dp[row][state], oneBits)
+                    continue
 
+                for prevState in range(states):
                     if not valid(row-1, prevState): continue
                     if canCheat(state, prevState): continue
                     dp[row][state] = max(dp[row][state], dp[row-1][prevState]+oneBits)
