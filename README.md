@@ -477,6 +477,8 @@ for k, arr in MAP.items():
 
 [1461. Check If a String Contains All Binary Codes of Size K](Bit%20Manipulation/1461.%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K/README.md)
 
+[1521. Find a Value of a Mysterious Function Closest to Target](Bit%20Manipulation/1521.%20Find%20a%20Value%20of%20a%20Mysterious%20Function%20Closest%20to%20Target/README.md)
+
 [1611. Minimum One Bit Operations to Make Integers Zero](Bit%20Manipulation/1611.%20Minimum%20One%20Bit%20Operations%20to%20Make%20Integers%20Zero/README.md)
 
 [1835. Find XOR Sum of All Pairs Bitwise AND](Bit%20Manipulation/1835.%20Find%20XOR%20Sum%20of%20All%20Pairs%20Bitwise%20AND/README.md)
