@@ -1261,6 +1261,8 @@ for k, arr in MAP.items():
 
 [30. Substring with Concatenation of All Words](Sliding%20Window/30.%20Substring%20with%20Concatenation%20of%20All%20Words/README.md)
 
+[3013. Divide an Array Into Subarrays With Minimum Cost II](Sliding%20Window/3013.%20Divide%20an%20Array%20Into%20Subarrays%20With%20Minimum%20Cost%20II/README.md)
+
 [395. Longest Substring with At Least K Repeating Characters](Sliding%20Window/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters/README.md)
 
 [424. Longest Repeating Character Replacement](Sliding%20Window/424.%20Longest%20Repeating%20Character%20Replacement/README.md)
