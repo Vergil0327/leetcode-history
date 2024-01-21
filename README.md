@@ -1639,6 +1639,8 @@ for k, arr in MAP.items():
 
 [2939. Maximum Xor Product](Greedy/2939.%20Maximum%20Xor%20Product/README.md)
 
+[3012. Minimize Length of Array Using Operations](Greedy/3012.%20Minimize%20Length%20of%20Array%20Using%20Operations/README.md)
+
 [330. Patching Array](Greedy/330.%20Patching%20Array/README.md)
 
 [406. Queue Reconstruction by Height](Greedy/406.%20Queue%20Reconstruction%20by%20Height/README.md)
