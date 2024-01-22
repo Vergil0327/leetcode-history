@@ -2545,6 +2545,8 @@ for k, arr in MAP.items():
 
 [808. Soup Servings](2-D%20Dynamic%20Programming/808.%20Soup%20Servings/README.md)
 
+[818. Race Car](./2-D%20Dynamic%20Programming/818.%20Race%20Car/README.md)
+
 [87. Scramble String](2-D%20Dynamic%20Programming/87.%20Scramble%20String/README.md)
 
 [873. Length of Longest Fibonacci Subsequence](2-D%20Dynamic%20Programming/873.%20Length%20of%20Longest%20Fibonacci%20Subsequence/README.md)
