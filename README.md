@@ -1397,6 +1397,8 @@ for k, arr in MAP.items():
 
 [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](Math&Geometry/3007.%20Maximum%20Number%20That%20Sum%20of%20the%20Prices%20Is%20Less%20Than%20or%20Equal%20to%20K/README.md)
 
+[3017. Count the Number of Houses at a Certain Distance II](Math&Geometry/3017.%20Count%20the%20Number%20of%20Houses%20at%20a%20Certain%20Distance%20II/README.md)
+
 [313. Super Ugly Number](Math%26Geometry/313.%20Super%20Ugly%20Number/README.md)
 
 [335. Self Crossing](Math%26Geometry/335.%20Self%20Crossing/README.md)
