@@ -31,3 +31,32 @@ class BottomUpSolution:
             dp.append((wordSet, len(word)))
         
         return max(length for _, length in dp) if dp else 0
+
+class Solution:
+    def maxLength(self, arr: List[str]) -> int:
+        """
+        encode arr[i] to 26-bit bitmask
+
+        dp[i] = dp[i-1]
+        dp[i] += dp[j] for j in range(i) if state[j] is valid
+
+        state[i]&state[j] == 0 => valid
+        """
+        def bit(s):
+            b = 0
+            for ch in s:
+                i = ord(ch)-ord("a")
+                if (b>>i)&1 == 1: return 0
+                b |= 1<<i
+            return b
+        state = set(bit(s) for s in arr)
+
+        dp = {0}
+        for s in state:
+            nxt = dp.copy()
+            for prev in dp:
+                if s&prev == 0:
+                    nxt.add(s|prev)
+            dp = nxt
+        
+        return max(b.bit_count() for b in dp)
