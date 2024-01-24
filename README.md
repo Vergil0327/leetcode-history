@@ -2717,6 +2717,8 @@ for k, arr in MAP.items():
 
 [1994. The Number of Good Subsets](2-D%20Dynamic%20Programming/Bitmask/1994.%20The%20Number%20of%20Good%20Subsets/README.md)
 
+[2172. Maximum AND Sum of Array](./2-D%20Dynamic%20Programming/Bitmask/2172.%20Maximum%20AND%20Sum%20of%20Array/README.md)
+
 [2184. Number of Ways to Build Sturdy Brick Wall](2-D%20Dynamic%20Programming/Bitmask/2184.%20Number%20of%20Ways%20to%20Build%20Sturdy%20Brick%20Wall/README.md)
 
 [2403. Minimum Time to Kill All Monsters](2-D%20Dynamic%20Programming/Bitmask/2403.%20Minimum%20Time%20to%20Kill%20All%20Monsters/README.md)
