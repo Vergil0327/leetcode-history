@@ -40,6 +40,11 @@ for k, arr in MAP.items():
             f.write(s)
 ``` -->
 
+**Category**
+
+[Trees](#trees) / [Binary Search](#binary-search) / [Bit Manipulation](#bit-manipulation) / [UnionFind](#unionfind) / [Two Pointers](#two-pointers) / [Interval](#interval) / [1-D Dynamic Programming](#1-d-dynamic-programming) / [Backtracking](#backtracking) / [Array&Hashing](#arrayhashing) / [Sliding Window](#sliding-window) / [Math&Geometry](#mathgeometry) / [Heap](#heap) / [Greedy](#greedy) / [Segment Tree](#segment-tree) / [Sorting](#sorting) / [Queue](#queue) / [Tries](#tries) / [String](#string) / [Graphs](#graphs) / [Stack](#stack) / [Random](#random) / [Linked List](#linked-list) / [2-D Dynamic Programming](#2-d-dynamic-programming) / [PrefixSum](#prefixsum) / [Sorted Container](#sorted-containersorteddict)
+
+
 
 ## Trees
 
