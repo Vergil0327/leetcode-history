@@ -1737,12 +1737,6 @@ for k, arr in MAP.items():
 
 [969. Pancake Sorting](Sorting/969.%20Pancake%20Sorting/README.md)
 
-## Sorting/SortedDict
-
-[2736. Maximum Sum Queries](Sorting/SortedDict/2736.%20Maximum%20Sum%20Queries/README.md)
-
-[2945. Find Maximum Non-decreasing Array Length](Sorting/SortedDict/2945.%20Find%20Maximum%20Non-decreasing%20Array%20Length/README.md)
-
 ## Queue
 
 [1429. First Unique Number](Queue/1429.%20First%20Unique%20Number/README.md)
@@ -2870,3 +2864,27 @@ for k, arr in MAP.items():
 ## Sorted Container/SortedList
 
 [1825. Finding MK Average](Sorted%20Container/SortedList/1825.%20Finding%20MK%20Average/README.md)
+
+[1912. Design Movie Rental System](Binary%20Search/SortedList/1912.%20Design%20Movie%20Rental%20System/README.md)
+
+[2179. Count Good Triplets in an Array](Binary%20Search/SortedList/2179.%20Count%20Good%20Triplets%20in%20an%20Array/README.md)
+
+[2382. Maximum Segment Sum After Removals](Binary%20Search/SortedList/2382.%20Maximum%20Segment%20Sum%20After%20Removals/README.md)
+
+[2817. Minimum Absolute Difference Between Elements With Constraint](Binary%20Search/SortedList/2817.%20Minimum%20Absolute%20Difference%20Between%20Elements%20With%20Constraint/README.md)
+
+[315. Count of Smaller Numbers After Self](Binary%20Search/SortedList/315.%20Count%20of%20Smaller%20Numbers%20After%20Self/README.md)
+
+[327. Count of Range Sum](Binary%20Search/SortedList/327.%20Count%20of%20Range%20Sum/README.md)
+
+[493. Reverse Pairs](Binary%20Search/SortedList/493.%20Reverse%20Pairs/README.md)
+
+[846. Hand of Straights](Binary%20Search/SortedList/846.%20Hand%20of%20Straights/README.md)
+
+[981. Time Based Key-Value Store](Binary%20Search/SortedList/981.%20Time%20Based%20Key-Value%20Store/README.md)
+
+## Sorted Container/SortedDict
+
+[2736. Maximum Sum Queries](Sorted%20Container/SortedDict/2736.%20Maximum%20Sum%20Queries/README.md)
+
+[2945. Find Maximum Non-decreasing Array Length](Sorted%20Container/SortedDict/2945.%20Find%20Maximum%20Non-decreasing%20Array%20Length/README.md)
