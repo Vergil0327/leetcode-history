@@ -2867,3 +2867,6 @@ for k, arr in MAP.items():
 
 [850. Rectangle Area II](PrefixSum/DiffSum/2D-Difference%20Array/850.%20Rectangle%20Area%20II/README.md)
 
+## Sorted Container/SortedList
+
+[1825. Finding MK Average](Sorted%20Container/SortedList/1825.%20Finding%20MK%20Average/README.md)
