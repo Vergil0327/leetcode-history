@@ -5,21 +5,21 @@ class Solution:
         
         primeScore = []
         for num in nums:
-            primes = set()
+            numPrime = 0
             for p in range(2, int(sqrt(num))+1):
                 if num%p == 0:
-                    primes.add(p)
+                    numPrime += 1
                     while num%p == 0:
                         num //= p
             if num > 1:
-                primes.add(num)
-            primeScore.append(len(primes))
+                numPrime += 1
+            primeScore.append(numPrime)
         
         # stack = [5 4 3 2 1], p=3
         prevGreater = [-1]*n
         stack = []
         for i, p in enumerate(primeScore):
-            while stack and primeScore[stack[-1]]  < p:
+            while stack and primeScore[stack[-1]] < p:
                 stack.pop()
             if stack:
                 prevGreater[i] = stack[-1]
@@ -38,19 +38,13 @@ class Solution:
         
         res = 1
         for num, i, _ in arr:
-            l = prevGreater[i]
-            r = nextGreater[i]
-            left = i-l
-            right = r-i
+            left = i-prevGreater[i]
+            right = nextGreater[i]-i
 
-            if k >= left*right:
-                res *= pow(num, left*right, mod)
-                res %= mod
-                k -= left*right
-            else:
-                res *= pow(num, k, mod)
-                res %= mod
-                k = 0
-            if not k: break
+            numSubarray = left*right
+
+            res = (res * pow(num, min(k, numSubarray), mod)) % mod
+            k -= numSubarray
+            if k <= 0: break
 
         return res

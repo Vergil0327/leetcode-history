@@ -28,15 +28,15 @@ so, combine above discussion:
 ```py
 primeScore = []
 for num in nums:
-    primes = set()
+    numPrime = 0
     for p in range(2, int(sqrt(num))+1):
         if num%p == 0:
-            primes.add(p)
+            numPrime += 1
             while num%p == 0:
                 num //= p
     if num > 1:
-        primes.add(num)
-    primeScore.append(len(primes))
+        numPrime += 1
+    primeScore.append(numPrime)
 ```
 
 2. find left boundary and right boundary of nums[i]
@@ -50,7 +50,7 @@ we can use monotonic stack to find prevGreaterPrimescore and nextGreaterPrimesco
 prevGreater = [-1]*n
 stack = []
 for i, p in enumerate(primeScore):
-    while stack and primeScore[stack[-1]]  < p:
+    while stack and primeScore[stack[-1]] < p:
         stack.pop()
     if stack:
         prevGreater[i] = stack[-1]
