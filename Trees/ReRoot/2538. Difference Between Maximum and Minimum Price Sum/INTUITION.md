@@ -6,8 +6,7 @@ since lots of path sum will be calculated multiple times, we can cache it to red
 
 # Complexity
 - Time complexity:
-$$O(n)$$
-each node only calculate one time and it'll be cached
+$$O(leaf * n)$$
 
 - Space complexity:
 $$O(n)$$
@@ -46,7 +45,7 @@ class Solution:
         return res
 ```
 
-# Other Solution - Re-root
+# Solution - Re-root
 
 [original post](https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/solutions/3052596/re-rooting/)
 

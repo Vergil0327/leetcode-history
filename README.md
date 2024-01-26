@@ -250,8 +250,6 @@ for k, arr in MAP.items():
 
 [2246. Longest Path With Different Adjacent Characters](Trees/Path/2246.%20Longest%20Path%20With%20Different%20Adjacent%20Characters/README.md)
 
-[2538. Difference Between Maximum and Minimum Price Sum](Trees/Path/2538.%20Difference%20Between%20Maximum%20and%20Minimum%20Price%20Sum/README.md)
-
 [687. Longest Univalue Path](Trees/Path/687.%20Longest%20Univalue%20Path/README.md)
 
 ## Trees/ReRoot
