@@ -1,7 +1,5 @@
 # Intuition
 
-[English Version](https://leetcode.com/problems/minimize-or-of-remaining-elements-using-operations/solutions/4642435/my-thought-process/)
-
 1. 求min(OR(nums))
 2. 可以透過nums[i]&nums[i+1]來降低possible value of the bitwiase OR of nums
 3. 1 <= nums.length <= 10^5
