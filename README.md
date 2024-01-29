@@ -534,6 +534,7 @@ for k, arr in MAP.items():
 
 [29. Divide Two Integers](Bit%20Manipulation/29.%20Divide%20Two%20Integers/README.md)
 
+[3022. Minimize OR of Remaining Elements Using Operations](Bit%20Manipulation/3022.%20Minimize%20OR%20of%20Remaining%20Elements%20Using%20Operations/README.md)
 
 [318. Maximum Product of Word Lengths](Bit%20Manipulation/318.%20Maximum%20Product%20of%20Word%20Lengths/README.md)
 
