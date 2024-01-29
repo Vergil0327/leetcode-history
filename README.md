@@ -484,6 +484,8 @@ for k, arr in MAP.items():
 
 [1611. Minimum One Bit Operations to Make Integers Zero](Bit%20Manipulation/1611.%20Minimum%20One%20Bit%20Operations%20to%20Make%20Integers%20Zero/README.md)
 
+[1829. Maximum XOR for Each Query](./Bit%20Manipulation/1829.%20Maximum%20XOR%20for%20Each%20Query/README.md)
+
 [1835. Find XOR Sum of All Pairs Bitwise AND](Bit%20Manipulation/1835.%20Find%20XOR%20Sum%20of%20All%20Pairs%20Bitwise%20AND/README.md)
 
 [191. Number of 1 Bits](Bit%20Manipulation/191.%20Number%20of%201%20Bits/README.md)
