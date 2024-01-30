@@ -1331,6 +1331,8 @@ for k, arr in MAP.items():
 
 [1808. Maximize Number of Nice Divisors](Math%26Geometry/1808.%20Maximize%20Number%20of%20Nice%20Divisors/README.md)
 
+[1861. Rotating the Box](Math&Geometry/1861.%20Rotating%20the%20Box/README.md)
+
 [1927. Sum Game](Math%26Geometry/1927.%20Sum%20Game/README.md)
 
 [1969. Minimum Non-Zero Product of the Array Elements](Math%26Geometry/1969.%20Minimum%20Non-Zero%20Product%20of%20the%20Array%20Elements/README.md)
