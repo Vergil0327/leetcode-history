@@ -738,6 +738,8 @@ for k, arr in MAP.items():
 
 [1851. Minimum Interval to Include Each Query](Interval/1851.%20Minimum%20Interval%20to%20Include%20Each%20Query/README.md)
 
+[1893. Check if All the Integers in a Range Are Covered](Interval/1893.%20Check%20if%20All%20the%20Integers%20in%20a%20Range%20Are%20Covered/README.md)
+
 [1943. Describe the Painting](Interval/1943.%20Describe%20the%20Painting/README.md)
 
 [2054. Two Best Non-Overlapping Events](Interval/2054.%20Two%20Best%20Non-Overlapping%20Events/README.md)
