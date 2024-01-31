@@ -2793,6 +2793,8 @@ for k, arr in MAP.items():
 
 [1862. Sum of Floored Pairs](PrefixSum/1862.%20Sum%20of%20Floored%20Pairs/README.md)
 
+[1895. Largest Magic Square](PrefixSum/1895.%20Largest%20Magic%20Square/README.md)
+
 [1906. Minimum Absolute Difference Queries](PrefixSum/1906.%20Minimum%20Absolute%20Difference%20Queries/README.md)
 
 [1915. Number of Wonderful Substrings](PrefixSum/1915.%20Number%20of%20Wonderful%20Substrings/README.md)
