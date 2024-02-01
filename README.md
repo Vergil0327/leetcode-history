@@ -2155,6 +2155,8 @@ for k, arr in MAP.items():
 
 [1541. Minimum Insertions to Balance a Parentheses String](Stack/1541.%20Minimum%20Insertions%20to%20Balance%20a%20Parentheses%20String/README.md)
 
+[1896. Minimum Cost to Change the Final Value of Expression](Stack/1896.%20Minimum%20Cost%20to%20Change%20the%20Final%20Value%20of%20Expression/README.md)
+
 [1963. Minimum Number of Swaps to Make the String Balanced](Stack/1963.%20Minimum%20Number%20of%20Swaps%20to%20Make%20the%20String%20Balanced/README.md)
 
 [20. Valid Parentheses](Stack/20.%20Valid%20Parentheses/README.md)
