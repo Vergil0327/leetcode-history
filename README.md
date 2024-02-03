@@ -2925,6 +2925,8 @@ for k, arr in MAP.items():
 
 [3013. Divide an Array Into Subarrays With Minimum Cost II](Sliding%20Window/3013.%20Divide%20an%20Array%20Into%20Subarrays%20With%20Minimum%20Cost%20II/README.md)
 
+[3027. Find the Number of Ways to Place People II](./Sorted%20Container/SortedList/3027.%20Find%20the%20Number%20of%20Ways%20to%20Place%20People%20II/README.md)
+
 [315. Count of Smaller Numbers After Self](Binary%20Search/SortedList/315.%20Count%20of%20Smaller%20Numbers%20After%20Self/README.md)
 
 [327. Count of Range Sum](Binary%20Search/SortedList/327.%20Count%20of%20Range%20Sum/README.md)
