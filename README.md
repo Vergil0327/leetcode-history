@@ -2835,6 +2835,8 @@ for k, arr in MAP.items():
 
 [2983. Palindrome Rearrangement Queries](PrefixSum/2983.%20Palindrome%20Rearrangement%20Queries/README.md)
 
+[3026. Maximum Good Subarray Sum](PrefixSum/3026.%20Maximum%20Good%20Subarray%20Sum/README.md)
+
 [304. Range Sum Query 2D - Immutable](PrefixSum/304.%20Range%20Sum%20Query%202D%20-%20Immutable/README.md)
 
 [363. Max Sum of Rectangle No Larger Than K](PrefixSum/363.%20Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K/README.md)
