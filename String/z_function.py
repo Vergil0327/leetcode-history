@@ -45,6 +45,22 @@ def z_function(s):
                 R -= 1
     return z
 
+# 另種實作方式
+def z_functionImpl2(s):
+    n = len(s)
+    l = r = 0
+    z = [0]*n
+
+    for i in range(1, n):
+        if i < r:
+            z[i] = min(r-i, z[i-l])
+
+        while i + z[i] < n and s[z[i]] == s[i+z[i]]:
+            z[i] += 1
+        if i+z[i] > r:
+            l = i
+            r = i+z[i]
+    return z
 
 def search(text, pattern):
     # Create concatenated string "P$T"

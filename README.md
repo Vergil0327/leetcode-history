@@ -1845,6 +1845,8 @@ for k, arr in MAP.items():
 
 [3029. Minimum Time to Revert Word to Initial State I](String/3029.%20Minimum%20Time%20to%20Revert%20Word%20to%20Initial%20State%20I/README.md)
 
+[3031. Minimum Time to Revert Word to Initial State II](String/3029.%20Minimum%20Time%20to%20Revert%20Word%20to%20Initial%20State%20I/README.md)
+
 [336. Palindrome Pairs](String/336.%20Palindrome%20Pairs/README.md)
 
 [38. Count and Say](String/38.%20Count%20and%20Say/README.md)
