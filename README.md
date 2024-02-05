@@ -2105,6 +2105,8 @@ for k, arr in MAP.items():
 
 [1631. Path With Minimum Effort](Graphs/Dijkstra/1631.%20Path%20With%20Minimum%20Effort/README.md)
 
+[1928. Minimum Cost to Reach Destination in Time](Graphs/Dijkstra/1928.%20Minimum%20Cost%20to%20Reach%20Destination%20in%20Time/README.md)
+
 [1976. Number of Ways to Arrive at Destination](Graphs/Dijkstra/1976.%20Number%20of%20Ways%20to%20Arrive%20at%20Destination/README.md)
 
 [2203. Minimum Weighted Subgraph With the Required Paths](Graphs/Dijkstra/2203.%20Minimum%20Weighted%20Subgraph%20With%20the%20Required%20Paths/README.md)
