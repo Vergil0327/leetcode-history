@@ -2901,6 +2901,8 @@ for k, arr in MAP.items():
 
 [1912. Design Movie Rental System](Binary%20Search/SortedList/1912.%20Design%20Movie%20Rental%20System/README.md)
 
+[1942. The Number of the Smallest Unoccupied Chair](Sorted%20Container/SortedList/1942.%20The%20Number%20of%20the%20Smallest%20Unoccupied%20Chair/README.md)
+
 [2071. Maximum Number of Tasks You Can Assign](Binary%20Search/2071.%20Maximum%20Number%20of%20Tasks%20You%20Can%20Assign/README.md)
 
 [2179. Count Good Triplets in an Array](Binary%20Search/SortedList/2179.%20Count%20Good%20Triplets%20in%20an%20Array/README.md)
