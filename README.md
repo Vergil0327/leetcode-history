@@ -1889,6 +1889,8 @@ for k, arr in MAP.items():
 
 ## String/Manacher
 
+[1960. Maximum Product of the Length of Two Palindromic Substrings](String/Manacher/1960.%20Maximum%20Product%20of%20the%20Length%20of%20Two%20Palindromic%20Substrings/README.md)
+
 [214. Shortest Palindrome](String/Manacher/214.%20Shortest%20Palindrome/README.md)
 
 ## Graphs/Floyd
