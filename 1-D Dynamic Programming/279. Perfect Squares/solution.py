@@ -15,15 +15,16 @@ class Solution:
         return dfs(n)
 
 # Bottom-UP
+# dp[n]: minimum # of perfect squares which sum to n by using perfs[:i]
 class Solution:
     def numSquares(self, n: int) -> int:
-        # dp[n]: minimum # of perfect squares which sum to n by using perfs[:i]
-        dp = [n] * (n+1) # maximum # of perfect squares that can sum up to n is n. (1+1+...+1 to n)
+        dp = [inf]*(n+1) # maximum # of perfect squares that can sum up to n is n. (1+1+...+1 to n)
         dp[0] = 0
-        for total in range(1, n+1):
-            for j in range(1, n+1):
-                perf = j ** 2
-                if perf > n: break
-                dp[total] = min(dp[total], dp[total-perf] + 1)
+        for i in range(1, n+1):
+            for j in range(1, int(sqrt(n))+1):
+                square = j**2
+                if i-square >= 0:
+                    dp[i] = min(dp[i], dp[i-square]+1)
+                else:
+                    break
         return dp[n]
-
