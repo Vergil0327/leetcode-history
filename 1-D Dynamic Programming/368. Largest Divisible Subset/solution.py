@@ -67,3 +67,19 @@ class Solution:
         for num in sorted(nums):
             DP[num] = max((DP[i] for i in DP if num % i == 0), key=len) | {num}
         return max(DP.values(), key=len)
+    
+# dp[nums[i]]: 最大數為nums[i], %nums[i]為0的set
+# 狀態轉移:往前找個nums[j]如果nums[i]%nums[j] == 0, 那麼dp[nums[j]]裡的每個數也都滿足
+# 所以我們就能更新dp[nums[i]]
+class Solution:
+    def largestDivisibleSubset(self, nums: List[int]) -> List[int]:
+        nums.sort()
+
+        n = len(nums)
+        dp = [set([nums[i]]) for i in range(n)]
+        for i in range(n):
+            for j in range(i):
+                if nums[i]%nums[j] == 0:
+                    dp[i] = max(dp[i], dp[j]|{nums[i]}, key=len)
+
+        return max(dp, key=len)
