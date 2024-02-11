@@ -1797,6 +1797,16 @@ for k, arr in MAP.items():
 
 [677. Map Sum Pairs](Tries/677.%20Map%20Sum%20Pairs/README.md)
 
+## String/KMP
+
+[1392. Longest Happy Prefix](String/KMP/1392.%20Longest%20Happy%20Prefix/README.md)
+
+[28. Implement strStr()](String/KMP/28.%20Implement%20strStr%28%29/README.md)
+
+[3031. Minimum Time to Revert Word to Initial State II](String/KMP/3029.%20Minimum%20Time%20to%20Revert%20Word%20to%20Initial%20State%20I/README.md)
+
+[3036. Number of Subarrays That Match a Pattern II](String/KMP/3036.%20Number%20of%20Subarrays%20That%20Match%20a%20Pattern%20II/README.md)
+
 ## String/RollingHash
 
 [1044. Longest Duplicate Substring](String/RollingHash/1044.%20Longest%20Duplicate%20Substring/README.md)
@@ -1814,8 +1824,6 @@ for k, arr in MAP.items():
 ## String
 
 [1178. Number of Valid Words for Each Puzzle](String/1178.%20Number%20of%20Valid%20Words%20for%20Each%20Puzzle/README.md)
-
-[1392. Longest Happy Prefix](String/1392.%20Longest%20Happy%20Prefix/README.md)
 
 [1461. Check If a String Contains All Binary Codes of Size K](String/1461.%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K/README.md)
 
@@ -1839,15 +1847,11 @@ for k, arr in MAP.items():
 
 [273. Integer to English Words](String/273.%20Integer%20to%20English%20Words/README.md)
 
-[28. Implement strStr()](String/28.%20Implement%20strStr%28%29/README.md)
-
 [2825. Make String a Subsequence Using Cyclic Increments](String/2825.%20Make%20String%20a%20Subsequence%20Using%20Cyclic%20Increments/README.md)
 
 [2967. Minimum Cost to Make Array Equalindromic](String/2967.%20Minimum%20Cost%20to%20Make%20Array%20Equalindromic/README.md)
 
 [3029. Minimum Time to Revert Word to Initial State I](String/3029.%20Minimum%20Time%20to%20Revert%20Word%20to%20Initial%20State%20I/README.md)
-
-[3031. Minimum Time to Revert Word to Initial State II](String/3029.%20Minimum%20Time%20to%20Revert%20Word%20to%20Initial%20State%20I/README.md)
 
 [336. Palindrome Pairs](String/336.%20Palindrome%20Pairs/README.md)
 
