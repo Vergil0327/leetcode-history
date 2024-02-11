@@ -1661,6 +1661,8 @@ for k, arr in MAP.items():
 
 [330. Patching Array](Greedy/330.%20Patching%20Array/README.md)
 
+[3035. Maximum Palindromes After Operations](Greedy/3035.%20Maximum%20Palindromes%20After%20Operations/README.md)
+
 [406. Queue Reconstruction by Height](Greedy/406.%20Queue%20Reconstruction%20by%20Height/README.md)
 
 [45. Jump Game II](Greedy/45.%20Jump%20Game%20II/README.md)
