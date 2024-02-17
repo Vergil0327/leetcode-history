@@ -2079,6 +2079,8 @@ for k, arr in MAP.items():
 
 [1926. Nearest Exit from Entrance in Maze](Graphs/BFS/1926.%20Nearest%20Exit%20from%20Entrance%20in%20Maze/README.md)
 
+[1992. Find All Groups of Farmland](Graphs/BFS/1992.%20Find%20All%20Groups%20of%20Farmland/README.md)
+
 [2039. The Time When the Network Becomes Idle](Graphs/BFS/2039.%20The%20Time%20When%20the%20Network%20Becomes%20Idle/README.md)
 
 [2045. Second Minimum Time to Reach Destination](Graphs/BFS/2045.%20Second%20Minimum%20Time%20to%20Reach%20Destination/README.md)
