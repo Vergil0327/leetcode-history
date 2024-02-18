@@ -1413,6 +1413,8 @@ for k, arr in MAP.items():
 
 [3017. Count the Number of Houses at a Certain Distance II](Math&Geometry/3017.%20Count%20the%20Number%20of%20Houses%20at%20a%20Certain%20Distance%20II/README.md)
 
+[3044. Most Frequent Prime](Math&Geometry/3044.%20Most%20Frequent%20Prime/README.md)
+
 [313. Super Ugly Number](Math%26Geometry/313.%20Super%20Ugly%20Number/README.md)
 
 [335. Self Crossing](Math%26Geometry/335.%20Self%20Crossing/README.md)
