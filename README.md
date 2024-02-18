@@ -1793,6 +1793,8 @@ for k, arr in MAP.items():
 
 [2416. Sum of Prefix Scores of Strings](Tries/2416.%20Sum%20of%20Prefix%20Scores%20of%20Strings/README.md)
 
+[3043. Find the Length of the Longest Common Prefix](Tries/3043.%20Find%20the%20Length%20of%20the%20Longest%20Common%20Prefix/README.md)
+
 [440. K-th Smallest in Lexicographical Order](Tries/440.%20K-th%20Smallest%20in%20Lexicographical%20Order/README.md)
 
 [472. Concatenated Words](Tries/472.%20Concatenated%20Words/README.md)
