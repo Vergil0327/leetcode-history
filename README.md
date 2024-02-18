@@ -880,6 +880,8 @@ for k, arr in MAP.items():
 
 [3020. Find the Maximum Number of Elements in Subset](1-D%20Dynamic%20Programming/3020.%20Find%20the%20Maximum%20Number%20of%20Elements%20in%20Subset/README.md)
 
+[3041. Maximize Consecutive Elements in an Array After Modification](1-D%20Dynamic%20Programming/3041.%20Maximize%20Consecutive%20Elements%20in%20an%20Array%20After%20Modification/README.md)
+
 [337. House Robber III](1-D%20Dynamic%20Programming/337.%20House%20Robber%20III/README.md)
 
 [343. Integer Break](1-D%20Dynamic%20Programming/343.%20Integer%20Break/README.md)
