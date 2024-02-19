@@ -2847,6 +2847,8 @@ for k, arr in MAP.items():
 
 [2271. Maximum White Tiles Covered by a Carpet](PrefixSum/2271.%20Maximum%20White%20Tiles%20Covered%20by%20a%20Carpet/README.md)
 
+[2281. Sum of Total Strength of Wizards](PrefixSum/2281.%20Sum%20of%20Total%20Strength%20of%20Wizards/README.md)
+
 [2483. Minimum Penalty for a Shop](PrefixSum/2483.%20Minimum%20Penalty%20for%20a%20Shop/README.md)
 
 [2588. Count the Number of Beautiful Subarrays](PrefixSum/2588.%20Count%20the%20Number%20of%20Beautiful%20Subarrays/README.md)
