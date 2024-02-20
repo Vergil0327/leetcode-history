@@ -1715,6 +1715,8 @@ for k, arr in MAP.items():
 
 [1649. Create Sorted Array through Instructions](Segment%20Tree/1649.%20Create%20Sorted%20Array%20through%20Instructions/README.md)
 
+[2286. Booking Concert Tickets in Groups](Segment%20Tree/2286.%20Booking%20Concert%20Tickets%20in%20Groups/README.md)
+
 [2407. Longest Increasing Subsequence II](Segment%20Tree/2407.%20Longest%20Increasing%20Subsequence%20II/README.md)
 
 [2569. Handling Sum Queries After Update](Segment%20Tree/2569.%20Handling%20Sum%20Queries%20After%20Update/README.md)
