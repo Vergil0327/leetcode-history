@@ -38,7 +38,7 @@ smallest_seat = segment_tree.query_max_consecutive(0, maxRow)
 所以我們需要能query_sum以及query_max的segment tree
 可以寫在一起, 也能分開維護兩個不同用途的segment tree
 
-## Iterative Segment Tree
+## Iterative/Recursive Segment Tree
 
 ```py
 class SegmentTree:
