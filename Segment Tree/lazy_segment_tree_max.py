@@ -5,7 +5,7 @@ class Node:
         self.info = self.lazy_tag = self.lazy_val = 0 
 
 class LazySegmentTreeMax:
-    def __init__(self, l: int, r: int, val: int): # inti range [l,r] with val
+    def __init__(self, l: int, r: int, val: int): # init range [l,r] with val
         def init_tree(l, r, val):
             node = Node(l, r)
             if l == r:
@@ -33,7 +33,7 @@ class LazySegmentTreeMax:
 
     def updateRange(self, l: int, r: int, val: int) -> None:
         def update(node, l, r, val):
-            if r < node.l or l  > node.r: return # not dovered by [l,r]
+            if r < node.l or l  > node.r: return # not covered by [l,r]
 
             if l <= node.l and node.r <= r:
                 node.info = val

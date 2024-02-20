@@ -5,7 +5,7 @@ class Node:
         self.info = self.lazy_tag = self.lazy_val = 0 
 
 class LazySegmentTreeSum:
-    def __init__(self, l: int, r: int, val: int): # inti range [l,r] with val
+    def __init__(self, l: int, r: int, val: int): # init range [l,r] with val
         def init_tree(l, r, val):
             node = Node(l, r)
             if l == r:
@@ -35,7 +35,7 @@ class LazySegmentTreeSum:
 
     def updateRange(self, l: int, r: int, val: int) -> None:
         def update(node, l, r, val):
-            if r < node.l or l  > node.r: return # not dovered by [l,r]
+            if r < node.l or l  > node.r: return # not covered by [l,r]
 
             if l <= node.l and node.r <= r:
                 node.info = val * (node.r-node.l+1)
@@ -47,7 +47,7 @@ class LazySegmentTreeSum:
                 self.pushDown(node)
                 update(node.left, l, r, val)
                 update(node.right, l, r, val)
-                node.info = node.left.info + node.right.info
+                node.info = sum([node.left.info, node.right.info])
 
         return update(self.root, l, r, val)
 
@@ -60,8 +60,8 @@ class LazySegmentTreeSum:
             
             if node.left:
                 self.pushDown(node)
-                res = query(node.left, l, r) + query(node.right, l, r)
-                node.info = node.left.info + node.right.info
+                res = sum([query(node.left, l, r), query(node.right, l, r)])
+                node.info = sum([node.left.info, node.right.info])
                 return res
             
             return node.info # should not reach here
