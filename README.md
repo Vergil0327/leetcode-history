@@ -2851,6 +2851,8 @@ for k, arr in MAP.items():
 
 [2281. Sum of Total Strength of Wizards](PrefixSum/2281.%20Sum%20of%20Total%20Strength%20of%20Wizards/README.md)
 
+[2321. Maximum Score Of Spliced Array](PrefixSum/2321.%20Maximum%20Score%20Of%20Spliced%20Array/README.md)
+
 [2483. Minimum Penalty for a Shop](PrefixSum/2483.%20Minimum%20Penalty%20for%20a%20Shop/README.md)
 
 [2588. Count the Number of Beautiful Subarrays](PrefixSum/2588.%20Count%20the%20Number%20of%20Beautiful%20Subarrays/README.md)
