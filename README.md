@@ -1361,6 +1361,8 @@ for k, arr in MAP.items():
 
 [233. Number of Digit One](Math%26Geometry/233.%20Number%20of%20Digit%20One/README.md)
 
+[2344. Minimum Deletions to Make Array Divisible](Math&Geometry/2344.%20Minimum%20Deletions%20to%20Make%20Array%20Divisible/README.md)
+
 [241. Different Ways to Add Parentheses](Math%26Geometry/241.%20Different%20Ways%20to%20Add%20Parentheses/README.md)
 
 [2412. Minimum Money Required Before Transactions](Math%26Geometry/2412.%20Minimum%20Money%20Required%20Before%20Transactions/README.md)
