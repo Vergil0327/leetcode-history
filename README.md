@@ -396,6 +396,8 @@ for k, arr in MAP.items():
 
 [2871. Split Array Into Maximum Number of Subarrays](Binary%20Search/2871.%20Split%20Array%20Into%20Maximum%20Number%20of%20Subarrays/README.md)
 
+[3048. Earliest Second to Mark Indices I](Binary%20Search/3048.%20Earliest%20Second%20to%20Mark%20Indices%20I/README.md)
+
 [33. Search in Rotated Sorted Array](Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array/README.md)
 
 [34. Find First and Last Position of Element in Sorted Array](Binary%20Search/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/README.md)
