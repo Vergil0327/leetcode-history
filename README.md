@@ -1417,6 +1417,8 @@ for k, arr in MAP.items():
 
 [3044. Most Frequent Prime](Math&Geometry/3044.%20Most%20Frequent%20Prime/README.md)
 
+[3047. Find the Largest Area of Square Inside Two Rectangles](Math&Geometry/3047.%20Find%20the%20Largest%20Area%20of%20Square%20Inside%20Two%20Rectangles/README.md)
+
 [313. Super Ugly Number](Math%26Geometry/313.%20Super%20Ugly%20Number/README.md)
 
 [335. Self Crossing](Math%26Geometry/335.%20Self%20Crossing/README.md)
