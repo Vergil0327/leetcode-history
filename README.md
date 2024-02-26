@@ -674,6 +674,8 @@ for k, arr in MAP.items():
 
 [2147. Number of Ways to Divide a Long Corridor](Two%20Pointers/2147.%20Number%20of%20Ways%20to%20Divide%20a%20Long%20Corridor/README.md)
 
+[2234. Maximum Total Beauty of the Gardens](Two%20Pointers/2234.%20Maximum%20Total%20Beauty%20of%20the%20Gardens/README.md)
+
 [2348. Number of Zero-Filled Subarrays](Two%20Pointers/2348.%20Number%20of%20Zero-Filled%20Subarrays/README.md)
 
 [2354. Number of Excellent Pairs](Two%20Pointers/2354.%20Number%20of%20Excellent%20Pairs/README.md)
