@@ -2927,6 +2927,8 @@ for k, arr in MAP.items():
 
 ## Sorted Container/SortedDict
 
+[2213. Longest Substring of One Repeating Character](Sorted%20Container/SortedDict/2213.%20Longest%20Substring%20of%20One%20Repeating%20Character/README.md)
+
 [2736. Maximum Sum Queries](Sorted%20Container/SortedDict/2736.%20Maximum%20Sum%20Queries/README.md)
 
 [2926. Maximum Balanced Subsequence Sum](1-D%20Dynamic%20Programming/2926.%20Maximum%20Balanced%20Subsequence%20Sum/README.md)
