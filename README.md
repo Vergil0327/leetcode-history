@@ -398,6 +398,8 @@ for k, arr in MAP.items():
 
 [3048. Earliest Second to Mark Indices I](Binary%20Search/3048.%20Earliest%20Second%20to%20Mark%20Indices%20I/README.md)
 
+[3049. Earliest Second to Mark Indices II](Binary%20Search/3049.%20Earliest%20Second%20to%20Mark%20Indices%20II/README.md)
+
 [33. Search in Rotated Sorted Array](Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array/README.md)
 
 [34. Find First and Last Position of Element in Sorted Array](Binary%20Search/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/README.md)
