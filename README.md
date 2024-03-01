@@ -596,6 +596,8 @@ for k, arr in MAP.items():
 
 [2092. Find All People With Secret](UnionFind/2092.%20Find%20All%20People%20With%20Secret/README.md)
 
+[2157. Groups of Strings](UnionFind/2157.%20Groups%20of%20Strings/README.md)
+
 [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](UnionFind/2316.%20Count%20Unreachable%20Pairs%20of%20Nodes%20in%20an%20Undirected%20Graph/README.md)
 
 [2382. Maximum Segment Sum After Removals](UnionFind/2382.%20Maximum%20Segment%20Sum%20After%20Removals/README.md)
