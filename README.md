@@ -164,6 +164,8 @@ for k, arr in MAP.items():
 
 [2973. Find Number of Coins to Place in Tree Nodes](Trees/2973.%20Find%20Number%20of%20Coins%20to%20Place%20in%20Tree%20Nodes/README.md)
 
+[3067. Count Pairs of Connectable Servers in a Weighted Tree Network](Trees/3067.%20Count%20Pairs%20of%20Connectable%20Servers%20in%20a%20Weighted%20Tree%20Network/README.md)
+
 [331. Verify Preorder Serialization of a Binary Tree](Trees/331.%20Verify%20Preorder%20Serialization%20of%20a%20Binary%20Tree/README.md)
 
 [333. Largest BST Subtree](Trees/333.%20Largest%20BST%20Subtree/README.md)
