@@ -2499,6 +2499,8 @@ for k, arr in MAP.items():
 
 [2036.Maximum-Alternating-Subarray-Sum](2-D%20Dynamic%20Programming/2036.Maximum-Alternating-Subarray-Sum/README.md)
 
+[2060. Check if an Original String Exists Given Two Encoded Strings](2-D%20Dynamic%20Programming/2060.%20Check%20if%20an%20Original%20String%20Exists%20Given%20Two%20Encoded%20Strings/README.md)
+
 [2088. Count Fertile Pyramids in a Land](2-D%20Dynamic%20Programming/2088.%20Count%20Fertile%20Pyramids%20in%20a%20Land/README.md)
 
 [2140. Solving Questions With Brainpower](2-D%20Dynamic%20Programming/2140.%20Solving%20Questions%20With%20Brainpower/README.md)
