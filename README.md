@@ -344,6 +344,8 @@ for k, arr in MAP.items():
 
 [2009. Minimum Number of Operations to Make Array Continuous](Binary%20Search/2009.%20Minimum%20Number%20of%20Operations%20to%20Make%20Array%20Continuous/README.md)
 
+[2040. Kth Smallest Product of Two Sorted Arrays](Binary%20Search/2040.%20Kth%20Smallest%20Product%20of%20Two%20Sorted%20Arrays/README.md)
+
 [2064. Minimized Maximum of Products Distributed to Any Store](Binary%20Search/2064.%20Minimized%20Maximum%20of%20Products%20Distributed%20to%20Any%20Store/README.md)
 
 [2071. Maximum Number of Tasks You Can Assign](Binary%20Search/2071.%20Maximum%20Number%20of%20Tasks%20You%20Can%20Assign/README.md)
