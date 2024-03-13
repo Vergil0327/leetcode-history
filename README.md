@@ -2277,6 +2277,8 @@ for k, arr in MAP.items():
 
 [1944. Number of Visible People in a Queue](Stack/Monotone%20Stack/1944.%20Number%20of%20Visible%20People%20in%20a%20Queue/README.md)
 
+[2030. Smallest K-Length Subsequence With Occurrences of a Letter](Stack/Monotone%20Stack/2030.%20Smallest%20K-Length%20Subsequence%20With%20Occurrences%20of%20a%20Letter/README.md)
+
 [2104. Sum of Subarray Ranges](Stack/Monotone%20Stack/2104.%20Sum%20of%20Subarray%20Ranges/README.md)
 
 [2334. Subarray With Elements Greater Than Varying Threshold](Stack/Monotone%20Stack/2334.%20Subarray%20With%20Elements%20Greater%20Than%20Varying%20Threshold/README.md)
