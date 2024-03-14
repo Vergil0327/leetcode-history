@@ -13,3 +13,19 @@ class Solution:
                 res += dp[presum[i]-goal]
             dp[presum[i]] = dp.get(presum[i], 0) + 1
         return res
+
+
+
+
+class Solution:
+    def numSubarraysWithSum(self, nums: List[int], goal: int) -> int:
+        count = defaultdict(int)
+        count[0] = 1
+
+        presum = res = 0
+        for num in nums:
+            presum += num
+            # presum - presumj = goal
+            res += count[presum-goal]
+            count[presum] += 1
+        return res
