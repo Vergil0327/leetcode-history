@@ -1625,6 +1625,8 @@ for k, arr in MAP.items():
 
 [1975. Maximum Matrix Sum](Greedy/1975.%20Maximum%20Matrix%20Sum/README.md)
 
+[2014. Longest Subsequence Repeated k Times](Greedy/2014.%20Longest%20Subsequence%20Repeated%20k%20Times/README.md)
+
 [2029. Stone Game IX](Greedy/2029.%20Stone%20Game%20IX/README.md)
 
 [2116. Check if a Parentheses String Can Be Valid](Greedy/2116.%20Check%20if%20a%20Parentheses%20String%20Can%20Be%20Valid/README.md)
