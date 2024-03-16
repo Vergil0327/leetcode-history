@@ -1689,6 +1689,8 @@ for k, arr in MAP.items():
 
 [3012. Minimize Length of Array Using Operations](Greedy/3012.%20Minimize%20Length%20of%20Array%20Using%20Operations/README.md)
 
+[3081. Replace Question Marks in String to Minimize Its Value](./Greedy/3081.%20Replace%20Question%20Marks%20in%20String%20to%20Minimize%20Its%20Value/README.md)
+
 [330. Patching Array](Greedy/330.%20Patching%20Array/README.md)
 
 [3035. Maximum Palindromes After Operations](Greedy/3035.%20Maximum%20Palindromes%20After%20Operations/README.md)
