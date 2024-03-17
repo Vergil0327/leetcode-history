@@ -2587,6 +2587,8 @@ for k, arr in MAP.items():
 
 [3077. Maximum Strength of K Disjoint Subarrays](2-D%20Dynamic%20Programming/3040.%20Maximum%20Number%20of%20Operations%20With%20the%20Same%20Score%20II/README.md)
 
+[3082. Find the Sum of the Power of All Subsequences](2-D%20Dynamic%20Programming/3082.%20Find%20the%20Sum%20of%20the%20Power%20of%20All%20Subsequences/README.md)
+
 [309. Best Time to Buy and Sell Stock with Cooldown](2-D%20Dynamic%20Programming/309.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown/README.md)
 
 [329. Longest Increasing Path in a Matrix](2-D%20Dynamic%20Programming/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix/README.md)
