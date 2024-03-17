@@ -2915,6 +2915,8 @@ for k, arr in MAP.items():
 
 [304. Range Sum Query 2D - Immutable](PrefixSum/304.%20Range%20Sum%20Query%202D%20-%20Immutable/README.md)
 
+[3085. Minimum Deletions to Make String K-Special](PrefixSum/3085.%20Minimum%20Deletions%20to%20Make%20String%20K-Special/README.md)
+
 [363. Max Sum of Rectangle No Larger Than K](PrefixSum/363.%20Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K/README.md)
 
 [523. Continuous Subarray Sum](PrefixSum/523.%20Continuous%20Subarray%20Sum/README.md)
