@@ -1295,6 +1295,8 @@ for k, arr in MAP.items():
 
 [3013. Divide an Array Into Subarrays With Minimum Cost II](Sliding%20Window/3013.%20Divide%20an%20Array%20Into%20Subarrays%20With%20Minimum%20Cost%20II/README.md)
 
+[3085. Minimum Deletions to Make String K-Special](PrefixSum/3085.%20Minimum%20Deletions%20to%20Make%20String%20K-Special/README.md)
+
 [395. Longest Substring with At Least K Repeating Characters](Sliding%20Window/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters/README.md)
 
 [424. Longest Repeating Character Replacement](Sliding%20Window/424.%20Longest%20Repeating%20Character%20Replacement/README.md)
