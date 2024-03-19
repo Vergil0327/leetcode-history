@@ -1709,6 +1709,8 @@ for k, arr in MAP.items():
 
 [55. Jump Game](Greedy/55.%20Jump%20Game/README.md)
 
+[621. Task Scheduler](Greedy/621.%20Task%20Scheduler/README.md)
+
 [630. Course Schedule III](Greedy/630.%20Course%20Schedule%20III/README.md)
 
 [659. Split Array into Consecutive Subsequences](Greedy/659.%20Split%20Array%20into%20Consecutive%20Subsequences/README.md)
