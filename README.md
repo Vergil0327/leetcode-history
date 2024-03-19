@@ -594,6 +594,8 @@ for k, arr in MAP.items():
 
 [1970. Last Day Where You Can Still Cross](UnionFind/1970.%20Last%20Day%20Where%20You%20Can%20Still%20Cross/README.md)
 
+[1998. GCD Sort of an Array](UnionFind/1998.%20GCD%20Sort%20of%20an%20Array/README.md)
+
 [200. Number of Islands](UnionFind/200.%20Number%20of%20Islands/README.md)
 
 [2076. Process Restricted Friend Requests](UnionFind/2076.%20Process%20Restricted%20Friend%20Requests/README.md)
