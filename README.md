@@ -2517,6 +2517,8 @@ for k, arr in MAP.items():
 
 [1959. Minimum Total Space Wasted With K Resizing Operations](2-D%20Dynamic%20Programming/1959.%20Minimum%20Total%20Space%20Wasted%20With%20K%20Resizing%20Operations/README.md)
 
+[1987. Number of Unique Good Subsequences](2-D%20Dynamic%20Programming/1987.%20Number%20of%20Unique%20Good%20Subsequences/README.md)
+
 [2002. Maximum Product of the Length of Two Palindromic Subsequences](2-D%20Dynamic%20Programming/2002.%20Maximum%20Product%20of%20the%20Length%20of%20Two%20Palindromic%20Subsequences/README.md)
 
 [2036.Maximum-Alternating-Subarray-Sum](2-D%20Dynamic%20Programming/2036.Maximum-Alternating-Subarray-Sum/README.md)
