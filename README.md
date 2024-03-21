@@ -1001,6 +1001,8 @@ for k, arr in MAP.items():
 
 [17. Letter Combinations of a Phone Number](Backtracking/17.%20Letter%20Combinations%20of%20a%20Phone%20Number/README.md)
 
+[1982. Find Array Given Subset Sums](Backtracking/1982.%20Find%20Array%20Given%20Subset%20Sums/README.md)
+
 [1986. Minimum Number of Work Sessions to Finish the Tasks](Backtracking/1986.%20Minimum%20Number%20of%20Work%20Sessions%20to%20Finish%20the%20Tasks/README.md)
 
 [2002. Maximum Product of the Length of Two Palindromic Subsequences](Backtracking/2002.%20Maximum%20Product%20of%20the%20Length%20of%20Two%20Palindromic%20Subsequences/README.md)
