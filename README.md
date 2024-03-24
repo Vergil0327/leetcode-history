@@ -406,6 +406,8 @@ for k, arr in MAP.items():
 
 [3049. Earliest Second to Mark Indices II](Binary%20Search/3049.%20Earliest%20Second%20to%20Mark%20Indices%20II/README.md)
 
+[3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](Binary%20Search/3091.%20Apply%20Operations%20to%20Make%20Sum%20of%20Array%20Greater%20Than%20or%20Equal%20to%20k/README.md)
+
 [33. Search in Rotated Sorted Array](Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array/README.md)
 
 [34. Find First and Last Position of Element in Sorted Array](Binary%20Search/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/README.md)
@@ -1442,6 +1444,8 @@ for k, arr in MAP.items():
 [3044. Most Frequent Prime](Math&Geometry/3044.%20Most%20Frequent%20Prime/README.md)
 
 [3047. Find the Largest Area of Square Inside Two Rectangles](Math&Geometry/3047.%20Find%20the%20Largest%20Area%20of%20Square%20Inside%20Two%20Rectangles/README.md)
+
+[3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](Binary%20Search/3091.%20Apply%20Operations%20to%20Make%20Sum%20of%20Array%20Greater%20Than%20or%20Equal%20to%20k/README.md)
 
 [313. Super Ugly Number](Math%26Geometry/313.%20Super%20Ugly%20Number/README.md)
 
