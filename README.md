@@ -1843,6 +1843,8 @@ for k, arr in MAP.items():
 
 [3045. Count Prefix and Suffix Pairs II](Tries/3045.%20Count%20Prefix%20and%20Suffix%20Pairs%20II/README.md)
 
+[3093. Longest Common Suffix Queries](Tries/3093.%20Longest%20Common%20Suffix%20Queries/README.md)
+
 [440. K-th Smallest in Lexicographical Order](Tries/440.%20K-th%20Smallest%20in%20Lexicographical%20Order/README.md)
 
 [472. Concatenated Words](Tries/472.%20Concatenated%20Words/README.md)
