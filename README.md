@@ -1793,6 +1793,8 @@ for k, arr in MAP.items():
 
 [4. Median of Two Sorted Arrays](Sorting/4.%20Median%20of%20Two%20Sorted%20Arrays/README.md)
 
+[442. Find All Duplicates in an Array](Sorting/442.%20Find%20All%20Duplicates%20in%20an%20Array/README.md)
+
 [539. Minimum Time Difference](Sorting/539.%20Minimum%20Time%20Difference/README.md)
 
 [75. Sort Colors](Sorting/75.%20Sort%20Colors/README.md)
