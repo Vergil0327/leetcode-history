@@ -572,6 +572,8 @@ for k, arr in MAP.items():
 
 [1707. Maximum XOR With an Element From Array](Bit%20Manipulation/Trie/1707.%20Maximum%20XOR%20With%20an%20Element%20From%20Array/README.md)
 
+[1938. Maximum Genetic Difference Query](Bit%20Manipulation/Trie/1938.%20Maximum%20Genetic%20Difference%20Query/README.md)
+
 [2935. Maximum Strong Pair XOR II](Bit%20Manipulation/Trie/2935.%20Maximum%20Strong%20Pair%20XOR%20II/README.md)
 
 ## UnionFind
