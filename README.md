@@ -1367,6 +1367,8 @@ for k, arr in MAP.items():
 
 [1861. Rotating the Box](Math&Geometry/1861.%20Rotating%20the%20Box/README.md)
 
+[1916. Count Ways to Build Rooms in an Ant Colony](Math&Geometry/1916.%20Count%20Ways%20to%20Build%20Rooms%20in%20an%20Ant%20Colony/README.md)
+
 [1927. Sum Game](Math%26Geometry/1927.%20Sum%20Game/README.md)
 
 [1969. Minimum Non-Zero Product of the Array Elements](Math%26Geometry/1969.%20Minimum%20Non-Zero%20Product%20of%20the%20Array%20Elements/README.md)
