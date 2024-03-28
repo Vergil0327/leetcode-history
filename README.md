@@ -1365,6 +1365,8 @@ for k, arr in MAP.items():
 
 [1808. Maximize Number of Nice Divisors](Math%26Geometry/1808.%20Maximize%20Number%20of%20Nice%20Divisors/README.md)
 
+[1819. Number of Different Subsequences GCDs](Math&Geometry/1819.%20Number%20of%20Different%20Subsequences%20GCDs/README.md)
+
 [1861. Rotating the Box](Math&Geometry/1861.%20Rotating%20the%20Box/README.md)
 
 [1830. Minimum Number of Operations to Make String Sorted](Math&Geometry/1830.%20Minimum%20Number%20of%20Operations%20to%20Make%20String%20Sorted/README.md)
