@@ -2637,6 +2637,8 @@ for k, arr in MAP.items():
 
 [3098. Find the Sum of Subsequence Powers](./2-D%20Dynamic%20Programming/3098.%20Find%20the%20Sum%20of%20Subsequence%20Powers/README.md)
 
+[3101. Count Alternating Subarrays](2-D%20Dynamic%20Programming/3101.%20Count%20Alternating%20Subarrays/README.md)
+
 [3117. Minimum Sum of Values by Dividing Array](2-D%20Dynamic%20Programming/3117.%20Minimum%20Sum%20of%20Values%20by%20Dividing%20Array/README.md)
 
 [329. Longest Increasing Path in a Matrix](2-D%20Dynamic%20Programming/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix/README.md)
