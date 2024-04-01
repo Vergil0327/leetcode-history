@@ -105,3 +105,49 @@ points.sort(key=lambda x: x[0]+x[1])
 points.sort(key=lambda x: x[0]-x[1])
 # 此時X1 = maxDiff, X2 = minDiff
 ```
+
+
+## Other Approach
+
+遍歷每個點作為skip, 透過multiset以log(n)時間add/remove, 並以O(1)找出max manhattan distance
+
+```c++
+class Solution {
+public:
+    int minimumDistance(vector<vector<int>>& points) {
+        multiset<int> x, y;
+        for (auto p : points) {
+            x.insert(p[0]-p[1]);
+            y.insert(p[0]+p[1]);
+        }
+        int ans=1e9;
+        for (auto p : points) {
+            x.erase(x.find(p[0]-p[1]));
+            y.erase(y.find(p[0]+p[1]));
+            ans=min(ans, max(*x.rbegin()-*x.begin(), *y.rbegin()-*y.begin()));
+            x.insert(p[0]-p[1]);
+            y.insert(p[0]+p[1]);
+        }
+        return ans;
+    }
+};
+```
+
+```py
+from sortedcontainers import SortedList
+class Solution:
+    def minimumDistance(self, points: List[List[int]]) -> int:
+        SUM, DIFF = SortedList(), SortedList()
+        for x, y in points:
+            SUM.add(x+y)
+            DIFF.add(x-y)
+
+        res = inf
+        for x, y in points:
+            SUM.remove(x+y)
+            DIFF.remove(x-y)
+            res = min(res, max(SUM[-1]-SUM[0], DIFF[-1]-DIFF[0]))
+            SUM.add(x+y)
+            DIFF.add(x-y)
+        return res
+```
