@@ -1455,6 +1455,8 @@ for k, arr in MAP.items():
 
 [3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](Binary%20Search/3091.%20Apply%20Operations%20to%20Make%20Sum%20of%20Array%20Greater%20Than%20or%20Equal%20to%20k/README.md)
 
+[3102. Minimize Manhattan Distances](Math&Geometry/3102.%20Minimize%20Manhattan%20Distances/README.md)
+
 [313. Super Ugly Number](Math%26Geometry/313.%20Super%20Ugly%20Number/README.md)
 
 [335. Self Crossing](Math%26Geometry/335.%20Self%20Crossing/README.md)
