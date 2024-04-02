@@ -2827,6 +2827,8 @@ for k, arr in MAP.items():
 
 [1799. Maximize Score After N Operations](2-D%20Dynamic%20Programming/Bitmask/1799.%20Maximize%20Score%20After%20N%20Operations/README.md)
 
+[1815. Maximum Number of Groups Getting Fresh Donuts](2-D%20Dynamic%20Programming/Bitmask/1815.%20Maximum%20Number%20of%20Groups%20Getting%20Fresh%20Donuts/README.md)
+
 [1879. Minimum XOR Sum of Two Arrays](2-D%20Dynamic%20Programming/Bitmask/1879.%20Minimum%20XOR%20Sum%20of%20Two%20Arrays/README.md)
 
 [1931. Painting a Grid With Three Different Colors](2-D%20Dynamic%20Programming/Bitmask/1931.%20Painting%20a%20Grid%20With%20Three%20Different%20Colors/README.md)
