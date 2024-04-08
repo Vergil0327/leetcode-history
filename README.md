@@ -620,6 +620,8 @@ for k, arr in MAP.items():
 
 [305. Number of Islands II](UnionFind/305.%20Number%20of%20Islands%20II/README.md)
 
+[3108. Minimum Cost Walk in Weighted Graph](UnionFind/3108.%20Minimum%20Cost%20Walk%20in%20Weighted%20Graph/README.md)
+
 [684. Redundant Connection](UnionFind/684.%20Redundant%20Connection/README.md)
 
 [685. Redundant Connection II](UnionFind/685.%20Redundant%20Connection%20II/README.md)
