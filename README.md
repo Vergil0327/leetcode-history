@@ -2311,6 +2311,8 @@ for k, arr in MAP.items():
 
 [1673. Find the Most Competitive Subsequence](Stack/Monotone%20Stack/1673.%20Find%20the%20Most%20Competitive%20Subsequence/README.md)
 
+[1776. Car Fleet II](Stack/Monotone%20Stack/1776.%20Car%20Fleet%20II/README.md)
+
 [1856. Maximum Subarray Min-Product](Stack/Monotone%20Stack/1856.%20Maximum%20Subarray%20Min-Product/README.md)
 
 [1944. Number of Visible People in a Queue](Stack/Monotone%20Stack/1944.%20Number%20of%20Visible%20People%20in%20a%20Queue/README.md)
