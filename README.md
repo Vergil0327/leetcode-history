@@ -678,6 +678,8 @@ for k, arr in MAP.items():
 
 [1775. Equal Sum Arrays With Minimum Number of Operations](Two%20Pointers/1775.%20Equal%20Sum%20Arrays%20With%20Minimum%20Number%20of%20Operations/README.md)
 
+[1782. Count Pairs Of Nodes](Two%20Pointers/1782.%20Count%20Pairs%20Of%20Nodes/README.md)
+
 [1793. Maximum Score of a Good Subarray](Two%20Pointers/1793.%20Maximum%20Score%20of%20a%20Good%20Subarray/README.md)
 
 [18. 4Sum](Two%20Pointers/18.%204Sum/README.md)
