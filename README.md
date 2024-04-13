@@ -2307,7 +2307,7 @@ for k, arr in MAP.items():
 
 [946. Validate Stack Sequences](Stack/946.%20Validate%20Stack%20Sequences/README.md)
 
-## Stack/Monotone Stack
+## Stack/Monotonic Stack
 
 [1081. Smallest Subsequence of Distinct Characters](Stack/Monotone%20Stack/1081.%20Smallest%20Subsequence%20of%20Distinct%20Characters/README.md)
 
@@ -2338,6 +2338,8 @@ for k, arr in MAP.items():
 [2866. Beautiful Towers II](Stack/Monotone%20Stack/2866.%20Beautiful%20Towers%20II/README.md)
 
 [2940. Find Building Where Alice and Bob Can Meet](Stack/Monotone%20Stack/2940.%20Find%20Building%20Where%20Alice%20and%20Bob%20Can%20Meet/README.md)
+
+[3113. Find the Number of Subarrays Where Boundary Elements Are Maximum](Stack/Monotone%20Stack/3113.%20Find%20the%20Number%20of%20Subarrays%20Where%20Boundary%20Elements%20Are%20Maximum/README.md)
 
 [316. Remove Duplicate Letters](Stack/Monotone%20Stack/316.%20Remove%20Duplicate%20Letters/README.md)
 
