@@ -408,6 +408,8 @@ for k, arr in MAP.items():
 
 [3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](Binary%20Search/3091.%20Apply%20Operations%20to%20Make%20Sum%20of%20Array%20Greater%20Than%20or%20Equal%20to%20k/README.md)
 
+[3116. Kth Smallest Amount With Single Denomination Combination](Binary%20Search/3116.%20Kth%20Smallest%20Amount%20With%20Single%20Denomination%20Combination/README.md)
+
 [33. Search in Rotated Sorted Array](Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array/README.md)
 
 [34. Find First and Last Position of Element in Sorted Array](Binary%20Search/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/README.md)
