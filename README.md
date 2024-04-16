@@ -1371,6 +1371,8 @@ for k, arr in MAP.items():
 
 [172. Factorial Trailing Zeroes](Math%26Geometry/172.%20Factorial%20Trailing%20Zeroes/README.md)
 
+[1735. Count Ways to Make Array With Product](Math&Geometry/1735.%20Count%20Ways%20to%20Make%20Array%20With%20Product/README.md)
+
 [1808. Maximize Number of Nice Divisors](Math%26Geometry/1808.%20Maximize%20Number%20of%20Nice%20Divisors/README.md)
 
 [1819. Number of Different Subsequences GCDs](Math&Geometry/1819.%20Number%20of%20Different%20Subsequences%20GCDs/README.md)
