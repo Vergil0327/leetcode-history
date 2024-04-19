@@ -2011,6 +2011,8 @@ for k, arr in MAP.items():
 
 [1706. Where Will the Ball Fall](Graphs/1706.%20Where%20Will%20the%20Ball%20Fall/README.md)
 
+[1719. Number Of Ways To Reconstruct A Tree](Graphs/1719.%20Number%20Of%20Ways%20To%20Reconstruct%20A%20Tree/README.md)
+
 [1761. Minimum Degree of a Connected Trio in a Graph](Graphs/1761.%20Minimum%20Degree%20of%20a%20Connected%20Trio%20in%20a%20Graph/README.md)
 
 [1786. Number of Restricted Paths From First to Last Node](Graphs/1786.%20Number%20of%20Restricted%20Paths%20From%20First%20to%20Last%20Node/README.md)
