@@ -1255,6 +1255,8 @@ for k, arr in MAP.items():
 
 [1658. Minimum Operations to Reduce X to Zero](Sliding%20Window/1658.%20Minimum%20Operations%20to%20Reduce%20X%20to%20Zero/README.md)
 
+[1703. Minimum Adjacent Swaps for K Consecutive Ones](Sliding%20Window/1703.%20Minimum%20Adjacent%20Swaps%20for%20K%20Consecutive%20Ones/README.md)
+
 [1763. Longest Nice Substring](Sliding%20Window/1763.%20Longest%20Nice%20Substring/README.md)
 
 [1838. Frequency of the Most Frequent Element](Sliding%20Window/1838.%20Frequency%20of%20the%20Most%20Frequent%20Element/README.md)
