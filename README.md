@@ -596,6 +596,8 @@ for k, arr in MAP.items():
 
 [1627. Graph Connectivity With Threshold](UnionFind/1627.%20Graph%20Connectivity%20With%20Threshold/README.md)
 
+[1632. Rank Transform of a Matrix](UnionFind/1632.%20Rank%20Transform%20of%20a%20Matrix/README.md)
+
 [1697. Checking Existence of Edge Length Limited Paths](UnionFind/1697.%20Checking%20Existence%20of%20Edge%20Length%20Limited%20Paths/README.md)
 
 [1722. Minimize Hamming Distance After Swap Operations](UnionFind/1722.%20Minimize%20Hamming%20Distance%20After%20Swap%20Operations/README.md)
