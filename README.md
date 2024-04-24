@@ -2851,6 +2851,8 @@ for k, arr in MAP.items():
 
 [1494. Parallel Courses II](2-D%20Dynamic%20Programming/Bitmask/1494.%20Parallel%20Courses%20II/README.md)
 
+[1595. Minimum Cost to Connect Two Groups of Points](2-D%20Dynamic%20Programming/Bitmask/1595.%20Minimum%20Cost%20to%20Connect%20Two%20Groups%20of%20Points/README.md)
+
 [1655. Distribute Repeating Integers](2-D%20Dynamic%20Programming/Bitmask/1655.%20Distribute%20Repeating%20Integers/README.md)
 
 [1723. Find Minimum Time to Finish All Jobs](2-D%20Dynamic%20Programming/Bitmask/1723.%20Find%20Minimum%20Time%20to%20Finish%20All%20Jobs/README.md)
