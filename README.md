@@ -1545,6 +1545,8 @@ for k, arr in MAP.items():
 
 [1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows](Heap/1439.%20Find%20the%20Kth%20Smallest%20Sum%20of%20a%20Matrix%20With%20Sorted%20Rows/README.md)
 
+[1499. Max Value of Equation](./Heap/1499.%20Max%20Value%20of%20Equation/README.md)
+
 [1606. Find Servers That Handled Most Number of Requests](Heap/1606.%20Find%20Servers%20That%20Handled%20Most%20Number%20of%20Requests/README.md)
 
 [1642. Furthest Building You Can Reach](Heap/1642.%20Furthest%20Building%20You%20Can%20Reach/README.md)
@@ -2322,6 +2324,8 @@ for k, arr in MAP.items():
 [1124. Longest Well-Performing Interval](Stack/Monotone%20Stack/1124.%20Longest%20Well-Performing%20Interval/README.md)
 
 [1130. Minimum Cost Tree From Leaf Values](Stack/Monotone%20Stack/1130.%20Minimum%20Cost%20Tree%20From%20Leaf%20Values/README.md)
+
+[1499. Max Value of Equation](./Heap/1499.%20Max%20Value%20of%20Equation/README.md)
 
 [1504. Count Submatrices With All Ones](Stack/Monotone%20Stack/1504.%20Count%20Submatrices%20With%20All%20Ones/README.md)
 
