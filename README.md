@@ -2661,6 +2661,8 @@ for k, arr in MAP.items():
 
 [3129. Find All Possible Stable Binary Arrays I](2-D%20Dynamic%20Programming/3129.%20Find%20All%20Possible%20Stable%20Binary%20Arrays%20I/README.md)
 
+[3130. Find All Possible Stable Binary Arrays II](2-D%20Dynamic%20Programming/3130.%20Find%20All%20Possible%20Stable%20Binary%20Arrays%20II/README.md)
+
 [329. Longest Increasing Path in a Matrix](2-D%20Dynamic%20Programming/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix/README.md)
 
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
