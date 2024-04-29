@@ -2659,6 +2659,8 @@ for k, arr in MAP.items():
 
 [3117. Minimum Sum of Values by Dividing Array](2-D%20Dynamic%20Programming/3117.%20Minimum%20Sum%20of%20Values%20by%20Dividing%20Array/README.md)
 
+[3129. Find All Possible Stable Binary Arrays I](2-D%20Dynamic%20Programming/3129.%20Find%20All%20Possible%20Stable%20Binary%20Arrays%20I/README.md)
+
 [329. Longest Increasing Path in a Matrix](2-D%20Dynamic%20Programming/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix/README.md)
 
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
