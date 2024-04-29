@@ -59,3 +59,58 @@ i-1   i
 然後下次我們就考慮放置多少個連續個"1"
 
 這樣交替放置數個連續0跟連續1後, 利用dfs搜索, 最終就能知道有多少個合法解
+
+
+## bottom-up
+
+base case:
+
+zero/one <= limit時都是合法stable array
+
+```py
+def numberOfStableArrays(self, zero: int, one: int, limit: int) -> int:
+    mod = 10**9 + 7
+    dp = [[[0,0] for _ in range(one+1)] for _ in range(zero+1)]
+    for i in range(one+1):
+        if i <= limit:
+            dp[0][i][0] = 1
+            
+    for i in range(zero+1):
+        if i <= limit:
+            dp[i][0][1] = 1
+
+    for x in range(1, zero+1):
+        for y in range(1, one+1):
+            for consecutive in range(1, limit+1):
+                if consecutive <= y:
+                    dp[x][y][0] += dp[x][y-consecutive][1]
+                    dp[x][y][0] %= mod
+                else:
+                    break
+
+            for consecutive in range(1, limit+1):
+                if consecutive <= x:
+                    dp[x][y][1] += dp[x-consecutive][y][0]
+                    dp[x][y][1] %= mod
+                else:
+                    break
+
+    return (dp[zero][one][0] + dp[zero][one][1]) % mod
+```
+
+或
+
+```py
+def numberOfStableArrays(self, zero: int, one: int, limit: int) -> int:
+    mod = 10**9 + 7
+    dp = [[[0,0] for _ in range(one+1)] for _ in range(zero+1)]
+    dp[0][0][0] = dp[0][0][1] = 1
+    for x in range(zero+1):
+        for y in range(one+1):
+            dp[x][y][0] += sum(dp[x][y-consecutive][1] for consecutive in range(1, min(y, limit)+1))
+            dp[x][y][0] %= mod
+
+            dp[x][y][1] += sum(dp[x-consecutive][y][0] for consecutive in range(1, min(x, limit)+1))
+            dp[x][y][1] %= mod
+    return (dp[zero][one][0] + dp[zero][one][1])%mod
+```
