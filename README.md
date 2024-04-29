@@ -1375,6 +1375,8 @@ for k, arr in MAP.items():
 
 [1610. Maximum Number of Visible Points](Math%26Geometry/1610.%20Maximum%20Number%20of%20Visible%20Points/README.md)
 
+[1622. Fancy Sequence](Math&Geometry/1622.%20Fancy%20Sequence/README.md)
+
 [1643. Kth Smallest Instructions](Math%26Geometry/1643.%20Kth%20Smallest%20Instructions/README.md)
 
 [172. Factorial Trailing Zeroes](Math%26Geometry/172.%20Factorial%20Trailing%20Zeroes/README.md)
