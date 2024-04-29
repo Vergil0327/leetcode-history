@@ -550,6 +550,8 @@ for k, arr in MAP.items():
 
 [3022. Minimize OR of Remaining Elements Using Operations](Bit%20Manipulation/3022.%20Minimize%20OR%20of%20Remaining%20Elements%20Using%20Operations/README.md)
 
+[3133. Minimum Array End](Bit%20Manipulation/3133.%20Minimum%20Array%20End/README.md)
+
 [318. Maximum Product of Word Lengths](Bit%20Manipulation/318.%20Maximum%20Product%20of%20Word%20Lengths/README.md)
 
 [371. Sum of Two Integers](Bit%20Manipulation/371.%20Sum%20of%20Two%20Integers/README.md)
