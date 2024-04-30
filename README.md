@@ -410,6 +410,8 @@ for k, arr in MAP.items():
 
 [3116. Kth Smallest Amount With Single Denomination Combination](Binary%20Search/3116.%20Kth%20Smallest%20Amount%20With%20Single%20Denomination%20Combination/README.md)
 
+[3134. Find the Median of the Uniqueness Array](Binary%20Search/3134.%20Find%20the%20Median%20of%20the%20Uniqueness%20Array/README.md)
+
 [33. Search in Rotated Sorted Array](Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array/README.md)
 
 [34. Find First and Last Position of Element in Sorted Array](Binary%20Search/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/README.md)
