@@ -2741,6 +2741,8 @@ for k, arr in MAP.items():
 
 [1291. Sequential Digits](2-D%20Dynamic%20Programming/DigitDP/1291.%20Sequential%20Digits/README.md)
 
+[1397. Find All Good Strings](2-D%20Dynamic%20Programming/DigitDP/1397.%20Find%20All%20Good%20Strings/README.md)
+
 [2376. Count Special Integers](2-D%20Dynamic%20Programming/DigitDP/2376.%20Count%20Special%20Integers/README.md)
 
 [2801. Count Stepping Numbers in Rang](2-D%20Dynamic%20Programming/DigitDP/2801.%20Count%20Stepping%20Numbers%20in%20Rang/README.md)
