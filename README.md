@@ -2505,6 +2505,8 @@ for k, arr in MAP.items():
 
 [1363. Largest Multiple of Three](2-D%20Dynamic%20Programming/1363.%20Largest%20Multiple%20of%20Three/README.md)
 
+[1388. Pizza With 3n Slices](./2-D%20Dynamic%20Programming/1388.%20Pizza%20With%203n%20Slices/README.md)
+
 [140. Word Break II](2-D%20Dynamic%20Programming/140.%20Word%20Break%20II/README.md)
 
 [1402. Reducing Dishes](2-D%20Dynamic%20Programming/1402.%20Reducing%20Dishes/README.md)
