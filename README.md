@@ -2403,6 +2403,8 @@ for k, arr in MAP.items():
 
 [1171. Remove Zero Sum Consecutive Nodes from Linked List](Linked%20List/1171.%20Remove%20Zero%20Sum%20Consecutive%20Nodes%20from%20Linked%20List/README.md)
 
+[1206. Design Skiplist](Linked%20List/1206.%20Design%20Skiplist/README.md)
+
 [138. Copy List with Random Pointer](Linked%20List/138.%20Copy%20List%20with%20Random%20Pointer/README.md)
 
 [141. Linked List Cycle](Linked%20List/141.%20Linked%20List%20Cycle/README.md)
