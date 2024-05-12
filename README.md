@@ -1207,6 +1207,8 @@ for k, arr in MAP.items():
 
 [299. Bulls and Cows](Array%26Hashing/299.%20Bulls%20and%20Cows/README.md)
 
+[3143. Maximum Points Inside the Square](Array&Hashing/3143.%20Maximum%20Points%20Inside%20the%20Square/README.md)
+
 [347. Top K Frequent Elements](Array%26Hashing/347.%20Top%20K%20Frequent%20Elements/README.md)
 
 [350. Intersection of Two Arrays II](Array%26Hashing/350.%20Intersection%20of%20Two%20Arrays%20II/README.md)
