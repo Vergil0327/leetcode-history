@@ -2673,6 +2673,8 @@ for k, arr in MAP.items():
 
 [3130. Find All Possible Stable Binary Arrays II](2-D%20Dynamic%20Programming/3130.%20Find%20All%20Possible%20Stable%20Binary%20Arrays%20II/README.md)
 
+[3144. Minimum Substring Partition of Equal Character Frequency](2-D%20Dynamic%20Programming/3144.%20Minimum%20Substring%20Partition%20of%20Equal%20Character%20Frequency/README.md)
+
 [3148. Maximum Difference Score in a Grid](2-D%20Dynamic%20Programming/3148.%20Maximum%20Difference%20Score%20in%20a%20Grid/README.md)
 
 [329. Longest Increasing Path in a Matrix](2-D%20Dynamic%20Programming/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix/README.md)
