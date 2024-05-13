@@ -1483,6 +1483,8 @@ for k, arr in MAP.items():
 
 [313. Super Ugly Number](Math%26Geometry/313.%20Super%20Ugly%20Number/README.md)
 
+[3139. Minimum Cost to Equalize Array](Math&Geometry/3139.%20Minimum%20Cost%20to%20Equalize%20Array/README.md)
+
 [335. Self Crossing](Math%26Geometry/335.%20Self%20Crossing/README.md)
 
 [357. Count Numbers with Unique Digits](Math%26Geometry/357.%20Count%20Numbers%20with%20Unique%20Digits/README.md)
