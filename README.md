@@ -2677,6 +2677,8 @@ for k, arr in MAP.items():
 
 [3148. Maximum Difference Score in a Grid](2-D%20Dynamic%20Programming/3148.%20Maximum%20Difference%20Score%20in%20a%20Grid/README.md)
 
+[3149. Find the Minimum Cost Array Permutation](2-D%20Dynamic%20Programming/3149.%20Find%20the%20Minimum%20Cost%20Array%20Permutation/README.md)
+
 [329. Longest Increasing Path in a Matrix](2-D%20Dynamic%20Programming/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix/README.md)
 
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
