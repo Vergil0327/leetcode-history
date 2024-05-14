@@ -1543,6 +1543,8 @@ for k, arr in MAP.items():
 
 [963. Minimum Area Rectangle II](Math%26Geometry/963.%20Minimum%20Area%20Rectangle%20II/README.md)
 
+[964. Least Operators to Express Number](Math&Geometry/964.%20Least%20Operators%20to%20Express%20Number/README.md)
+
 ## Heap
 
 [1172. Dinner Plate Stacks](Heap/1172.%20Dinner%20Plate%20Stacks/README.md)
