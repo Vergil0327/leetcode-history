@@ -1001,6 +1001,8 @@ for k, arr in MAP.items():
 
 [113. Path Sum II](Backtracking/113.%20Path%20Sum%20II/README.md)
 
+[1219. Path with Maximum Gold](Backtracking/1219.%20Path%20with%20Maximum%20Gold/README.md)
+
 [1240. Tiling a Rectangle with the Fewest Squares](Backtracking/1240.%20Tiling%20a%20Rectangle%20with%20the%20Fewest%20Squares/README.md)
 
 [1255. Maximum Score Words Formed by Letters](Backtracking/1255.%20Maximum%20Score%20Words%20Formed%20by%20Letters/README.md)
