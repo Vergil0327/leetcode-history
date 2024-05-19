@@ -2681,6 +2681,8 @@ for k, arr in MAP.items():
 
 [3040. Maximum Number of Operations With the Same Score II](2-D%20Dynamic%20Programming/3040.%20Maximum%20Number%20of%20Operations%20With%20the%20Same%20Score%20II/README.md)
 
+[3068. Find the Maximum Sum of Node Values](Greedy/3068.%20Find%20the%20Maximum%20Sum%20of%20Node%20Values/README.md)
+
 [3077. Maximum Strength of K Disjoint Subarrays](2-D%20Dynamic%20Programming/3040.%20Maximum%20Number%20of%20Operations%20With%20the%20Same%20Score%20II/README.md)
 
 [3082. Find the Sum of the Power of All Subsequences](2-D%20Dynamic%20Programming/3082.%20Find%20the%20Sum%20of%20the%20Power%20of%20All%20Subsequences/README.md)
