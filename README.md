@@ -2689,6 +2689,8 @@ for k, arr in MAP.items():
 
 [3149. Find the Minimum Cost Array Permutation](2-D%20Dynamic%20Programming/3149.%20Find%20the%20Minimum%20Cost%20Array%20Permutation/README.md)
 
+[3154. Find Number of Ways to Reach the K-th Stair](2-D%20Dynamic%20Programming/3154.%20Find%20Number%20of%20Ways%20to%20Reach%20the%20K-th%20Stair/README.md)
+
 [329. Longest Increasing Path in a Matrix](2-D%20Dynamic%20Programming/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix/README.md)
 
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
