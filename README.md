@@ -2745,6 +2745,8 @@ for k, arr in MAP.items():
 
 [887. Super Egg Drop](2-D%20Dynamic%20Programming/887.%20Super%20Egg%20Drop/README.md)
 
+[903. Valid Permutations for DI Sequence](2-D%20Dynamic%20Programming/903.%20Valid%20Permutations%20for%20DI%20Sequence/README.md)
+
 [920. Number of Music Playlists](2-D%20Dynamic%20Programming/920.%20Number%20of%20Music%20Playlists/README.md)
 
 [926. Flip String to Monotone Increasing](2-D%20Dynamic%20Programming/926.%20Flip%20String%20to%20Monotone%20Increasing/README.md)
