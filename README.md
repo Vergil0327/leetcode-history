@@ -1531,6 +1531,8 @@ for k, arr in MAP.items():
 
 [780. Reaching Points](Math%26Geometry/780.%20Reaching%20Points/README.md)
 
+[829. Consecutive Numbers Sum](Math&Geometry/829.%20Consecutive%20Numbers%20Sum/README.md)
+
 [835. Image Overlap](Math%26Geometry/835.%20Image%20Overlap/README.md)
 
 [843. Guess the Word](Math%26Geometry/843.%20Guess%20the%20Word/README.md)
