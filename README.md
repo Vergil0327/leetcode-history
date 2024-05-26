@@ -1817,6 +1817,8 @@ for k, arr in MAP.items():
 
 [2569. Handling Sum Queries After Update](Segment%20Tree/2569.%20Handling%20Sum%20Queries%20After%20Update/README.md)
 
+[3161. Block Placement Queries](Segment%20Tree/3161.%20Block%20Placement%20Queries/README.md)
+
 [3165. Maximum Sum of Subsequence With Non-adjacent Elements](./Segment%20Tree/3165.%20Maximum%20Sum%20of%20Subsequence%20With%20Non-adjacent%20Elements/README.md)
 
 ## Sorting
