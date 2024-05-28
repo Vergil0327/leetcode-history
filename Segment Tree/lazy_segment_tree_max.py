@@ -5,20 +5,20 @@ class Node:
         self.info = self.lazy_tag = self.lazy_val = 0 
 
 class LazySegmentTreeMax:
-    def __init__(self, l: int, r: int, val: int): # init range [l,r] with val
-        def init_tree(l, r, val):
+    def __init__(self, l: int, r: int, nums: int): # init range [l,r] with nums
+        def init_tree(l, r, nums):
             node = Node(l, r)
             if l == r:
-                node.info = val
+                node.info = nums[l]
                 return node
             
             mid = (l+r)//2
             if node.left == None:
-                node.left = init_tree(l, mid, val)
-                node.right = init_tree(mid+1, r, val)
+                node.left = init_tree(l, mid, nums)
+                node.right = init_tree(mid+1, r, nums)
                 node.info = node.left.info + node.right.info
             return node
-        self.root = init_tree(l, r, val)
+        self.root = init_tree(l, r, nums)
 
     # propagation lazy tag and value from parent to child nodes
     def pushDown(self, node):
