@@ -58,3 +58,10 @@ Can you solve each query in O(nums.length) with dynamic programming?
 In order to optimize, we will use segment tree where each node contains the maximum value of (front element has been chosen or not, back element has been chosen or not).
 
 </details>
+
+<details>
+<summary>Solution</summary>
+
+[solution by @HuifengGuan](https://www.youtube.com/watch?v=AzzaHQKkwnM&ab_channel=HuifengGuan)
+
+</details>
