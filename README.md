@@ -642,6 +642,8 @@ for k, arr in MAP.items():
 
 [765. Couples Holding Hands](UnionFind/765.%20Couples%20Holding%20Hands/README.md)
 
+[803. Bricks Falling When Hit](UnionFind/803.%20Bricks%20Falling%20When%20Hit/README.md)
+
 [827. Making A Large Island](UnionFind/827.%20Making%20A%20Large%20Island/README.md)
 
 [839. Similar String Groups](UnionFind/839.%20Similar%20String%20Groups/README.md)
