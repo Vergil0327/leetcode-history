@@ -1091,6 +1091,8 @@ for k, arr in MAP.items():
 
 [1153. String Transforms Into Another String](Array%26Hashing/1153.%20String%20Transforms%20Into%20Another%20String/README.md)
 
+[1442. Count Triplets That Can Form Two Arrays of Equal XOR](Array&Hashing/1442.%20Count%20Triplets%20That%20Can%20Form%20Two%20Arrays%20of%20Equal%20XOR/README.md)
+
 [122. Best Time to Buy and Sell Stock II](Array%26Hashing/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/README.md)
 
 [1224. Maximum Equal Frequency](Array%26Hashing/1224.%20Maximum%20Equal%20Frequency/README.md)
