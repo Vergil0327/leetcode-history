@@ -554,6 +554,8 @@ for k, arr in MAP.items():
 
 [3133. Minimum Array End](Bit%20Manipulation/3133.%20Minimum%20Array%20End/README.md)
 
+[3171. Find Subarray With Bitwise AND Closest to K](Bit%20Manipulation/3171.%20Find%20Subarray%20With%20Bitwise%20AND%20Closest%20to%20K/README.md)
+
 [318. Maximum Product of Word Lengths](Bit%20Manipulation/318.%20Maximum%20Product%20of%20Word%20Lengths/README.md)
 
 [371. Sum of Two Integers](Bit%20Manipulation/371.%20Sum%20of%20Two%20Integers/README.md)
