@@ -2751,6 +2751,8 @@ for k, arr in MAP.items():
 
 [756. Pyramid Transition Matrix](2-D%20Dynamic%20Programming/756.%20Pyramid%20Transition%20Matrix/README.md)
 
+[768. Max Chunks To Make Sorted II](2-D%20Dynamic%20Programming/768.%20Max%20Chunks%20To%20Make%20Sorted%20II/README.md)
+
 [801. Minimum Swaps To Make Sequences Increasing](2-D%20Dynamic%20Programming/801.%20Minimum%20Swaps%20To%20Make%20Sequences%20Increasing/README.md)
 
 [808. Soup Servings](2-D%20Dynamic%20Programming/808.%20Soup%20Servings/README.md)
