@@ -1915,6 +1915,8 @@ for k, arr in MAP.items():
 
 [677. Map Sum Pairs](Tries/677.%20Map%20Sum%20Pairs/README.md)
 
+[745. Prefix and Suffix Search](Tries/745.%20Prefix%20and%20Suffix%20Search/README.md)
+
 ## String/KMP
 
 [1392. Longest Happy Prefix](String/KMP/1392.%20Longest%20Happy%20Prefix/README.md)
