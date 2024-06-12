@@ -2351,6 +2351,8 @@ for k, arr in MAP.items():
 
 [716. Max Stack](Stack/716.%20Max%20Stack/README.md)
 
+[726. Number of Atoms](Stack/726.%20Number%20of%20Atoms/README.md)
+
 [735. Asteroid Collision](Stack/735.%20Asteroid%20Collision/README.md)
 
 [772. Basic Calculator III](Stack/772.%20Basic%20Calculator%20III/README.md)
