@@ -434,6 +434,8 @@ for k, arr in MAP.items():
 
 [69. Sqrt(x)](Binary%20Search/69.%20Sqrt%28x%29/README.md)
 
+[719. Find K-th Smallest Pair Distance](Binary%20Search/719.%20Find%20K-th%20Smallest%20Pair%20Distance/README.md)
+
 [729. My Calendar I](Binary%20Search/729.%20My%20Calendar%20I/README.md)
 
 [74. Search a 2D Matrix](Binary%20Search/74.%20Search%20a%202D%20Matrix/README.md)
