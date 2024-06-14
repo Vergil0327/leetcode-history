@@ -560,6 +560,8 @@ for k, arr in MAP.items():
 
 [318. Maximum Product of Word Lengths](Bit%20Manipulation/318.%20Maximum%20Product%20of%20Word%20Lengths/README.md)
 
+[3181. Maximum Total Reward Using Operations II](1-D%20Dynamic%20Programming/3181.%20Maximum%20Total%20Reward%20Using%20Operations%20II/README.md)
+
 [371. Sum of Two Integers](Bit%20Manipulation/371.%20Sum%20of%20Two%20Integers/README.md)
 
 [393. UTF-8 Validation](Bit%20Manipulation/393.%20UTF-8%20Validation/README.md)
@@ -925,6 +927,8 @@ for k, arr in MAP.items():
 [3020. Find the Maximum Number of Elements in Subset](1-D%20Dynamic%20Programming/3020.%20Find%20the%20Maximum%20Number%20of%20Elements%20in%20Subset/README.md)
 
 [3041. Maximize Consecutive Elements in an Array After Modification](1-D%20Dynamic%20Programming/3041.%20Maximize%20Consecutive%20Elements%20in%20an%20Array%20After%20Modification/README.md)
+
+[3181. Maximum Total Reward Using Operations II](1-D%20Dynamic%20Programming/3181.%20Maximum%20Total%20Reward%20Using%20Operations%20II/README.md)
 
 [337. House Robber III](1-D%20Dynamic%20Programming/337.%20House%20Robber%20III/README.md)
 
