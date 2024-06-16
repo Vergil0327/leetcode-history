@@ -1831,6 +1831,8 @@ for k, arr in MAP.items():
 
 [3165. Maximum Sum of Subsequence With Non-adjacent Elements](./Segment%20Tree/3165.%20Maximum%20Sum%20of%20Subsequence%20With%20Non-adjacent%20Elements/README.md)
 
+[3187. Peaks in Array](Segment%20Tree/3187.%20Peaks%20in%20Array/README.md)
+
 ## Sorting
 
 [148. Sort List](Sorting/148.%20Sort%20List/README.md)
