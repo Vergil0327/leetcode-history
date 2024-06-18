@@ -1,3 +1,5 @@
+from typing import List
+
 class Node:
     def __init__(self, l, r) -> None:
         self.l, self.r = l, r
@@ -5,20 +7,20 @@ class Node:
         self.info = self.lazy_tag = self.lazy_val = 0 
 
 class LazySegmentTreeMax:
-    def __init__(self, l: int, r: int, nums: int): # init range [l,r] with nums
-        def init_tree(l, r, nums):
+    def __init__(self, l: int, r: int, num: int): # init range [l,r] with initial value `num``
+        def init_tree(l, r, num):
             node = Node(l, r)
             if l == r:
-                node.info = nums[l]
+                node.info = num
                 return node
             
             mid = (l+r)//2
             if node.left == None:
-                node.left = init_tree(l, mid, nums)
-                node.right = init_tree(mid+1, r, nums)
-                node.info = node.left.info + node.right.info
+                node.left = init_tree(l, mid, num)
+                node.right = init_tree(mid+1, r, num)
+                node.info = max(node.left.info, node.right.info)
             return node
-        self.root = init_tree(l, r, nums)
+        self.root = init_tree(l, r, num)
 
     # propagation lazy tag and value from parent to child nodes
     def pushDown(self, node):
