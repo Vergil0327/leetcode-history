@@ -2749,6 +2749,8 @@ for k, arr in MAP.items():
 
 [487. Max Consecutive Ones II](2-D%20Dynamic%20Programming/487.%20Max%20Consecutive%20Ones%20II/README.md)
 
+[488. Zuma Game](2-D%20Dynamic%20Programming/488.%20Zuma%20Game/README.md)
+
 [514. Freedom Trail](2-D%20Dynamic%20Programming/514.%20Freedom%20Trail/README.md)
 
 [546. Remove Boxes](2-D%20Dynamic%20Programming/546.%20Remove%20Boxes/README.md)
