@@ -2343,6 +2343,8 @@ for k, arr in MAP.items():
 
 [232. Implement Queue using Stacks](Stack/232.%20Implement%20Queue%20using%20Stacks/README.md)
 
+[2375. Construct Smallest Number From DI String](Stack/2375.%20Construct%20Smallest%20Number%20From%20DI%20String/README.md)
+
 [2390. Removing Stars From a String](Stack/2390.%20Removing%20Stars%20From%20a%20String/README.md)
 
 [2434. Using a Robot to Print the Lexicographically Smallest String](Stack/2434.%20Using%20a%20Robot%20to%20Print%20the%20Lexicographically%20Smallest%20String/README.md)
