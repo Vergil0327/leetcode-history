@@ -3117,6 +3117,8 @@ for k, arr in MAP.items():
 
 [2772. Apply Operations to Make All Array Elements Equal to Zero](PrefixSum/DiffSum/2772.%20Apply%20Operations%20to%20Make%20All%20Array%20Elements%20Equal%20to%20Zero/README.md)
 
+[3192. Minimum Operations to Make Binary Array Elements Equal to One II](PrefixSum/DiffSum/3192.%20Minimum%20Operations%20to%20Make%20Binary%20Array%20Elements%20Equal%20to%20One%20II/README.md)
+
 [798. Smallest Rotation with Highest Score](PrefixSum/DiffSum/798.%20Smallest%20Rotation%20with%20Highest%20Score/README.md)
 
 [995. Minimum Number of K Consecutive Bit Flips](PrefixSum/DiffSum/995.%20Minimum%20Number%20of%20K%20Consecutive%20Bit%20Flips/README.md)
