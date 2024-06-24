@@ -4,7 +4,7 @@ class Solution:
             return sum(1 for num in nums if num == 0)
         
         n = len(nums)
-        diff = [0] * (n+1)
+        diff = [0] * (n+1) # use difference array for accumulated flips
 
         res = 0
         for i in range(n-k+1):
