@@ -3105,6 +3105,8 @@ for k, arr in MAP.items():
 
 [3070. Count Submatrices with Top-Left Element and Sum Less Than k](PrefixSum/2D%20PrefixSum/3070.%20Count%20Submatrices%20with%20Top-Left%20Element%20and%20Sum%20Less%20Than%20k/README.md)
 
+[3195. Find the Minimum Area to Cover All Ones I](PrefixSum//2D%20PrefixSum/3195.%20Find%20the%20Minimum%20Area%20to%20Cover%20All%20Ones%20I/README.md)
+
 ## PrefixSum/DiffSum
 
 [1109. Corporate Flight Bookings](PrefixSum/DiffSum/1109.%20Corporate%20Flight%20Bookings/README.md)
