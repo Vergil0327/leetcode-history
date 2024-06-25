@@ -2737,6 +2737,8 @@ for k, arr in MAP.items():
 
 [3193. Count the Number of Inversions](2-D%20Dynamic%20Programming/3193.%20Count%20the%20Number%20of%20Inversions/README.md)
 
+[3196. Maximize Total Cost of Alternating Subarrays](2-D%20Dynamic%20Programming/3196.%20Maximize%20Total%20Cost%20of%20Alternating%20Subarrays/README.md)
+
 [329. Longest Increasing Path in a Matrix](2-D%20Dynamic%20Programming/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix/README.md)
 
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
