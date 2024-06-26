@@ -94,6 +94,8 @@ for k, arr in MAP.items():
 
 [1373. Maximum Sum BST in Binary Tree](Trees/1373.%20Maximum%20Sum%20BST%20in%20Binary%20Tree/README.md)
 
+[1382. Balance a Binary Search Tree](Trees/1382.%20Balance%20a%20Binary%20Search%20Tree/README.md)
+
 [1443. Minimum Time to Collect All Apples in a Tree](Trees/1443.%20Minimum%20Time%20to%20Collect%20All%20Apples%20in%20a%20Tree/README.md)
 
 [1485. Clone Binary Tree With Random Pointer](Trees/1485.%20Clone%20Binary%20Tree%20With%20Random%20Pointer/README.md)
