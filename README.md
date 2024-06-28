@@ -1155,6 +1155,8 @@ for k, arr in MAP.items():
 
 [2350. Shortest Impossible Sequence of Rolls](Array%26Hashing/2350.%20Shortest%20Impossible%20Sequence%20of%20Rolls/README.md)
 
+[2364. Count Number of Bad Pairs](Array&Hashing/2364.%20Count%20Number%20of%20Bad%20Pairs/README.md)
+
 [2365. Task Scheduler II](Array&Hashing/2365.%20Task%20Scheduler%20II/README.md)
 
 [2379. Minimum Recolors to Get K Consecutive Black Blocks](Array%26Hashing/2379.%20Minimum%20Recolors%20to%20Get%20K%20Consecutive%20Black%20Blocks/README.md)
