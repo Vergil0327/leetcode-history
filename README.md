@@ -2163,6 +2163,8 @@ for k, arr in MAP.items():
 
 [210. Course Schedule II](Graphs/TopologicalSort/210.%20Course%20Schedule%20II/README.md)
 
+[2192. All Ancestors of a Node in a Directed Acyclic Graph](Graphs/TopologicalSort/2192.%20All%20Ancestors%20of%20a%20Node%20in%20a%20Directed%20Acyclic%20Graph/README.md)
+
 [2360. Longest Cycle in a Graph](Graphs/TopologicalSort/2360.%20Longest%20Cycle%20in%20a%20Graph/README.md)
 
 [2392. Build a Matrix With Conditions](Graphs/TopologicalSort/2392.%20Build%20a%20Matrix%20With%20Conditions/README.md)
