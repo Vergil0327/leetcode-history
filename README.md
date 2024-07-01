@@ -2749,6 +2749,8 @@ for k, arr in MAP.items():
 
 [3196. Maximize Total Cost of Alternating Subarrays](2-D%20Dynamic%20Programming/3196.%20Maximize%20Total%20Cost%20of%20Alternating%20Subarrays/README.md)
 
+[3202. Find the Maximum Length of Valid Subsequence II](2-D%20Dynamic%20Programming/3202.%20Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20II/README.md)
+
 [329. Longest Increasing Path in a Matrix](2-D%20Dynamic%20Programming/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix/README.md)
 
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
