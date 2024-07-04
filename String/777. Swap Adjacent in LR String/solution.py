@@ -1,6 +1,5 @@
 class Solution:
     def canTransform(self, start: str, end: str) -> bool:
-        s1 = s2 = ""
         n = len(start)
 
         counter1 = Counter(end)
