@@ -2677,6 +2677,8 @@ for k, arr in MAP.items():
 
 [2318. Number of Distinct Roll Sequences](2-D%20Dynamic%20Programming/2318.%20Number%20of%20Distinct%20Roll%20Sequences/README.md)
 
+[2320. Count Number of Ways to Place Houses](2-D%20Dynamic%20Programming/2320.%20Count%20Number%20of%20Ways%20to%20Place%20Houses/README.md)
+
 [2328. Number of Increasing Paths in a Grid](2-D%20Dynamic%20Programming/2328.%20Number%20of%20Increasing%20Paths%20in%20a%20Grid/README.md)
 
 [2338. Count the Number of Ideal Arrays](2-D%20Dynamic%20Programming/2338.%20Count%20the%20Number%20of%20Ideal%20Arrays/README.md)
