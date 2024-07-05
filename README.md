@@ -516,6 +516,8 @@ for k, arr in MAP.items():
 
 [231. Power of Two](Bit%20Manipulation/231.%20Power%20of%20Two/README.md)
 
+[2317. Maximum XOR After Operations](Bit%20Manipulation/2317.%20Maximum%20XOR%20After%20Operations%20/README.md)
+
 [2411. Smallest Subarrays With Maximum Bitwise OR](Bit%20Manipulation/2411.%20Smallest%20Subarrays%20With%20Maximum%20Bitwise%20OR/README.md)
 
 [2425. Bitwise XOR of All Pairings](Bit%20Manipulation/2425.%20Bitwise%20XOR%20of%20All%20Pairings/README.md)
