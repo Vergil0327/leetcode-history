@@ -3133,6 +3133,8 @@ for k, arr in MAP.items():
 
 [3195. Find the Minimum Area to Cover All Ones I](PrefixSum//2D%20PrefixSum/3195.%20Find%20the%20Minimum%20Area%20to%20Cover%20All%20Ones%20I/README.md)
 
+[3212. Count Submatrices With Equal Frequency of X and Y](PrefixSum/2D%20PrefixSum/3212.%20Count%20Submatrices%20With%20Equal%20Frequency%20of%20X%20and%20Y/README.md)
+
 ## PrefixSum/DiffSum
 
 [1109. Corporate Flight Bookings](PrefixSum/DiffSum/1109.%20Corporate%20Flight%20Bookings/README.md)
