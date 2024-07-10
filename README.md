@@ -566,6 +566,8 @@ for k, arr in MAP.items():
 
 [3181. Maximum Total Reward Using Operations II](1-D%20Dynamic%20Programming/3181.%20Maximum%20Total%20Reward%20Using%20Operations%20II/README.md)
 
+[3209. Number of Subarrays With AND Value of K](Bit%20Manipulation/3209.%20Number%20of%20Subarrays%20With%20AND%20Value%20of%20K/README.md)
+
 [371. Sum of Two Integers](Bit%20Manipulation/371.%20Sum%20of%20Two%20Integers/README.md)
 
 [393. UTF-8 Validation](Bit%20Manipulation/393.%20UTF-8%20Validation/README.md)
