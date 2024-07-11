@@ -1937,6 +1937,8 @@ for k, arr in MAP.items():
 
 [3093. Longest Common Suffix Queries](Tries/3093.%20Longest%20Common%20Suffix%20Queries/README.md)
 
+[3213. Construct String with Minimum Cost](2-D%20Dynamic%20Programming/3213.%20Construct%20String%20with%20Minimum%20Cost/README.md)
+
 [440. K-th Smallest in Lexicographical Order](Tries/440.%20K-th%20Smallest%20in%20Lexicographical%20Order/README.md)
 
 [472. Concatenated Words](Tries/472.%20Concatenated%20Words/README.md)
@@ -2764,6 +2766,8 @@ for k, arr in MAP.items():
 [3196. Maximize Total Cost of Alternating Subarrays](2-D%20Dynamic%20Programming/3196.%20Maximize%20Total%20Cost%20of%20Alternating%20Subarrays/README.md)
 
 [3202. Find the Maximum Length of Valid Subsequence II](2-D%20Dynamic%20Programming/3202.%20Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20II/README.md)
+
+[3213. Construct String with Minimum Cost](2-D%20Dynamic%20Programming/3213.%20Construct%20String%20with%20Minimum%20Cost/README.md)
 
 [329. Longest Increasing Path in a Matrix](2-D%20Dynamic%20Programming/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix/README.md)
 
