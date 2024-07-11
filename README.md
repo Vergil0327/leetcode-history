@@ -2339,6 +2339,8 @@ for k, arr in MAP.items():
 
 [1106. Parsing A Boolean Expression](Stack/1106.%20Parsing%20A%20Boolean%20Expression/README.md)
 
+[1190. Reverse Substrings Between Each Pair of Parentheses](Stack/1190.%20Reverse%20Substrings%20Between%20Each%20Pair%20of%20Parentheses/README.md)
+
 [1209. Remove All Adjacent Duplicates in String II](Stack/1209.%20Remove%20All%20Adjacent%20Duplicates%20in%20String%20II/README.md)
 
 [1249. Minimum Remove to Make Valid Parentheses](Stack/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses/README.md)
