@@ -2297,6 +2297,8 @@ for k, arr in MAP.items():
 
 [2290. Minimum Obstacle Removal to Reach Corner](Graphs/Dijkstra/2290.%20Minimum%20Obstacle%20Removal%20to%20Reach%20Corner/README.md)
 
+[2304. Minimum Path Cost in a Grid](Graphs/Dijkstra/2304.%20Minimum%20Path%20Cost%20in%20a%20Grid/README.md)
+
 [2577. Minimum Time to Visit a Cell In a Grid](Graphs/Dijkstra/2577.%20Minimum%20Time%20to%20Visit%20a%20Cell%20In%20a%20Grid/README.md)
 
 [2642. Design Graph With Shortest Path Calculator](Graphs/Dijkstra/2642.%20Design%20Graph%20With%20Shortest%20Path%20Calculator/README.md)
