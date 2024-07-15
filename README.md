@@ -2773,6 +2773,8 @@ for k, arr in MAP.items():
 
 [3213. Construct String with Minimum Cost](2-D%20Dynamic%20Programming/3213.%20Construct%20String%20with%20Minimum%20Cost/README.md)
 
+[3218. Minimum Cost for Cutting Cake I](2-D%20Dynamic%20Programming/3218.%20Minimum%20Cost%20for%20Cutting%20Cake%20I/README.md)
+
 [329. Longest Increasing Path in a Matrix](2-D%20Dynamic%20Programming/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix/README.md)
 
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
