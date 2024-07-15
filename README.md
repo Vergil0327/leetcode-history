@@ -1793,6 +1793,8 @@ for k, arr in MAP.items():
 
 [3068. Find the Maximum Sum of Node Values](Greedy/3068.%20Find%20the%20Maximum%20Sum%20of%20Node%20Values/README.md)
 
+[3219. Minimum Cost for Cutting Cake II](Greedy/3219.%20Minimum%20Cost%20for%20Cutting%20Cake%20II/README.md)
+
 [406. Queue Reconstruction by Height](Greedy/406.%20Queue%20Reconstruction%20by%20Height/README.md)
 
 [45. Jump Game II](Greedy/45.%20Jump%20Game%20II/README.md)
