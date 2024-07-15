@@ -1679,8 +1679,6 @@ for k, arr in MAP.items():
 
 ## Greedy
 
-[10037. Maximum Size of a Set After Removals](Greedy/10037.%20Maximum%20Size%20of%20a%20Set%20After%20Removals/README.md)
-
 [1247. Minimum Swaps to Make Strings Equal](Greedy/1247.%20Minimum%20Swaps%20to%20Make%20Strings%20Equal/README.md)
 
 [134. Gas Station](Greedy/134.%20Gas%20Station/README.md)
@@ -1782,6 +1780,8 @@ for k, arr in MAP.items():
 [2910. Minimum Number of Groups to Create a Valid Assignment](Greedy/2910.%20Minimum%20Number%20of%20Groups%20to%20Create%20a%20Valid%20Assignment/README.md)
 
 [2939. Maximum Xor Product](Greedy/2939.%20Maximum%20Xor%20Product/README.md)
+
+[3002. Maximum Size of a Set After Removals](Greedy/10037.%20Maximum%20Size%20of%20a%20Set%20After%20Removals/README.md)
 
 [3012. Minimize Length of Array Using Operations](Greedy/3012.%20Minimize%20Length%20of%20Array%20Using%20Operations/README.md)
 
