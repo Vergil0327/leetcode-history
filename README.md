@@ -892,6 +892,8 @@ for k, arr in MAP.items():
 
 [2266. Count Number of Texts](1-D%20Dynamic%20Programming/2266.%20Count%20Number%20of%20Texts/README.md)
 
+[2289. Steps to Make Array Non-decreasing](./Stack/Monotone%20Stack/2289.%20Steps%20to%20Make%20Array%20Non-decreasing/)
+
 [2327. Number of People Aware of a Secret](1-D%20Dynamic%20Programming/2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/README.md)
 
 [2310. Sum of Numbers With Units Digit K](1-D%20Dynamic%20Programming/2310.%20Sum%20of%20Numbers%20With%20Units%20Digit%20K/README.md)
@@ -2430,6 +2432,8 @@ for k, arr in MAP.items():
 [2030. Smallest K-Length Subsequence With Occurrences of a Letter](Stack/Monotone%20Stack/2030.%20Smallest%20K-Length%20Subsequence%20With%20Occurrences%20of%20a%20Letter/README.md)
 
 [2104. Sum of Subarray Ranges](Stack/Monotone%20Stack/2104.%20Sum%20of%20Subarray%20Ranges/README.md)
+
+[2289. Steps to Make Array Non-decreasing](Stack/Monotone%20Stack/2289.%20Steps%20to%20Make%20Array%20Non-decreasing/README.md)
 
 [2334. Subarray With Elements Greater Than Varying Threshold](Stack/Monotone%20Stack/2334.%20Subarray%20With%20Elements%20Greater%20Than%20Varying%20Threshold/README.md)
 
