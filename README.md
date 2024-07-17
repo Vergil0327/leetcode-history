@@ -1997,6 +1997,8 @@ for k, arr in MAP.items():
 
 [2019. The Score of Students Solving Math Expression](String/2019.%20The%20Score%20of%20Students%20Solving%20Math%20Expression/README.md)
 
+[2288. Apply Discount to Prices](./String/2288.%20Apply%20Discount%20to%20Prices)
+
 [2337. Move Pieces to Obtain a String](String/2337.%20Move%20Pieces%20to%20Obtain%20a%20String/README.md)
 
 [2490. Circular Sentence](String/2490.%20Circular%20Sentence/README.md)
