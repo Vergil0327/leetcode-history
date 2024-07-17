@@ -1453,6 +1453,8 @@ for k, arr in MAP.items():
 
 [2217. Find Palindrome With Fixed Length](Math%26Geometry/2217.%20Find%20Palindrome%20With%20Fixed%20Length/README.md)
 
+[2280. Minimum Lines to Represent a Line Chart](./Math&Geometry/2280.%20Minimum%20Lines%20to%20Represent%20a%20Line%20Chart/)
+
 [2326. Spiral Matrix IV](Math&Geometry/2326.%20Spiral%20Matrix%20IV/README.md)
 
 [233. Number of Digit One](Math%26Geometry/233.%20Number%20of%20Digit%20One/README.md)
