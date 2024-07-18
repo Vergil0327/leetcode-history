@@ -102,6 +102,8 @@ for k, arr in MAP.items():
 
 [1519. Number of Nodes in the Sub-Tree With the Same Label](Trees/1519.%20Number%20of%20Nodes%20in%20the%20Sub-Tree%20With%20the%20Same%20Label/README.md)
 
+[1530. Number of Good Leaf Nodes Pairs](./Trees/1530.%20Number%20of%20Good%20Leaf%20Nodes%20Pairs/)
+
 [1569. Number of Ways to Reorder Array to Get Same BST](Trees/1569.%20Number%20of%20Ways%20to%20Reorder%20Array%20to%20Get%20Same%20BST/README.md)
 
 [1597. Build Binary Expression Tree From Infix Expression](Trees/1597.%20Build%20Binary%20Expression%20Tree%20From%20Infix%20Expression/README.md)
