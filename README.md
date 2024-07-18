@@ -1455,6 +1455,8 @@ for k, arr in MAP.items():
 
 [2217. Find Palindrome With Fixed Length](Math%26Geometry/2217.%20Find%20Palindrome%20With%20Fixed%20Length/README.md)
 
+[2249. Count Lattice Points Inside a Circle](Math&Geometry/2249.%20Count%20Lattice%20Points%20Inside%20a%20Circle/)
+
 [2257. Count Unguarded Cells in the Grid](Math&Geometry/2257.%20Count%20Unguarded%20Cells%20in%20the%20Grid/)
 
 [2280. Minimum Lines to Represent a Line Chart](./Math&Geometry/2280.%20Minimum%20Lines%20to%20Represent%20a%20Line%20Chart/)
