@@ -3201,6 +3201,8 @@ for k, arr in MAP.items():
 
 ## Sorted Container/SortedList
 
+[1395. Count Number of Teams](./Sorted%20Container/SortedList/1395.%20Count%20Number%20of%20Teams/README.md)
+
 [1488. Avoid Flood in The City](Array%26Hashing/1488.%20Avoid%20Flood%20in%20The%20City/README.md)
 
 [1606. Find Servers That Handled Most Number of Requests](Heap/1606.%20Find%20Servers%20That%20Handled%20Most%20Number%20of%20Requests/README.md)
