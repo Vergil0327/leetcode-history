@@ -1701,6 +1701,8 @@ for k, arr in MAP.items():
 
 [1520. Maximum Number of Non-Overlapping Substrings](Greedy/1520.%20Maximum%20Number%20of%20Non-Overlapping%20Substrings/README.md)
 
+[1526. Minimum Number of Increments on Subarrays to Form a Target Array](Segment%20Tree/1526.%20Minimum%20Number%20of%20Increments%20on%20Subarrays%20to%20Form%20a%20Target%20Array/README.md)
+
 [1536. Minimum Swaps to Arrange a Binary Grid](Greedy/1536.%20Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid/README.md)
 
 [1605. Find Valid Matrix Given Row and Column Sums](Greedy/1605.%20Find%20Valid%20Matrix%20Given%20Row%20and%20Column%20Sums/README.md)
