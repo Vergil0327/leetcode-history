@@ -31,3 +31,14 @@ class Solution:
                     j += 1
                 i = j
         return res
+
+class Solution:
+    def minimumOperations(self, nums: List[int], target: List[int]) -> int:
+        res = curStep = 0
+        for t, num in zip(target, nums):
+            diff = t - num
+            res += max(diff - curStep, 0)
+            curStep = diff
+            
+        lastElementStep = max(0-curStep, 0)
+        return res + lastElementStep

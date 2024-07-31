@@ -112,3 +112,20 @@ while i < n:
         i = j
 return requireStep
 ```
+
+仔細觀察會發現, 其實不用管正負號
+不管是正數還是負數, 我們在意的是他們的增加的差值
+只是要記得遍歷到最後, 要計算最後一個元素變為0所需要的操作數
+
+或者我們可以遍歷`list(zip(target, nums)) + [0]`
+
+```py
+res = curStep = 0
+for t, num in zip(target, nums):
+    diff = t - num
+    res += max(diff - curStep, 0)
+    curStep = diff
+    
+lastElementStep = max(0-curStep, 0)
+return res + lastElementStep
+```
