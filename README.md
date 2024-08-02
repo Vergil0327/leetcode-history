@@ -1321,6 +1321,8 @@ for k, arr in MAP.items():
 
 [2106. Maximum Fruits Harvested After at Most K Steps](Sliding%20Window/2106.%20Maximum%20Fruits%20Harvested%20After%20at%20Most%20K%20Steps/README.md)
 
+[2134. Minimum Swaps to Group All 1's Together II](Sliding%20Window/2134.%20Minimum%20Swaps%20to%20Group%20All%201's%20Together%20II/README.md)
+
 [220. Contains Duplicate III](Sliding%20Window/220.%20Contains%20Duplicate%20III/README.md)
 
 [2302. Count Subarrays With Score Less Than K](Sliding%20Window/2302.%20Count%20Subarrays%20With%20Score%20Less%20Than%20K/README.md)
