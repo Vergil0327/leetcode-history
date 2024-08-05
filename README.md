@@ -1541,6 +1541,8 @@ for k, arr in MAP.items():
 
 [3233. Find the Count of Numbers Which Are Not Special](Math&Geometry/3233.%20Find%20the%20Count%20of%20Numbers%20Which%20Are%20Not%20Special/README.md)
 
+[3240. Minimum Number of Flips to Make Binary Grid Palindromic II](Math&Geometry/3240.%20Minimum%20Number%20of%20Flips%20to%20Make%20Binary%20Grid%20Palindromic%20II/README.md)
+
 [335. Self Crossing](Math%26Geometry/335.%20Self%20Crossing/README.md)
 
 [357. Count Numbers with Unique Digits](Math%26Geometry/357.%20Count%20Numbers%20with%20Unique%20Digits/README.md)
