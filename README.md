@@ -266,6 +266,8 @@ for k, arr in MAP.items():
 
 [2858. Minimum Edge Reversals So Every Node Is Reachable](Trees/ReRoot/2858.%20Minimum%20Edge%20Reversals%20So%20Every%20Node%20Is%20Reachable/README.md)
 
+[3241. Time Taken to Mark All Nodes](Trees/ReRoot/3241.%20Time%20Taken%20to%20Mark%20All%20Nodes)
+
 [834. Sum of Distances in Tree](Trees/ReRoot/834.%20Sum%20of%20Distances%20in%20Tree/README.md)
 
 ## Trees/BFS
