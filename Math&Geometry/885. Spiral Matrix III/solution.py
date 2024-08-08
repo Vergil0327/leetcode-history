@@ -45,3 +45,21 @@ class Solution:
             # finish one circle, increment shift
             shift += 1
         return res
+    
+class Solution:
+    def spiralMatrixIII(self, rows: int, cols: int, rStart: int, cStart: int) -> List[List[int]]:
+        dirs = [[0,1],[1,0],[0,-1],[-1,0]] # right, down, left, up
+        res = [[rStart, cStart]]
+
+        r, c = rStart, cStart
+        length = d = 0 # move length step in d direction
+        while len(res) < rows * cols:
+            if d == 0 or d == 2: length += 1 # move to right or left, length of path require extra step
+
+            for _ in range(length):
+                r += dirs[d][0]
+                c += dirs[d][0]
+                if 0 <= r < rows and 0 <= c < cols:
+                    res.append([r, c])
+            d = (d+1)%4
+        return res
