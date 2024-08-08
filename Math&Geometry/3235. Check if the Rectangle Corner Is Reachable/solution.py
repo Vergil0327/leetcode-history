@@ -1,58 +1,41 @@
+# credit to @sgallivan
 class Solution:
-    def checkCross(self, circle1: List[int], circle2: List[int]) -> bool:
-        (x1, y1, r1), (x2, y2, r2) = circle1, circle2
-
-        # squared distance betwen the two centres
-        r = (x1-x2)**2 + (y1-y2)**2
-        if r <= (r1-r2)**2 or r > (r1+r2)**2:
-            # not connected or one inside the other
-            return False
-
-        rr = (r1**2-r2**2)/(2*r)
-        delta = (r1**2+r2**2)/(2*r) - rr**2 - 0.25
-        if delta < 1e-9:
-            # two circles in touch
-            delta = 0
-        dr = sqrt(delta)
-
-        # coordinates of the intersection points
-        cx1, cy1 = (x1+x2)/2 + rr * (x2-x1) + dr * (y2-y1), (y1+y2)/2 + rr * (y2-y1) + dr * (x1-x2)
-        cx2, cy2 = (x1+x2)/2 + rr * (x2-x1) - dr * (y2-y1), (y1+y2)/2 + rr * (y2-y1) - dr * (x1-x2)
-        
-        # check if any of the intersection points in the rectangle
-        return (0 <= cx1 <= self.X) and (0 <= cy1 <= self.Y) or (0 <= cx2 <= self.X) and (0 <= cy2 <= self.Y)
-
     def canReachCorner(self, X: int, Y: int, circles: List[List[int]]) -> bool:
-        n = len(circles)
-        self.X, self.Y = X, Y
-
-        parent = list(range(n+2))
-
+        parent = list(range((n := len(circles)) + 2))
         def find(x):
             if parent[x] != x:
                 parent[x] = find(parent[x])
             return parent[x]
 
         for i in range(n):
-            x1, y1, r1 = circles[i]
-            if x1**2 + y1**2 <= r1**2 or (x1-X)**2 + (y1-Y)**2 <= r1**2:
-                # (0,0) or (X,Y) in the circle
-                return False
+            x, y, r = circles[i]
+            if (x - X) ** 2 + (y - Y) ** 2 <= r ** 2:               # Early exit 1
+                return False                                        #   if circle overlaps exit
+            if (x <= r and y <= Y) or (y + r >= Y and x <= X):
+                parent[find(n)] = find(i)
+            if (y <= r and x <= X) or (x + r >= X and y <= Y):
+                parent[find(n + 1)] = find(i)
+            if find(n) == find(n + 1):                              # Early exit 2
+                return False                                        #   if circle touches both borders
 
-            if (x1 >= X and y1 >= Y) or (x1 >= X+r1 or y1 >= Y+r1):
-                # completely off the rectangle
+        if find(n) == n or find(n + 1) == n + 1:                    # Early exit 3
+            return True                                             #   if either border is untouched
+
+        for i in range(n):
+            x, y, r = circles[i]
+            if x - r >= X or y - r >= Y or (x >= X and y >= Y):     # Circle 1 out of usable range
                 continue
 
-            if x1**2 + (y1-Y)**2 <= r1**2 or x1 <= r1 and 0 <= y1 <= Y or abs(y1-Y) <= r1 and 0 <= x1 <= X:
-                # union with the top&left edges
-                parent[find(i)] = find(n)
+            for j in range(i):
+                if find(i) == find(j):                              # Skip if already unioned
+                    continue
 
-            if (x1-X)**2 + y1**2 <= r1**2 or y1 <= r1 and 0 <= x1 <= X or abs(x1-X) <= r1 and 0 <= y1 <= Y:
-                # union with the bottom&right edges
-                parent[find(i)] = find(n+1)
+                x2, y2, r2 = circles[j]
+                if (x + x2) / 2 >= X and (y + y2) / 2 >= Y:         # Circle pair out of usable range
+                    continue
 
-            for j in range(i+1, n):
-                if self.checkCross(circles[i], circles[j]):
+                if (x - x2) ** 2 + (y - y2) ** 2 <= (r + r2) ** 2:  # Circles intersect
                     parent[find(i)] = find(j)
-
-        return find(n) != find(n+1)
+                    if find(n) == find(n + 1):                      # Early exit 4
+                        return False                                #   if both borders are unioned
+        return True
