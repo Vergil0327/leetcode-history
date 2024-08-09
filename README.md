@@ -3123,6 +3123,8 @@ for k, arr in MAP.items():
 
 [2055. Plates Between Candles](PrefixSum/2055.%20Plates%20Between%20Candles/README.md)
 
+[2222. Number of Ways to Select Buildings](PrefixSum/2222.%20Number%20of%20Ways%20to%20Select%20Buildings/)
+
 [2245. Maximum Trailing Zeros in a Cornered Path](PrefixSum/2245.%20Maximum%20Trailing%20Zeros%20in%20a%20Cornered%20Path/README.md)
 
 [2256. Minimum Average Difference](PrefixSum/2256.%20Minimum%20Average%20Difference/README.md)
