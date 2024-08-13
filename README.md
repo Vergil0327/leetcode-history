@@ -2813,6 +2813,8 @@ for k, arr in MAP.items():
 
 [3250. Find the Count of Monotonic Pairs I](2-D%20Dynamic%20Programming/3250.%20Find%20the%20Count%20of%20Monotonic%20Pairs%20I)
 
+[3251. Find the Count of Monotonic Pairs II](2-D%20Dynamic%20Programming/3251.%20Find%20the%20Count%20of%20Monotonic%20Pairs%20II/)
+
 [329. Longest Increasing Path in a Matrix](2-D%20Dynamic%20Programming/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix/README.md)
 
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
