@@ -48,3 +48,8 @@ for num1 in range(51):
     if num2 >= 0:
         dp[0][num1] = 1
 ```
+
+this line: `if num2 > pre_num2 or pre_num2 < 0: continue`
+it means `prev_num1 <= min(nums[i-1]-num2, num1)`
+
+we can further make code more concise
