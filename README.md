@@ -3249,6 +3249,8 @@ for k, arr in MAP.items():
 
 [220. Contains Duplicate III](Sliding%20Window/220.%20Contains%20Duplicate%20III/README.md)
 
+[2202. Maximize the Topmost Element After K Moves](Sorted%20Container/SortedList/2202.%20Maximize%20the%20Topmost%20Element%20After%20K%20Moves/)
+
 [2382. Maximum Segment Sum After Removals](Binary%20Search/SortedList/2382.%20Maximum%20Segment%20Sum%20After%20Removals/README.md)
 
 [2612. Minimum Reverse Operations](Graphs/BFS/2612.%20Minimum%20Reverse%20Operations/README.md)
