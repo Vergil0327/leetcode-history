@@ -1461,6 +1461,8 @@ for k, arr in MAP.items():
 
 [2183. Count Array Pairs Divisible by K](Math%26Geometry/2183.%20Count%20Array%20Pairs%20Divisible%20by%20K/README.md)
 
+[2195. Append K Integers With Minimal Sum](Math&Geometry/2195.%20Append%20K%20Integers%20With%20Minimal%20Sum)
+
 [2217. Find Palindrome With Fixed Length](Math%26Geometry/2217.%20Find%20Palindrome%20With%20Fixed%20Length/README.md)
 
 [2249. Count Lattice Points Inside a Circle](Math&Geometry/2249.%20Count%20Lattice%20Points%20Inside%20a%20Circle/)
