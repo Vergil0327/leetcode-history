@@ -2915,9 +2915,10 @@ for k, arr in MAP.items():
 
 [2827. Number of Beautiful Integers in the Range](2-D%20Dynamic%20Programming/DigitDP/2827.%20Number%20of%20Beautiful%20Integers%20in%20the%20Range/README.md)
 
+[2999. Count the Number of Powerful Integers](./2-D%20Dynamic%20Programming/DigitDP/10034.%20Count%20the%20Number%20of%20Powerful%20Integers/README.md)
+
 [3260. Find the Largest Palindrome Divisible by K](2-D%20Dynamic%20Programming/DigitDP/3260.%20Find%20the%20Largest%20Palindrome%20Divisible%20by%20K/)
 
-[10034. Count the Number of Powerful Integers](./2-D%20Dynamic%20Programming/DigitDP/10034.%20Count%20the%20Number%20of%20Powerful%20Integers/README.md)
 
 ## 2-D Dynamic Programming/Knapsack
 
