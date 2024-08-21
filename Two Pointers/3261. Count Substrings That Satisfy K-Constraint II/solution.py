@@ -38,3 +38,47 @@ class Solution:
             cnt += presum[r + 1] - presum[middle + 1] # where left is within, so all the substrings count
             res.append(cnt)
         return res
+
+# 同樣概念的另種解法
+class Solution:
+    def countKConstraintSubstrings(self, s: str, k: int, query: List[List[int]]) -> List[int]:
+        n = len(s)
+        
+        presum = [0] * (n + 1)
+        for l in range(n):
+            presum[l + 1] = presum[l] + int(s[l])
+        
+        def viable(l, r):
+            length = r - l + 1
+            ones = presum[r + 1] - presum[l]
+            zeros = length - ones
+            return ones <= k or zeros <= k
+
+        right, r = [0] * n, 0
+        for l in range(n):
+            while r < n and viable(l, r):
+                r += 1
+            right[l] = r - 1
+        
+        presum_cnt = [0] * (n+1)
+        for l in range(n):
+            presum_cnt[l + 1] = presum_cnt[l] + right[l] - l + 1
+
+        res = []
+        for L, R in query:
+            l, r = L - 1, R + 1
+            while l + 1 < r:
+                mid = (l + r) // 2
+                if right[mid] <= R:
+                    l = mid
+                else:
+                    r = mid
+
+            ans = presum_cnt[l + 1] - presum_cnt[L]
+            if r <= R:
+                length = (R - r + 1)
+                ans += (1 + length) * length // 2
+
+            res.append(ans)
+
+        return res
