@@ -756,6 +756,8 @@ for k, arr in MAP.items():
 
 [31. Next Permutation](Two%20Pointers/31.%20Next%20Permutation/README.md)
 
+[3261. Count Substrings That Satisfy K-Constraint II](Two%20Pointers/3261.%20Count%20Substrings%20That%20Satisfy%20K-Constraint%20II/)
+
 [340. Longest Substring with At Most K Distinct Characters](Two%20Pointers/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters/README.md)
 
 [345. Reverse Vowels of a String](Two%20Pointers/345.%20Reverse%20Vowels%20of%20a%20String/README.md)
