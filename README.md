@@ -520,6 +520,8 @@ for k, arr in MAP.items():
 
 [2151. Maximum Good People Based on Statements](Bit%20Manipulation/2151.%20Maximum%20Good%20People%20Based%20on%20Statements/README.md)
 
+[2166. Design Bitset](Bit%20Manipulation/2166.%20Design%20Bitset/)
+
 [231. Power of Two](Bit%20Manipulation/231.%20Power%20of%20Two/README.md)
 
 [2317. Maximum XOR After Operations](Bit%20Manipulation/2317.%20Maximum%20XOR%20After%20Operations%20/README.md)
