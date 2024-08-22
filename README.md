@@ -1661,6 +1661,8 @@ for k, arr in MAP.items():
 
 [215. Kth Largest Element in an Array](Heap/215.%20Kth%20Largest%20Element%20in%20an%20Array/README.md)
 
+[2170. Minimum Operations to Make the Array Alternating](Heap/2170.%20Minimum%20Operations%20to%20Make%20the%20Array%20Alternating/)
+
 [2251. Number of Flowers in Full Bloom](Heap/2251.%20Number%20of%20Flowers%20in%20Full%20Bloom/README.md)
 
 [23. Merge k Sorted Lists](Heap/23.%20Merge%20k%20Sorted%20Lists/README.md)
