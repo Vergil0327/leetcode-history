@@ -1467,6 +1467,8 @@ for k, arr in MAP.items():
 
 [2117. Abbreviating the Product of a Range](Math&Geometry/2117.%20Abbreviating%20the%20Product%20of%20a%20Range/README.md)
 
+[2145. Count the Hidden Sequences](Math&Geometry/2145.%20Count%20the%20Hidden%20Sequences/)
+
 [2162. Minimum Cost to Set Cooking Time](Math%26Geometry/2162.%20Minimum%20Cost%20to%20Set%20Cooking%20Time/README.md)
 
 [2183. Count Array Pairs Divisible by K](Math%26Geometry/2183.%20Count%20Array%20Pairs%20Divisible%20by%20K/README.md)
