@@ -1843,6 +1843,8 @@ for k, arr in MAP.items():
 
 [3257. Maximum Value Sum by Placing Three Rooks II](Greedy/3257.%20Maximum%20Value%20Sum%20by%20Placing%20Three%20Rooks%20II/)
 
+[3266. Final Array State After K Multiplication Operations II](Greedy/3266.%20Final%20Array%20State%20After%20K%20Multiplication%20Operations%20II)
+
 [406. Queue Reconstruction by Height](Greedy/406.%20Queue%20Reconstruction%20by%20Height/README.md)
 
 [45. Jump Game II](Greedy/45.%20Jump%20Game%20II/README.md)
