@@ -3156,6 +3156,8 @@ for k, arr in MAP.items():
 
 [2055. Plates Between Candles](PrefixSum/2055.%20Plates%20Between%20Candles/README.md)
 
+[2121. Intervals Between Identical Elements](PrefixSum/2121.%20Intervals%20Between%20Identical%20Elements/)
+
 [2171. Removing Minimum Number of Magic Beans](PrefixSum/2171.%20Removing%20Minimum%20Number%20of%20Magic%20Beans/)
 
 [2222. Number of Ways to Select Buildings](PrefixSum/2222.%20Number%20of%20Ways%20to%20Select%20Buildings/)
