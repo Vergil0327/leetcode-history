@@ -1775,6 +1775,8 @@ for k, arr in MAP.items():
 
 [2136. Earliest Possible Day of Full Bloom](Greedy/2136.%20Earliest%20Possible%20Day%20of%20Full%20Bloom/README.md)
 
+[2139. Minimum Moves to Reach Target Score](Greedy/2139.%20Minimum%20Moves%20to%20Reach%20Target%20Score/)
+
 [2193. Minimum Number of Moves to Make Palindrome](Greedy/2193.%20Minimum%20Number%20of%20Moves%20to%20Make%20Palindrome/README.md)
 
 [2244. Minimum Rounds to Complete All Tasks](Greedy/2244.%20Minimum%20Rounds%20to%20Complete%20All%20Tasks/README.md)
