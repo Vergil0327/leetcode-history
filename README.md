@@ -724,6 +724,8 @@ for k, arr in MAP.items():
 
 [1989. Maximum Number of People That Can Be Caught in Tag](Two%20Pointers/1989.%20Maximum%20Number%20of%20People%20That%20Can%20Be%20Caught%20in%20Tag/README.md)
 
+[2110. Number of Smooth Descent Periods of a Stock](Two%20Pointers/2110.%20Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock/)
+
 [2147. Number of Ways to Divide a Long Corridor](Two%20Pointers/2147.%20Number%20of%20Ways%20to%20Divide%20a%20Long%20Corridor/README.md)
 
 [2234. Maximum Total Beauty of the Gardens](Two%20Pointers/2234.%20Maximum%20Total%20Beauty%20of%20the%20Gardens/README.md)
