@@ -2577,6 +2577,8 @@ for k, arr in MAP.items():
 
 [206. Reverse Linked List](Linked%20List/206.%20Reverse%20Linked%20List/README.md)
 
+[2095. Delete the Middle Node of a Linked List](Linked%20List/2095.%20Delete%20the%20Middle%20Node%20of%20a%20Linked%20List/)
+
 [21. Merge Two Sorted Lists](Linked%20List/21.%20Merge%20Two%20Sorted%20Lists/README.md)
 
 [2130. Maximum Twin Sum of a Linked List](Linked%20List/2130.%20Maximum%20Twin%20Sum%20of%20a%20Linked%20List/README.md)
