@@ -900,6 +900,8 @@ for k, arr in MAP.items():
 
 [2052. Minimum Cost to Separate Sentence Into Rows](1-D%20Dynamic%20Programming/2052.%20Minimum%20Cost%20to%20Separate%20Sentence%20Into%20Rows/README.md)
 
+[2100. Find Good Days to Rob the Bank](1-D%20Dynamic%20Programming/2100.%20Find%20Good%20Days%20to%20Rob%20the%20Bank/)
+
 [213. House Robber II](1-D%20Dynamic%20Programming/213.%20House%20Robber%20II/README.md)
 
 [2266. Count Number of Texts](1-D%20Dynamic%20Programming/2266.%20Count%20Number%20of%20Texts/README.md)
