@@ -358,6 +358,8 @@ for k, arr in MAP.items():
 
 [2071. Maximum Number of Tasks You Can Assign](Binary%20Search/2071.%20Maximum%20Number%20of%20Tasks%20You%20Can%20Assign/README.md)
 
+[2080. Range Frequency Queries](Binary%20Search/2080.%20Range%20Frequency%20Queries/)
+
 [2106. Maximum Fruits Harvested After at Most K Steps](Binary%20Search/2106.%20Maximum%20Fruits%20Harvested%20After%20at%20Most%20K%20Steps/README.md)
 
 [2137. Pour Water Between Buckets to Make Water Levels Equal](Binary%20Search/2137.%20Pour%20Water%20Between%20Buckets%20to%20Make%20Water%20Levels%20Equal/README.md)
