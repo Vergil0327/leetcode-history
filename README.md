@@ -3016,6 +3016,8 @@ for k, arr in MAP.items():
 
 [312. Burst Balloons](2-D%20Dynamic%20Programming/Interval/312.%20Burst%20Balloons/README.md)
 
+[3277. Maximum XOR Score Subarray Queries](2-D%20Dynamic%20Programming/Interval/3277.%20Maximum%20XOR%20Score%20Subarray%20Queries/)
+
 [375. Guess Number Higher or Lower II](2-D%20Dynamic%20Programming/Interval/375.%20Guess%20Number%20Higher%20or%20Lower%20II/README.md)
 
 [410. Split Array Largest Sum](2-D%20Dynamic%20Programming/Interval/410.%20Split%20Array%20Largest%20Sum/README.md)
