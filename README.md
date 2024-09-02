@@ -3052,8 +3052,6 @@ for k, arr in MAP.items():
 
 ## 2-D Dynamic Programming/Bitmask
 
-[3003. Maximize the Number of Partitions After Operations](2-D%20Dynamic%20Programming/Bitmask/10038.%20Maximize%20the%20Number%20of%20Partitions%20After%20Operations/README.md)
-
 [1125. Smallest Sufficient Team](2-D%20Dynamic%20Programming/Bitmask/1125.%20Smallest%20Sufficient%20Team/README.md)
 
 [1349. Maximum Students Taking Exam](2-D%20Dynamic%20Programming/Bitmask/1349.%20Maximum%20Students%20Taking%20Exam/README.md)
@@ -3093,6 +3091,10 @@ for k, arr in MAP.items():
 [2741. Special Permutations](2-D%20Dynamic%20Programming/Bitmask/2741.%20Special%20Permutations/README.md)
 
 [2791. Count Paths That Can Form a Palindrome in a Tree](2-D%20Dynamic%20Programming/Bitmask/2791.%20Count%20Paths%20That%20Can%20Form%20a%20Palindrome%20in%20a%20Tree/README.md)
+
+[3003. Maximize the Number of Partitions After Operations](2-D%20Dynamic%20Programming/Bitmask/10038.%20Maximize%20the%20Number%20of%20Partitions%20After%20Operations/README.md)
+
+[3276. Select Cells in Grid With Maximum Score](./2-D%20Dynamic%20Programming/Bitmask/3276.%20Select%20Cells%20in%20Grid%20With%20Maximum%20Score/)
 
 [691. Stickers to Spell Word](2-D%20Dynamic%20Programming/Bitmask/691.%20Stickers%20to%20Spell%20Word/README.md)
 
