@@ -1089,6 +1089,8 @@ for k, arr in MAP.items():
 
 [3267. Count Almost Equal Pairs II](Backtracking/3267.%20Count%20Almost%20Equal%20Pairs%20II/)
 
+[3272. Find the Count of Good Integers](Backtracking/3272.%20Find%20the%20Count%20of%20Good%20Integers/)
+
 [37. Sudoku Solver](Backtracking/37.%20Sudoku%20Solver/README.md)
 
 [377. Combination Sum IV](Backtracking/377.%20Combination%20Sum%20IV/README.md)
