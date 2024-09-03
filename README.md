@@ -1857,6 +1857,8 @@ for k, arr in MAP.items():
 
 [3266. Final Array State After K Multiplication Operations II](Greedy/3266.%20Final%20Array%20State%20After%20K%20Multiplication%20Operations%20II)
 
+[3273. Minimum Amount of Damage Dealt to Bob](Greedy/3273.%20Minimum%20Amount%20of%20Damage%20Dealt%20to%20Bob/)
+
 [406. Queue Reconstruction by Height](Greedy/406.%20Queue%20Reconstruction%20by%20Height/README.md)
 
 [45. Jump Game II](Greedy/45.%20Jump%20Game%20II/README.md)
