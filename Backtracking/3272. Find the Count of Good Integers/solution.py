@@ -46,3 +46,23 @@ class Solution:
             return res
 
         return dfs(0, 0)
+
+# solution by @lee215
+class Solution:
+    def countGoodIntegers(self, n: int, k: int) -> int:
+        m = (n + 1) // 2
+        
+        res = 0
+        seen = set()
+        for half in range(10 ** (m - 1), 10 ** m):
+            palindrome = str(half) + str(half)[::-1][n % 2:]
+            key = ''.join(sorted(palindrome))
+            if int(palindrome) % k == 0 and key not in seen:
+                seen.add(key)
+                count = Counter(palindrome)
+                
+                cnt = (n - count['0']) * factorial(n - 1)
+                for ch, freq in count.items():
+                    cnt //= factorial(freq)
+                res += cnt
+        return res
