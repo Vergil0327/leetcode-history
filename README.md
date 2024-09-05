@@ -1067,6 +1067,8 @@ for k, arr in MAP.items():
 
 [2002. Maximum Product of the Length of Two Palindromic Subsequences](Backtracking/2002.%20Maximum%20Product%20of%20the%20Length%20of%20Two%20Palindromic%20Subsequences/README.md)
 
+[2048. Next Greater Numerically Balanced Number](Backtracking/2048.%20Next%20Greater%20Numerically%20Balanced%20Number/)
+
 [216. Combination Sum III](Backtracking/216.%20Combination%20Sum%20III/README.md)
 
 [22. Generate Parentheses](Backtracking/22.%20Generate%20Parentheses/README.md)
