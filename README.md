@@ -1863,6 +1863,8 @@ for k, arr in MAP.items():
 
 [3273. Minimum Amount of Damage Dealt to Bob](Greedy/3273.%20Minimum%20Amount%20of%20Damage%20Dealt%20to%20Bob/)
 
+[3282. Reach End of Array With Max Score](Greedy/3282.%20Reach%20End%20of%20Array%20With%20Max%20Score/)
+
 [406. Queue Reconstruction by Height](Greedy/406.%20Queue%20Reconstruction%20by%20Height/README.md)
 
 [45. Jump Game II](Greedy/45.%20Jump%20Game%20II/README.md)
