@@ -422,6 +422,8 @@ for k, arr in MAP.items():
 
 [3224. Minimum Array Changes to Make Differences Equal](Binary%20Search/3224.%20Minimum%20Array%20Changes%20to%20Make%20Differences%20Equal/README.md)
 
+[3281. Maximize Score of Numbers in Ranges](Binary%20Search/3281.%20Maximize%20Score%20of%20Numbers%20in%20Ranges/)
+
 [33. Search in Rotated Sorted Array](Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array/README.md)
 
 [34. Find First and Last Position of Element in Sorted Array](Binary%20Search/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/README.md)
