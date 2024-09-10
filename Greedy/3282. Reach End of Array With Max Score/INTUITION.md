@@ -8,3 +8,17 @@
 那既然只要nums[j] > nums[i]就能有更多獲利, 那代表我們直接greedily計算遞增序列的獲利即可
 也就是只要當前nums[i]>nums[prev], 我們就能獲利nums[prev] * (i-prev), 然後更新prev=i
 直到我們最終抵達n-1位置
+
+## Concise Solution
+
+也相當於我們持續加上current max
+
+```py
+# Concise
+n = len(nums)
+mx = res = 0
+for i in range(n - 1):
+    mx = max(mx, nums[i])
+    res += mx
+return res
+```

@@ -12,3 +12,13 @@ class Solution:
             res += nums[prevIdx] * (n-1-prevIdx)
 
         return res
+    
+# Concise
+class Solution:
+    def findMaximumScore(self, nums: List[int]) -> int:
+        n = len(nums)
+        mx = res = 0
+        for i in range(n - 1):
+            mx = max(mx, nums[i])
+            res += mx
+        return res
