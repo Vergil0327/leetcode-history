@@ -3180,6 +3180,8 @@ for k, arr in MAP.items():
 
 [1915. Number of Wonderful Substrings](PrefixSum/1915.%20Number%20of%20Wonderful%20Substrings/README.md)
 
+[2017. Grid Game](PrefixSum/2017.%20Grid%20Game/)
+
 [2025. Maximum Number of Ways to Partition an Array](PrefixSum/2025.%20Maximum%20Number%20of%20Ways%20to%20Partition%20an%20Array/README.md)
 
 [2055. Plates Between Candles](PrefixSum/2055.%20Plates%20Between%20Candles/README.md)
