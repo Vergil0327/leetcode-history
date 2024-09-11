@@ -1775,6 +1775,8 @@ for k, arr in MAP.items():
 
 [1911. Maximum Alternating Subsequence Sum](./Greedy/1911.%20Maximum%20Alternating%20Subsequence%20Sum/README.md)
 
+[1946. Largest Number After Mutating Substring](Greedy/1946.%20Largest%20Number%20After%20Mutating%20Substring/)
+
 [1953. Maximum Number of Weeks for Which You Can Work](Greedy/1953.%20Maximum%20Number%20of%20Weeks%20for%20Which%20You%20Can%20Work/README.md)
 
 [1975. Maximum Matrix Sum](Greedy/1975.%20Maximum%20Matrix%20Sum/README.md)
