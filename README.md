@@ -1465,6 +1465,8 @@ for k, arr in MAP.items():
 
 [1830. Minimum Number of Operations to Make String Sorted](Math&Geometry/1830.%20Minimum%20Number%20of%20Operations%20to%20Make%20String%20Sorted/README.md)
 
+[1914. Cyclically Rotating a Grid](Math&Geometry/1914.%20Cyclically%20Rotating%20a%20Grid/)
+
 [1916. Count Ways to Build Rooms in an Ant Colony](Math&Geometry/1916.%20Count%20Ways%20to%20Build%20Rooms%20in%20an%20Ant%20Colony/README.md)
 
 [1927. Sum Game](Math%26Geometry/1927.%20Sum%20Game/README.md)
