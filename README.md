@@ -2741,6 +2741,8 @@ for k, arr in MAP.items():
 
 [1883. Minimum Skips to Arrive at Meeting On Time](2-D%20Dynamic%20Programming/1883.%20Minimum%20Skips%20to%20Arrive%20at%20Meeting%20On%20Time/README.md)
 
+[1884. Egg Drop With 2 Eggs and N Floors](2-D%20Dynamic%20Programming/1884.%20Egg%20Drop%20With%202%20Eggs%20and%20N%20Floors/)
+
 [1900. The Earliest and Latest Rounds Where Players Compete](2-D%20Dynamic%20Programming/1900.%20The%20Earliest%20and%20Latest%20Rounds%20Where%20Players%20Compete/README.md)
 
 [1909. Remove One Element to Make the Array Strictly Increasing](2-D%20Dynamic%20Programming/1909.%20Remove%20One%20Element%20to%20Make%20the%20Array%20Strictly%20Increasing/README.md)
