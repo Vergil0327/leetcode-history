@@ -1025,6 +1025,8 @@ for k, arr in MAP.items():
 
 [300. Longest Increasing Subsequence](1-D%20Dynamic%20Programming/LIS/300.%20Longest%20Increasing%20Subsequence/README.md)
 
+[3288. Length of the Longest Increasing Path](1-D%20Dynamic%20Programming/LIS/3288.%20Length%20of%20the%20Longest%20Increasing%20Path/)
+
 [354. Russian Doll Envelopes](1-D%20Dynamic%20Programming/LIS/354.%20Russian%20Doll%20Envelopes/README.md)
 
 ## 1-D Dynamic Programming/3Pass
