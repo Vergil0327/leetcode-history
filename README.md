@@ -2023,6 +2023,8 @@ for k, arr in MAP.items():
 
 [3213. Construct String with Minimum Cost](2-D%20Dynamic%20Programming/3213.%20Construct%20String%20with%20Minimum%20Cost/README.md)
 
+[3291. Minimum Number of Valid Strings to Form Target I](./Tries/3291.%20Minimum%20Number%20of%20Valid%20Strings%20to%20Form%20Target%20I/)
+
 [440. K-th Smallest in Lexicographical Order](Tries/440.%20K-th%20Smallest%20in%20Lexicographical%20Order/README.md)
 
 [472. Concatenated Words](Tries/472.%20Concatenated%20Words/README.md)
@@ -2880,6 +2882,8 @@ for k, arr in MAP.items():
 [329. Longest Increasing Path in a Matrix](2-D%20Dynamic%20Programming/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix/README.md)
 
 [3290. Maximum Multiplication Score](2-D%20Dynamic%20Programming/3290.%20Maximum%20Multiplication%20Score/)
+
+[3291. Minimum Number of Valid Strings to Form Target I](./Tries/3291.%20Minimum%20Number%20of%20Valid%20Strings%20to%20Form%20Target%20I/)
 
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
