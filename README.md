@@ -2879,6 +2879,8 @@ for k, arr in MAP.items():
 
 [329. Longest Increasing Path in a Matrix](2-D%20Dynamic%20Programming/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix/README.md)
 
+[3290. Maximum Multiplication Score](2-D%20Dynamic%20Programming/3290.%20Maximum%20Multiplication%20Score/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
