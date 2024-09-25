@@ -1401,6 +1401,8 @@ for k, arr in MAP.items():
 
 [3234. Count the Number of Substrings With Dominant Ones](Sliding%20Window/3234.%20Count%20the%20Number%20of%20Substrings%20With%20Dominant%20Ones/README.md)
 
+[3297. Count Substrings That Can Be Rearranged to Contain a String I](Sliding%20Window/3297.%20Count%20Substrings%20That%20Can%20Be%20Rearranged%20to%20Contain%20a%20String%20I/)
+
 [395. Longest Substring with At Least K Repeating Characters](Sliding%20Window/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters/README.md)
 
 [424. Longest Repeating Character Replacement](Sliding%20Window/424.%20Longest%20Repeating%20Character%20Replacement/README.md)
