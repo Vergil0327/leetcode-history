@@ -964,6 +964,8 @@ for k, arr in MAP.items():
 
 [3181. Maximum Total Reward Using Operations II](1-D%20Dynamic%20Programming/3181.%20Maximum%20Total%20Reward%20Using%20Operations%20II/README.md)
 
+[3292. Minimum Number of Valid Strings to Form Target II](1-D%20Dynamic%20Programming/3292.%20Minimum%20Number%20of%20Valid%20Strings%20to%20Form%20Target%20II/)
+
 [337. House Robber III](1-D%20Dynamic%20Programming/337.%20House%20Robber%20III/README.md)
 
 [343. Integer Break](1-D%20Dynamic%20Programming/343.%20Integer%20Break/README.md)
