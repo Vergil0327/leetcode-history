@@ -1403,6 +1403,8 @@ for k, arr in MAP.items():
 
 [3297. Count Substrings That Can Be Rearranged to Contain a String I](Sliding%20Window/3297.%20Count%20Substrings%20That%20Can%20Be%20Rearranged%20to%20Contain%20a%20String%20I/)
 
+[3298. Count Substrings That Can Be Rearranged to Contain a String II](Sliding%20Window/3298.%20Count%20Substrings%20That%20Can%20Be%20Rearranged%20to%20Contain%20a%20String%20II/)
+
 [395. Longest Substring with At Least K Repeating Characters](Sliding%20Window/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters/README.md)
 
 [424. Longest Repeating Character Replacement](Sliding%20Window/424.%20Longest%20Repeating%20Character%20Replacement/README.md)
