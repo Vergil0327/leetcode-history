@@ -2079,6 +2079,8 @@ for k, arr in MAP.items():
 
 [1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number](String/1850.%20Minimum%20Adjacent%20Swaps%20to%20Reach%20the%20Kth%20Smallest%20Number/README.md)
 
+[1864. Minimum Number of Swaps to Make the Binary String Alternating](String/1864.%20Minimum%20Number%20of%20Swaps%20to%20Make%20the%20Binary%20String%20Alternating/)
+
 [1881. Maximum Value after Insertion](String/1881.%20Maximum%20Value%20after%20Insertion/)
 
 [2018. Check if Word Can Be Placed In Crossword](String/2018.%20Check%20if%20Word%20Can%20Be%20Placed%20In%20Crossword/README.md)
