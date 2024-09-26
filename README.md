@@ -2749,6 +2749,8 @@ for k, arr in MAP.items():
 
 [1839. Longest Substring Of All Vowels in Order](2-D%20Dynamic%20Programming/1839.%20Longest%20Substring%20Of%20All%20Vowels%20in%20Order/README.md)
 
+[1849. Splitting a String Into Descending Consecutive Values](2-D%20Dynamic%20Programming/1849.%20Splitting%20a%20String%20Into%20Descending%20Consecutive%20Values/)
+
 [1866. Number of Ways to Rearrange Sticks With K Sticks Visible](2-D%20Dynamic%20Programming/1866.%20Number%20of%20Ways%20to%20Rearrange%20Sticks%20With%20K%20Sticks%20Visible/README.md)
 
 [188. Best Time to Buy and Sell Stock IV](2-D%20Dynamic%20Programming/188.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20IV/README.md)
