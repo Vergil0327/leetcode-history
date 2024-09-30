@@ -1885,6 +1885,8 @@ for k, arr in MAP.items():
 
 [3301. Maximize the Total Height of Unique Towers](Greedy/3301.%20Maximize%20the%20Total%20Height%20of%20Unique%20Towers/)
 
+[3302. Find the Lexicographically Smallest Valid Sequence](Greedy/3302.%20Find%20the%20Lexicographically%20Smallest%20Valid%20Sequence/)
+
 [406. Queue Reconstruction by Height](Greedy/406.%20Queue%20Reconstruction%20by%20Height/README.md)
 
 [45. Jump Game II](Greedy/45.%20Jump%20Game%20II/README.md)
