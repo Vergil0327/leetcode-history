@@ -2453,6 +2453,8 @@ for k, arr in MAP.items():
 
 [1249. Minimum Remove to Make Valid Parentheses](Stack/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses/README.md)
 
+[1381. Design a Stack With Increment Operation](Stack/1381.%20Design%20a%20Stack%20With%20Increment%20Operation/)
+
 [1472. Design Browser History](Stack/1472.%20Design%20Browser%20History/README.md)
 
 [150. Evaluate Reverse Polish Notation](Stack/150.%20Evaluate%20Reverse%20Polish%20Notation/README.md)
