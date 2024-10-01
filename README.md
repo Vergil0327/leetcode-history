@@ -2057,6 +2057,8 @@ for k, arr in MAP.items():
 
 [3036. Number of Subarrays That Match a Pattern II](String/KMP/3036.%20Number%20of%20Subarrays%20That%20Match%20a%20Pattern%20II/README.md)
 
+[3303. Find the Occurrence of First Almost Equal Substring](String/KMP/3303.%20Find%20the%20Occurrence%20of%20First%20Almost%20Equal%20Substring/)
+
 ## String/RollingHash
 
 [1044. Longest Duplicate Substring](String/RollingHash/1044.%20Longest%20Duplicate%20Substring/README.md)
