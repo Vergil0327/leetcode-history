@@ -1595,6 +1595,8 @@ for k, arr in MAP.items():
 
 [3240. Minimum Number of Flips to Make Binary Grid Palindromic II](Math&Geometry/3240.%20Minimum%20Number%20of%20Flips%20to%20Make%20Binary%20Grid%20Palindromic%20II/README.md)
 
+[3307. Find the K-th Character in String Game II](Math&Geometry/3307.%20Find%20the%20K-th%20Character%20in%20String%20Game%20II/)
+
 [335. Self Crossing](Math%26Geometry/335.%20Self%20Crossing/README.md)
 
 [357. Count Numbers with Unique Digits](Math%26Geometry/357.%20Count%20Numbers%20with%20Unique%20Digits/README.md)
