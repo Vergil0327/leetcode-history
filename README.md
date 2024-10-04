@@ -1283,6 +1283,8 @@ for k, arr in MAP.items():
 
 [3256. Maximum Value Sum by Placing Three Rooks I](./Array&Hashing/3256.%20Maximum%20Value%20Sum%20by%20Placing%20Three%20Rooks%20I/)
 
+[3305. Count of Substrings Containing Every Vowel and K Consonants I](Array&Hashing/3305.%20Count%20of%20Substrings%20Containing%20Every%20Vowel%20and%20K%20Consonants%20I/)
+
 [347. Top K Frequent Elements](Array%26Hashing/347.%20Top%20K%20Frequent%20Elements/README.md)
 
 [350. Intersection of Two Arrays II](Array%26Hashing/350.%20Intersection%20of%20Two%20Arrays%20II/README.md)
@@ -1408,6 +1410,8 @@ for k, arr in MAP.items():
 [3297. Count Substrings That Can Be Rearranged to Contain a String I](Sliding%20Window/3297.%20Count%20Substrings%20That%20Can%20Be%20Rearranged%20to%20Contain%20a%20String%20I/)
 
 [3298. Count Substrings That Can Be Rearranged to Contain a String II](Sliding%20Window/3298.%20Count%20Substrings%20That%20Can%20Be%20Rearranged%20to%20Contain%20a%20String%20II/)
+
+[3306. Count of Substrings Containing Every Vowel and K Consonants II](Sliding%20Window/3306.%20Count%20of%20Substrings%20Containing%20Every%20Vowel%20and%20K%20Consonants%20II/)
 
 [395. Longest Substring with At Least K Repeating Characters](Sliding%20Window/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters/README.md)
 
