@@ -2367,6 +2367,8 @@ for k, arr in MAP.items():
 
 [2617. Minimum Number of Visited Cells in a Grid](Graphs/BFS/2617.%20Minimum%20Number%20of%20Visited%20Cells%20in%20a%20Grid/README.md)
 
+[3311. Construct 2D Grid Matching Graph Layout](Graphs/BFS/3311.%20Construct%202D%20Grid%20Matching%20Graph%20Layout/)
+
 [365. Water and Jug Problem](Graphs/BFS/365.%20Water%20and%20Jug%20Problem/README.md)
 
 [399. Evaluate Division](Graphs/BFS/399.%20Evaluate%20Division/README.md)
