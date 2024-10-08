@@ -1597,6 +1597,8 @@ for k, arr in MAP.items():
 
 [3307. Find the K-th Character in String Game II](Math&Geometry/3307.%20Find%20the%20K-th%20Character%20in%20String%20Game%20II/)
 
+[3312. Sorted GCD Pair Queries](Math&Geometry/3312.%20Sorted%20GCD%20Pair%20Queries/)
+
 [335. Self Crossing](Math%26Geometry/335.%20Self%20Crossing/README.md)
 
 [357. Count Numbers with Unique Digits](Math%26Geometry/357.%20Count%20Numbers%20with%20Unique%20Digits/README.md)
