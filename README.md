@@ -2921,6 +2921,8 @@ for k, arr in MAP.items():
 
 [3291. Minimum Number of Valid Strings to Form Target I](./Tries/3291.%20Minimum%20Number%20of%20Valid%20Strings%20to%20Form%20Target%20I/)
 
+[3316. Find Maximum Removals From Source String](2-D%20Dynamic%20Programming/3316.%20Find%20Maximum%20Removals%20From%20Source%20String/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
