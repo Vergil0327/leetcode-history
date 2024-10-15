@@ -1419,6 +1419,8 @@ for k, arr in MAP.items():
 
 [3306. Count of Substrings Containing Every Vowel and K Consonants II](Sliding%20Window/3306.%20Count%20of%20Substrings%20Containing%20Every%20Vowel%20and%20K%20Consonants%20II/)
 
+[3321. Find X-Sum of All K-Long Subarrays II](Sliding%20Window/3321.%20Find%20X-Sum%20of%20All%20K-Long%20Subarrays%20II/)
+
 [395. Longest Substring with At Least K Repeating Characters](Sliding%20Window/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters/README.md)
 
 [424. Longest Repeating Character Replacement](Sliding%20Window/424.%20Longest%20Repeating%20Character%20Replacement/README.md)
