@@ -1043,6 +1043,8 @@ for k, arr in MAP.items():
 
 [1671. Minimum Number of Removals to Make Mountain Array](1-D%20Dynamic%20Programming/3Pass/1671.%20Minimum%20Number%20of%20Removals%20to%20Make%20Mountain%20Array/README.md)
 
+[1769. Minimum Number of Operations to Move All Balls to Each Box](1-D%20Dynamic%20Programming/3Pass/1769.%20Minimum%20Number%20of%20Operations%20to%20Move%20All%20Balls%20to%20Each%20Box/)
+
 [2167. Minimum Time to Remove All Cars Containing Illegal Goods](1-D%20Dynamic%20Programming/3Pass/2167.%20Minimum%20Time%20to%20Remove%20All%20Cars%20Containing%20Illegal%20Goods/README.md)
 
 [2555. Maximize Win From Two Segments](1-D%20Dynamic%20Programming/3Pass/2555.%20Maximize%20Win%20From%20Two%20Segments/README.md)
