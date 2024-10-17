@@ -1759,6 +1759,8 @@ for k, arr in MAP.items():
 
 [632. Smallest Range Covering Elements from K Lists](Heap/632.%20Smallest%20Range%20Covering%20Elements%20from%20K%20Lists/README.md)
 
+[670. Maximum Swap](Heap/670.%20Maximum%20Swap/)
+
 [692. Top K Frequent Words](Heap/692.%20Top%20K%20Frequent%20Words/README.md)
 
 [703. Kth Largest Element in a Stream](Heap/703.%20Kth%20Largest%20Element%20in%20a%20Stream/README.md)
