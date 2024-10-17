@@ -1805,6 +1805,8 @@ for k, arr in MAP.items():
 
 [1718. Construct the Lexicographically Largest Valid Sequence](Greedy/1718.%20Construct%20the%20Lexicographically%20Largest%20Valid%20Sequence/README.md)
 
+[1749. Maximum Absolute Sum of Any Subarray](Greedy/1749.%20Maximum%20Absolute%20Sum%20of%20Any%20Subarray/)
+
 [1754. Largest Merge Of Two Strings](Greedy/1754.%20Largest%20Merge%20Of%20Two%20Strings/README.md)
 
 [1798. Maximum Number of Consecutive Values You Can Make](Greedy/1798.%20Maximum%20Number%20of%20Consecutive%20Values%20You%20Can%20Make/README.md)
