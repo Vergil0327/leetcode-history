@@ -1485,6 +1485,8 @@ for k, arr in MAP.items():
 
 [1643. Kth Smallest Instructions](Math%26Geometry/1643.%20Kth%20Smallest%20Instructions/README.md)
 
+[1711. Count Good Meals](Math&Geometry/1711.%20Count%20Good%20Meals/)
+
 [172. Factorial Trailing Zeroes](Math%26Geometry/172.%20Factorial%20Trailing%20Zeroes/README.md)
 
 [1735. Count Ways to Make Array With Product](Math&Geometry/1735.%20Count%20Ways%20to%20Make%20Array%20With%20Product/README.md)
