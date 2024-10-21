@@ -1619,6 +1619,8 @@ for k, arr in MAP.items():
 
 [3317. Find the Number of Possible Ways for an Event](Math&Geometry/3317.%20Find%20the%20Number%20of%20Possible%20Ways%20for%20an%20Event/)
 
+[3326. Minimum Division Operations to Make Array Non Decreasing](Math&Geometry/3326.%20Minimum%20Division%20Operations%20to%20Make%20Array%20Non%20Decreasing/)
+
 [335. Self Crossing](Math%26Geometry/335.%20Self%20Crossing/README.md)
 
 [357. Count Numbers with Unique Digits](Math%26Geometry/357.%20Count%20Numbers%20with%20Unique%20Digits/README.md)
