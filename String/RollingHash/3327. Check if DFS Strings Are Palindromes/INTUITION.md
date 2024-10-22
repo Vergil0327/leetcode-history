@@ -24,6 +24,10 @@ class Solution:
         return ans
 ```
 
+## Key Idea:
+
+Using hashing to check whether a DFS traversal of each subtree is a palindrome or not. Instead of constructing strings and comparing them (which is expensive in terms of time complexity), we compute hashes for both the forward and reverse traversals of each subtree. By comparing these hashes, we can determine if the subtree's DFS string is a palindrome.
+
 see example 1:
 Input: parent = [-1,0,0,1,1,2], s = "aababa"
 
@@ -84,4 +88,12 @@ for i in range(1, n+1):
 # Complexity
 
 time:O(n)
+
+Time Complexity:
+DFS Time: Each node is visited exactly once in a single DFS traversal, and at each node, we process all its children. Thus, the time complexity of the DFS is 
+𝑂(𝑛), where 𝑛 is the number of nodes in the tree.
+
+Hashing Time: Each hash calculation (forward and reverse) takes constant time due to the precomputed powers of the base.
+Therefore, the overall time complexity is 𝑂(𝑛), which is optimal for this problem.
+
 space:O(n)
