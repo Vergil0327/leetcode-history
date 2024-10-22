@@ -2109,6 +2109,8 @@ for k, arr in MAP.items():
 
 [3008. Find Beautiful Indices in the Given Array II](String/RollingHash/3008.%20Find%20Beautiful%20Indices%20in%20the%20Given%20Array%20II/README.md)
 
+[3327. Check if DFS Strings Are Palindromes](String/RollingHash/3327.%20Check%20if%20DFS%20Strings%20Are%20Palindromes/)
+
 ## String
 
 [1178. Number of Valid Words for Each Puzzle](String/1178.%20Number%20of%20Valid%20Words%20for%20Each%20Puzzle/README.md)
