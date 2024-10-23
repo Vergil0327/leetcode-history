@@ -38,3 +38,27 @@ class Solution:
                 if node.right:
                     node.right.val = total[level+1] - SUM
         return root
+
+class Solution:
+    def replaceValueInTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
+        levelSum = Counter()
+
+        def dfs1(node, level):
+            if not node: return
+            levelSum[level] += node.val
+
+            dfs1(node.left, level+1)
+            dfs1(node.right, level+1)
+        dfs1(root, 1)
+
+        def dfs2(node, level, siblingSum):
+            if not node: return
+
+            node.val = levelSum[level] - siblingSum
+
+            nxtSiblingSum = (node.left.val if node.left else 0) + (node.right.val if node.right else 0)
+            dfs2(node.left, level+1, nxtSiblingSum)
+            dfs2(node.right, level+1, nxtSiblingSum)
+        
+        dfs2(root, 1, root.val)
+        return root

@@ -65,3 +65,14 @@ while queue:
         if level <= 1:
             node.val = 0
 ```
+
+# Other Approach
+
+same idea but using DFS
+
+1. calculate level sum
+2. recursion with `node`, `level` and `sibling_sum`
+   - node.val = level_sum[level] - sibling_sum
+   - next_sibling_sum = node.left.val + node.right.val
+
+time: O(n)
