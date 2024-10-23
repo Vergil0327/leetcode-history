@@ -2031,6 +2031,8 @@ for k, arr in MAP.items():
 
 [1429. First Unique Number](Queue/1429.%20First%20Unique%20Number/README.md)
 
+[1670. Design Front Middle Back Queue](Queue/1670.%20Design%20Front%20Middle%20Back%20Queue/)
+
 [225. Implement Stack using Queues](Queue/225.%20Implement%20Stack%20using%20Queues/README.md)
 
 [281. Zigzag Iterator](Queue/281.%20Zigzag%20Iterator/README.md)
