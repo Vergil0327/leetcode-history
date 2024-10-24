@@ -3254,6 +3254,8 @@ for k, arr in MAP.items():
 
 [1653. Minimum Deletions to Make String Balanced](PrefixSum/1653.%20Minimum%20Deletions%20to%20Make%20String%20Balanced/README.md)
 
+[1664. Ways to Make a Fair Array](PrefixSum/1664.%20Ways%20to%20Make%20a%20Fair%20Array/)
+
 [1712. Ways to Split Array Into Three Subarrays](PrefixSum/1712.%20Ways%20to%20Split%20Array%20Into%20Three%20Subarrays/README.md)
 
 [1737. Change Minimum Characters to Satisfy One of Three Conditions](PrefixSum/1737.%20Change%20Minimum%20Characters%20to%20Satisfy%20One%20of%20Three%20Conditions/README.md)
