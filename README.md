@@ -814,6 +814,8 @@ for k, arr in MAP.items():
 
 [1353. Maximum Number of Events That Can Be Attended](Interval/1353.%20Maximum%20Number%20of%20Events%20That%20Can%20Be%20Attended/README.md)
 
+[1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](Interval/1604.%20Alert%20Using%20Same%20Key-Card%20Three%20or%20More%20Times%20in%20a%20One%20Hour%20Period/)
+
 [1851. Minimum Interval to Include Each Query](Interval/1851.%20Minimum%20Interval%20to%20Include%20Each%20Query/README.md)
 
 [1893. Check if All the Integers in a Range Are Covered](Interval/1893.%20Check%20if%20All%20the%20Integers%20in%20a%20Range%20Are%20Covered/README.md)
