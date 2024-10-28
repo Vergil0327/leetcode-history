@@ -1623,6 +1623,8 @@ for k, arr in MAP.items():
 
 [3326. Minimum Division Operations to Make Array Non Decreasing](Math&Geometry/3326.%20Minimum%20Division%20Operations%20to%20Make%20Array%20Non%20Decreasing/)
 
+[3334. Find the Maximum Factor Score of Array](Math&Geometry/3334.%20Find%20the%20Maximum%20Factor%20Score%20of%20Array/)
+
 [335. Self Crossing](Math%26Geometry/335.%20Self%20Crossing/README.md)
 
 [357. Count Numbers with Unique Digits](Math%26Geometry/357.%20Count%20Numbers%20with%20Unique%20Digits/README.md)
