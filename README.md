@@ -980,6 +980,8 @@ for k, arr in MAP.items():
 
 [3292. Minimum Number of Valid Strings to Form Target II](1-D%20Dynamic%20Programming/3292.%20Minimum%20Number%20of%20Valid%20Strings%20to%20Form%20Target%20II/)
 
+[3335. Total Characters in String After Transformations I](1-D%20Dynamic%20Programming/3335.%20Total%20Characters%20in%20String%20After%20Transformations%20I/)
+
 [337. House Robber III](1-D%20Dynamic%20Programming/337.%20House%20Robber%20III/README.md)
 
 [343. Integer Break](1-D%20Dynamic%20Programming/343.%20Integer%20Break/README.md)
