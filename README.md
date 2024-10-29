@@ -176,6 +176,8 @@ for k, arr in MAP.items():
 
 [333. Largest BST Subtree](Trees/333.%20Largest%20BST%20Subtree/README.md)
 
+[3331. Find Subtree Sizes After Changes](Trees/3331.%20Find%20Subtree%20Sizes%20After%20Changes/)
+
 [386. Lexicographical Numbers](Trees/386.%20Lexicographical%20Numbers/README.md)
 
 [427. Construct Quad Tree](Trees/427.%20Construct%20Quad%20Tree/README.md)
