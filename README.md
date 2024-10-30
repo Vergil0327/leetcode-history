@@ -2967,6 +2967,8 @@ for k, arr in MAP.items():
 
 [3332. Maximum Points Tourist Can Earn](2-D%20Dynamic%20Programming/3332.%20Maximum%20Points%20Tourist%20Can%20Earn/)
 
+[3333. Find the Original Typed String II](2-D%20Dynamic%20Programming/3333.%20Find%20the%20Original%20Typed%20String%20II/)
+
 [3336. Find the Number of Subsequences With Equal GCD](2-D%20Dynamic%20Programming/3336.%20Find%20the%20Number%20of%20Subsequences%20With%20Equal%20GCD/)
 
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
