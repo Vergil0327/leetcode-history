@@ -2131,6 +2131,8 @@ for k, arr in MAP.items():
 
 [1542. Find Longest Awesome Substring](String/1542.%20Find%20Longest%20Awesome%20Substring/README.md)
 
+[1573. Number of Ways to Split a String](String/1573.%20Number%20of%20Ways%20to%20Split%20a%20String/)
+
 [1585. Check If String Is Transformable With Substring Sort Operations](String/1585.%20Check%20If%20String%20Is%20Transformable%20With%20Substring%20Sort%20Operations/README.md)
 
 [165. Compare Version Numbers](String/165.%20Compare%20Version%20Numbers/README.md)
