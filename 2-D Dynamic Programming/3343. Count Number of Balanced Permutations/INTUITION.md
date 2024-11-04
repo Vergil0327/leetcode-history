@@ -63,6 +63,21 @@ if digit >= 10:
     return int(odd == 0 and even == 0 and balance == 0)
 ```
 
+## Optimization
+
+since `2 <= num.length <= 80`, we can precompute `comb(m, n)`
+
+```py
+m = n = 81
+
+comb = [[0]*n for _ in range(m)]
+
+for i in range(m):
+    comb[i][i] = comb[i][0] = 1
+    for j in range(1, i):
+        comb[i][j] = comb[i-1][j-1] + comb[i-1][j]
+```
+
 # Complexity
 
 time: O(10 * 10 * n * n * (9*n)) where max balance is n * 9
