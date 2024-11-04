@@ -2977,6 +2977,8 @@ for k, arr in MAP.items():
 
 [3336. Find the Number of Subsequences With Equal GCD](2-D%20Dynamic%20Programming/3336.%20Find%20the%20Number%20of%20Subsequences%20With%20Equal%20GCD/)
 
+[3343. Count Number of Balanced Permutations](2-D%20Dynamic%20Programming/3343.%20Count%20Number%20of%20Balanced%20Permutations/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
