@@ -2477,6 +2477,8 @@ for k, arr in MAP.items():
 
 [3123. Find Edges in Shortest Paths](Graphs/Dijkstra/3123.%20Find%20Edges%20in%20Shortest%20Paths/README.md)
 
+[3342. Find Minimum Time to Reach Last Room II](Graphs/Dijkstra/3342.%20Find%20Minimum%20Time%20to%20Reach%20Last%20Room%20II/)
+
 [407. Trapping Rain Water II](Graphs/Dijkstra/407.%20Trapping%20Rain%20Water%20II/README.md)
 
 [743. Network Delay Time](Graphs/Dijkstra/743.%20Network%20Delay%20Time/README.md)
