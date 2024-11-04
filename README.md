@@ -2417,6 +2417,8 @@ for k, arr in MAP.items():
 
 [3311. Construct 2D Grid Matching Graph Layout](Graphs/BFS/3311.%20Construct%202D%20Grid%20Matching%20Graph%20Layout/)
 
+[3341. Find Minimum Time to Reach Last Room I](Graphs/BFS/3341.%20Find%20Minimum%20Time%20to%20Reach%20Last%20Room%20I/)
+
 [365. Water and Jug Problem](Graphs/BFS/365.%20Water%20and%20Jug%20Problem/README.md)
 
 [399. Evaluate Division](Graphs/BFS/399.%20Evaluate%20Division/README.md)
