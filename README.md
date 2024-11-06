@@ -1485,6 +1485,8 @@ for k, arr in MAP.items():
 
 [1453. Maximum Number of Darts Inside of a Circular Dartboard](Math%26Geometry/1453.%20Maximum%20Number%20of%20Darts%20Inside%20of%20a%20Circular%20Dartboard/README.md)
 
+[1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](Math&Geometry/1465.%20Maximum%20Area%20of%20a%20Piece%20of%20Cake%20After%20Horizontal%20and%20Vertical%20Cuts/)
+
 [149. Max Points on a Line](Math%26Geometry/149.%20Max%20Points%20on%20a%20Line/README.md)
 
 [1515. Best Position for a Service Centre](Math%26Geometry/1515.%20Best%20Position%20for%20a%20Service%20Centre/README.md)
