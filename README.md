@@ -2131,6 +2131,8 @@ for k, arr in MAP.items():
 
 [1461. Check If a String Contains All Binary Codes of Size K](String/1461.%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K/README.md)
 
+[1540. Can Convert String in K Moves](String/1540.%20Can%20Convert%20String%20in%20K%20Moves/)
+
 [1542. Find Longest Awesome Substring](String/1542.%20Find%20Longest%20Awesome%20Substring/README.md)
 
 [1573. Number of Ways to Split a String](String/1573.%20Number%20of%20Ways%20to%20Split%20a%20String/)
