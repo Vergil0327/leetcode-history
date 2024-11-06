@@ -3280,6 +3280,8 @@ for k, arr in MAP.items():
 
 [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](PrefixSum/1477.%20Find%20Two%20Non-overlapping%20Sub-arrays%20Each%20With%20Target%20Sum/README.md)
 
+[1524. Number of Sub-arrays With Odd Sum](PrefixSum/1524.%20Number%20of%20Sub-arrays%20With%20Odd%20Sum/)
+
 [1590. Make Sum Divisible by P](PrefixSum/1590.%20Make%20Sum%20Divisible%20by%20P/README.md)
 
 [1653. Minimum Deletions to Make String Balanced](PrefixSum/1653.%20Minimum%20Deletions%20to%20Make%20String%20Balanced/README.md)
