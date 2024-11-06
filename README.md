@@ -2131,6 +2131,8 @@ for k, arr in MAP.items():
 
 [1461. Check If a String Contains All Binary Codes of Size K](String/1461.%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K/README.md)
 
+[1529. Minimum Suffix Flips](String/1529.%20Minimum%20Suffix%20Flips/)
+
 [1540. Can Convert String in K Moves](String/1540.%20Can%20Convert%20String%20in%20K%20Moves/)
 
 [1542. Find Longest Awesome Substring](String/1542.%20Find%20Longest%20Awesome%20Substring/README.md)
