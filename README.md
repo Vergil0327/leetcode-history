@@ -1809,6 +1809,8 @@ for k, arr in MAP.items():
 
 [1419. Minimum Number of Frogs Croaking](Greedy/1419.%20Minimum%20Number%20of%20Frogs%20Croaking/README.md)
 
+[1432. Max Difference You Can Get From Changing an Integer](Greedy/1432.%20Max%20Difference%20You%20Can%20Get%20From%20Changing%20an%20Integer/)
+
 [1520. Maximum Number of Non-Overlapping Substrings](Greedy/1520.%20Maximum%20Number%20of%20Non-Overlapping%20Substrings/README.md)
 
 [1526. Minimum Number of Increments on Subarrays to Form a Target Array](Segment%20Tree/1526.%20Minimum%20Number%20of%20Increments%20on%20Subarrays%20to%20Form%20a%20Target%20Array/README.md)
