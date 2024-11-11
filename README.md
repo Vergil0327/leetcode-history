@@ -1635,6 +1635,8 @@ for k, arr in MAP.items():
 
 [3337. Total Characters in String After Transformations II](Math&Geometry/3337.%20Total%20Characters%20in%20String%20After%20Transformations%20II/)
 
+[3348. Smallest Divisible Digit Product II](Math&Geometry/3348.%20Smallest%20Divisible%20Digit%20Product%20II/)
+
 [335. Self Crossing](Math%26Geometry/335.%20Self%20Crossing/README.md)
 
 [357. Count Numbers with Unique Digits](Math%26Geometry/357.%20Count%20Numbers%20with%20Unique%20Digits/README.md)
