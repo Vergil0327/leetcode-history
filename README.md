@@ -2995,6 +2995,8 @@ for k, arr in MAP.items():
 
 [3343. Count Number of Balanced Permutations](2-D%20Dynamic%20Programming/3343.%20Count%20Number%20of%20Balanced%20Permutations/)
 
+[3351. Sum of Good Subsequences](2-D%20Dynamic%20Programming/3351.%20Sum%20of%20Good%20Subsequences/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
