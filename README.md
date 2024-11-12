@@ -1305,6 +1305,8 @@ for k, arr in MAP.items():
 
 [3305. Count of Substrings Containing Every Vowel and K Consonants I](Array&Hashing/3305.%20Count%20of%20Substrings%20Containing%20Every%20Vowel%20and%20K%20Consonants%20I/)
 
+[3349. Adjacent Increasing Subarrays Detection I](Array&Hashing/3349.%20Adjacent%20Increasing%20Subarrays%20Detection%20I/)
+
 [347. Top K Frequent Elements](Array%26Hashing/347.%20Top%20K%20Frequent%20Elements/README.md)
 
 [350. Intersection of Two Arrays II](Array%26Hashing/350.%20Intersection%20of%20Two%20Arrays%20II/README.md)
