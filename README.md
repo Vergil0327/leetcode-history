@@ -3089,6 +3089,7 @@ for k, arr in MAP.items():
 
 [3260. Find the Largest Palindrome Divisible by K](2-D%20Dynamic%20Programming/DigitDP/3260.%20Find%20the%20Largest%20Palindrome%20Divisible%20by%20K/)
 
+[3352. Count K-Reducible Numbers Less Than N](2-D%20Dynamic%20Programming/DigitDP/3352.%20Count%20K-Reducible%20Numbers%20Less%20Than%20N/)
 
 ## 2-D Dynamic Programming/Knapsack
 
