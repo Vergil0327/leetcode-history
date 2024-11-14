@@ -1183,6 +1183,8 @@ for k, arr in MAP.items():
 
 [1348. Tweet Counts Per Frequency](Array%26Hashing/1348.%20Tweet%20Counts%20Per%20Frequency/README.md)
 
+[1386. Cinema Seat Allocation](Array&Hashing/1386.%20Cinema%20Seat%20Allocation/)
+
 [1396. Design Underground System](Array%26Hashing/1396.%20Design%20Underground%20System/README.md)
 
 [14. Longest Common Prefix](Array%26Hashing/14.%20Longest%20Common%20Prefix/README.md)
