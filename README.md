@@ -632,6 +632,8 @@ for k, arr in MAP.items():
 
 [1319. Number of Operations to Make Network Connected](UnionFind/1319.%20Number%20of%20Operations%20to%20Make%20Network%20Connected/README.md)
 
+[1391. Check if There is a Valid Path in a Grid](UnionFind/1391.%20Check%20if%20There%20is%20a%20Valid%20Path%20in%20a%20Grid/)
+
 [1562. Find Latest Group of Size M](UnionFind/1562.%20Find%20Latest%20Group%20of%20Size%20M/README.md)
 
 [1568. Minimum Number of Days to Disconnect Island](UnionFind/1568.%20Minimum%20Number%20of%20Days%20to%20Disconnect%20Island/README.md)
@@ -2406,6 +2408,8 @@ for k, arr in MAP.items():
 [1345. Jump Game IV](Graphs/BFS/1345.%20Jump%20Game%20IV/README.md)
 
 [1368. Minimum Cost to Make at Least One Valid Path in a Grid](Graphs/BFS/1368.%20Minimum%20Cost%20to%20Make%20at%20Least%20One%20Valid%20Path%20in%20a%20Grid/README.md)
+
+[1391. Check if There is a Valid Path in a Grid](UnionFind/1391.%20Check%20if%20There%20is%20a%20Valid%20Path%20in%20a%20Grid/)
 
 [1654. Minimum Jumps to Reach Home](Graphs/BFS/1654.%20Minimum%20Jumps%20to%20Reach%20Home/README.md)
 
