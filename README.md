@@ -3367,6 +3367,8 @@ for k, arr in MAP.items():
 
 [3086. Minimum Moves to Pick K Ones](PrefixSum/3086.%20Minimum%20Moves%20to%20Pick%20K%20Ones/README.md)
 
+[3354. Make Array Elements Equal to Zero](PrefixSum/3354.%20Make%20Array%20Elements%20Equal%20to%20Zero/)
+
 [363. Max Sum of Rectangle No Larger Than K](PrefixSum/363.%20Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K/README.md)
 
 [523. Continuous Subarray Sum](PrefixSum/523.%20Continuous%20Subarray%20Sum/README.md)
