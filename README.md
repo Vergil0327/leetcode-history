@@ -434,6 +434,8 @@ for k, arr in MAP.items():
 
 [3350. Adjacent Increasing Subarrays Detection II](Binary%20Search/3350.%20Adjacent%20Increasing%20Subarrays%20Detection%20II/)
 
+[3356. Zero Array Transformation II](Binary%20Search/3356.%20Zero%20Array%20Transformation%20II/)
+
 [34. Find First and Last Position of Element in Sorted Array](Binary%20Search/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/README.md)
 
 [35. Search Insert Position](Binary%20Search/35.%20Search%20Insert%20Position/README.md)
@@ -3414,6 +3416,8 @@ for k, arr in MAP.items():
 [3192. Minimum Operations to Make Binary Array Elements Equal to One II](PrefixSum/DiffSum/3192.%20Minimum%20Operations%20to%20Make%20Binary%20Array%20Elements%20Equal%20to%20One%20II/README.md)
 
 [3347. Maximum Frequency of an Element After Performing Operations II](PrefixSum/DiffSum/3347.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20II/)
+
+[3355. Zero Array Transformation I](PrefixSum/DiffSum/3355.%20Zero%20Array%20Transformation%20I/)
 
 [798. Smallest Rotation with Highest Score](PrefixSum/DiffSum/798.%20Smallest%20Rotation%20with%20Highest%20Score/README.md)
 
