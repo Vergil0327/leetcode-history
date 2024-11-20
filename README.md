@@ -1175,7 +1175,6 @@ for k, arr in MAP.items():
 
 [1153. String Transforms Into Another String](Array%26Hashing/1153.%20String%20Transforms%20Into%20Another%20String/README.md)
 
-[1442. Count Triplets That Can Form Two Arrays of Equal XOR](Array&Hashing/1442.%20Count%20Triplets%20That%20Can%20Form%20Two%20Arrays%20of%20Equal%20XOR/README.md)
 
 [122. Best Time to Buy and Sell Stock II](Array%26Hashing/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/README.md)
 
@@ -1184,6 +1183,8 @@ for k, arr in MAP.items():
 [128. Longest Consecutive Sequence](Array%26Hashing/128.%20Longest%20Consecutive%20Sequence/README.md)
 
 [1306. Jump Game III](Array%26Hashing/1306.%20Jump%20Game%20III/README.md)
+
+[1366. Rank Teams by Votes](Array&Hashing/1366.%20Rank%20Teams%20by%20Votes/)
 
 [1348. Tweet Counts Per Frequency](Array%26Hashing/1348.%20Tweet%20Counts%20Per%20Frequency/README.md)
 
@@ -1194,6 +1195,8 @@ for k, arr in MAP.items():
 [14. Longest Common Prefix](Array%26Hashing/14.%20Longest%20Common%20Prefix/README.md)
 
 [1424. Diagonal Traverse II](Array%26Hashing/1424.%20Diagonal%20Traverse%20II/README.md)
+
+[1442. Count Triplets That Can Form Two Arrays of Equal XOR](Array&Hashing/1442.%20Count%20Triplets%20That%20Can%20Form%20Two%20Arrays%20of%20Equal%20XOR/README.md)
 
 [1452. People Whose List of Favorite Companies Is Not a Subset of Another List](Array%26Hashing/1452.%20People%20Whose%20List%20of%20Favorite%20Companies%20Is%20Not%20a%20Subset%20of%20Another%20List/README.md)
 
