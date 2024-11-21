@@ -1496,6 +1496,8 @@ for k, arr in MAP.items():
 
 [1274. Number of Ships in a Rectangle](Math%26Geometry/1274.%20Number%20of%20Ships%20in%20a%20Rectangle/README.md)
 
+[1344. Angle Between Hands of a Clock](Math&Geometry/1344.%20Angle%20Between%20Hands%20of%20a%20Clock/)
+
 [1359. Count All Valid Pickup and Delivery Options](Math%26Geometry/1359.%20Count%20All%20Valid%20Pickup%20and%20Delivery%20Options/README.md)
 
 [1453. Maximum Number of Darts Inside of a Circular Dartboard](Math%26Geometry/1453.%20Maximum%20Number%20of%20Darts%20Inside%20of%20a%20Circular%20Dartboard/README.md)
