@@ -3300,6 +3300,8 @@ for k, arr in MAP.items():
 
 [1177. Can Make Palindrome from Substring](PrefixSum/1177.%20Can%20Make%20Palindrome%20from%20Substring/README.md)
 
+[1352. Product of the Last K Numbers](PrefixSum/1352.%20Product%20of%20the%20Last%20K%20Numbers/)
+
 [1371. Find the Longest Substring Containing Vowels in Even Counts](PrefixSum/1371.%20Find%20the%20Longest%20Substring%20Containing%20Vowels%20in%20Even%20Counts/README.md)
 
 [1423. Maximum Points You Can Obtain from Cards](PrefixSum/1423.%20Maximum%20Points%20You%20Can%20Obtain%20from%20Cards/README.md)
