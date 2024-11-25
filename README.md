@@ -3500,6 +3500,8 @@ for k, arr in MAP.items():
 
 [327. Count of Range Sum](Binary%20Search/SortedList/327.%20Count%20of%20Range%20Sum/README.md)
 
+[3362. Zero Array Transformation III](Sorted%20Container/SortedList/3362.%20Zero%20Array%20Transformation%20III/)
+
 [363. Max Sum of Rectangle No Larger Than K](PrefixSum/363.%20Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K/README.md)
 
 [480. Sliding Window Median](Sliding%20Window/480.%20Sliding%20Window%20Median/480.%20Sliding%20Window%20Median/README.md)
