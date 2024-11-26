@@ -3016,6 +3016,8 @@ for k, arr in MAP.items():
 
 [3351. Sum of Good Subsequences](2-D%20Dynamic%20Programming/3351.%20Sum%20of%20Good%20Subsequences/)
 
+[3363. Find the Maximum Number of Fruits Collected](2-D%20Dynamic%20Programming/3363.%20Find%20the%20Maximum%20Number%20of%20Fruits%20Collected/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
