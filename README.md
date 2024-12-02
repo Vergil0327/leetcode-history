@@ -1322,6 +1322,8 @@ for k, arr in MAP.items():
 
 [3349. Adjacent Increasing Subarrays Detection I](Array&Hashing/3349.%20Adjacent%20Increasing%20Subarrays%20Detection%20I/)
 
+[3371. Identify the Largest Outlier in an Array](Array&Hashing/3371.%20Identify%20the%20Largest%20Outlier%20in%20an%20Array/)
+
 [347. Top K Frequent Elements](Array%26Hashing/347.%20Top%20K%20Frequent%20Elements/README.md)
 
 [350. Intersection of Two Arrays II](Array%26Hashing/350.%20Intersection%20of%20Two%20Arrays%20II/README.md)
