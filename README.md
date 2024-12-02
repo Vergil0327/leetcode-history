@@ -274,6 +274,8 @@ for k, arr in MAP.items():
 
 [3241. Time Taken to Mark All Nodes](Trees/ReRoot/3241.%20Time%20Taken%20to%20Mark%20All%20Nodes)
 
+[3373. Maximize the Number of Target Nodes After Connecting Trees II](Trees/ReRoot/3373.%20Maximize%20the%20Number%20of%20Target%20Nodes%20After%20Connecting%20Trees%20II/)
+
 [834. Sum of Distances in Tree](Trees/ReRoot/834.%20Sum%20of%20Distances%20in%20Tree/README.md)
 
 ## Trees/BFS
