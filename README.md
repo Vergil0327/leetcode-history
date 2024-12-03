@@ -520,6 +520,8 @@ for k, arr in MAP.items():
 
 [1073. Adding Two Negabinary Numbers](Bit%20Manipulation/1073.%20Adding%20Two%20Negabinary%20Numbers/README.md)
 
+[1238. Circular Permutation in Binary Representation](Bit%20Manipulation/1238.%20Circular%20Permutation%20in%20Binary%20Representation/)
+
 [136. Single Number](Bit%20Manipulation/136.%20Single%20Number/README.md)
 
 [137. Single Number II](Bit%20Manipulation/137.%20Single%20Number%20II/README.md)

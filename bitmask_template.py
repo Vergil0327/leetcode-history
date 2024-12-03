@@ -11,7 +11,13 @@ while state < (1<<n):
 
 # Iterate submask
 
-state = some bitmask
+state = some_bitmask
 submask = state
 while submask > 0:
 	submask = (submask-1)&state
+
+
+# gray code: https://cp-algorithms.com/algebra/gray-code.html
+
+def grayCode(n):
+    return n ^ (n >> 1)
