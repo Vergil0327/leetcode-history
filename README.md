@@ -1502,6 +1502,8 @@ for k, arr in MAP.items():
 
 [1201. Ugly Number III](Math%26Geometry/1201.%20Ugly%20Number%20III/README.md)
 
+[1222. Queens That Can Attack the King](Math&Geometry/1222.%20Queens%20That%20Can%20Attack%20the%20King/)
+
 [1250. Check If It Is a Good Array](Math%26Geometry/1250.%20Check%20If%20It%20Is%20a%20Good%20Array/README.md)
 
 [1274. Number of Ships in a Rectangle](Math%26Geometry/1274.%20Number%20of%20Ships%20in%20a%20Rectangle/README.md)
