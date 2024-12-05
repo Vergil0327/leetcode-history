@@ -636,6 +636,8 @@ for k, arr in MAP.items():
 
 [1061. Lexicographically Smallest Equivalent String](UnionFind/1061.%20Lexicographically%20Smallest%20Equivalent%20String/README.md)
 
+[1169. Invalid Transactions](UnionFind/1169.%20Invalid%20Transactions/)
+
 [1202. Smallest String With Swaps](UnionFind/1202.%20Smallest%20String%20With%20Swaps/README.md)
 
 [128. Longest Consecutive Sequence](UnionFind/128.%20Longest%20Consecutive%20Sequence/README.md)
@@ -1180,6 +1182,8 @@ for k, arr in MAP.items():
 [1001. Grid Illumination](Array%26Hashing/1001.%20Grid%20Illumination/README.md)
 
 [1153. String Transforms Into Another String](Array%26Hashing/1153.%20String%20Transforms%20Into%20Another%20String/README.md)
+
+[1169. Invalid Transactions](UnionFind/1169.%20Invalid%20Transactions/)
 
 [1191. K-Concatenation Maximum Sum](Array&Hashing/1191.%20K-Concatenation%20Maximum%20Sum/)
 
