@@ -80,6 +80,8 @@ for k, arr in MAP.items():
 
 [114. Flatten Binary Tree to Linked List](Trees/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List/README.md)
 
+[1145. Binary Tree Coloring Game](Trees/1145.%20Binary%20Tree%20Coloring%20Game/)
+
 [116. Populating Next Right Pointers in Each Node](Trees/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node/README.md)
 
 [117. Populating Next Right Pointers in Each Node II](Trees/117.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II/README.md)
