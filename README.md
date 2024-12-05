@@ -716,6 +716,8 @@ for k, arr in MAP.items():
 
 [11. Container With Most Water](Two%20Pointers/11.%20Container%20With%20Most%20Water/README.md)
 
+[1156. Swap For Longest Repeated Character Substring](Sliding%20Window/1156.%20Swap%20For%20Longest%20Repeated%20Character%20Substring/)
+
 [1163. Last Substring in Lexicographical Order](Two%20Pointers/1163.%20Last%20Substring%20in%20Lexicographical%20Order/README.md)
 
 [1234. Replace the Substring for Balanced String](Two%20Pointers/1234.%20Replace%20the%20Substring%20for%20Balanced%20String/README.md)
@@ -1372,6 +1374,8 @@ for k, arr in MAP.items():
 [1004. Max Consecutive Ones III](Sliding%20Window/1004.%20Max%20Consecutive%20Ones%20III/README.md)
 
 [1052. Grumpy Bookstore Owner](Sliding%20Window/1052.%20Grumpy%20Bookstore%20Owner/README.md)
+
+[1156. Swap For Longest Repeated Character Substring](Sliding%20Window/1156.%20Swap%20For%20Longest%20Repeated%20Character%20Substring/)
 
 [121. Best Time to Buy and Sell Stock](Sliding%20Window/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md)
 
