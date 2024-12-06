@@ -1185,6 +1185,8 @@ for k, arr in MAP.items():
 
 [1001. Grid Illumination](Array%26Hashing/1001.%20Grid%20Illumination/README.md)
 
+[1139. Largest 1-Bordered Square](Array&Hashing/1139.%20Largest%201-Bordered%20Square/)
+
 [1153. String Transforms Into Another String](Array%26Hashing/1153.%20String%20Transforms%20Into%20Another%20String/README.md)
 
 [1169. Invalid Transactions](UnionFind/1169.%20Invalid%20Transactions/)
