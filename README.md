@@ -686,6 +686,8 @@ for k, arr in MAP.items():
 
 [3108. Minimum Cost Walk in Weighted Graph](UnionFind/3108.%20Minimum%20Cost%20Walk%20in%20Weighted%20Graph/README.md)
 
+[3378. Count Connected Components in LCM Graph](UnionFind/3378.%20Count%20Connected%20Components%20in%20LCM%20Graph/)
+
 [684. Redundant Connection](UnionFind/684.%20Redundant%20Connection/README.md)
 
 [685. Redundant Connection II](UnionFind/685.%20Redundant%20Connection%20II/README.md)
@@ -1682,6 +1684,8 @@ for k, arr in MAP.items():
 [3348. Smallest Divisible Digit Product II](Math&Geometry/3348.%20Smallest%20Divisible%20Digit%20Product%20II/)
 
 [335. Self Crossing](Math%26Geometry/335.%20Self%20Crossing/README.md)
+
+[3378. Count Connected Components in LCM Graph](UnionFind/3378.%20Count%20Connected%20Components%20in%20LCM%20Graph/)
 
 [357. Count Numbers with Unique Digits](Math%26Geometry/357.%20Count%20Numbers%20with%20Unique%20Digits/README.md)
 
