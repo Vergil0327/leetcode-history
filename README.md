@@ -2537,6 +2537,8 @@ for k, arr in MAP.items():
 
 [3342. Find Minimum Time to Reach Last Room II](Graphs/Dijkstra/3342.%20Find%20Minimum%20Time%20to%20Reach%20Last%20Room%20II/)
 
+[3377. Digit Operations to Make Two Integers Equal](Graphs/Dijkstra/3377.%20Digit%20Operations%20to%20Make%20Two%20Integers%20Equal/)
+
 [407. Trapping Rain Water II](Graphs/Dijkstra/407.%20Trapping%20Rain%20Water%20II/README.md)
 
 [743. Network Delay Time](Graphs/Dijkstra/743.%20Network%20Delay%20Time/README.md)
