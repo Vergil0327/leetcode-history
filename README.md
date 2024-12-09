@@ -3287,6 +3287,8 @@ for k, arr in MAP.items():
 
 [3276. Select Cells in Grid With Maximum Score](./2-D%20Dynamic%20Programming/Bitmask/3276.%20Select%20Cells%20in%20Grid%20With%20Maximum%20Score/)
 
+[3376. Minimum Time to Break Locks I](2-D%20Dynamic%20Programming/Bitmask/3376.%20Minimum%20Time%20to%20Break%20Locks%20I/)
+
 [3283. Maximum Number of Moves to Kill All Pawns](2-D%20Dynamic%20Programming/Bitmask/3283.%20Maximum%20Number%20of%20Moves%20to%20Kill%20All%20Pawns/)
 
 [691. Stickers to Spell Word](2-D%20Dynamic%20Programming/Bitmask/691.%20Stickers%20to%20Spell%20Word/README.md)
