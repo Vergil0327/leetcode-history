@@ -3417,6 +3417,8 @@ for k, arr in MAP.items():
 
 [3354. Make Array Elements Equal to Zero](PrefixSum/3354.%20Make%20Array%20Elements%20Equal%20to%20Zero/)
 
+[3381. Maximum Subarray Sum With Length Divisible by K](PrefixSum/3381.%20Maximum%20Subarray%20Sum%20With%20Length%20Divisible%20by%20K/)
+
 [363. Max Sum of Rectangle No Larger Than K](PrefixSum/363.%20Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K/README.md)
 
 [523. Continuous Subarray Sum](PrefixSum/523.%20Continuous%20Subarray%20Sum/README.md)
