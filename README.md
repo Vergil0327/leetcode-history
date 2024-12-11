@@ -2049,6 +2049,8 @@ for k, arr in MAP.items():
 
 [3187. Peaks in Array](Segment%20Tree/3187.%20Peaks%20in%20Array/README.md)
 
+[3382. Maximum Area Rectangle With Point Constraints II](Segment%20Tree/3382.%20Maximum%20Area%20Rectangle%20With%20Point%20Constraints%20II/)
+
 [699. Falling Squares](Interval/699.%20Falling%20Squares/README.md)
 
 ## Sorting
