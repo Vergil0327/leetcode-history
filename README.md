@@ -1010,6 +1010,8 @@ for k, arr in MAP.items():
 
 [337. House Robber III](1-D%20Dynamic%20Programming/337.%20House%20Robber%20III/README.md)
 
+[3388. Count Beautiful Splits in an Array](./1-D%20Dynamic%20Programming/3388.%20Count%20Beautiful%20Splits%20in%20an%20Array/)
+
 [343. Integer Break](1-D%20Dynamic%20Programming/343.%20Integer%20Break/README.md)
 
 [368. Largest Divisible Subset](1-D%20Dynamic%20Programming/368.%20Largest%20Divisible%20Subset/README.md)
@@ -2157,6 +2159,8 @@ for k, arr in MAP.items():
 
 ## String/KMP
 
+> some problem use z-function
+
 [1392. Longest Happy Prefix](String/KMP/1392.%20Longest%20Happy%20Prefix/README.md)
 
 [28. Implement strStr()](String/KMP/28.%20Implement%20strStr%28%29/README.md)
@@ -2166,6 +2170,8 @@ for k, arr in MAP.items():
 [3036. Number of Subarrays That Match a Pattern II](String/KMP/3036.%20Number%20of%20Subarrays%20That%20Match%20a%20Pattern%20II/README.md)
 
 [3303. Find the Occurrence of First Almost Equal Substring](String/KMP/3303.%20Find%20the%20Occurrence%20of%20First%20Almost%20Equal%20Substring/)
+
+[3388. Count Beautiful Splits in an Array](1-D%20Dynamic%20Programming/3388.%20Count%20Beautiful%20Splits%20in%20an%20Array/)
 
 ## String/RollingHash
 
