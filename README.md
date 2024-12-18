@@ -2657,6 +2657,8 @@ for k, arr in MAP.items():
 
 [1130. Minimum Cost Tree From Leaf Values](Stack/Monotone%20Stack/1130.%20Minimum%20Cost%20Tree%20From%20Leaf%20Values/README.md)
 
+[1475. Final Prices With a Special Discount in a Shop](Stack/Monotone%20Stack/1475.%20Final%20Prices%20With%20a%20Special%20Discount%20in%20a%20Shop/)
+
 [1499. Max Value of Equation](./Heap/1499.%20Max%20Value%20of%20Equation/README.md)
 
 [1504. Count Submatrices With All Ones](Stack/Monotone%20Stack/1504.%20Count%20Submatrices%20With%20All%20Ones/README.md)
