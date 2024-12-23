@@ -1993,6 +1993,8 @@ for k, arr in MAP.items():
 
 [3302. Find the Lexicographically Smallest Valid Sequence](Greedy/3302.%20Find%20the%20Lexicographically%20Smallest%20Valid%20Sequence/)
 
+[3397. Maximum Number of Distinct Elements After Operations](Greedy/3397.%20Maximum%20Number%20of%20Distinct%20Elements%20After%20Operations/)
+
 [406. Queue Reconstruction by Height](Greedy/406.%20Queue%20Reconstruction%20by%20Height/README.md)
 
 [45. Jump Game II](Greedy/45.%20Jump%20Game%20II/README.md)
