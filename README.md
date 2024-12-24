@@ -880,6 +880,8 @@ for k, arr in MAP.items():
 
 [2963. Count the Number of Good Partitions](Interval/2963.%20Count%20the%20Number%20of%20Good%20Partitions/README.md)
 
+[3394. Check if Grid can be Cut into Sections](Interval/3394.%20Check%20if%20Grid%20can%20be%20Cut%20into%20Sections/)
+
 [435. Non-overlapping Intervals](Interval/435.%20Non-overlapping%20Intervals/README.md)
 
 [452. Minimum Number of Arrows to Burst Balloons](Interval/452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons/README.md)
