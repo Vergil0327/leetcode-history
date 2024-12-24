@@ -1697,6 +1697,8 @@ for k, arr in MAP.items():
 
 [3378. Count Connected Components in LCM Graph](UnionFind/3378.%20Count%20Connected%20Components%20in%20LCM%20Graph/)
 
+[3395. Subsequences with a Unique Middle Mode I](Math&Geometry/3395.%20Subsequences%20with%20a%20Unique%20Middle%20Mode%20I/)
+
 [357. Count Numbers with Unique Digits](Math%26Geometry/357.%20Count%20Numbers%20with%20Unique%20Digits/README.md)
 
 [365. Water and Jug Problem](Math%26Geometry/365.%20Water%20and%20Jug%20Problem/README.md)
