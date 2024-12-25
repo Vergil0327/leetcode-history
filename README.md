@@ -910,6 +910,8 @@ for k, arr in MAP.items():
 
 ## 1-D Dynamic Programming
 
+[1014. Best Sightseeing Pair](1-D%20Dynamic%20Programming/1014.%20Best%20Sightseeing%20Pair/)
+
 [1027. Longest Arithmetic Subsequence](1-D%20Dynamic%20Programming/1027.%20Longest%20Arithmetic%20Subsequence/README.md)
 
 [1043. Partition Array for Maximum Sum](1-D%20Dynamic%20Programming/1043.%20Partition%20Array%20for%20Maximum%20Sum/README.md)
@@ -1766,6 +1768,8 @@ for k, arr in MAP.items():
 [964. Least Operators to Express Number](Math&Geometry/964.%20Least%20Operators%20to%20Express%20Number/README.md)
 
 ## Heap
+
+[1014. Best Sightseeing Pair](1-D%20Dynamic%20Programming/1014.%20Best%20Sightseeing%20Pair/)
 
 [1172. Dinner Plate Stacks](Heap/1172.%20Dinner%20Plate%20Stacks/README.md)
 
