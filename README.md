@@ -1353,6 +1353,8 @@ for k, arr in MAP.items():
 
 [3371. Identify the Largest Outlier in an Array](Array&Hashing/3371.%20Identify%20the%20Largest%20Outlier%20in%20an%20Array/)
 
+[3404. Count Special Subsequences](Array&Hashing/3404.%20Count%20Special%20Subsequences/)
+
 [347. Top K Frequent Elements](Array%26Hashing/347.%20Top%20K%20Frequent%20Elements/README.md)
 
 [350. Intersection of Two Arrays II](Array%26Hashing/350.%20Intersection%20of%20Two%20Arrays%20II/README.md)
