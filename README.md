@@ -1705,6 +1705,8 @@ for k, arr in MAP.items():
 
 [3395. Subsequences with a Unique Middle Mode I](Math&Geometry/3395.%20Subsequences%20with%20a%20Unique%20Middle%20Mode%20I/)
 
+[3405. Count the Number of Arrays with K Matching Adjacent Elements](Math&Geometry/3405.%20Count%20the%20Number%20of%20Arrays%20with%20K%20Matching%20Adjacent%20Elements/)
+
 [357. Count Numbers with Unique Digits](Math%26Geometry/357.%20Count%20Numbers%20with%20Unique%20Digits/README.md)
 
 [365. Water and Jug Problem](Math%26Geometry/365.%20Water%20and%20Jug%20Problem/README.md)
