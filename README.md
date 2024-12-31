@@ -1387,6 +1387,8 @@ for k, arr in MAP.items():
 
 [954. Array of Doubled Pairs](Array%26Hashing/954.%20Array%20of%20Doubled%20Pairs/README.md)
 
+[957. Prison Cells After N Days](Array&Hashing/957.%20Prison%20Cells%20After%20N%20Days/)
+
 [982. Triples with Bitwise AND Equal To Zero](Array%26Hashing/982.%20Triples%20with%20Bitwise%20AND%20Equal%20To%20Zero/README.md)
 
 ## Sliding Window
