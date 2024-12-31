@@ -2293,6 +2293,8 @@ for k, arr in MAP.items():
 
 [936. Stamping The Sequence](String/936.%20Stamping%20The%20Sequence/README.md)
 
+[966. Vowel Spellchecker](String/966.%20Vowel%20Spellchecker/)
+
 [972. Equal Rational Numbers](String/972.%20Equal%20Rational%20Numbers/README.md)
 
 ## String/Enumeration
