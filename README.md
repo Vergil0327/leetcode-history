@@ -1763,6 +1763,8 @@ for k, arr in MAP.items():
 
 [858. Mirror Reflection](Math%26Geometry/858.%20Mirror%20Reflection/README.md)
 
+[869. Reordered Power of 2](Math&Geometry/869.%20Reordered%20Power%20of%202/)
+
 [885. Spiral Matrix III](Math&Geometry/885.%20Spiral%20Matrix%20III)
 
 [891. Sum of Subsequence Widths](Math&Geometry/891.%20Sum%20of%20Subsequence%20Widths/README.md)
