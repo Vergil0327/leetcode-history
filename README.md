@@ -1355,6 +1355,8 @@ for k, arr in MAP.items():
 
 [3404. Count Special Subsequences](Array&Hashing/3404.%20Count%20Special%20Subsequences/)
 
+[3408. Design Task Manager](Array&Hashing/3408.%20Design%20Task%20Manager/)
+
 [347. Top K Frequent Elements](Array%26Hashing/347.%20Top%20K%20Frequent%20Elements/README.md)
 
 [350. Intersection of Two Arrays II](Array%26Hashing/350.%20Intersection%20of%20Two%20Arrays%20II/README.md)
