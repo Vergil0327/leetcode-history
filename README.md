@@ -3091,6 +3091,8 @@ for k, arr in MAP.items():
 
 [3389. Minimum Operations to Make Character Frequencies Equal](2-D%20Dynamic%20Programming/3389.%20Minimum%20Operations%20to%20Make%20Character%20Frequencies%20Equal/)
 
+[3409. Longest Subsequence With Decreasing Adjacent Difference](2-D%20Dynamic%20Programming/3409.%20Longest%20Subsequence%20With%20Decreasing%20Adjacent%20Difference/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
