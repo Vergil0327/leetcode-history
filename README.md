@@ -1022,6 +1022,8 @@ for k, arr in MAP.items():
 
 [3388. Count Beautiful Splits in an Array](./1-D%20Dynamic%20Programming/3388.%20Count%20Beautiful%20Splits%20in%20an%20Array/)
 
+[3410. Maximize Subarray Sum After Removing All Occurrences of One Element](1-D%20Dynamic%20Programming/3410.%20Maximize%20Subarray%20Sum%20After%20Removing%20All%20Occurrences%20of%20One%20Element/)
+
 [343. Integer Break](1-D%20Dynamic%20Programming/343.%20Integer%20Break/README.md)
 
 [368. Largest Divisible Subset](1-D%20Dynamic%20Programming/368.%20Largest%20Divisible%20Subset/README.md)
