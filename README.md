@@ -1495,6 +1495,8 @@ for k, arr in MAP.items():
 
 [3364. Minimum Positive Sum Subarray](Sliding%20Window/3364.%20Minimum%20Positive%20Sum%20Subarray%20/)
 
+[3413. Maximum Coins From K Consecutive Bags](Sliding%20Window/3413.%20Maximum%20Coins%20From%20K%20Consecutive%20Bags/)
+
 [395. Longest Substring with At Least K Repeating Characters](Sliding%20Window/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters/README.md)
 
 [424. Longest Repeating Character Replacement](Sliding%20Window/424.%20Longest%20Repeating%20Character%20Replacement/README.md)
