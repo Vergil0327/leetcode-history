@@ -2461,6 +2461,8 @@ for k, arr in MAP.items():
 
 [444. Sequence Reconstruction](Graphs/TopologicalSort/444.%20Sequence%20Reconstruction/README.md)
 
+[851. Loud and Rich](Graphs/TopologicalSort/851.%20Loud%20and%20Rich/)
+
 ## Graphs/Bipartite
 
 [1066.Campus-Bikes-II](Graphs/Bipartite/1066.Campus-Bikes-II/README.md)
