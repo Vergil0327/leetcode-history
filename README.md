@@ -452,6 +452,8 @@ for k, arr in MAP.items():
 
 [34. Find First and Last Position of Element in Sorted Array](Binary%20Search/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/README.md)
 
+[3419. Minimize the Maximum Edge Weight of Graph](Graphs/BFS/3419.%20Minimize%20the%20Maximum%20Edge%20Weight%20of%20Graph/)
+
 [35. Search Insert Position](Binary%20Search/35.%20Search%20Insert%20Position/README.md)
 
 [352. Data Stream as Disjoint Intervals](Binary%20Search/352.%20Data%20Stream%20as%20Disjoint%20Intervals/README.md)
@@ -2526,6 +2528,8 @@ for k, arr in MAP.items():
 [3311. Construct 2D Grid Matching Graph Layout](Graphs/BFS/3311.%20Construct%202D%20Grid%20Matching%20Graph%20Layout/)
 
 [3341. Find Minimum Time to Reach Last Room I](Graphs/BFS/3341.%20Find%20Minimum%20Time%20to%20Reach%20Last%20Room%20I/)
+
+[3419. Minimize the Maximum Edge Weight of Graph](./Graphs/BFS/3419.%20Minimize%20the%20Maximum%20Edge%20Weight%20of%20Graph/)
 
 [365. Water and Jug Problem](Graphs/BFS/365.%20Water%20and%20Jug%20Problem/README.md)
 
