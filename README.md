@@ -3101,6 +3101,8 @@ for k, arr in MAP.items():
 
 [3414. Maximum Score of Non-overlapping Intervals](2-D%20Dynamic%20Programming/3414.%20Maximum%20Score%20of%20Non-overlapping%20Intervals/)
 
+[3418. Maximum Amount of Money Robot Can Earn](./2-D%20Dynamic%20Programming/3418.%20Maximum%20Amount%20of%20Money%20Robot%20Can%20Earn/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
