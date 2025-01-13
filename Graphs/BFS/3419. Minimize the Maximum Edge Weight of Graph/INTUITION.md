@@ -49,3 +49,10 @@ def check(wei):
 但在我們的helper function `check`裡, 對於每個節點BFS只會訪問一次, 代表節點連接也只會用到一個邊, 其餘都用不到
 因此對於每個BFS遍歷到的節點, 我們outgoing edge都只會有一條, 而`1 <= threshold`, 所以代表不管threshold多少, 都一定能符合
 所以我們可以無視threshold這個限制
+
+# Intuition 2
+
+看到這解法整個驚醒, 其實我們只需要從節點0出發, 利用dijkstra找出所需的最小權重
+如果找到權重的同時, 所有節點都還能抵達, 那代表當前最小權重即為答案
+
+而threshold也同上述, 由於我們節點間都只需要一條邊, 所以一定能符合

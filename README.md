@@ -2593,6 +2593,8 @@ for k, arr in MAP.items():
 
 [3377. Digit Operations to Make Two Integers Equal](Graphs/Dijkstra/3377.%20Digit%20Operations%20to%20Make%20Two%20Integers%20Equal/)
 
+[3419. Minimize the Maximum Edge Weight of Graph](./Graphs/BFS/3419.%20Minimize%20the%20Maximum%20Edge%20Weight%20of%20Graph/)
+
 [407. Trapping Rain Water II](Graphs/Dijkstra/407.%20Trapping%20Rain%20Water%20II/README.md)
 
 [743. Network Delay Time](Graphs/Dijkstra/743.%20Network%20Delay%20Time/README.md)
