@@ -1501,6 +1501,8 @@ for k, arr in MAP.items():
 
 [3413. Maximum Coins From K Consecutive Bags](Sliding%20Window/3413.%20Maximum%20Coins%20From%20K%20Consecutive%20Bags/)
 
+[3420. Count Non-Decreasing Subarrays After K Operations](Sliding%20Window/3420.%20Count%20Non-Decreasing%20Subarrays%20After%20K%20Operations/)
+
 [395. Longest Substring with At Least K Repeating Characters](Sliding%20Window/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters/README.md)
 
 [424. Longest Repeating Character Replacement](Sliding%20Window/424.%20Longest%20Repeating%20Character%20Replacement/README.md)
@@ -2736,6 +2738,8 @@ for k, arr in MAP.items():
 [32. Longest Valid Parentheses](Stack/Monotone%20Stack/32.%20Longest%20Valid%20Parentheses/README.md)
 
 [321. Create Maximum Number](Stack/Monotone%20Stack/321.%20Create%20Maximum%20Number/README.md)
+
+[3420. Count Non-Decreasing Subarrays After K Operations](Sliding%20Window/3420.%20Count%20Non-Decreasing%20Subarrays%20After%20K%20Operations/)
 
 [402. Remove K Digits](Stack/Monotone%20Stack/402.%20Remove%20K%20Digits/README.md)
 
