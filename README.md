@@ -2121,6 +2121,8 @@ for k, arr in MAP.items():
 
 [324. Wiggle Sort II](Sorting/324.%20Wiggle%20Sort%20II/README.md)
 
+[3424. Minimum Cost to Make Arrays Identical](Sorting/3424.%20Minimum%20Cost%20to%20Make%20Arrays%20Identical/)
+
 [4. Median of Two Sorted Arrays](Sorting/4.%20Median%20of%20Two%20Sorted%20Arrays/README.md)
 
 [442. Find All Duplicates in an Array](Sorting/442.%20Find%20All%20Duplicates%20in%20an%20Array/README.md)
