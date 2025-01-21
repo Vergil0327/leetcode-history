@@ -184,6 +184,8 @@ for k, arr in MAP.items():
 
 [3367. Maximize Sum of Weights after Edge Removals](Trees/3367.%20Maximize%20Sum%20of%20Weights%20after%20Edge%20Removals/)
 
+[3425. Longest Special Path](Trees/3425.%20Longest%20Special%20Path/)
+
 [386. Lexicographical Numbers](Trees/386.%20Lexicographical%20Numbers/README.md)
 
 [427. Construct Quad Tree](Trees/427.%20Construct%20Quad%20Tree/README.md)
