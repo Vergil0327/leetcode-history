@@ -3119,6 +3119,8 @@ for k, arr in MAP.items():
 
 [3418. Maximum Amount of Money Robot Can Earn](./2-D%20Dynamic%20Programming/3418.%20Maximum%20Amount%20of%20Money%20Robot%20Can%20Earn/)
 
+[3429. Paint House IV](2-D%20Dynamic%20Programming/3429.%20Paint%20House%20IV/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
