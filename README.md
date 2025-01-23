@@ -2751,6 +2751,8 @@ for k, arr in MAP.items():
 
 [3420. Count Non-Decreasing Subarrays After K Operations](Sliding%20Window/3420.%20Count%20Non-Decreasing%20Subarrays%20After%20K%20Operations/)
 
+[3430. Maximum and Minimum Sums of at Most Size K Subarrays](Sliding%20Window/3420.%20Count%20Non-Decreasing%20Subarrays%20After%20K%20Operations/)
+
 [402. Remove K Digits](Stack/Monotone%20Stack/402.%20Remove%20K%20Digits/README.md)
 
 [456. 132 Pattern](Stack/Monotone%20Stack/456.%20132%20Pattern/README.md)
