@@ -890,6 +890,8 @@ for k, arr in MAP.items():
 
 [3394. Check if Grid can be Cut into Sections](Interval/3394.%20Check%20if%20Grid%20can%20be%20Cut%20into%20Sections/)
 
+[3440. Reschedule Meetings for Maximum Free Time II](Interval/3440.%20Reschedule%20Meetings%20for%20Maximum%20Free%20Time%20II/)
+
 [435. Non-overlapping Intervals](Interval/435.%20Non-overlapping%20Intervals/README.md)
 
 [452. Minimum Number of Arrows to Burst Balloons](Interval/452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons/README.md)
