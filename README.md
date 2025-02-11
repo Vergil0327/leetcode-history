@@ -3135,6 +3135,8 @@ for k, arr in MAP.items():
 
 [3429. Paint House IV](2-D%20Dynamic%20Programming/3429.%20Paint%20House%20IV/)
 
+[3441. Minimum Cost Good Caption](2-D%20Dynamic%20Programming/3441.%20Minimum%20Cost%20Good%20Caption/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
