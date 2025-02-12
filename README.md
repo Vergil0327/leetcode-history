@@ -3139,6 +3139,8 @@ for k, arr in MAP.items():
 
 [3441. Minimum Cost Good Caption](2-D%20Dynamic%20Programming/3441.%20Minimum%20Cost%20Good%20Caption/)
 
+[3448. Count Substrings Divisible By Last Digit](2-D%20Dynamic%20Programming/3448.%20Count%20Substrings%20Divisible%20By%20Last%20Digit/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
