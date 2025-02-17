@@ -458,6 +458,8 @@ for k, arr in MAP.items():
 
 [3449. Maximize the Minimum Game Score](Binary%20Search/3449.%20Maximize%20the%20Minimum%20Game%20Score/)
 
+[3453. Separate Squares I](Binary%20Search/3453.%20Separate%20Squares%20I/)
+
 [35. Search Insert Position](Binary%20Search/35.%20Search%20Insert%20Position/README.md)
 
 [352. Data Stream as Disjoint Intervals](Binary%20Search/352.%20Data%20Stream%20as%20Disjoint%20Intervals/README.md)
