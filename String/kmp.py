@@ -39,3 +39,39 @@ def kmp(s: str, target: str):
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         return kmp(haystack, needle)
+    
+
+# version 2
+
+def compute_lps(pattern):
+    lps = [0]*len(pattern)
+    j = 0
+    for i in range(1, len(pattern)):
+        while j > 0 and pattern[i] != pattern[j]:
+            j = lps[j-1]
+        if pattern[i] == pattern[j]:
+            j += 1
+            lps[i] = j
+    return lps
+
+# find all occurrences of pattern in text
+def kmp(text, pattern):
+    if not pattern: # pattern = "*"
+        return list(range(len(text)+1))
+
+    lps = compute_lps(pattern)
+    res = []
+    i = j = 0
+    while i < len(text):
+        if text[i] == pattern[j]:
+            i += 1
+            j += 1
+            if j == len(pattern):
+                res.append(i - j)
+                j = lps[j-1]
+        else:
+            if j > 0:
+                j = lps[j-1]
+            else:
+                i += 1
+    return res
