@@ -896,6 +896,8 @@ for k, arr in MAP.items():
 
 [3440. Reschedule Meetings for Maximum Free Time II](Interval/3440.%20Reschedule%20Meetings%20for%20Maximum%20Free%20Time%20II/)
 
+[3458. Select K Disjoint Special Substrings](Interval/3458.%20Select%20K%20Disjoint%20Special%20Substrings/)
+
 [435. Non-overlapping Intervals](Interval/435.%20Non-overlapping%20Intervals/README.md)
 
 [452. Minimum Number of Arrows to Burst Balloons](Interval/452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons/README.md)
