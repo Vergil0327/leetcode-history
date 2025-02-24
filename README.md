@@ -1739,6 +1739,8 @@ for k, arr in MAP.items():
 
 [3428. Maximum and Minimum Sums of at Most Size K Subsequences](Math&Geometry/3428.%20Maximum%20and%20Minimum%20Sums%20of%20at%20Most%20Size%20K%20Subsequences/)
 
+[3463. Check If Digits Are Equal in String After Operations II](Math&Geometry/3463.%20Check%20If%20Digits%20Are%20Equal%20in%20String%20After%20Operations%20II/)
+
 [357. Count Numbers with Unique Digits](Math%26Geometry/357.%20Count%20Numbers%20with%20Unique%20Digits/README.md)
 
 [365. Water and Jug Problem](Math%26Geometry/365.%20Water%20and%20Jug%20Problem/README.md)
