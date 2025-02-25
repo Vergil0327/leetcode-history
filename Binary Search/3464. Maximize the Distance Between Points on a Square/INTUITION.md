@@ -69,3 +69,75 @@ return l
     - 如果接在後面後能更新當前最大path size, 那就更新
     - 直到沒有合適的點為止, 繼續遍歷下個點
 3. 最後看存不存在一個至少k-size的path
+
+# Other Apporach
+
+大致上主要核心思想都是將矩形攤開成一維矩陣
+這邊更是將每個(x,y)點轉化成一維上的單點
+
+left軸上, 每個位置用y表示
+top軸上, 每個位置因為都接在left軸後面, 所以位置用`side+x`表示
+right軸上, 每個位置用`2*side + (side-y)`表示
+bottom軸上, 每個位置用`3*side + (side-x)`表示
+
+那這樣我們一維矩陣就有每個點的相對位置了, 後續再做**排序**
+便能得到位置先後順序正確的一維矩陣
+
+那後續一樣是利用greedy的概念, 盡可能挑出k個合適的點
+
+```py    
+class Solution:
+    def maxDistance(self, side: int, points: List[List[int]], k: int) -> int:
+        def boundary_param(x, y, side):
+            if x == 0:
+                return y
+            elif y == side:
+                return side + x
+            elif x == side:
+                return 2*side + (side - y)
+            else:
+                return 3*side + (side - x)
+
+        p = []
+        for x, y in points:
+            p.append(boundary_param(x, y, side))
+        p.sort()
+
+        n = len(p)
+        e = p + [val + 4*side for val in p]
+        def can_pick_start(i, d, next_idx):
+            count = 1
+            cur = i
+            limit = e[i] + 4*side - d
+            while count < k:
+                nxt = next_idx[cur]
+                if nxt >= i + n:
+                    return False
+                if e[nxt] > limit:
+                    return False
+                cur = nxt
+                count += 1
+            return True
+
+        def feasible(d):
+            next_idx = [0]*(2*n)
+            idx = 0
+            for j in range(2*n):
+                while idx < 2*n and e[idx] < e[j] + d:
+                    idx += 1
+                next_idx[j] = idx
+
+            for i in range(n):
+                if can_pick_start(i, d, next_idx):
+                    return True
+            return False
+
+        left, right = 0, 2*side
+        while left < right:
+            mid = (left + right + 1) // 2
+            if feasible(mid):
+                left = mid
+            else:
+                right = mid - 1
+        return left
+```
