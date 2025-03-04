@@ -3159,6 +3159,8 @@ for k, arr in MAP.items():
 
 [3448. Count Substrings Divisible By Last Digit](2-D%20Dynamic%20Programming/3448.%20Count%20Substrings%20Divisible%20By%20Last%20Digit/)
 
+[3472. Longest Palindromic Subsequence After at Most K Operations](2-D%20Dynamic%20Programming/3472.%20Longest%20Palindromic%20Subsequence%20After%20at%20Most%20K%20Operations/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
