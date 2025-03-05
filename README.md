@@ -2055,6 +2055,8 @@ for k, arr in MAP.items():
 
 [3434. Maximum Frequency After Subarray Operation](Greedy/3434.%20Maximum%20Frequency%20After%20Subarray%20Operation/)
 
+[3474. Lexicographically Smallest Generated String](Greedy/3474.%20Lexicographically%20Smallest%20Generated%20String/)
+
 [406. Queue Reconstruction by Height](Greedy/406.%20Queue%20Reconstruction%20by%20Height/README.md)
 
 [45. Jump Game II](Greedy/45.%20Jump%20Game%20II/README.md)
