@@ -1881,6 +1881,8 @@ for k, arr in MAP.items():
 
 [347. Top K Frequent Elements](Heap/347.%20Top%20K%20Frequent%20Elements/README.md)
 
+[3478. Choose K Elements With Maximum Sum](Heap/3478.%20Choose%20K%20Elements%20With%20Maximum%20Sum/)
+
 [352. Data Stream as Disjoint Intervals](Heap/352.%20Data%20Stream%20as%20Disjoint%20Intervals/README.md)
 
 [355. Design Twitter](Heap/355.%20Design%20Twitter/README.md)
