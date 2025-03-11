@@ -826,6 +826,8 @@ for k, arr in MAP.items():
 
 [360. Sort Transformed Array](Two%20Pointers/360.%20Sort%20Transformed%20Array/README.md)
 
+[3480. Maximize Subarrays After Removing One Conflicting Pair](Two%20Pointers/3480.%20Maximize%20Subarrays%20After%20Removing%20One%20Conflicting%20Pair/)
+
 [42. Trapping Rain Water](Two%20Pointers/42.%20Trapping%20Rain%20Water/README.md)
 
 [6. Zigzag Conversion](Two%20Pointers/6.%20Zigzag%20Conversion/README.md)
