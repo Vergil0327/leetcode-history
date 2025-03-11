@@ -2329,6 +2329,8 @@ for k, arr in MAP.items():
 
 [68. Text Justification](String/68.%20Text%20Justification/README.md)
 
+[722. Remove Comments](String/722.%20Remove%20Comments/)
+
 [761. Special Binary String](String/761.%20Special%20Binary%20String/README.md)
 
 [777. Swap Adjacent in LR String](String/777.%20Swap%20Adjacent%20in%20LR%20String/README.md)
