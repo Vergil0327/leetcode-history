@@ -2079,6 +2079,8 @@ for k, arr in MAP.items():
 
 [659. Split Array into Consecutive Subsequences](Greedy/659.%20Split%20Array%20into%20Consecutive%20Subsequences/README.md)
 
+[665. Non-decreasing Array](Greedy/665.%20Non-decreasing%20Array/)
+
 [678. Valid Parenthesis String](Greedy/678.%20Valid%20Parenthesis%20String/README.md)
 
 [763. Partition Labels](Greedy/763.%20Partition%20Labels/README.md)
