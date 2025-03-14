@@ -1787,6 +1787,8 @@ for k, arr in MAP.items():
 
 [60. Permutation Sequence](Math%26Geometry/60.%20Permutation%20Sequence/README.md)
 
+[667. Beautiful Arrangement II](Math&Geometry/667.%20Beautiful%20Arrangement%20II/)
+
 [73. Set Matrix Zeroes](Math%26Geometry/73.%20Set%20Matrix%20Zeroes/README.md)
 
 [780. Reaching Points](Math%26Geometry/780.%20Reaching%20Points/README.md)
