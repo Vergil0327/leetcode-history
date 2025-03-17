@@ -2221,7 +2221,9 @@ for k, arr in MAP.items():
 
 [3213. Construct String with Minimum Cost](2-D%20Dynamic%20Programming/3213.%20Construct%20String%20with%20Minimum%20Cost/README.md)
 
-[3291. Minimum Number of Valid Strings to Form Target I](./Tries/3291.%20Minimum%20Number%20of%20Valid%20Strings%20to%20Form%20Target%20I/)
+[3291. Minimum Number of Valid Strings to Form Target I](Tries/3291.%20Minimum%20Number%20of%20Valid%20Strings%20to%20Form%20Target%20I/)
+
+[3485. Longest Common Prefix of K Strings After Removal](Tries/3485.%20Longest%20Common%20Prefix%20of%20K%20Strings%20After%20Removal/)
 
 [440. K-th Smallest in Lexicographical Order](Tries/440.%20K-th%20Smallest%20in%20Lexicographical%20Order/README.md)
 
