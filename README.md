@@ -186,6 +186,8 @@ for k, arr in MAP.items():
 
 [3425. Longest Special Path](Trees/3425.%20Longest%20Special%20Path/)
 
+[3486. Longest Special Path II](Trees/3486.%20Longest%20Special%20Path%20II/)
+
 [386. Lexicographical Numbers](Trees/386.%20Lexicographical%20Numbers/README.md)
 
 [427. Construct Quad Tree](Trees/427.%20Construct%20Quad%20Tree/README.md)
