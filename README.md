@@ -3561,6 +3561,8 @@ for k, arr in MAP.items():
 
 [3445. Maximum Difference Between Even and Odd Frequency II](Sliding%20Window/3445.%20Maximum%20Difference%20Between%20Even%20and%20Odd%20Frequency%20II/)
 
+[3494. Find the Minimum Amount of Time to Brew Potions](PrefixSum/3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions/)
+
 [363. Max Sum of Rectangle No Larger Than K](PrefixSum/363.%20Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K/README.md)
 
 [523. Continuous Subarray Sum](PrefixSum/523.%20Continuous%20Subarray%20Sum/README.md)
