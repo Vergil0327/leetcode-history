@@ -1751,6 +1751,8 @@ for k, arr in MAP.items():
 
 [3470. Permutations IV](Math&Geometry/3470.%20Permutations%20IV/)
 
+[3495. Minimum Operations to Make Array Elements Zero](Math&Geometry/3495.%20Minimum%20Operations%20to%20Make%20Array%20Elements%20Zero/)
+
 [357. Count Numbers with Unique Digits](Math%26Geometry/357.%20Count%20Numbers%20with%20Unique%20Digits/README.md)
 
 [365. Water and Jug Problem](Math%26Geometry/365.%20Water%20and%20Jug%20Problem/README.md)
