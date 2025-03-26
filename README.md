@@ -1401,6 +1401,8 @@ for k, arr in MAP.items():
 
 [457. Circular Array Loop](Array%26Hashing/457.%20Circular%20Array%20Loop/README.md)
 
+[622. Design Circular Queue](Array&Hashing/622.%20Design%20Circular%20Queue/)
+
 [645. Set Mismatch](Array%26Hashing/645.%20Set%20Mismatch/README.md)
 
 [710. Random Pick with Blacklist](Array%26Hashing/710.%20Random%20Pick%20with%20Blacklist/README.md)
