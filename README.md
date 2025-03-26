@@ -2735,6 +2735,8 @@ for k, arr in MAP.items():
 
 [591. Tag Validator](Stack/591.%20Tag%20Validator/README.md)
 
+[636. Exclusive Time of Functions](Stack/636.%20Exclusive%20Time%20of%20Functions/)
+
 [71. Simplify Path](Stack/71.%20Simplify%20Path/README.md)
 
 [716. Max Stack](Stack/716.%20Max%20Stack/README.md)
