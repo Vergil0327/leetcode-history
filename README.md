@@ -1793,6 +1793,8 @@ for k, arr in MAP.items():
 
 [592. Fraction Addition and Subtraction](Math&Geometry/592.%20Fraction%20Addition%20and%20Subtraction/)
 
+[593. Valid Square](Math&Geometry/593.%20Valid%20Square/)
+
 [60. Permutation Sequence](Math%26Geometry/60.%20Permutation%20Sequence/README.md)
 
 [667. Beautiful Arrangement II](Math&Geometry/667.%20Beautiful%20Arrangement%20II/)
