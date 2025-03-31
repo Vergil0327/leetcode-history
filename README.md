@@ -2139,6 +2139,8 @@ for k, arr in MAP.items():
 
 [3454. Separate Squares II](Segment%20Tree/3454.%20Separate%20Squares%20II/)
 
+[3501. Maximize Active Section with Trade II](Segment%20Tree/3501.%20Maximize%20Active%20Section%20with%20Trade%20II/)
+
 [699. Falling Squares](Interval/699.%20Falling%20Squares/README.md)
 
 ## Sorting
