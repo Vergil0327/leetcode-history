@@ -1048,6 +1048,8 @@ for k, arr in MAP.items():
 
 [343. Integer Break](1-D%20Dynamic%20Programming/343.%20Integer%20Break/README.md)
 
+[3500. Minimum Cost to Divide Array Into Subarrays](1-D%20Dynamic%20Programming/3500.%20Minimum%20Cost%20to%20Divide%20Array%20Into%20Subarrays/)
+
 [368. Largest Divisible Subset](1-D%20Dynamic%20Programming/368.%20Largest%20Divisible%20Subset/README.md)
 
 [376. Wiggle Subsequence](1-D%20Dynamic%20Programming/376.%20Wiggle%20Subsequence/README.md)
