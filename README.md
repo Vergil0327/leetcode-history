@@ -3193,6 +3193,8 @@ for k, arr in MAP.items():
 
 [3489. Zero Array Transformation IV](2-D%20Dynamic%20Programming/3489.%20Zero%20Array%20Transformation%20IV/)
 
+[3504. Longest Palindrome After Substring Concatenation II](2-D%20Dynamic%20Programming/3504.%20Longest%20Palindrome%20After%20Substring%20Concatenation%20II/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
