@@ -3195,6 +3195,8 @@ for k, arr in MAP.items():
 
 [3504. Longest Palindrome After Substring Concatenation II](2-D%20Dynamic%20Programming/3504.%20Longest%20Palindrome%20After%20Substring%20Concatenation%20II/)
 
+[3505. Minimum Operations to Make Elements Within K Subarrays Equal](2-D%20Dynamic%20Programming/3505.%20Minimum%20Operations%20to%20Make%20Elements%20Within%20K%20Subarrays%20Equal/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
