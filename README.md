@@ -3197,6 +3197,8 @@ for k, arr in MAP.items():
 
 [3505. Minimum Operations to Make Elements Within K Subarrays Equal](2-D%20Dynamic%20Programming/3505.%20Minimum%20Operations%20to%20Make%20Elements%20Within%20K%20Subarrays%20Equal/)
 
+[3509. Maximum Product of Subsequences With an Alternating Sum Equal to K](2-D%20Dynamic%20Programming/3509.%20Maximum%20Product%20of%20Subsequences%20With%20an%20Alternating%20Sum%20Equal%20to%20K/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
