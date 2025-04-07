@@ -1389,6 +1389,8 @@ for k, arr in MAP.items():
 
 [350. Intersection of Two Arrays II](Array%26Hashing/350.%20Intersection%20of%20Two%20Arrays%20II/README.md)
 
+[3510. Minimum Pair Removal to Sort Array II](Array&Hashing/3510.%20Minimum%20Pair%20Removal%20to%20Sort%20Array%20II/)
+
 [36. Valid Sudoku](Array%26Hashing/36.%20Valid%20Sudoku/README.md)
 
 [380. Insert Delete GetRandom O(1)](Array%26Hashing/380.%20Insert%20Delete%20GetRandom%20O%281%29/README.md)
@@ -3704,6 +3706,8 @@ for k, arr in MAP.items():
 [327. Count of Range Sum](Binary%20Search/SortedList/327.%20Count%20of%20Range%20Sum/README.md)
 
 [3362. Zero Array Transformation III](Sorted%20Container/SortedList/3362.%20Zero%20Array%20Transformation%20III/)
+
+[3510. Minimum Pair Removal to Sort Array II](Array&Hashing/3510.%20Minimum%20Pair%20Removal%20to%20Sort%20Array%20II/)
 
 [363. Max Sum of Rectangle No Larger Than K](PrefixSum/363.%20Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K/README.md)
 
