@@ -626,6 +626,8 @@ for k, arr in MAP.items():
 
 [3315. Construct the Minimum Bitwise Array II](Bit%20Manipulation/3315.%20Construct%20the%20Minimum%20Bitwise%20Array%20II)
 
+[3513. Number of Unique XOR Triplets I](Bit%20Manipulation/3513.%20Number%20of%20Unique%20XOR%20Triplets%20I/)
+
 [371. Sum of Two Integers](Bit%20Manipulation/371.%20Sum%20of%20Two%20Integers/README.md)
 
 [393. UTF-8 Validation](Bit%20Manipulation/393.%20UTF-8%20Validation/README.md)
