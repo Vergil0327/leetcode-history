@@ -3661,6 +3661,8 @@ for k, arr in MAP.items():
 
 [1488. Avoid Flood in The City](Array%26Hashing/1488.%20Avoid%20Flood%20in%20The%20City/README.md)
 
+[1534. Count Good Triplets](Sorted%20Container/SortedList/1534.%20Count%20Good%20Triplets/)
+
 [1606. Find Servers That Handled Most Number of Requests](Heap/1606.%20Find%20Servers%20That%20Handled%20Most%20Number%20of%20Requests/README.md)
 
 [1825. Finding MK Average](Sorted%20Container/SortedList/1825.%20Finding%20MK%20Average/README.md)
