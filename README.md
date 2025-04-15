@@ -2343,6 +2343,8 @@ for k, arr in MAP.items():
 
 [336. Palindrome Pairs](String/336.%20Palindrome%20Pairs/README.md)
 
+[3518. Smallest Palindromic Rearrangement II](String/3518.%20Smallest%20Palindromic%20Rearrangement%20II/)
+
 [38. Count and Say](String/38.%20Count%20and%20Say/README.md)
 
 [420. Strong Password Checker](String/420.%20Strong%20Password%20Checker/README.md)
