@@ -3303,6 +3303,8 @@ for k, arr in MAP.items():
 
 [3490. Count Beautiful Numbers](2-D%20Dynamic%20Programming/DigitDP/3490.%20Count%20Beautiful%20Numbers/)
 
+[3519. Count Numbers with Non-Decreasing Digits](2-D%20Dynamic%20Programming/DigitDP/3519.%20Count%20Numbers%20with%20Non-Decreasing%20Digits/)
+
 [788. Rotated Digits](./2-D%20Dynamic%20Programming/DigitDP/788.%20Rotated%20Digits)
 
 ## 2-D Dynamic Programming/Knapsack
