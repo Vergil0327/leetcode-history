@@ -628,6 +628,8 @@ for k, arr in MAP.items():
 
 [3513. Number of Unique XOR Triplets I](Bit%20Manipulation/3513.%20Number%20of%20Unique%20XOR%20Triplets%20I/)
 
+[3514. Number of Unique XOR Triplets II](Bit%20Manipulation/3514.%20Number%20of%20Unique%20XOR%20Triplets%20II/)
+
 [371. Sum of Two Integers](Bit%20Manipulation/371.%20Sum%20of%20Two%20Integers/README.md)
 
 [393. UTF-8 Validation](Bit%20Manipulation/393.%20UTF-8%20Validation/README.md)
