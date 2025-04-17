@@ -2617,6 +2617,8 @@ for k, arr in MAP.items():
 
 [490. The Maze](Graphs/BFS/490.%20The%20Maze/README.md)
 
+[529. Minesweeper](Graphs/BFS/529.%20Minesweeper/)
+
 [542. 01 Matrix](Graphs/BFS/542.%2001%20Matrix/README.md)
 
 [675. Cut Off Trees for Golf Event](Graphs/BFS/675.%20Cut%20Off%20Trees%20for%20Golf%20Event/README.md)
