@@ -3211,6 +3211,8 @@ for k, arr in MAP.items():
 
 [3509. Maximum Product of Subsequences With an Alternating Sum Equal to K](2-D%20Dynamic%20Programming/3509.%20Maximum%20Product%20of%20Subsequences%20With%20an%20Alternating%20Sum%20Equal%20to%20K/)
 
+[3524. Find X Value of Array I](2-D%20Dynamic%20Programming/3524.%20Find%20X%20Value%20of%20Array%20I/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
