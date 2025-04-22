@@ -2355,6 +2355,8 @@ for k, arr in MAP.items():
 
 [466. Count The Repetitions](String/466.%20Count%20The%20Repetitions/README.md)
 
+[522. Longest Uncommon Subsequence II](String/522.%20Longest%20Uncommon%20Subsequence%20II/)
+
 [564. Find the Closest Palindrome](String/564.%20Find%20the%20Closest%20Palindrome/README.md)
 
 [65. Valid Number](String/65.%20Valid%20Number/README.md)
