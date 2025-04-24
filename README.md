@@ -660,6 +660,8 @@ for k, arr in MAP.items():
 
 [2935. Maximum Strong Pair XOR II](Bit%20Manipulation/Trie/2935.%20Maximum%20Strong%20Pair%20XOR%20II/README.md)
 
+[421. Maximum XOR of Two Numbers in an Array](Bit%20Manipulation/Trie/421.%20Maximum%20XOR%20of%20Two%20Numbers%20in%20an%20Array/)
+
 ## UnionFind
 
 [1061. Lexicographically Smallest Equivalent String](UnionFind/1061.%20Lexicographically%20Smallest%20Equivalent%20String/README.md)
