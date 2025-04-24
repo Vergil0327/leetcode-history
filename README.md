@@ -1499,6 +1499,8 @@ for k, arr in MAP.items():
 
 [2781. Length of the Longest Valid Substring](Sliding%20Window/2781.%20Length%20of%20the%20Longest%20Valid%20Substring/README.md)
 
+[2799. Count Complete Subarrays in an Array](Sliding%20Window/2799.%20Count%20Complete%20Subarrays%20in%20an%20Array/)
+
 [2831. Find the Longest Equal Subarray](Sliding%20Window/2831.%20Find%20the%20Longest%20Equal%20Subarray/README.md)
 
 [2841. Maximum Sum of Almost Unique Subarray](Sliding%20Window/2841.%20Maximum%20Sum%20of%20Almost%20Unique%20Subarray/README.md)
