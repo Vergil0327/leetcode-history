@@ -3481,6 +3481,8 @@ for k, arr in MAP.items():
 
 [3444. Minimum Increments for Target Multiples in an Array](2-D%20Dynamic%20Programming/Bitmask/3444.%20Minimum%20Increments%20for%20Target%20Multiples%20in%20an%20Array/)
 
+[3533. Concatenated Divisibility](2-D%20Dynamic%20Programming/Bitmask/3533.%20Concatenated%20Divisibility/)
+
 [691. Stickers to Spell Word](2-D%20Dynamic%20Programming/Bitmask/691.%20Stickers%20to%20Spell%20Word/README.md)
 
 [996. Number of Squareful Arrays](2-D%20Dynamic%20Programming/Bitmask/996.%20Number%20of%20Squareful%20Arrays/README.md)
