@@ -34,6 +34,26 @@ def kmp(s: str, target: str):
             return i-len(target)+1
     return -1
 
+# return all the valid index of target in s
+def kmpAll(s: str, target: str):
+    n = len(s)
+
+    # preprocess
+    # longest prefix suffix
+    lps = preprocess(target)
+
+    # find target word in s
+    res = []
+    j = 0
+    for i in range(n):
+        while j > 0 and s[i] != target[j]:
+            j = lps[j-1]
+        j = j+int(s[i] == target[j])
+        if j == len(target):
+            j = lps[j-1]
+            res.append(i-len(target)+1)
+    return res
+
 # ex. leetcode 28.
 
 class Solution:

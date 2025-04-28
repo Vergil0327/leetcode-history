@@ -2279,6 +2279,8 @@ for k, arr in MAP.items():
 
 [3388. Count Beautiful Splits in an Array](1-D%20Dynamic%20Programming/3388.%20Count%20Beautiful%20Splits%20in%20an%20Array/)
 
+[3529. Count Cells in Overlapping Horizontal and Vertical Substrings](String/KMP/3529.%20Count%20Cells%20in%20Overlapping%20Horizontal%20and%20Vertical%20Substrings/)
+
 ## String/RollingHash
 
 [1044. Longest Duplicate Substring](String/RollingHash/1044.%20Longest%20Duplicate%20Substring/README.md)
