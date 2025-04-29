@@ -2489,6 +2489,8 @@ for k, arr in MAP.items():
 
 [3459. Length of Longest V-Shaped Diagonal Segment](Graphs/3459.%20Length%20of%20Longest%20V-Shaped%20Diagonal%20Segment/)
 
+[3534. Path Existence Queries in a Graph II](Graphs/3534.%20Path%20Existence%20Queries%20in%20a%20Graph%20II/)
+
 [417. Pacific Atlantic Water Flow](Graphs/417.%20Pacific%20Atlantic%20Water%20Flow/README.md)
 
 [547. Number of Provinces](Graphs/547.%20Number%20of%20Provinces/README.md)
