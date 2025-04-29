@@ -3481,6 +3481,8 @@ for k, arr in MAP.items():
 
 [3444. Minimum Increments for Target Multiples in an Array](2-D%20Dynamic%20Programming/Bitmask/3444.%20Minimum%20Increments%20for%20Target%20Multiples%20in%20an%20Array/)
 
+[3530. Maximum Profit from Valid Topological Order in DAG](2-D%20Dynamic%20Programming/Bitmask/3530.%20Maximum%20Profit%20from%20Valid%20Topological%20Order%20in%20DAG/)
+
 [3533. Concatenated Divisibility](2-D%20Dynamic%20Programming/Bitmask/3533.%20Concatenated%20Divisibility/)
 
 [691. Stickers to Spell Word](2-D%20Dynamic%20Programming/Bitmask/691.%20Stickers%20to%20Spell%20Word/README.md)
