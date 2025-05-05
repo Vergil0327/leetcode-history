@@ -3227,6 +3227,8 @@ for k, arr in MAP.items():
 
 [3524. Find X Value of Array I](2-D%20Dynamic%20Programming/3524.%20Find%20X%20Value%20of%20Array%20I/)
 
+[3538. Merge Operations for Minimum Travel Time](2-D%20Dynamic%20Programming/3538.%20Merge%20Operations%20for%20Minimum%20Travel%20Time/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
