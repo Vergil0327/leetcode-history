@@ -3495,6 +3495,8 @@ for k, arr in MAP.items():
 
 [3533. Concatenated Divisibility](2-D%20Dynamic%20Programming/Bitmask/3533.%20Concatenated%20Divisibility/)
 
+[464. Can I Win](2-D%20Dynamic%20Programming/Bitmask/464.%20Can%20I%20Win/)
+
 [691. Stickers to Spell Word](2-D%20Dynamic%20Programming/Bitmask/691.%20Stickers%20to%20Spell%20Word/README.md)
 
 [996. Number of Squareful Arrays](2-D%20Dynamic%20Programming/Bitmask/996.%20Number%20of%20Squareful%20Arrays/README.md)
