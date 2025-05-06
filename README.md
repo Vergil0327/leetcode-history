@@ -3229,6 +3229,8 @@ for k, arr in MAP.items():
 
 [3538. Merge Operations for Minimum Travel Time](2-D%20Dynamic%20Programming/3538.%20Merge%20Operations%20for%20Minimum%20Travel%20Time/)
 
+[3539. Find Sum of Array Product of Magical Sequences](2-D%20Dynamic%20Programming/3539.%20Find%20Sum%20of%20Array%20Product%20of%20Magical%20Sequences/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
