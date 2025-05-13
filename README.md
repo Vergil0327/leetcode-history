@@ -190,6 +190,8 @@ for k, arr in MAP.items():
 
 [3515. Shortest Path in a Weighted Tree](Trees/3515.%20Shortest%20Path%20in%20a%20Weighted%20Tree/)
 
+[3544. Subtree Inversion Sum](Trees/3544.%20Subtree%20Inversion%20Sum/)
+
 [386. Lexicographical Numbers](Trees/386.%20Lexicographical%20Numbers/README.md)
 
 [427. Construct Quad Tree](Trees/427.%20Construct%20Quad%20Tree/README.md)
@@ -3238,6 +3240,8 @@ for k, arr in MAP.items():
 [3539. Find Sum of Array Product of Magical Sequences](2-D%20Dynamic%20Programming/3539.%20Find%20Sum%20of%20Array%20Product%20of%20Magical%20Sequences/)
 
 [3543. Maximum Weighted K-Edge Path](2-D%20Dynamic%20Programming/3543.%20Maximum%20Weighted%20K-Edge%20Path/)
+
+[3544. Subtree Inversion Sum](Trees/3544.%20Subtree%20Inversion%20Sum/)
 
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
