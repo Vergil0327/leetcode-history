@@ -264,6 +264,8 @@ for k, arr in MAP.items():
 
 [2509. Cycle Length Queries in a Tree](Trees/LCA/2509.%20Cycle%20Length%20Queries%20in%20a%20Tree/README.md)
 
+[3553. Minimum Weighted Subgraph With the Required Paths II](Trees/LCA/3553.%20Minimum%20Weighted%20Subgraph%20With%20the%20Required%20Paths%20II/)
+
 ## Trees/SegmentTree
 
 [307. Range Sum Query - Mutable](Trees/SegmentTree/307.%20Range%20Sum%20Query%20-%20Mutable/README.md)
@@ -3542,6 +3544,8 @@ for k, arr in MAP.items():
 [2836. Maximize Value of Function in a Ball Passing Game](2-D%20Dynamic%20Programming/BinaryLifting/2836.%20Maximize%20Value%20of%20Function%20in%20a%20Ball%20Passing%20Game/README.md)
 
 [2846. Minimum Edge Weight Equilibrium Queries in a Tree](2-D%20Dynamic%20Programming/BinaryLifting/2846.%20Minimum%20Edge%20Weight%20Equilibrium%20Queries%20in%20a%20Tree/README.md)
+
+[3553. Minimum Weighted Subgraph With the Required Paths II](Trees/LCA/3553.%20Minimum%20Weighted%20Subgraph%20With%20the%20Required%20Paths%20II/)
 
 ## PrefixSum
 
