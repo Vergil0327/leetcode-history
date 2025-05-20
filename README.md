@@ -3229,6 +3229,8 @@ for k, arr in MAP.items():
 
 [3472. Longest Palindromic Subsequence After at Most K Operations](2-D%20Dynamic%20Programming/3472.%20Longest%20Palindromic%20Subsequence%20After%20at%20Most%20K%20Operations/)
 
+[3473. Sum of K Subarrays With Length at Least M](2-D%20Dynamic%20Programming/3473.%20Sum%20of%20K%20Subarrays%20With%20Length%20at%20Least%20M/)
+
 [3489. Zero Array Transformation IV](2-D%20Dynamic%20Programming/3489.%20Zero%20Array%20Transformation%20IV/)
 
 [3504. Longest Palindrome After Substring Concatenation II](2-D%20Dynamic%20Programming/3504.%20Longest%20Palindrome%20After%20Substring%20Concatenation%20II/)
