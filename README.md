@@ -3249,6 +3249,8 @@ for k, arr in MAP.items():
 
 [3544. Subtree Inversion Sum](Trees/3544.%20Subtree%20Inversion%20Sum/)
 
+[3558. Number of Ways to Assign Edge Weights I](2-D%20Dynamic%20Programming/3558.%20Number%20of%20Ways%20to%20Assign%20Edge%20Weights%20I/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
