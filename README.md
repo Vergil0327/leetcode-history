@@ -3257,6 +3257,8 @@ for k, arr in MAP.items():
 
 [3562. Maximum Profit from Trading Stocks with Discounts](2-D%20Dynamic%20Programming/3562.%20Maximum%20Profit%20from%20Trading%20Stocks%20with%20Discounts/)
 
+[3563. Lexicographically Smallest String After Adjacent Removals](2-D%20Dynamic%20Programming/3563.%20Lexicographically%20Smallest%20String%20After%20Adjacent%20Removals/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
