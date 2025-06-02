@@ -2637,6 +2637,8 @@ for k, arr in MAP.items():
 
 [3419. Minimize the Maximum Edge Weight of Graph](./Graphs/BFS/3419.%20Minimize%20the%20Maximum%20Edge%20Weight%20of%20Graph/)
 
+[3568. Minimum Moves to Clean the Classroom](Graphs/BFS/3568.%20Minimum%20Moves%20to%20Clean%20the%20Classroom/)
+
 [365. Water and Jug Problem](Graphs/BFS/365.%20Water%20and%20Jug%20Problem/README.md)
 
 [399. Evaluate Division](Graphs/BFS/399.%20Evaluate%20Division/README.md)
