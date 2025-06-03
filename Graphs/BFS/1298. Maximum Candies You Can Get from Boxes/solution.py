@@ -4,21 +4,19 @@ class Solution:
 
         res = 0
         while queue:
-            locked = set()
+            renew = False
             for _ in range(len(queue)):
-                box = queue.popleft()
-                if status[box] == 0:
-                    queue.append(box)
-                    locked.add(box)
-                    continue
+                box_id = queue.popleft()
+                if status[box_id]:
+                    renew = True
+                    res += candies[box_id]
+                    for key in keys[box_id]:
+                        status[key] = 1
 
-                res += candies[box]
-                for key in keys[box]:
-                    status[key] = 1
-                    locked.discard(key)
-
-                for newBox in containedBoxes[box]:
-                    queue.append(newBox)
-            if len(locked) == len(queue): break
-
+                    for new_box in containedBoxes[box_id]:
+                        queue.append(new_box)
+                else:
+                    queue.append(box_id)
+            if not renew:
+                break
         return res
