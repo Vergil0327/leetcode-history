@@ -3265,6 +3265,8 @@ for k, arr in MAP.items():
 
 [3563. Lexicographically Smallest String After Adjacent Removals](2-D%20Dynamic%20Programming/3563.%20Lexicographically%20Smallest%20String%20After%20Adjacent%20Removals/)
 
+[3573. Best Time to Buy and Sell Stock V](2-D%20Dynamic%20Programming/3573.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20V/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
