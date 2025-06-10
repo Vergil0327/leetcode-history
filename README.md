@@ -194,6 +194,8 @@ for k, arr in MAP.items():
 
 [3562. Maximum Profit from Trading Stocks with Discounts](2-D%20Dynamic%20Programming/3562.%20Maximum%20Profit%20from%20Trading%20Stocks%20with%20Discounts/)
 
+[3575. Maximum Good Subtree Score](Trees/3575.%20Maximum%20Good%20Subtree%20Score/)
+
 [386. Lexicographical Numbers](Trees/386.%20Lexicographical%20Numbers/README.md)
 
 [427. Construct Quad Tree](Trees/427.%20Construct%20Quad%20Tree/README.md)
@@ -3528,6 +3530,8 @@ for k, arr in MAP.items():
 [3530. Maximum Profit from Valid Topological Order in DAG](2-D%20Dynamic%20Programming/Bitmask/3530.%20Maximum%20Profit%20from%20Valid%20Topological%20Order%20in%20DAG/)
 
 [3533. Concatenated Divisibility](2-D%20Dynamic%20Programming/Bitmask/3533.%20Concatenated%20Divisibility/)
+
+[3575. Maximum Good Subtree Score](Trees/3575.%20Maximum%20Good%20Subtree%20Score/)
 
 [464. Can I Win](2-D%20Dynamic%20Programming/Bitmask/464.%20Can%20I%20Win/)
 
