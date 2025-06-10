@@ -1070,6 +1070,8 @@ for k, arr in MAP.items():
 
 [3578. Count Partitions With Max-Min Difference at Most K](1-D%20Dynamic%20Programming/3578.%20Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K/)
 
+[3579. Minimum Steps to Convert String with Operations](1-D%20Dynamic%20Programming/3579.%20Minimum%20Steps%20to%20Convert%20String%20with%20Operations/)
+
 [368. Largest Divisible Subset](1-D%20Dynamic%20Programming/368.%20Largest%20Divisible%20Subset/README.md)
 
 [376. Wiggle Subsequence](1-D%20Dynamic%20Programming/376.%20Wiggle%20Subsequence/README.md)
