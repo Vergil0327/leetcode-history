@@ -1793,6 +1793,8 @@ for k, arr in MAP.items():
 
 [357. Count Numbers with Unique Digits](Math%26Geometry/357.%20Count%20Numbers%20with%20Unique%20Digits/README.md)
 
+[3574. Maximize Subarray GCD Score](Math&Geometry/3574.%20Maximize%20Subarray%20GCD%20Score/)
+
 [365. Water and Jug Problem](Math%26Geometry/365.%20Water%20and%20Jug%20Problem/README.md)
 
 [372. Super Pow](Math%26Geometry/372.%20Super%20Pow/README.md)
