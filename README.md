@@ -1419,6 +1419,8 @@ for k, arr in MAP.items():
 
 [3583. Count Special Triplets](Array&Hashing/3583.%20Count%20Special%20Triplets/)
 
+[3584. Maximum Product of First and Last Elements of a Subsequence](Array&Hashing/3584.%20Maximum%20Product%20of%20First%20and%20Last%20Elements%20of%20a%20Subsequence/)
+
 [36. Valid Sudoku](Array%26Hashing/36.%20Valid%20Sudoku/README.md)
 
 [380. Insert Delete GetRandom O(1)](Array%26Hashing/380.%20Insert%20Delete%20GetRandom%20O%281%29/README.md)
