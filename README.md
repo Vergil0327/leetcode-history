@@ -272,6 +272,8 @@ for k, arr in MAP.items():
 
 [3559. Number of Ways to Assign Edge Weights II](Trees/LCA/3559.%20Number%20of%20Ways%20to%20Assign%20Edge%20Weights%20II)
 
+[3585. Find Weighted Median Node in Tree](Trees/LCA/3585.%20Find%20Weighted%20Median%20Node%20in%20Tree/)
+
 ## Trees/SegmentTree
 
 [307. Range Sum Query - Mutable](Trees/SegmentTree/307.%20Range%20Sum%20Query%20-%20Mutable/README.md)
