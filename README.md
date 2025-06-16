@@ -1417,6 +1417,8 @@ for k, arr in MAP.items():
 
 [3510. Minimum Pair Removal to Sort Array II](Array&Hashing/3510.%20Minimum%20Pair%20Removal%20to%20Sort%20Array%20II/)
 
+[3583. Count Special Triplets](Array&Hashing/3583.%20Count%20Special%20Triplets/)
+
 [36. Valid Sudoku](Array%26Hashing/36.%20Valid%20Sudoku/README.md)
 
 [380. Insert Delete GetRandom O(1)](Array%26Hashing/380.%20Insert%20Delete%20GetRandom%20O%281%29/README.md)
