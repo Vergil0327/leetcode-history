@@ -2,47 +2,44 @@ package main
 
 import (
 	"strings"
-	"unicode"
 )
 
-// two types
-// k[k[k[]]]
-// k[k[]k[]k[]]
-
-// explanation: https://www.youtube.com/watch?v=qB0zZpBJlh8
 func decodeString(s string) string {
-	stack := []string{}
-	for _, ch := range s {
-		if ch != ']' {
-			stack = append(stack, string(ch))
+	var stack []string
+	var numStack []int
+	var currStr strings.Builder
+	n := 0
+
+	for i := 0; i < len(s); i++ {
+		ch := s[i]
+
+		if ch >= '0' && ch <= '9' {
+			// Build multi-digit number efficiently
+			n = n*10 + int(ch-'0')
+		} else if ch == '[' {
+			// Push current state to stacks
+			stack = append(stack, currStr.String())
+			numStack = append(numStack, n)
+			currStr.Reset()
+			n = 0
+		} else if ch == ']' {
+			// Pop and decode
+			prevStr := stack[len(stack)-1]
+			stack = stack[:len(stack)-1]
+
+			repeatCount := numStack[len(numStack)-1]
+			numStack = numStack[:len(numStack)-1]
+
+			// Use strings.Repeat for efficiency
+			repeated := strings.Repeat(currStr.String(), repeatCount)
+			currStr.Reset()
+			currStr.WriteString(prevStr)
+			currStr.WriteString(repeated)
 		} else {
-			substr := ""
-			for len(stack) > 0 && stack[len(stack)-1] != "[" {
-				// pop character from stack
-				str := stack[len(stack)-1]
-				stack = stack[:len(stack)-1]
-				substr = str + substr
-			}
-			stack = stack[:len(stack)-1] // pop '['
-
-			n := 0
-			multiply := 1
-			// pop digit from stack
-			for len(stack) > 0 && unicode.IsDigit([]rune(stack[len(stack)-1])[0]) {
-				c := []rune(stack[len(stack)-1])[0]
-				n += multiply * int(c-'0')
-				multiply *= 10
-
-				stack = stack[:len(stack)-1]
-			}
-
-			// decode string
-			for n > 0 {
-				stack = append(stack, substr)
-				n -= 1
-			}
+			// Regular character
+			currStr.WriteByte(ch)
 		}
 	}
 
-	return strings.Join(stack, "")
+	return currStr.String()
 }
