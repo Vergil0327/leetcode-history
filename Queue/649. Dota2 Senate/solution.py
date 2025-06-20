@@ -1,3 +1,5 @@
+from collections import deque
+
 class Solution:
     def predictPartyVictory(self, senate: str) -> str:
         # round-based procedure
@@ -26,3 +28,26 @@ class Solution:
                 return "Radiant" if "R" in exists else "Dire"
             cur, nxt = nxt, deque()
             exists = {}
+
+class Solution:
+    def predictPartyVictory(self, senate: str) -> str:
+        R = deque()
+        D = deque()
+        n = len(senate)
+
+        for i in range(n):
+            if senate[i] == 'R':
+                R.append(i)
+            else:
+                D.append(i)
+
+        while R and D:
+            r_idx = R.popleft()
+            d_idx = D.popleft()
+
+            if r_idx < d_idx:
+                R.append(r_idx + n)
+            else:
+                D.append(d_idx + n)
+
+        return "Radiant" if R else "Dire"
