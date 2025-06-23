@@ -1569,6 +1569,8 @@ for k, arr in MAP.items():
 
 [3445. Maximum Difference Between Even and Odd Frequency II](Sliding%20Window/3445.%20Maximum%20Difference%20Between%20Even%20and%20Odd%20Frequency%20II/)
 
+[3589. Count Prime-Gap Balanced Subarrays](Sliding%20Window/3589.%20Count%20Prime-Gap%20Balanced%20Subarrays/)
+
 [395. Longest Substring with At Least K Repeating Characters](Sliding%20Window/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters/README.md)
 
 [424. Longest Repeating Character Replacement](Sliding%20Window/424.%20Longest%20Repeating%20Character%20Replacement/README.md)
