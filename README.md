@@ -1801,6 +1801,8 @@ for k, arr in MAP.items():
 
 [3574. Maximize Subarray GCD Score](Math&Geometry/3574.%20Maximize%20Subarray%20GCD%20Score/)
 
+[3588. Find Maximum Area of a Triangle](Math&Geometry/3588.%20Find%20Maximum%20Area%20of%20a%20Triangle/)
+
 [365. Water and Jug Problem](Math%26Geometry/365.%20Water%20and%20Jug%20Problem/README.md)
 
 [372. Super Pow](Math%26Geometry/372.%20Super%20Pow/README.md)
