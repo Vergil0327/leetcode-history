@@ -3832,3 +3832,5 @@ for k, arr in MAP.items():
 ## Sorted Container/SortedSet
 
 [352. Data Stream as Disjoint Intervals](Binary%20Search/352.%20Data%20Stream%20as%20Disjoint%20Intervals/README.md)
+
+[3590. Kth Smallest Path XOR Sum](Sorted%20Container/SortedSet/3590.%20Kth%20Smallest%20Path%20XOR%20Sum/)
