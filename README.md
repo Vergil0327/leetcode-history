@@ -1076,6 +1076,8 @@ for k, arr in MAP.items():
 
 [3579. Minimum Steps to Convert String with Operations](1-D%20Dynamic%20Programming/3579.%20Minimum%20Steps%20to%20Convert%20String%20with%20Operations/)
 
+[3592. Inverse Coin Change](1-D%20Dynamic%20Programming/3592.%20Inverse%20Coin%20Change/)
+
 [368. Largest Divisible Subset](1-D%20Dynamic%20Programming/368.%20Largest%20Divisible%20Subset/README.md)
 
 [376. Wiggle Subsequence](1-D%20Dynamic%20Programming/376.%20Wiggle%20Subsequence/README.md)
