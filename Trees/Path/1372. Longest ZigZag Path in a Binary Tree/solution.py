@@ -9,16 +9,18 @@ class Solution:
         LEFT, RIGHT = 0, 1
         self.res = 0
         def dfs(root, direct):
-            if not root: return 0, direct
+            if not root: return 0
 
-            left, d1 = dfs(root.left, LEFT)
-            right, d2 = dfs(root.right, RIGHT)
+            left = dfs(root.left, LEFT)
+            right = dfs(root.right, RIGHT)
             self.res = max(self.res, left, right)
             
             if direct == LEFT:
-                return 1+right, direct
+                return 1+right
+            elif direct == RIGHT:
+                return 1+left
             else:
-                return 1+left, direct
+                return max(left+1, right+1)
 
         dfs(root, -1)
         return self.res
