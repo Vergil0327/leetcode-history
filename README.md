@@ -1155,6 +1155,8 @@ for k, arr in MAP.items():
 
 [2565. Subsequence With the Minimum Score](1-D%20Dynamic%20Programming/3Pass/2565.%20Subsequence%20With%20the%20Minimum%20Score/README.md)
 
+[3598. Longest Common Prefix Between Adjacent Strings After Removals](1-D%20Dynamic%20Programming/3Pass/3598.%20Longest%20Common%20Prefix%20Between%20Adjacent%20Strings%20After%20Removals/)
+
 [689. Maximum Sum of 3 Non-Overlapping Subarrays](1-D%20Dynamic%20Programming/3Pass/689.%20Maximum%20Sum%20of%203%20Non-Overlapping%20Subarrays/README.md)
 
 ## Backtracking
