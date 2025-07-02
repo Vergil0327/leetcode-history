@@ -2759,6 +2759,8 @@ for k, arr in MAP.items():
 
 [261. Graph Valid Tree](Graphs/Minimum%20Spanning%20Tree/261.%20Graph%20Valid%20Tree/README.md)
 
+[3600. Maximize Spanning Tree Stability with Upgrades](Graphs/Minimum%20Spanning%20Tree/3600.%20Maximize%20Spanning%20Tree%20Stability%20with%20Upgrades/)
+
 ## Stack
 
 [1096. Brace Expansion II](Stack/1096.%20Brace%20Expansion%20II/README.md)
