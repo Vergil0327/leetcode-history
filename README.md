@@ -488,6 +488,8 @@ for k, arr in MAP.items():
 
 [352. Data Stream as Disjoint Intervals](Binary%20Search/352.%20Data%20Stream%20as%20Disjoint%20Intervals/README.md)
 
+[3605. Minimum Stability Factor of Array](Binary%20Search/3605.%20Minimum%20Stability%20Factor%20of%20Array/)
+
 [4. Median of Two Sorted Arrays](Binary%20Search/4.%20Median%20of%20Two%20Sorted%20Arrays/README.md)
 
 [410. Split Array Largest Sum](Binary%20Search/410.%20Split%20Array%20Largest%20Sum/README.md)
