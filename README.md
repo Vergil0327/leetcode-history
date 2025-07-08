@@ -734,6 +734,8 @@ for k, arr in MAP.items():
 
 [3378. Count Connected Components in LCM Graph](UnionFind/3378.%20Count%20Connected%20Components%20in%20LCM%20Graph/)
 
+[3608. Minimum Time for K Connected Components](UnionFind/3608.%20Minimum%20Time%20for%20K%20Connected%20Components/)
+
 [684. Redundant Connection](UnionFind/684.%20Redundant%20Connection/README.md)
 
 [685. Redundant Connection II](UnionFind/685.%20Redundant%20Connection%20II/README.md)
