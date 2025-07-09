@@ -1577,6 +1577,8 @@ for k, arr in MAP.items():
 
 [3420. Count Non-Decreasing Subarrays After K Operations](Sliding%20Window/3420.%20Count%20Non-Decreasing%20Subarrays%20After%20K%20Operations/)
 
+[3439. Reschedule Meetings for Maximum Free Time I](Sliding%20Window/3439.%20Reschedule%20Meetings%20for%20Maximum%20Free%20Time%20I/)
+
 [3445. Maximum Difference Between Even and Odd Frequency II](Sliding%20Window/3445.%20Maximum%20Difference%20Between%20Even%20and%20Odd%20Frequency%20II/)
 
 [3589. Count Prime-Gap Balanced Subarrays](Sliding%20Window/3589.%20Count%20Prime-Gap%20Balanced%20Subarrays/)
