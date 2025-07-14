@@ -736,6 +736,8 @@ for k, arr in MAP.items():
 
 [3608. Minimum Time for K Connected Components](UnionFind/3608.%20Minimum%20Time%20for%20K%20Connected%20Components/)
 
+[3613. Minimize Maximum Component Cost](UnionFind/3613.%20Minimize%20Maximum%20Component%20Cost/)
+
 [684. Redundant Connection](UnionFind/684.%20Redundant%20Connection/README.md)
 
 [685. Redundant Connection II](UnionFind/685.%20Redundant%20Connection%20II/README.md)
@@ -2134,6 +2136,8 @@ for k, arr in MAP.items():
 [3434. Maximum Frequency After Subarray Operation](Greedy/3434.%20Maximum%20Frequency%20After%20Subarray%20Operation/)
 
 [3474. Lexicographically Smallest Generated String](Greedy/3474.%20Lexicographically%20Smallest%20Generated%20String/)
+
+[3613. Minimize Maximum Component Cost](UnionFind/3613.%20Minimize%20Maximum%20Component%20Cost/)
 
 [406. Queue Reconstruction by Height](Greedy/406.%20Queue%20Reconstruction%20by%20Height/README.md)
 
