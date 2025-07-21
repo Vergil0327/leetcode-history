@@ -3407,6 +3407,8 @@ for k, arr in MAP.items():
 
 [3519. Count Numbers with Non-Decreasing Digits](2-D%20Dynamic%20Programming/DigitDP/3519.%20Count%20Numbers%20with%20Non-Decreasing%20Digits/)
 
+[3621. Number of Integers With Popcount-Depth Equal to K I](2-D%20Dynamic%20Programming/DigitDP/3621.%20Number%20of%20Integers%20With%20Popcount-Depth%20Equal%20to%20K%20I/)
+
 [788. Rotated Digits](./2-D%20Dynamic%20Programming/DigitDP/788.%20Rotated%20Digits)
 
 ## 2-D Dynamic Programming/Knapsack
