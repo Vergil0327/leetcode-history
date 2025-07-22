@@ -1821,6 +1821,8 @@ for k, arr in MAP.items():
 
 [3609. Minimum Moves to Reach Target in Grid](Math&Geometry/3609.%20Minimum%20Moves%20to%20Reach%20Target%20in%20Grid/)
 
+[3625. Count Number of Trapezoids II](Math&Geometry/3625.%20Count%20Number%20of%20Trapezoids%20II/)
+
 [365. Water and Jug Problem](Math%26Geometry/365.%20Water%20and%20Jug%20Problem/README.md)
 
 [372. Super Pow](Math%26Geometry/372.%20Super%20Pow/README.md)
