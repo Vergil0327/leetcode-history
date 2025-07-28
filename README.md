@@ -2749,6 +2749,8 @@ for k, arr in MAP.items():
 
 [3594. Minimum Time to Transport All Individuals](Graphs/Dijkstra/3594.%20Minimum%20Time%20to%20Transport%20All%20Individuals/)
 
+[3629. Minimum Jumps to Reach End via Prime Teleportation](Graphs/Dijkstra/3629.%20Minimum%20Jumps%20to%20Reach%20End%20via%20Prime%20Teleportation/)
+
 [407. Trapping Rain Water II](Graphs/Dijkstra/407.%20Trapping%20Rain%20Water%20II/README.md)
 
 [743. Network Delay Time](Graphs/Dijkstra/743.%20Network%20Delay%20Time/README.md)
