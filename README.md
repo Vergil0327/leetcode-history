@@ -3709,6 +3709,8 @@ for k, arr in MAP.items():
 
 [3494. Find the Minimum Amount of Time to Brew Potions](PrefixSum/3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions/)
 
+[3628. Maximum Number of Subsequences After One Inserting](PrefixSum/3628.%20Maximum%20Number%20of%20Subsequences%20After%20One%20Inserting/)
+
 [363. Max Sum of Rectangle No Larger Than K](PrefixSum/363.%20Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K/README.md)
 
 [523. Continuous Subarray Sum](PrefixSum/523.%20Continuous%20Subarray%20Sum/README.md)
