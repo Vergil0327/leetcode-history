@@ -63,3 +63,39 @@ Accepted
 Acceptance Rate
 7.6%
 
+<details>
+<summary>Hint 1</summary>
+
+Brute-force all subsets for B.
+
+</details>
+<details>
+<summary>Hint 2</summary>
+
+Let s = XOR of all elements not in B.
+
+</details>
+<details>
+<summary>Hint 3</summary>
+
+We want to choose a value x (a subset‐XOR of the "remaining" elements) to maximize x + (s XOR x).
+
+</details>
+<details>
+<summary>Hint 4</summary>
+
+Observe that x + (s XOR x) = s + 2 * (x AND ~s).
+
+</details>
+<details>
+<summary>Hint 5</summary>
+
+To do this efficiently, build a linear XOR basis over the values nums[j] & ~s for each index j not in B.
+
+</details>
+<details>
+<summary>Hint 6</summary>
+
+Finally, greedily extract the maximum x from that basis.
+
+</details>
