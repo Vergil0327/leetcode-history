@@ -492,6 +492,8 @@ for k, arr in MAP.items():
 
 [3635. Earliest Finish Time for Land and Water Rides II](Binary%20Search/3635.%20Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20II/)
 
+[3639. Minimum Time to Activate String](Binary%20Search/3639.%20Minimum%20Time%20to%20Activate%20String/)
+
 [4. Median of Two Sorted Arrays](Binary%20Search/4.%20Median%20of%20Two%20Sorted%20Arrays/README.md)
 
 [410. Split Array Largest Sum](Binary%20Search/410.%20Split%20Array%20Largest%20Sum/README.md)
