@@ -2145,6 +2145,8 @@ for k, arr in MAP.items():
 
 [3613. Minimize Maximum Component Cost](UnionFind/3613.%20Minimize%20Maximum%20Component%20Cost/)
 
+[3638. Maximum Balanced Shipments](Greedy/3638.%20Maximum%20Balanced%20Shipments/)
+
 [406. Queue Reconstruction by Height](Greedy/406.%20Queue%20Reconstruction%20by%20Height/README.md)
 
 [45. Jump Game II](Greedy/45.%20Jump%20Game%20II/README.md)
