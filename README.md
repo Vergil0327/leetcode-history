@@ -864,9 +864,11 @@ for k, arr in MAP.items():
 
 [345. Reverse Vowels of a String](Two%20Pointers/345.%20Reverse%20Vowels%20of%20a%20String/README.md)
 
+[3480. Maximize Subarrays After Removing One Conflicting Pair](Two%20Pointers/3480.%20Maximize%20Subarrays%20After%20Removing%20One%20Conflicting%20Pair/)
+
 [360. Sort Transformed Array](Two%20Pointers/360.%20Sort%20Transformed%20Array/README.md)
 
-[3480. Maximize Subarrays After Removing One Conflicting Pair](Two%20Pointers/3480.%20Maximize%20Subarrays%20After%20Removing%20One%20Conflicting%20Pair/)
+[3640. Trionic Array II](Two%20Pointers/3640.%20Trionic%20Array%20II/)
 
 [42. Trapping Rain Water](Two%20Pointers/42.%20Trapping%20Rain%20Water/README.md)
 
