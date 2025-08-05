@@ -3857,6 +3857,8 @@ for k, arr in MAP.items():
 
 [363. Max Sum of Rectangle No Larger Than K](PrefixSum/363.%20Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K/README.md)
 
+[3636. Threshold Majority Queries](Sorted%20Container/SortedList/3636.%20Threshold%20Majority%20Queries/)
+
 [480. Sliding Window Median](Sliding%20Window/480.%20Sliding%20Window%20Median/480.%20Sliding%20Window%20Median/README.md)
 
 [493. Reverse Pairs](Binary%20Search/SortedList/493.%20Reverse%20Pairs/README.md)
