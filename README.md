@@ -2469,6 +2469,8 @@ for k, arr in MAP.items():
 
 [2081. Sum of k-Mirror Numbers](String/Enumeration/2081.%20Sum%20of%20k-Mirror%20Numbers/README.md)
 
+[3646. Next Special Palindrome Number](String/Enumeration/3646.%20Next%20Special%20Palindrome%20Number/)
+
 [479. Largest Palindrome Product](String/Enumeration/479.%20Largest%20Palindrome%20Product/README.md)
 
 [906. Super Palindromes](String/Enumeration/906.%20Super%20Palindromes/README.md)
