@@ -1447,6 +1447,8 @@ for k, arr in MAP.items():
 
 [36. Valid Sudoku](Array%26Hashing/36.%20Valid%20Sudoku/README.md)
 
+[3645. Maximum Total from Optimal Activation Order](Array&Hashing/3645.%20Maximum%20Total%20from%20Optimal%20Activation%20Order/)
+
 [380. Insert Delete GetRandom O(1)](Array%26Hashing/380.%20Insert%20Delete%20GetRandom%20O%281%29/README.md)
 
 [381. Insert Delete GetRandom O(1) - Duplicates allowed](Array%26Hashing/381.%20Insert%20Delete%20GetRandom%20O%281%29%20-%20Duplicates%20allowed/README.md)
