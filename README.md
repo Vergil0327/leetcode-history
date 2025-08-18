@@ -1835,6 +1835,10 @@ for k, arr in MAP.items():
 
 [3625. Count Number of Trapezoids II](Math&Geometry/3625.%20Count%20Number%20of%20Trapezoids%20II/)
 
+[3648. Minimum Sensor to Cover Grid](./Math&Geometry/3648.%20Minimum%20Sensors%20to%20Cover%20Grid/)
+
+[3649. Number of Perfect Pairs](./Math&Geometry/3649.%20Number%20of%20Perfect%20Pairs/)
+
 [365. Water and Jug Problem](Math%26Geometry/365.%20Water%20and%20Jug%20Problem/README.md)
 
 [372. Super Pow](Math%26Geometry/372.%20Super%20Pow/README.md)
