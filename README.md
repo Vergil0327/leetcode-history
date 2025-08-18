@@ -2771,6 +2771,8 @@ for k, arr in MAP.items():
 
 [3629. Minimum Jumps to Reach End via Prime Teleportation](Graphs/Dijkstra/3629.%20Minimum%20Jumps%20to%20Reach%20End%20via%20Prime%20Teleportation/)
 
+[3650. Minimum Cost Path with Edge Reversals](Graphs/Dijkstra/3650.%20Minimum%20Cost%20Path%20with%20Edge%20Reversals/)
+
 [407. Trapping Rain Water II](Graphs/Dijkstra/407.%20Trapping%20Rain%20Water%20II/README.md)
 
 [743. Network Delay Time](Graphs/Dijkstra/743.%20Network%20Delay%20Time/README.md)
