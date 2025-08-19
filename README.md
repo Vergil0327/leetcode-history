@@ -3335,6 +3335,8 @@ for k, arr in MAP.items():
 
 [3599. Partition Array to Minimize XOR](2-D%20Dynamic%20Programming/3599.%20Partition%20Array%20to%20Minimize%20XOR/)
 
+[3651. Minimum Cost Path with Teleportations](2-D%20Dynamic%20Programming/3651.%20Minimum%20Cost%20Path%20with%20Teleportations/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
