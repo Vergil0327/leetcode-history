@@ -1096,6 +1096,8 @@ for k, arr in MAP.items():
 
 [3592. Inverse Coin Change](1-D%20Dynamic%20Programming/3592.%20Inverse%20Coin%20Change/)
 
+[3654. Minimum Sum After Divisible Sum Deletions](1-D%20Dynamic%20Programming/3654.%20Minimum%20Sum%20After%20Divisible%20Sum%20Deletions/)
+
 [368. Largest Divisible Subset](1-D%20Dynamic%20Programming/368.%20Largest%20Divisible%20Subset/README.md)
 
 [376. Wiggle Subsequence](1-D%20Dynamic%20Programming/376.%20Wiggle%20Subsequence/README.md)
