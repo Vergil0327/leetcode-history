@@ -658,6 +658,8 @@ for k, arr in MAP.items():
 
 [3644. Maximum K to Sort a Permutation](Bit%20Manipulation/3644.%20Maximum%20K%20to%20Sort%20a%20Permutation/)
 
+[3655. XOR After Range Multiplication Queries II](PrefixSum/DiffSum/3655.%20XOR%20After%20Range%20Multiplication%20Queries%20II/)
+
 [371. Sum of Two Integers](Bit%20Manipulation/371.%20Sum%20of%20Two%20Integers/README.md)
 
 [393. UTF-8 Validation](Bit%20Manipulation/393.%20UTF-8%20Validation/README.md)
@@ -3792,6 +3794,8 @@ for k, arr in MAP.items():
 [3347. Maximum Frequency of an Element After Performing Operations II](PrefixSum/DiffSum/3347.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20II/)
 
 [3355. Zero Array Transformation I](PrefixSum/DiffSum/3355.%20Zero%20Array%20Transformation%20I/)
+
+[3655. XOR After Range Multiplication Queries II](PrefixSum/DiffSum/3655.%20XOR%20After%20Range%20Multiplication%20Queries%20II/)
 
 [798. Smallest Rotation with Highest Score](PrefixSum/DiffSum/798.%20Smallest%20Rotation%20with%20Highest%20Score/README.md)
 
