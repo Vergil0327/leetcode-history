@@ -1100,6 +1100,10 @@ for k, arr in MAP.items():
 
 [3654. Minimum Sum After Divisible Sum Deletions](1-D%20Dynamic%20Programming/3654.%20Minimum%20Sum%20After%20Divisible%20Sum%20Deletions/)
 
+[3660. Jump Game IX](1-D%20Dynamic%20Programming/3660.%20Jump%20Game%20IX/)
+
+[3661. Maximum Walls Destroyed by Robots](1-D%20Dynamic%20Programming/3661.%20Maximum%20Walls%20Destroyed%20by%20Robots/)
+
 [368. Largest Divisible Subset](1-D%20Dynamic%20Programming/368.%20Largest%20Divisible%20Subset/README.md)
 
 [376. Wiggle Subsequence](1-D%20Dynamic%20Programming/376.%20Wiggle%20Subsequence/README.md)
