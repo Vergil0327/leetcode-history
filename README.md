@@ -2577,6 +2577,8 @@ for k, arr in MAP.items():
 
 [3615. Longest Palindromic Path in Graph](Graphs/3615.%20Longest%20Palindromic%20Path%20in%20Graph/)
 
+[3665. Twisted Mirror Path Count](Graphs/3665.%20Twisted%20Mirror%20Path%20Count/)
+
 [417. Pacific Atlantic Water Flow](Graphs/417.%20Pacific%20Atlantic%20Water%20Flow/README.md)
 
 [547. Number of Provinces](Graphs/547.%20Number%20of%20Provinces/README.md)
@@ -3636,6 +3638,8 @@ for k, arr in MAP.items():
 [2267. Check if There Is a Valid Parentheses String Path](2-D%20Dynamic%20Programming/Maze/2267.%20Check%20if%20There%20Is%20a%20Valid%20Parentheses%20String%20Path/README.md)
 
 [2435. Paths in Matrix Whose Sum Is Divisible by K](2-D%20Dynamic%20Programming/Maze/2435.%20Paths%20in%20Matrix%20Whose%20Sum%20Is%20Divisible%20by%20K/README.md)
+
+[3665. Twisted Mirror Path Count](Graphs/3665.%20Twisted%20Mirror%20Path%20Count/)
 
 [576. Out of Boundary Paths](2-D%20Dynamic%20Programming/Maze/576.%20Out%20of%20Boundary%20Paths/README.md)
 
