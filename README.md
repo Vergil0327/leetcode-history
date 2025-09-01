@@ -1849,6 +1849,8 @@ for k, arr in MAP.items():
 
 [365. Water and Jug Problem](Math%26Geometry/365.%20Water%20and%20Jug%20Problem/README.md)
 
+[3664. Two-Letter Card Game](Math&Geometry/3664.%20Two-Letter%20Card%20Game/)
+
 [372. Super Pow](Math%26Geometry/372.%20Super%20Pow/README.md)
 
 [390. Elimination Game](Math%26Geometry/390.%20Elimination%20Game/README.md)
