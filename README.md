@@ -3619,6 +3619,8 @@ for k, arr in MAP.items():
 
 [3615. Longest Palindromic Path in Graph](Graphs/3615.%20Longest%20Palindromic%20Path%20in%20Graph/)
 
+[3670. Maximum Product of Two Integers With No Common Bits](2-D%20Dynamic%20Programming/Bitmask/3670.%20Maximum%20Product%20of%20Two%20Integers%20With%20No%20Common%20Bits/)
+
 [464. Can I Win](2-D%20Dynamic%20Programming/Bitmask/464.%20Can%20I%20Win/)
 
 [691. Stickers to Spell Word](2-D%20Dynamic%20Programming/Bitmask/691.%20Stickers%20to%20Spell%20Word/README.md)
