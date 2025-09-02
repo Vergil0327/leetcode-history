@@ -1853,6 +1853,8 @@ for k, arr in MAP.items():
 
 [3664. Two-Letter Card Game](Math&Geometry/3664.%20Two-Letter%20Card%20Game/)
 
+[3671. Sum of Beautiful Subsequences](Math&Geometry/3671.%20Sum%20of%20Beautiful%20Subsequences/)
+
 [372. Super Pow](Math%26Geometry/372.%20Super%20Pow/README.md)
 
 [390. Elimination Game](Math%26Geometry/390.%20Elimination%20Game/README.md)
