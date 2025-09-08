@@ -2489,6 +2489,8 @@ for k, arr in MAP.items():
 
 [3646. Next Special Palindrome Number](String/Enumeration/3646.%20Next%20Special%20Palindrome%20Number/)
 
+[3677. Count Binary Palindromic Numbers](String/Enumeration/3677.%20Count%20Binary%20Palindromic%20Numbers/)
+
 [479. Largest Palindrome Product](String/Enumeration/479.%20Largest%20Palindrome%20Product/README.md)
 
 [906. Super Palindromes](String/Enumeration/906.%20Super%20Palindromes/README.md)
