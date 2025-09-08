@@ -2941,6 +2941,8 @@ for k, arr in MAP.items():
 
 [3542. Minimum Operations to Convert All Elements to Zero](Stack/Monotone%20Stack/3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero/)
 
+[3676. Count Bowl Subarrays](Stack/Monotone%20Stack/3676.%20Count%20Bowl%20Subarrays/)
+
 [402. Remove K Digits](Stack/Monotone%20Stack/402.%20Remove%20K%20Digits/README.md)
 
 [456. 132 Pattern](Stack/Monotone%20Stack/456.%20132%20Pattern/README.md)
