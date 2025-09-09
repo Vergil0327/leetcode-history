@@ -3805,7 +3805,7 @@ for k, arr in MAP.items():
 
 [1871. Jump Game VII](PrefixSum/DiffSum/1871.%20Jump%20Game%20VII/README.md)
 
-[2327. Number of People Aware of a Secret](PrefixSum/DiffSum/2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/README.md)
+[2327. Number of People Aware of a Secret](1-D%20Dynamic%20Programming/2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/README.md)
 
 [2772. Apply Operations to Make All Array Elements Equal to Zero](PrefixSum/DiffSum/2772.%20Apply%20Operations%20to%20Make%20All%20Array%20Elements%20Equal%20to%20Zero/README.md)
 
