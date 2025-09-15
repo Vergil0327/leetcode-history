@@ -3483,6 +3483,8 @@ for k, arr in MAP.items():
 
 [322. Coin Change](2-D%20Dynamic%20Programming/Knapsack/322.%20Coin%20Change/README.md)
 
+[3685. Subsequence Sum After Capping Elements](./2-D%20Dynamic%20Programming/Knapsack/3685.%20Subsequence%20Sum%20After%20Capping%20Elements/)
+
 [474. Ones and Zeroes](2-D%20Dynamic%20Programming/Knapsack/474.%20Ones%20and%20Zeroes/README.md)
 
 [494. Target Sum](2-D%20Dynamic%20Programming/Knapsack/494.%20Target%20Sum/README.md)
