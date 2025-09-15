@@ -2967,6 +2967,8 @@ for k, arr in MAP.items():
 
 [1157. Online Majority Element In Subarray](Random/1157.%20Online%20Majority%20Element%20In%20Subarray/README.md)
 
+[3680. Generate Schedule](Random/3680.%20Generate%20Schedule/)
+
 [380. Insert Delete GetRandom O(1)](Random/380.%20Insert%20Delete%20GetRandom%20O%281%29/README.md)
 
 [382. Linked List Random Node](Random/382.%20Linked%20List%20Random%20Node/README.md)
