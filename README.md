@@ -1607,6 +1607,8 @@ for k, arr in MAP.items():
 
 [3589. Count Prime-Gap Balanced Subarrays](Sliding%20Window/3589.%20Count%20Prime-Gap%20Balanced%20Subarrays/)
 
+[3679. Minimum Discards to Balance Inventory](Sliding%20Window/3679.%20Minimum%20Discards%20to%20Balance%20Inventory/)
+
 [395. Longest Substring with At Least K Repeating Characters](Sliding%20Window/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters/README.md)
 
 [424. Longest Repeating Character Replacement](Sliding%20Window/424.%20Longest%20Repeating%20Character%20Replacement/README.md)
