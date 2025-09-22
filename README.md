@@ -2723,6 +2723,8 @@ for k, arr in MAP.items():
 
 [365. Water and Jug Problem](Graphs/BFS/365.%20Water%20and%20Jug%20Problem/README.md)
 
+[3690. Split and Merge Array Transformation](Graphs/BFS/3690.%20Split%20and%20Merge%20Array%20Transformation/)
+
 [399. Evaluate Division](Graphs/BFS/399.%20Evaluate%20Division/README.md)
 
 [433. Minimum Genetic Mutation](Graphs/BFS/433.%20Minimum%20Genetic%20Mutation/README.md)
