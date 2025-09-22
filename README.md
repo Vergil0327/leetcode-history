@@ -2245,6 +2245,8 @@ for k, arr in MAP.items():
 
 [3525. Find X Value of Array II](Segment%20Tree/3525.%20Find%20X%20Value%20of%20Array%20II/)
 
+[3691. Maximum Total Subarray Value II](Segment%20Tree/3691.%20Maximum%20Total%20Subarray%20Value%20II/)
+
 [699. Falling Squares](Interval/699.%20Falling%20Squares/README.md)
 
 ## Sorting
