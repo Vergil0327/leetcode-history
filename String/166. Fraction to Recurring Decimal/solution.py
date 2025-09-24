@@ -1,26 +1,18 @@
 class Solution:
     def fractionToDecimal(self, numerator: int, denominator: int) -> str:
-        A, B = numerator, denominator
-        if A%B == 0: return str(A//B)
+        if numerator%denominator == 0: return str(numerator//denominator)
 
-        sign = 1
-        if A < 0:
-            A = abs(A)
-            sign *= -1
-        if B < 0:
-            B = abs(B)
-            sign *= -1
-
-        res = "-" if sign < 0 else ""
+        diffSign = (numerator > 0) ^ (denominator > 0)
+        res = "-" if diffSign else "" # handle sign
+        
+        A, B = abs(numerator), abs(denominator)
         res += str(A // B) + "."
         
         remainder = A % B
         visited = {}
 
-        i = 0
         while remainder != 0 and remainder not in visited:
             visited[remainder] = len(res)
-            i += 1
 
             remainder *= 10
             res += str(remainder // B)
