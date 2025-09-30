@@ -3367,6 +3367,8 @@ for k, arr in MAP.items():
 
 [3686. Number of Stable Subsequences](2-D%20Dynamic%20Programming/3686.%20Number%20of%20Stable%20Subsequences/)
 
+[3699. Number of ZigZag Arrays I](2-D%20Dynamic%20Programming/3699.%20Number%20of%20ZigZag%20Arrays%20I/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
