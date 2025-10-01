@@ -1925,6 +1925,10 @@ for k, arr in MAP.items():
 
 [964. Least Operators to Express Number](Math&Geometry/964.%20Least%20Operators%20to%20Express%20Number/README.md)
 
+## Math&Geometry/Matrix Power
+
+[3700. Number of ZigZag Arrays II](Math&Geometry//Matrix%20Power/3700.%20Number%20of%20ZigZag%20Arrays%20II/)
+
 ## Heap
 
 [1014. Best Sightseeing Pair](1-D%20Dynamic%20Programming/1014.%20Best%20Sightseeing%20Pair/)
