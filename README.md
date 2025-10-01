@@ -748,6 +748,8 @@ for k, arr in MAP.items():
 
 [3613. Minimize Maximum Component Cost](UnionFind/3613.%20Minimize%20Maximum%20Component%20Cost/)
 
+[3695. Maximize Alternating Sum Using Swaps](UnionFind/3695.%20Maximize%20Alternating%20Sum%20Using%20Swaps/)
+
 [684. Redundant Connection](UnionFind/684.%20Redundant%20Connection/README.md)
 
 [685. Redundant Connection II](UnionFind/685.%20Redundant%20Connection%20II/README.md)
