@@ -2877,6 +2877,8 @@ for k, arr in MAP.items():
 
 [341. Flatten Nested List Iterator](Stack/341.%20Flatten%20Nested%20List%20Iterator/README.md)
 
+[3703. Remove K-Balanced Substrings](Stack/3703.%20Remove%20K-Balanced%20Substrings/)
+
 [385. Mini Parser](Stack/385.%20Mini%20Parser/README.md)
 
 [388. Longest Absolute File Path](Stack/388.%20Longest%20Absolute%20File%20Path/README.md)
