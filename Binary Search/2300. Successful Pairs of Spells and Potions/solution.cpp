@@ -17,3 +17,27 @@ public:
         return result;
     }
 };
+
+class Solution {
+public:
+    vector<int> successfulPairs(vector<int>& spells, vector<int>& potions, long long success) {
+        int n = potions.size();
+        sort(potions.begin(), potions.end());
+
+        vector<int> res;
+        for (auto& spell : spells) {
+            int l=0, r=n;
+            while (l < r) {
+                int mid = l + (r-l)/2;
+                long long product = (long long)spell * potions[mid];
+                if (product >= success) {
+                    r = mid;
+                } else {
+                    l = mid+1;
+                }
+            };
+            res.push_back(n - l);
+        }
+        return res;
+    }
+};
