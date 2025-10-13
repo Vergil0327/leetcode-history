@@ -2667,6 +2667,8 @@ for k, arr in MAP.items():
 
 [2493. Divide Nodes Into the Maximum Number of Groups](Graphs/Bipartite/2493.%20Divide%20Nodes%20Into%20the%20Maximum%20Number%20of%20Groups/README.md)
 
+[3710. Maximum Partition Factor](Graphs/Bipartite/3710.%20Maximum%20Partition%20Factor/)
+
 [785. Is Graph Bipartite?](Graphs/Bipartite/785.%20Is%20Graph%20Bipartite%3F/README.md)
 
 [886. Possible Bipartition](Graphs/Bipartite/886.%20Possible%20Bipartition/README.md)
