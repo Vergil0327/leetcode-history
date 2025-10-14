@@ -3791,6 +3791,8 @@ for k, arr in MAP.items():
 
 [3652. Best Time to Buy and Sell Stock using Strategy](PrefixSum/3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy/)
 
+[3714. Longest Balanced Substring II](PrefixSum/3714.%20Longest%20Balanced%20Substring%20II/)
+
 [523. Continuous Subarray Sum](PrefixSum/523.%20Continuous%20Subarray%20Sum/README.md)
 
 [528. Random Pick with Weight](PrefixSum/528.%20Random%20Pick%20with%20Weight/README.md)
