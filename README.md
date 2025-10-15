@@ -1439,6 +1439,8 @@ for k, arr in MAP.items():
 
 [3349. Adjacent Increasing Subarrays Detection I](Array&Hashing/3349.%20Adjacent%20Increasing%20Subarrays%20Detection%20I/)
 
+[3350. Adjacent Increasing Subarrays Detection II](Binary%20Search/3350.%20Adjacent%20Increasing%20Subarrays%20Detection%20II/)
+
 [3371. Identify the Largest Outlier in an Array](Array&Hashing/3371.%20Identify%20the%20Largest%20Outlier%20in%20an%20Array/)
 
 [3404. Count Special Subsequences](Array&Hashing/3404.%20Count%20Special%20Subsequences/)
