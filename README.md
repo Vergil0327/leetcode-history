@@ -198,6 +198,8 @@ for k, arr in MAP.items():
 
 [3593. Minimum Increments to Equalize Leaf Paths](Trees/3593.%20Minimum%20Increments%20to%20Equalize%20Leaf%20Paths/)
 
+[3715. Sum of Perfect Square Ancestors](Trees/3715.%20Sum%20of%20Perfect%20Square%20Ancestors/)
+
 [386. Lexicographical Numbers](Trees/386.%20Lexicographical%20Numbers/README.md)
 
 [427. Construct Quad Tree](Trees/427.%20Construct%20Quad%20Tree/README.md)
