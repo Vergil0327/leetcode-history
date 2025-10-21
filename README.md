@@ -1441,6 +1441,8 @@ for k, arr in MAP.items():
 
 [3305. Count of Substrings Containing Every Vowel and K Consonants I](Array&Hashing/3305.%20Count%20of%20Substrings%20Containing%20Every%20Vowel%20and%20K%20Consonants%20I/)
 
+[3346. Maximum Frequency of an Element After Performing Operations I](Array&Hashing/3346.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20I/)
+
 [3349. Adjacent Increasing Subarrays Detection I](Array&Hashing/3349.%20Adjacent%20Increasing%20Subarrays%20Detection%20I/)
 
 [3350. Adjacent Increasing Subarrays Detection II](Binary%20Search/3350.%20Adjacent%20Increasing%20Subarrays%20Detection%20II/)
