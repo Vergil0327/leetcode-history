@@ -3803,6 +3803,8 @@ for k, arr in MAP.items():
 
 [3714. Longest Balanced Substring II](PrefixSum/3714.%20Longest%20Balanced%20Substring%20II/)
 
+[3728. Stable Subarrays With Equal Boundary and Interior Sum](PrefixSum/3728.%20Stable%20Subarrays%20With%20Equal%20Boundary%20and%20Interior%20Sum)
+
 [523. Continuous Subarray Sum](PrefixSum/523.%20Continuous%20Subarray%20Sum/README.md)
 
 [528. Random Pick with Weight](PrefixSum/528.%20Random%20Pick%20with%20Weight/README.md)
