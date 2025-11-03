@@ -496,6 +496,8 @@ for k, arr in MAP.items():
 
 [3639. Minimum Time to Activate String](Binary%20Search/3639.%20Minimum%20Time%20to%20Activate%20String/)
 
+[3733. Minimum Time to Complete All Deliveries](Binary%20Search/3733.%20Minimum%20Time%20to%20Complete%20All%20Deliveries/)
+
 [4. Median of Two Sorted Arrays](Binary%20Search/4.%20Median%20of%20Two%20Sorted%20Arrays/README.md)
 
 [410. Split Array Largest Sum](Binary%20Search/410.%20Split%20Array%20Largest%20Sum/README.md)
