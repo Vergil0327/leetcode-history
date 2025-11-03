@@ -1255,6 +1255,8 @@ for k, arr in MAP.items():
 
 [3720. Lexicographically Smallest Permutation Greater Than Target](Backtracking/3720.%20Lexicographically%20Smallest%20Permutation%20Greater%20Than%20Target/)
 
+[3734. Lexicographically Smallest Palindromic Permutation Greater Than Target](Backtracking/3734.%20Lexicographically%20Smallest%20Palindromic%20Permutation%20Greater%20Than%20Target/)
+
 [377. Combination Sum IV](Backtracking/377.%20Combination%20Sum%20IV/README.md)
 
 [39. Combination Sum](Backtracking/39.%20Combination%20Sum/README.md)
