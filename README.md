@@ -1187,6 +1187,8 @@ for k, arr in MAP.items():
 
 [3598. Longest Common Prefix Between Adjacent Strings After Removals](1-D%20Dynamic%20Programming/3Pass/3598.%20Longest%20Common%20Prefix%20Between%20Adjacent%20Strings%20After%20Removals/)
 
+[3738. Longest Non-Decreasing Subarray After Replacing at Most One Element](1-D%20Dynamic%20Programming/3738.%20Longest%20Non-Decreasing%20Subarray%20After%20Replacing%20at%20Most%20One%20Element/)
+
 [689. Maximum Sum of 3 Non-Overlapping Subarrays](1-D%20Dynamic%20Programming/3Pass/689.%20Maximum%20Sum%20of%203%20Non-Overlapping%20Subarrays/README.md)
 
 ## Backtracking
