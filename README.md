@@ -3697,6 +3697,8 @@ for k, arr in MAP.items():
 
 [3665. Twisted Mirror Path Count](Graphs/3665.%20Twisted%20Mirror%20Path%20Count/)
 
+[3742. Maximum Path Score in a Grid](2-D%20Dynamic%20Programming/Maze/3742.%20Maximum%20Path%20Score%20in%20a%20Grid/)
+
 [576. Out of Boundary Paths](2-D%20Dynamic%20Programming/Maze/576.%20Out%20of%20Boundary%20Paths/README.md)
 
 [741. Cherry Pickup](2-D%20Dynamic%20Programming/Maze/741.%20Cherry%20Pickup/README.md)
