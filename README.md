@@ -3817,6 +3817,8 @@ for k, arr in MAP.items():
 
 [3729. Count Distinct Subarrays Divisible by K in Sorted Array](PrefixSum/3729.%20Count%20Distinct%20Subarrays%20Divisible%20by%20K%20in%20Sorted%20Array/)
 
+[3739. Count Subarrays With Majority Element II](PrefixSum/3739.%20Count%20Subarrays%20With%20Majority%20Element%20II/)
+
 [523. Continuous Subarray Sum](PrefixSum/523.%20Continuous%20Subarray%20Sum/README.md)
 
 [528. Random Pick with Weight](PrefixSum/528.%20Random%20Pick%20with%20Weight/README.md)
