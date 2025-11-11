@@ -3397,6 +3397,8 @@ for k, arr in MAP.items():
 
 [3725. Count Ways to Choose Coprime Integers from Rows](2-D%20Dynamic%20Programming/3725.%20Count%20Ways%20to%20Choose%20Coprime%20Integers%20from%20Rows/)
 
+[3743. Maximize Cyclic Partition Score](2-D%20Dynamic%20Programming/3743.%20Maximize%20Cyclic%20Partition%20Score/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
