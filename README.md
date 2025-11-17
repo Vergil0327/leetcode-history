@@ -3823,6 +3823,8 @@ for k, arr in MAP.items():
 
 [3739. Count Subarrays With Majority Element II](PrefixSum/3739.%20Count%20Subarrays%20With%20Majority%20Element%20II/)
 
+[3748. Count Stable Subarrays](PrefixSum/3748.%20Count%20Stable%20Subarrays/)
+
 [523. Continuous Subarray Sum](PrefixSum/523.%20Continuous%20Subarray%20Sum/README.md)
 
 [528. Random Pick with Weight](PrefixSum/528.%20Random%20Pick%20with%20Weight/README.md)
