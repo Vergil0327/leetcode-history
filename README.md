@@ -3501,6 +3501,8 @@ for k, arr in MAP.items():
 
 [3704. Count No-Zero Pairs That Sum to N](2-D%20Dynamic%20Programming/DigitDP/3704.%20Count%20No-Zero%20Pairs%20That%20Sum%20to%20N/)
 
+[3747. Count Distinct Integers After Removing Zeros](2-D%20Dynamic%20Programming/DigitDP/3747.%20Count%20Distinct%20Integers%20After%20Removing%20Zeros/)
+
 [788. Rotated Digits](./2-D%20Dynamic%20Programming/DigitDP/788.%20Rotated%20Digits)
 
 ## 2-D Dynamic Programming/Knapsack
