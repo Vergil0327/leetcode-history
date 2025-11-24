@@ -3827,6 +3827,8 @@ for k, arr in MAP.items():
 
 [3748. Count Stable Subarrays](PrefixSum/3748.%20Count%20Stable%20Subarrays/)
 
+[3755. Find Maximum Balanced XOR Subarray Length](PrefixSum/3755.%20Find%20Maximum%20Balanced%20XOR%20Subarray%20Length/)
+
 [523. Continuous Subarray Sum](PrefixSum/523.%20Continuous%20Subarray%20Sum/README.md)
 
 [528. Random Pick with Weight](PrefixSum/528.%20Random%20Pick%20with%20Weight/README.md)
