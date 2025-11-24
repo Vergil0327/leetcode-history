@@ -3829,6 +3829,8 @@ for k, arr in MAP.items():
 
 [3755. Find Maximum Balanced XOR Subarray Length](PrefixSum/3755.%20Find%20Maximum%20Balanced%20XOR%20Subarray%20Length/)
 
+[3756. Concatenate Non-Zero Digits and Multiply by Sum II](PrefixSum/3756.%20Concatenate%20Non-Zero%20Digits%20and%20Multiply%20by%20Sum%20II/)
+
 [523. Continuous Subarray Sum](PrefixSum/523.%20Continuous%20Subarray%20Sum/README.md)
 
 [528. Random Pick with Weight](PrefixSum/528.%20Random%20Pick%20with%20Weight/README.md)
