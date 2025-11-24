@@ -3503,6 +3503,8 @@ for k, arr in MAP.items():
 
 [3747. Count Distinct Integers After Removing Zeros](2-D%20Dynamic%20Programming/DigitDP/3747.%20Count%20Distinct%20Integers%20After%20Removing%20Zeros/)
 
+[3753. Total Waviness of Numbers in Range II](2-D%20Dynamic%20Programming/DigitDP/3753.%20Total%20Waviness%20of%20Numbers%20in%20Range%20II/)
+
 [788. Rotated Digits](./2-D%20Dynamic%20Programming/DigitDP/788.%20Rotated%20Digits)
 
 ## 2-D Dynamic Programming/Knapsack
