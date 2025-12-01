@@ -2269,6 +2269,8 @@ for k, arr in MAP.items():
 
 [3721. Longest Balanced Subarray II](Segment%20Tree/3721.%20Longest%20Balanced%20Subarray%20II/)
 
+[3762. Minimum Operations to Equalize Subarrays](Segment%20Tree/3762.%20Minimum%20Operations%20to%20Equalize%20Subarrays/)
+
 [699. Falling Squares](Interval/699.%20Falling%20Squares/README.md)
 
 ## Sorting
