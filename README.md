@@ -3833,6 +3833,8 @@ for k, arr in MAP.items():
 
 [3756. Concatenate Non-Zero Digits and Multiply by Sum II](PrefixSum/3756.%20Concatenate%20Non-Zero%20Digits%20and%20Multiply%20by%20Sum%20II/)
 
+[3771. Total Score of Dungeon Runs](PrefixSum/3771.%20Total%20Score%20of%20Dungeon%20Runs/)
+
 [523. Continuous Subarray Sum](PrefixSum/523.%20Continuous%20Subarray%20Sum/README.md)
 
 [528. Random Pick with Weight](PrefixSum/528.%20Random%20Pick%20with%20Weight/README.md)
