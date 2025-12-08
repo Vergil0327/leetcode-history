@@ -3975,6 +3975,8 @@ for k, arr in MAP.items():
 
 [3636. Threshold Majority Queries](Sorted%20Container/SortedList/3636.%20Threshold%20Majority%20Queries/)
 
+[3768. Minimum Inversion Count in Subarrays of Fixed Length](Sorted%20Container/SortedList/3768.%20Minimum%20Inversion%20Count%20in%20Subarrays%20of%20Fixed%20Length/)
+
 [480. Sliding Window Median](Sliding%20Window/480.%20Sliding%20Window%20Median/480.%20Sliding%20Window%20Median/README.md)
 
 [493. Reverse Pairs](Binary%20Search/SortedList/493.%20Reverse%20Pairs/README.md)
