@@ -304,6 +304,8 @@ for k, arr in MAP.items():
 
 [3373. Maximize the Number of Target Nodes After Connecting Trees II](Trees/ReRoot/3373.%20Maximize%20the%20Number%20of%20Target%20Nodes%20After%20Connecting%20Trees%20II/)
 
+[3772. Maximum Subgraph Score in a Tree](Trees/ReRoot/3772.%20Maximum%20Subgraph%20Score%20in%20a%20Tree/)
+
 [834. Sum of Distances in Tree](Trees/ReRoot/834.%20Sum%20of%20Distances%20in%20Tree/README.md)
 
 ## Trees/BFS
