@@ -2273,6 +2273,8 @@ for k, arr in MAP.items():
 
 [3762. Minimum Operations to Equalize Subarrays](Segment%20Tree/3762.%20Minimum%20Operations%20to%20Equalize%20Subarrays/)
 
+[3777. Minimum Deletions to Make Alternating Substring](Segment%20Tree/3777.%20Minimum%20Deletions%20to%20Make%20Alternating%20Substring/)
+
 [699. Falling Squares](Interval/699.%20Falling%20Squares/README.md)
 
 ## Sorting
