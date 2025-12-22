@@ -882,6 +882,8 @@ for k, arr in MAP.items():
 
 [3640. Trionic Array II](Two%20Pointers/3640.%20Trionic%20Array%20II/)
 
+[3785. Minimum Swaps to Avoid Forbidden Values](Two%20Pointers/3785.%20Minimum%20Swaps%20to%20Avoid%20Forbidden%20Values/)
+
 [42. Trapping Rain Water](Two%20Pointers/42.%20Trapping%20Rain%20Water/README.md)
 
 [6. Zigzag Conversion](Two%20Pointers/6.%20Zigzag%20Conversion/README.md)
