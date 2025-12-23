@@ -200,6 +200,8 @@ for k, arr in MAP.items():
 
 [3715. Sum of Perfect Square Ancestors](Trees/3715.%20Sum%20of%20Perfect%20Square%20Ancestors/)
 
+[3786. Total Sum of Interaction Cost in Tree Groups](Trees/3786.%20Total%20Sum%20of%20Interaction%20Cost%20in%20Tree%20Groups/)
+
 [386. Lexicographical Numbers](Trees/386.%20Lexicographical%20Numbers/README.md)
 
 [427. Construct Quad Tree](Trees/427.%20Construct%20Quad%20Tree/README.md)
