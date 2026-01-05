@@ -3687,6 +3687,8 @@ for k, arr in MAP.items():
 
 [3670. Maximum Product of Two Integers With No Common Bits](2-D%20Dynamic%20Programming/Bitmask/3670.%20Maximum%20Product%20of%20Two%20Integers%20With%20No%20Common%20Bits/)
 
+[3801. Minimum Cost to Merge Sorted Lists](2-D%20Dynamic%20Programming/Bitmask/3801.%20Minimum%20Cost%20to%20Merge%20Sorted%20Lists/)
+
 [464. Can I Win](2-D%20Dynamic%20Programming/Bitmask/464.%20Can%20I%20Win/)
 
 [691. Stickers to Spell Word](2-D%20Dynamic%20Programming/Bitmask/691.%20Stickers%20to%20Spell%20Word/README.md)
