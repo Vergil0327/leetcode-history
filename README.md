@@ -670,6 +670,8 @@ for k, arr in MAP.items():
 
 [371. Sum of Two Integers](Bit%20Manipulation/371.%20Sum%20of%20Two%20Integers/README.md)
 
+[3806. Maximum Bitwise AND After Increment Operations](Bit%20Manipulation/3806.%20Maximum%20Bitwise%20AND%20After%20Increment%20Operations/)
+
 [393. UTF-8 Validation](Bit%20Manipulation/393.%20UTF-8%20Validation/README.md)
 
 [477. Total Hamming Distance](Bit%20Manipulation/477.%20Total%20Hamming%20Distance/README.md)
