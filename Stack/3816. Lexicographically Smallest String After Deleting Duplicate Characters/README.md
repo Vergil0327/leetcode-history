@@ -1,0 +1,64 @@
+[3816. Lexicographically Smallest String After Deleting Duplicate Characters](https://leetcode.com/problems/lexicographically-smallest-string-after-deleting-duplicate-characters/)
+
+`Hard`
+
+You are given a string s that consists of lowercase English letters.
+
+You can perform the following operation any number of times (possibly zero times):
+
+Choose any letter that appears at least twice in the current string s and delete any one occurrence.
+Return the lexicographically smallest resulting string that can be formed this way.
+
+
+Example 1:
+Input: s = "aaccb"
+Output: "aacb"
+Explanation:
+
+We can form the strings "acb", "aacb", "accb", and "aaccb". "aacb" is the lexicographically smallest one.
+
+For example, we can obtain "aacb" by choosing 'c' and deleting its first occurrence.
+
+Example 2:
+Input: s = "z"
+Output: "z"
+Explanation:
+
+We cannot perform any operations. The only string we can form is "z".
+
+
+Constraints:
+
+- 1 <= s.length <= $10^5$
+- s contains lowercase English letters only.
+ 
+
+Accepted
+2,366/16.6K
+Acceptance Rate
+14.2%
+
+<details>
+<summary>Hint 1</summary>
+
+Solve greedily.
+
+</details>
+<details>
+<summary>Hint 2</summary>
+
+Each distinct letter must appear at least once in the final string.
+
+</details>
+<details>
+<summary>Hint 3</summary>
+
+For each letter, maintain a deque of its positions.
+
+</details>
+<details>
+<summary>Hint 4</summary>
+
+At each step, try letters from 'a' to 'z' and pick the smallest letter whose earliest position lies within a safe window.
+
+</details>
