@@ -2909,6 +2909,8 @@ for k, arr in MAP.items():
 
 [3703. Remove K-Balanced Substrings](Stack/3703.%20Remove%20K-Balanced%20Substrings/)
 
+[3816. Lexicographically Smallest String After Deleting Duplicate Characters](Stack/3816.%20Lexicographically%20Smallest%20String%20After%20Deleting%20Duplicate%20Characters/)
+
 [385. Mini Parser](Stack/385.%20Mini%20Parser/README.md)
 
 [388. Longest Absolute File Path](Stack/388.%20Longest%20Absolute%20File%20Path/README.md)
@@ -3412,6 +3414,8 @@ for k, arr in MAP.items():
 [3743. Maximize Cyclic Partition Score](2-D%20Dynamic%20Programming/3743.%20Maximize%20Cyclic%20Partition%20Score/)
 
 [3797. Count Routes to Climb a Rectangular Grid](2-D%20Dynamic%20Programming/3797.%20Count%20Routes%20to%20Climb%20a%20Rectangular%20Grid/)
+
+[3811. Number of Alternating XOR Partitions](2-D%20Dynamic%20Programming/3811.%20Number%20of%20Alternating%20XOR%20Partitions)
 
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
