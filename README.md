@@ -1883,6 +1883,8 @@ for k, arr in MAP.items():
 
 [372. Super Pow](Math%26Geometry/372.%20Super%20Pow/README.md)
 
+[3821. Find Nth Smallest Integer With K One Bits](./Math&Geometry/3821.%20Find%20Nth%20Smallest%20Integer%20With%20K%20One%20Bits/)
+
 [390. Elimination Game](Math%26Geometry/390.%20Elimination%20Game/README.md)
 
 [391. Perfect Rectangle](Math%26Geometry/391.%20Perfect%20Rectangle/README.md)
@@ -2762,6 +2764,8 @@ for k, arr in MAP.items():
 [365. Water and Jug Problem](Graphs/BFS/365.%20Water%20and%20Jug%20Problem/README.md)
 
 [3690. Split and Merge Array Transformation](Graphs/BFS/3690.%20Split%20and%20Merge%20Array%20Transformation/)
+
+[3820. Pythagorean Distance Nodes in a Tree](Graphs/BFS/3820.%20Pythagorean%20Distance%20Nodes%20in%20a%20Tree/)
 
 [399. Evaluate Division](Graphs/BFS/399.%20Evaluate%20Division/README.md)
 
