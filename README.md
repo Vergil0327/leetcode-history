@@ -1197,6 +1197,8 @@ for k, arr in MAP.items():
 
 [3738. Longest Non-Decreasing Subarray After Replacing at Most One Element](1-D%20Dynamic%20Programming/3738.%20Longest%20Non-Decreasing%20Subarray%20After%20Replacing%20at%20Most%20One%20Element/)
 
+[3830. Longest Alternating Subarray After Removing At Most One Element](1-D%20Dynamic%20Programming/3Pass/3830.%20Longest%20Alternating%20Subarray%20After%20Removing%20At%20Most%20One%20Element/)
+
 [689. Maximum Sum of 3 Non-Overlapping Subarrays](1-D%20Dynamic%20Programming/3Pass/689.%20Maximum%20Sum%20of%203%20Non-Overlapping%20Subarrays/README.md)
 
 ## Backtracking
