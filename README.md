@@ -1635,6 +1635,8 @@ for k, arr in MAP.items():
 
 [3679. Minimum Discards to Balance Inventory](Sliding%20Window/3679.%20Minimum%20Discards%20to%20Balance%20Inventory/)
 
+[3835. Count Subarrays With Cost Less Than or Equal to K](Sliding%20Window/3835.%20Count%20Subarrays%20With%20Cost%20Less%20Than%20or%20Equal%20to%20K/)
+
 [395. Longest Substring with At Least K Repeating Characters](Sliding%20Window/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters/README.md)
 
 [424. Longest Repeating Character Replacement](Sliding%20Window/424.%20Longest%20Repeating%20Character%20Replacement/README.md)
