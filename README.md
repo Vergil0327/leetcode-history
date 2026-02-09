@@ -3635,6 +3635,8 @@ for k, arr in MAP.items():
 
 [1771. Maximize Palindrome Length From Subsequences](2-D%20Dynamic%20Programming/TwoSequence/1771.%20Maximize%20Palindrome%20Length%20From%20Subsequences/README.md)
 
+[3836. Maximum Score Using Exactly K Pairs](2-D%20Dynamic%20Programming/TwoSequence/3836.%20Maximum%20Score%20Using%20Exactly%20K%20Pairs/)
+
 [583. Delete Operation for Two Strings](2-D%20Dynamic%20Programming/TwoSequence/583.%20Delete%20Operation%20for%20Two%20Strings/README.md)
 
 [712. Minimum ASCII Delete Sum for Two Strings](2-D%20Dynamic%20Programming/TwoSequence/712.%20Minimum%20ASCII%20Delete%20Sum%20for%20Two%20Strings/README.md)
