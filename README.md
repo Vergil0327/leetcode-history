@@ -3427,6 +3427,8 @@ for k, arr in MAP.items():
 
 [3811. Number of Alternating XOR Partitions](2-D%20Dynamic%20Programming/3811.%20Number%20of%20Alternating%20XOR%20Partitions)
 
+[3826. Minimum Partition Score](2-D%20Dynamic%20Programming/3826.%20Minimum%20Partition%20Score/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
