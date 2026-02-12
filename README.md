@@ -2489,6 +2489,8 @@ for k, arr in MAP.items():
 
 [3614. Process String with Special Operations II](String/3614.%20Process%20String%20with%20Special%20Operations%20II/)
 
+[3713. Longest Balanced Substring I](String/3713.%20Longest%20Balanced%20Substring%20I/)
+
 [38. Count and Say](String/38.%20Count%20and%20Say/README.md)
 
 [420. Strong Password Checker](String/420.%20Strong%20Password%20Checker/README.md)
