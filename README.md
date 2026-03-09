@@ -3435,6 +3435,8 @@ for k, arr in MAP.items():
 
 [3826. Minimum Partition Score](2-D%20Dynamic%20Programming/3826.%20Minimum%20Partition%20Score/)
 
+[3864. Minimum Cost to Partition a Binary String](2-D%20Dynamic%20Programming/3864.%20Minimum%20Cost%20to%20Partition%20a%20Binary%20String/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
