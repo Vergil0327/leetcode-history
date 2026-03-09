@@ -1891,6 +1891,8 @@ for k, arr in MAP.items():
 
 [3821. Find Nth Smallest Integer With K One Bits](./Math&Geometry/3821.%20Find%20Nth%20Smallest%20Integer%20With%20K%20One%20Bits/)
 
+[3862. Find the Smallest Balanced Index](Math&Geometry/3862.%20Find%20the%20Smallest%20Balanced%20Index/)
+
 [390. Elimination Game](Math%26Geometry/390.%20Elimination%20Game/README.md)
 
 [391. Perfect Rectangle](Math%26Geometry/391.%20Perfect%20Rectangle/README.md)
