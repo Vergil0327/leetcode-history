@@ -2029,6 +2029,8 @@ for k, arr in MAP.items():
 
 [3092. Most Frequent IDs](./Sorted%20Container/SortedList/3092.%20Most%20Frequent%20IDs/README.md)
 
+[3296. Minimum Number of Seconds to Make Mountain Height Zero](Heap/3296.%20Minimum%20Number%20of%20Seconds%20to%20Make%20Mountain%20Height%20Zero/)
+
 [347. Top K Frequent Elements](Heap/347.%20Top%20K%20Frequent%20Elements/README.md)
 
 [3478. Choose K Elements With Maximum Sum](Heap/3478.%20Choose%20K%20Elements%20With%20Maximum%20Sum/)
