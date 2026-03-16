@@ -1893,6 +1893,8 @@ for k, arr in MAP.items():
 
 [3862. Find the Smallest Balanced Index](Math&Geometry/3862.%20Find%20the%20Smallest%20Balanced%20Index/)
 
+[3868. Minimum Cost to Equalize Arrays Using Swaps](Math&Geometry/3868.%20Minimum%20Cost%20to%20Equalize%20Arrays%20Using%20Swaps/)
+
 [390. Elimination Game](Math%26Geometry/390.%20Elimination%20Game/README.md)
 
 [391. Perfect Rectangle](Math%26Geometry/391.%20Perfect%20Rectangle/README.md)
