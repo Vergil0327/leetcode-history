@@ -3551,6 +3551,8 @@ for k, arr in MAP.items():
 
 [3753. Total Waviness of Numbers in Range II](2-D%20Dynamic%20Programming/DigitDP/3753.%20Total%20Waviness%20of%20Numbers%20in%20Range%20II/)
 
+[3869. Count Fancy Numbers in a Range](2-D%20Dynamic%20Programming/DigitDP/3869.%20Count%20Fancy%20Numbers%20in%20a%20Range/)
+
 [788. Rotated Digits](./2-D%20Dynamic%20Programming/DigitDP/788.%20Rotated%20Digits)
 
 ## 2-D Dynamic Programming/Knapsack
