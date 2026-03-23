@@ -672,6 +672,8 @@ for k, arr in MAP.items():
 
 [3806. Maximum Bitwise AND After Increment Operations](Bit%20Manipulation/3806.%20Maximum%20Bitwise%20AND%20After%20Increment%20Operations/)
 
+[3878. Count Good Subarrays](Bit%20Manipulation/3878.%20Count%20Good%20Subarrays/)
+
 [393. UTF-8 Validation](Bit%20Manipulation/393.%20UTF-8%20Validation/README.md)
 
 [477. Total Hamming Distance](Bit%20Manipulation/477.%20Total%20Hamming%20Distance/README.md)
