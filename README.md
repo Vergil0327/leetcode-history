@@ -3447,6 +3447,8 @@ for k, arr in MAP.items():
 
 [3864. Minimum Cost to Partition a Binary String](2-D%20Dynamic%20Programming/3864.%20Minimum%20Cost%20to%20Partition%20a%20Binary%20String/)
 
+[3877. Minimum Removals to Achieve Target XOR](2-D%20Dynamic%20Programming/3877.%20Minimum%20Removals%20to%20Achieve%20Target%20XOR/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
