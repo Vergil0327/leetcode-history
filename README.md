@@ -1899,6 +1899,8 @@ for k, arr in MAP.items():
 
 [3868. Minimum Cost to Equalize Arrays Using Swaps](Math&Geometry/3868.%20Minimum%20Cost%20to%20Equalize%20Arrays%20Using%20Swaps/)
 
+[3876. Construct Uniform Parity Array II](Math&Geometry/3876.%20Construct%20Uniform%20Parity%20Array%20II/)
+
 [390. Elimination Game](Math%26Geometry/390.%20Elimination%20Game/README.md)
 
 [391. Perfect Rectangle](Math%26Geometry/391.%20Perfect%20Rectangle/README.md)
