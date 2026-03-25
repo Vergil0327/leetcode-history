@@ -3919,6 +3919,8 @@ for k, arr in MAP.items():
 
 [3212. Count Submatrices With Equal Frequency of X and Y](PrefixSum/2D%20PrefixSum/3212.%20Count%20Submatrices%20With%20Equal%20Frequency%20of%20X%20and%20Y/README.md)
 
+[3546. Equal Sum Grid Partition I](PrefixSum/2D%20PrefixSum/3546.%20Equal%20Sum%20Grid%20Partition%20I/)
+
 [3548. Equal Sum Grid Partition II](PrefixSum/2D%20PrefixSum/3548.%20Equal%20Sum%20Grid%20Partition%20II/)
 
 ## PrefixSum/DiffSum
