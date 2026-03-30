@@ -3455,6 +3455,8 @@ for k, arr in MAP.items():
 
 [3877. Minimum Removals to Achieve Target XOR](2-D%20Dynamic%20Programming/3877.%20Minimum%20Removals%20to%20Achieve%20Target%20XOR/)
 
+[3882. Minimum XOR Path in a Grid](2-D%20Dynamic%20Programming/3882.%20Minimum%20XOR%20Path%20in%20a%20Grid/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
