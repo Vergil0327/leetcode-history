@@ -3459,6 +3459,8 @@ for k, arr in MAP.items():
 
 [3882. Minimum XOR Path in a Grid](2-D%20Dynamic%20Programming/3882.%20Minimum%20XOR%20Path%20in%20a%20Grid/)
 
+[3883. Count Non Decreasing Arrays With Given Digit Sums](2-D%20Dynamic%20Programming/3883.%20Count%20Non%20Decreasing%20Arrays%20With%20Given%20Digit%20Sums/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
