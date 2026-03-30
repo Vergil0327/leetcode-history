@@ -1903,6 +1903,8 @@ for k, arr in MAP.items():
 
 [3876. Construct Uniform Parity Array II](Math&Geometry/3876.%20Construct%20Uniform%20Parity%20Array%20II/)
 
+[3881. Direction Assignments with Exactly K Visible People](Math&Geometry/3881.%20Direction%20Assignments%20with%20Exactly%20K%20Visible%20People/)
+
 [390. Elimination Game](Math%26Geometry/390.%20Elimination%20Game/README.md)
 
 [391. Perfect Rectangle](Math%26Geometry/391.%20Perfect%20Rectangle/README.md)
@@ -2052,6 +2054,8 @@ for k, arr in MAP.items():
 [373. Find K Pairs with Smallest Sums](Heap/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums/README.md)
 
 [378. Kth Smallest Element in a Sorted Matrix](Heap/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix/README.md)
+
+[3885. Design Event Manager](Heap/3885.%20Design%20Event%20Manager/)
 
 [502. IPO](Heap/502.%20IPO/README.md)
 
