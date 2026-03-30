@@ -764,6 +764,8 @@ for k, arr in MAP.items():
 
 [3873. Maximum Points Activated with One Addition](UnionFind/3873.%20Maximum%20Points%20Activated%20with%20One%20Addition/)
 
+[3887. Incremental Even-Weighted Cycle Queries](UnionFind/3887.%20Incremental%20Even-Weighted%20Cycle%20Queries/)
+
 [684. Redundant Connection](UnionFind/684.%20Redundant%20Connection/README.md)
 
 [685. Redundant Connection II](UnionFind/685.%20Redundant%20Connection%20II/README.md)
