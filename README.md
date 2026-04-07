@@ -1907,6 +1907,8 @@ for k, arr in MAP.items():
 
 [3881. Direction Assignments with Exactly K Visible People](Math&Geometry/3881.%20Direction%20Assignments%20with%20Exactly%20K%20Visible%20People/)
 
+[3890. Integers With Multiple Sum of Two Cubes](Math&Geometry/3890.%20Integers%20With%20Multiple%20Sum%20of%20Two%20Cubes/)
+
 [390. Elimination Game](Math%26Geometry/390.%20Elimination%20Game/README.md)
 
 [391. Perfect Rectangle](Math%26Geometry/391.%20Perfect%20Rectangle/README.md)
