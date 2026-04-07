@@ -1128,6 +1128,8 @@ for k, arr in MAP.items():
 
 [376. Wiggle Subsequence](1-D%20Dynamic%20Programming/376.%20Wiggle%20Subsequence/README.md)
 
+[3891. Minimum Increase to Maximize Special Indices](1-D%20Dynamic%20Programming/3891.%20Minimum%20Increase%20to%20Maximize%20Special%20Indices/)
+
 [397. Integer Replacement](1-D%20Dynamic%20Programming/397.%20Integer%20Replacement/README.md)
 
 [413. Arithmetic Slices](1-D%20Dynamic%20Programming/413.%20Arithmetic%20Slices/README.md)
