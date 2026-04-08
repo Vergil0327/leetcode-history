@@ -3465,6 +3465,8 @@ for k, arr in MAP.items():
 
 [3883. Count Non Decreasing Arrays With Given Digit Sums](2-D%20Dynamic%20Programming/3883.%20Count%20Non%20Decreasing%20Arrays%20With%20Given%20Digit%20Sums/)
 
+[3892. Minimum Operations to Achieve At Least K Peaks](2-D%20Dynamic%20Programming/3892.%20Minimum%20Operations%20to%20Achieve%20At%20Least%20K%20Peaks/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
