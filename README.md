@@ -2319,6 +2319,8 @@ for k, arr in MAP.items():
 
 [3777. Minimum Deletions to Make Alternating Substring](Segment%20Tree/3777.%20Minimum%20Deletions%20to%20Make%20Alternating%20Substring/)
 
+[3901. Good Subsequence Queries](Segment%20Tree/3901.%20Good%20Subsequence%20Queries/)
+
 [699. Falling Squares](Interval/699.%20Falling%20Squares/README.md)
 
 ## Sorting
