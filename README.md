@@ -1911,6 +1911,8 @@ for k, arr in MAP.items():
 
 [3890. Integers With Multiple Sum of Two Cubes](Math&Geometry/3890.%20Integers%20With%20Multiple%20Sum%20of%20Two%20Cubes/)
 
+[3896. Minimum Operations to Transform Array into Alternating Prime](Math&Geometry/3896.%20Minimum%20Operations%20to%20Transform%20Array%20into%20Alternating%20Prime/)
+
 [390. Elimination Game](Math%26Geometry/390.%20Elimination%20Game/README.md)
 
 [391. Perfect Rectangle](Math%26Geometry/391.%20Perfect%20Rectangle/README.md)
