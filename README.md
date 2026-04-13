@@ -2237,6 +2237,8 @@ for k, arr in MAP.items():
 
 [3638. Maximum Balanced Shipments](Greedy/3638.%20Maximum%20Balanced%20Shipments/)
 
+[3897. Maximum Value of Concatenated Binary Segments](Greedy/3897.%20Maximum%20Value%20of%20Concatenated%20Binary%20Segments/)
+
 [406. Queue Reconstruction by Height](Greedy/406.%20Queue%20Reconstruction%20by%20Height/README.md)
 
 [45. Jump Game II](Greedy/45.%20Jump%20Game%20II/README.md)
