@@ -3585,6 +3585,8 @@ for k, arr in MAP.items():
 
 [3869. Count Fancy Numbers in a Range](2-D%20Dynamic%20Programming/DigitDP/3869.%20Count%20Fancy%20Numbers%20in%20a%20Range/)
 
+[3906. Count Good Integers on a Grid Path](2-D%20Dynamic%20Programming/DigitDP/3906.%20Count%20Good%20Integers%20on%20a%20Grid%20Path/)
+
 [788. Rotated Digits](./2-D%20Dynamic%20Programming/DigitDP/788.%20Rotated%20Digits)
 
 ## 2-D Dynamic Programming/Knapsack
