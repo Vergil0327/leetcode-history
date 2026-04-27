@@ -3665,6 +3665,8 @@ for k, arr in MAP.items():
 
 [375. Guess Number Higher or Lower II](2-D%20Dynamic%20Programming/Interval/375.%20Guess%20Number%20Higher%20or%20Lower%20II/README.md)
 
+[3915. Maximum Sum of Alternating Subsequence With Distance at Least K](2-D%20Dynamic%20Programming/Interval/3915.%20Maximum%20Sum%20of%20Alternating%20Subsequence%20With%20Distance%20at%20Least%20K/)
+
 [410. Split Array Largest Sum](2-D%20Dynamic%20Programming/Interval/410.%20Split%20Array%20Largest%20Sum/README.md)
 
 [471. Encode String with Shortest Length](2-D%20Dynamic%20Programming/Interval/471.%20Encode%20String%20with%20Shortest%20Length/README.md)
