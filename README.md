@@ -1191,6 +1191,8 @@ for k, arr in MAP.items():
 
 [3825. Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND](./1-D%20Dynamic%20Programming/LIS/3825.%20Longest%20Strictly%20Increasing%20Subsequence%20With%20Non-Zero%20Bitwise%20AND/)
 
+[3920. Maximize Fixed Points After Deletions](1-D%20Dynamic%20Programming/LIS/3920.%20Maximize%20Fixed%20Points%20After%20Deletions/)
+
 ## 1-D Dynamic Programming/3Pass
 
 [1671. Minimum Number of Removals to Make Mountain Array](1-D%20Dynamic%20Programming/3Pass/1671.%20Minimum%20Number%20of%20Removals%20to%20Make%20Mountain%20Array/README.md)
