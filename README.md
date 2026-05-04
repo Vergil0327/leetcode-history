@@ -3921,6 +3921,8 @@ for k, arr in MAP.items():
 
 [3771. Total Score of Dungeon Runs](PrefixSum/3771.%20Total%20Score%20of%20Dungeon%20Runs/)
 
+[3919. Minimum Cost to Move Between Indices](PrefixSum/3919.%20Minimum%20Cost%20to%20Move%20Between%20Indices/)
+
 [523. Continuous Subarray Sum](PrefixSum/523.%20Continuous%20Subarray%20Sum/README.md)
 
 [528. Random Pick with Weight](PrefixSum/528.%20Random%20Pick%20with%20Weight/README.md)
