@@ -1505,6 +1505,8 @@ for k, arr in MAP.items():
 
 [3900. Longest Balanced Substring After One Swap](Array&Hashing/3900.%20Longest%20Balanced%20Substring%20After%20One%20Swap/)
 
+[3927. Minimize Array Sum Using Divisible Replacements](Array&Hashing/3927.%20Minimize%20Array%20Sum%20Using%20Divisible%20Replacements/)
+
 [409. Longest Palindrome](Array%26Hashing/409.%20Longest%20Palindrome/README.md)
 
 [41. First Missing Positive](Array%26Hashing/41.%20First%20Missing%20Positive/README.md)
