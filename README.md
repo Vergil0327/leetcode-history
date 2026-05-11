@@ -2815,6 +2815,8 @@ for k, arr in MAP.items():
 
 [3905. Multi Source Flood Fill](Graphs/BFS/3905.%20Multi%20Source%20Flood%20Fill/)
 
+[3923. Minimum Generations to Target Point](Graphs/BFS/3923.%20Minimum%20Generations%20to%20Target%20Point/)
+
 [399. Evaluate Division](Graphs/BFS/399.%20Evaluate%20Division/README.md)
 
 [433. Minimum Genetic Mutation](Graphs/BFS/433.%20Minimum%20Genetic%20Mutation/README.md)
