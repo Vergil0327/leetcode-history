@@ -2893,6 +2893,8 @@ for k, arr in MAP.items():
 
 [3924. Minimum Threshold Path With Limited Heavy Edges](Graphs/Dijkstra/3924.%20Minimum%20Threshold%20Path%20With%20Limited%20Heavy%20Edges/)
 
+[3928. Minimum Cost to Buy Apples II](Graphs/Dijkstra/3928.%20Minimum%20Cost%20to%20Buy%20Apples%20II/)
+
 [407. Trapping Rain Water II](Graphs/Dijkstra/407.%20Trapping%20Rain%20Water%20II/README.md)
 
 [743. Network Delay Time](Graphs/Dijkstra/743.%20Network%20Delay%20Time/README.md)
