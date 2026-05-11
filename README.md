@@ -502,6 +502,8 @@ for k, arr in MAP.items():
 
 [3733. Minimum Time to Complete All Deliveries](Binary%20Search/3733.%20Minimum%20Time%20to%20Complete%20All%20Deliveries/)
 
+[3924. Minimum Threshold Path With Limited Heavy Edges](Graphs/Dijkstra/3924.%20Minimum%20Threshold%20Path%20With%20Limited%20Heavy%20Edges/)
+
 [4. Median of Two Sorted Arrays](Binary%20Search/4.%20Median%20of%20Two%20Sorted%20Arrays/README.md)
 
 [410. Split Array Largest Sum](Binary%20Search/410.%20Split%20Array%20Largest%20Sum/README.md)
@@ -2888,6 +2890,8 @@ for k, arr in MAP.items():
 [3629. Minimum Jumps to Reach End via Prime Teleportation](Graphs/Dijkstra/3629.%20Minimum%20Jumps%20to%20Reach%20End%20via%20Prime%20Teleportation/)
 
 [3650. Minimum Cost Path with Edge Reversals](Graphs/Dijkstra/3650.%20Minimum%20Cost%20Path%20with%20Edge%20Reversals/)
+
+[3924. Minimum Threshold Path With Limited Heavy Edges](Graphs/Dijkstra/3924.%20Minimum%20Threshold%20Path%20With%20Limited%20Heavy%20Edges/)
 
 [407. Trapping Rain Water II](Graphs/Dijkstra/407.%20Trapping%20Rain%20Water%20II/README.md)
 
