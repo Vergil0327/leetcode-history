@@ -504,6 +504,8 @@ for k, arr in MAP.items():
 
 [3924. Minimum Threshold Path With Limited Heavy Edges](Graphs/Dijkstra/3924.%20Minimum%20Threshold%20Path%20With%20Limited%20Heavy%20Edges/)
 
+[3934. Smallest Unique Subarray](Binary%20Search/3934.%20Smallest%20Unique%20Subarray/)
+
 [4. Median of Two Sorted Arrays](Binary%20Search/4.%20Median%20of%20Two%20Sorted%20Arrays/README.md)
 
 [410. Split Array Largest Sum](Binary%20Search/410.%20Split%20Array%20Largest%20Sum/README.md)
@@ -2468,6 +2470,8 @@ for k, arr in MAP.items():
 [3008. Find Beautiful Indices in the Given Array II](String/RollingHash/3008.%20Find%20Beautiful%20Indices%20in%20the%20Given%20Array%20II/README.md)
 
 [3327. Check if DFS Strings Are Palindromes](String/RollingHash/3327.%20Check%20if%20DFS%20Strings%20Are%20Palindromes/)
+
+[3934. Smallest Unique Subarray](Binary%20Search/3934.%20Smallest%20Unique%20Subarray/)
 
 ## String
 
