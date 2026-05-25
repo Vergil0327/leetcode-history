@@ -2829,6 +2829,8 @@ for k, arr in MAP.items():
 
 [3923. Minimum Generations to Target Point](Graphs/BFS/3923.%20Minimum%20Generations%20to%20Target%20Point/)
 
+[3942. Minimum Operations to Sort a Permutation](Graphs/BFS/3942.%20Minimum%20Operations%20to%20Sort%20a%20Permutation/)
+
 [399. Evaluate Division](Graphs/BFS/399.%20Evaluate%20Division/README.md)
 
 [433. Minimum Genetic Mutation](Graphs/BFS/433.%20Minimum%20Genetic%20Mutation/README.md)
