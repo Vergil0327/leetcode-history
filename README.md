@@ -204,6 +204,8 @@ for k, arr in MAP.items():
 
 [386. Lexicographical Numbers](Trees/386.%20Lexicographical%20Numbers/README.md)
 
+[3939. Count Non Adjacent Subsets in a Rooted Tree](Trees/3939.%20Count%20Non%20Adjacent%20Subsets%20in%20a%20Rooted%20Tree/)
+
 [427. Construct Quad Tree](Trees/427.%20Construct%20Quad%20Tree/README.md)
 
 [449. Serialize and Deserialize BST](Trees/449.%20Serialize%20and%20Deserialize%20BST/)
@@ -3496,6 +3498,8 @@ for k, arr in MAP.items():
 [3883. Count Non Decreasing Arrays With Given Digit Sums](2-D%20Dynamic%20Programming/3883.%20Count%20Non%20Decreasing%20Arrays%20With%20Given%20Digit%20Sums/)
 
 [3892. Minimum Operations to Achieve At Least K Peaks](2-D%20Dynamic%20Programming/3892.%20Minimum%20Operations%20to%20Achieve%20At%20Least%20K%20Peaks/)
+
+[3939. Count Non Adjacent Subsets in a Rooted Tree](Trees/3939.%20Count%20Non%20Adjacent%20Subsets%20in%20a%20Rooted%20Tree/)
 
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
