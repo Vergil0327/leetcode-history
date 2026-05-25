@@ -1931,6 +1931,8 @@ for k, arr in MAP.items():
 
 [391. Perfect Rectangle](Math%26Geometry/391.%20Perfect%20Rectangle/README.md)
 
+[3943. Number of Pairs After Increment](Math&Geometry/3943.%20Number%20of%20Pairs%20After%20Increment/)
+
 [396. Rotate Function](Math%26Geometry/396.%20Rotate%20Function/README.md)
 
 [398. Random Pick Index](Math%26Geometry/398.%20Random%20Pick%20Index/README.md)
