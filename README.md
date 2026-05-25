@@ -1134,6 +1134,8 @@ for k, arr in MAP.items():
 
 [3891. Minimum Increase to Maximize Special Indices](1-D%20Dynamic%20Programming/3891.%20Minimum%20Increase%20to%20Maximize%20Special%20Indices/)
 
+[3938. Maximum Path Intersection Sum in a Grid](1-D%20Dynamic%20Programming/3938.%20Maximum%20Path%20Intersection%20Sum%20in%20a%20Grid/)
+
 [397. Integer Replacement](1-D%20Dynamic%20Programming/397.%20Integer%20Replacement/README.md)
 
 [413. Arithmetic Slices](1-D%20Dynamic%20Programming/413.%20Arithmetic%20Slices/README.md)
