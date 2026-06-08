@@ -1935,6 +1935,8 @@ for k, arr in MAP.items():
 
 [3943. Number of Pairs After Increment](Math&Geometry/3943.%20Number%20of%20Pairs%20After%20Increment/)
 
+[3953. Maximum Score with Co-Prime Element](Math&Geometry/3953.%20Maximum%20Score%20with%20Co-Prime%20Element/)
+
 [396. Rotate Function](Math%26Geometry/396.%20Rotate%20Function/README.md)
 
 [398. Random Pick Index](Math%26Geometry/398.%20Random%20Pick%20Index/README.md)
