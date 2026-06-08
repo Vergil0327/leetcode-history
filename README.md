@@ -3513,6 +3513,8 @@ for k, arr in MAP.items():
 
 [3952. Maximum Total Value of Covered Indices](2-D%20Dynamic%20Programming/3952.%20Maximum%20Total%20Value%20of%20Covered%20Indices/)
 
+[3956. Maximum Sum of M Non-Overlapping Subarrays I](2-D%20Dynamic%20Programming/3956.%20Maximum%20Sum%20of%20M%20Non-Overlapping%20Subarrays%20I/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
