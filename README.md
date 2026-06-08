@@ -2259,6 +2259,8 @@ for k, arr in MAP.items():
 
 [3948. Lexicographically Maximum MEX Array](Greedy/3948.%20Lexicographically%20Maximum%20MEX%20Array/)
 
+[3952. Maximum Total Value of Covered Indices](2-D%20Dynamic%20Programming/3952.%20Maximum%20Total%20Value%20of%20Covered%20Indices/)
+
 [406. Queue Reconstruction by Height](Greedy/406.%20Queue%20Reconstruction%20by%20Height/README.md)
 
 [45. Jump Game II](Greedy/45.%20Jump%20Game%20II/README.md)
@@ -3508,6 +3510,8 @@ for k, arr in MAP.items():
 [3892. Minimum Operations to Achieve At Least K Peaks](2-D%20Dynamic%20Programming/3892.%20Minimum%20Operations%20to%20Achieve%20At%20Least%20K%20Peaks/)
 
 [3939. Count Non Adjacent Subsets in a Rooted Tree](Trees/3939.%20Count%20Non%20Adjacent%20Subsets%20in%20a%20Rooted%20Tree/)
+
+[3952. Maximum Total Value of Covered Indices](2-D%20Dynamic%20Programming/3952.%20Maximum%20Total%20Value%20of%20Covered%20Indices/)
 
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
