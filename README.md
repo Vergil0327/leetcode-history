@@ -2917,6 +2917,8 @@ for k, arr in MAP.items():
 
 [3928. Minimum Cost to Buy Apples II](Graphs/Dijkstra/3928.%20Minimum%20Cost%20to%20Buy%20Apples%20II/)
 
+[3970. Shortest Path With At Most K Consecutive Identical](Graphs/Dijkstra/3970.%20Shortest%20Path%20With%20At%20Most%20K%20Consecutive%20Identical%20Characters/)
+
 [407. Trapping Rain Water II](Graphs/Dijkstra/407.%20Trapping%20Rain%20Water%20II/README.md)
 
 [743. Network Delay Time](Graphs/Dijkstra/743.%20Network%20Delay%20Time/README.md)
