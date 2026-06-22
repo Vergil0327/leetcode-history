@@ -510,6 +510,8 @@ for k, arr in MAP.items():
 
 [3957. Maximum Sum of M Non-Overlapping Subarrays II](Binary%20Search/3957.%20Maximum%20Sum%20of%20M%20Non-Overlapping%20Subarrays%20II/)
 
+[3971. Maximum Total Value](Binary%20Search/3971.%20Maximum%20Total%20Value/)
+
 [4. Median of Two Sorted Arrays](Binary%20Search/4.%20Median%20of%20Two%20Sorted%20Arrays/README.md)
 
 [410. Split Array Largest Sum](Binary%20Search/410.%20Split%20Array%20Largest%20Sum/README.md)
