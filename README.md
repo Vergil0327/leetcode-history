@@ -2921,6 +2921,8 @@ for k, arr in MAP.items():
 
 [3970. Shortest Path With At Most K Consecutive Identical](Graphs/Dijkstra/3970.%20Shortest%20Path%20With%20At%20Most%20K%20Consecutive%20Identical%20Characters/)
 
+[3977. Minimum Time to Reach Target With Limited Power](Graphs/Dijkstra/3977.%20Minimum%20Time%20to%20Reach%20Target%20With%20Limited%20Power/)
+
 [407. Trapping Rain Water II](Graphs/Dijkstra/407.%20Trapping%20Rain%20Water%20II/README.md)
 
 [743. Network Delay Time](Graphs/Dijkstra/743.%20Network%20Delay%20Time/README.md)
