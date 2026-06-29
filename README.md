@@ -3523,6 +3523,8 @@ for k, arr in MAP.items():
 
 [3956. Maximum Sum of M Non-Overlapping Subarrays I](2-D%20Dynamic%20Programming/3956.%20Maximum%20Sum%20of%20M%20Non-Overlapping%20Subarrays%20I/)
 
+[3976. Maximum Subarray Sum After Multiplier](2-D%20Dynamic%20Programming/3976.%20Maximum%20Subarray%20Sum%20After%20Multiplier/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
