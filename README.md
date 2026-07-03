@@ -2697,6 +2697,8 @@ for k, arr in MAP.items():
 
 [3615. Longest Palindromic Path in Graph](Graphs/3615.%20Longest%20Palindromic%20Path%20in%20Graph/)
 
+[3620. Network Recovery Pathways](Graphs/3620.%20Network%20Recovery%20Pathways/)
+
 [3665. Twisted Mirror Path Count](Graphs/3665.%20Twisted%20Mirror%20Path%20Count/)
 
 [417. Pacific Atlantic Water Flow](Graphs/417.%20Pacific%20Atlantic%20Water%20Flow/README.md)
