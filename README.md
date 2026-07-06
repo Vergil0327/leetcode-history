@@ -2267,6 +2267,8 @@ for k, arr in MAP.items():
 
 [3952. Maximum Total Value of Covered Indices](2-D%20Dynamic%20Programming/3952.%20Maximum%20Total%20Value%20of%20Covered%20Indices/)
 
+[3983. Subsequence After One Replacement](Greedy/3983.%20Subsequence%20After%20One%20Replacement/)
+
 [406. Queue Reconstruction by Height](Greedy/406.%20Queue%20Reconstruction%20by%20Height/README.md)
 
 [45. Jump Game II](Greedy/45.%20Jump%20Game%20II/README.md)
