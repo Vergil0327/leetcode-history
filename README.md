@@ -3753,6 +3753,8 @@ for k, arr in MAP.items():
 
 [3836. Maximum Score Using Exactly K Pairs](2-D%20Dynamic%20Programming/TwoSequence/3836.%20Maximum%20Score%20Using%20Exactly%20K%20Pairs/)
 
+[3981. Count Distinct Ways to Form Target from Two Strings](2-D%20Dynamic%20Programming/TwoSequence/3981.%20Count%20Distinct%20Ways%20to%20Form%20Target%20from%20Two%20Strings/)
+
 [583. Delete Operation for Two Strings](2-D%20Dynamic%20Programming/TwoSequence/583.%20Delete%20Operation%20for%20Two%20Strings/README.md)
 
 [712. Minimum ASCII Delete Sum for Two Strings](2-D%20Dynamic%20Programming/TwoSequence/712.%20Minimum%20ASCII%20Delete%20Sum%20for%20Two%20Strings/README.md)
