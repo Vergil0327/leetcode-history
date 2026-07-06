@@ -2619,6 +2619,8 @@ for k, arr in MAP.items():
 
 [214. Shortest Palindrome](String/Manacher/214.%20Shortest%20Palindrome/README.md)
 
+[3985. Palindromic Subarray Sum](String/Manacher/3985.%20Palindromic%20Subarray%20Sum/)
+
 ## Graphs/Floyd
 
 [2642. Design Graph With Shortest Path Calculator](Graphs/Floyd/2642.%20Design%20Graph%20With%20Shortest%20Path%20Calculator/README.md)
