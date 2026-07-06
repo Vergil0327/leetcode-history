@@ -1945,6 +1945,8 @@ for k, arr in MAP.items():
 
 [398. Random Pick Index](Math%26Geometry/398.%20Random%20Pick%20Index/README.md)
 
+[3984. Divisible Game](Math&Geometry/3984.%20Divisible%20Game/)
+
 [400. Nth Digit](Math%26Geometry/400.%20Nth%20Digit/README.md)
 
 [43. Multiply Strings](Math%26Geometry/43.%20Multiply%20Strings/README.md)
