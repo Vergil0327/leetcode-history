@@ -1207,6 +1207,8 @@ for k, arr in MAP.items():
 
 [3920. Maximize Fixed Points After Deletions](1-D%20Dynamic%20Programming/LIS/3920.%20Maximize%20Fixed%20Points%20After%20Deletions/)
 
+[3989. Maximum Consistent Columns in a Grid](1-D%20Dynamic%20Programming/LIS/3989.%20Maximum%20Consistent%20Columns%20in%20a%20Grid/)
+
 ## 1-D Dynamic Programming/3Pass
 
 [1671. Minimum Number of Removals to Make Mountain Array](1-D%20Dynamic%20Programming/3Pass/1671.%20Minimum%20Number%20of%20Removals%20to%20Make%20Mountain%20Array/README.md)
