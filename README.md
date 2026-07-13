@@ -4135,6 +4135,8 @@ for k, arr in MAP.items():
 
 [3829. Design Ride Sharing System](Sorted%20Container/SortedList/3829.%20Design%20Ride%20Sharing%20System/)
 
+[3987. Minimum Total Cost to Process All Elements](Sorted%20Container/SortedList/3987.%20Minimum%20Total%20Cost%20to%20Process%20All%20Elements/)
+
 [480. Sliding Window Median](Sliding%20Window/480.%20Sliding%20Window%20Median/480.%20Sliding%20Window%20Median/README.md)
 
 [493. Reverse Pairs](Binary%20Search/SortedList/493.%20Reverse%20Pairs/README.md)
