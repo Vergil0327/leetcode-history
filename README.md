@@ -2569,6 +2569,8 @@ for k, arr in MAP.items():
 
 [3922. Minimum Flips to Make Binary String Coherent](String/3922.%20Minimum%20Flips%20to%20Make%20Binary%20String%20Coherent/)
 
+[3999. Minimum Number of String Groups Through Transformations](String/3999.%20Minimum%20Number%20of%20String%20Groups%20Through%20Transformations/)
+
 [420. Strong Password Checker](String/420.%20Strong%20Password%20Checker/README.md)
 
 [466. Count The Repetitions](String/466.%20Count%20The%20Repetitions/README.md)
