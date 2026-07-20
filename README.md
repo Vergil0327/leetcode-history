@@ -2275,6 +2275,8 @@ for k, arr in MAP.items():
 
 [3983. Subsequence After One Replacement](Greedy/3983.%20Subsequence%20After%20One%20Replacement/)
 
+[3998. Transform Binary String Using Subsequence Sort](Greedy/3998.%20Transform%20Binary%20String%20Using%20Subsequence%20Sort/)
+
 [406. Queue Reconstruction by Height](Greedy/406.%20Queue%20Reconstruction%20by%20Height/README.md)
 
 [45. Jump Game II](Greedy/45.%20Jump%20Game%20II/README.md)
