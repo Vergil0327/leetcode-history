@@ -2943,6 +2943,8 @@ for k, arr in MAP.items():
 
 [3977. Minimum Time to Reach Target With Limited Power](Graphs/Dijkstra/3977.%20Minimum%20Time%20to%20Reach%20Target%20With%20Limited%20Power/)
 
+[4003. Minimum Cost Path with Alternating Directions III](Graphs/Dijkstra/4003.%20Minimum%20Cost%20Path%20with%20Alternating%20Directions%20III/)
+
 [407. Trapping Rain Water II](Graphs/Dijkstra/407.%20Trapping%20Rain%20Water%20II/README.md)
 
 [743. Network Delay Time](Graphs/Dijkstra/743.%20Network%20Delay%20Time/README.md)
