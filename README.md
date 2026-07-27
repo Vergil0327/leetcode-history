@@ -1951,6 +1951,8 @@ for k, arr in MAP.items():
 
 [400. Nth Digit](Math%26Geometry/400.%20Nth%20Digit/README.md)
 
+[4002. Count Valid Sequences](Math&Geometry/4002.%20Count%20Valid%20Sequences/)
+
 [43. Multiply Strings](Math%26Geometry/43.%20Multiply%20Strings/README.md)
 
 [453. Minimum Moves to Equal Array Elements](Math%26Geometry/453.%20Minimum%20Moves%20to%20Equal%20Array%20Elements/README.md)
