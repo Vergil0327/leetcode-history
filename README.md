@@ -4063,6 +4063,8 @@ for k, arr in MAP.items():
 
 [3355. Zero Array Transformation I](PrefixSum/DiffSum/3355.%20Zero%20Array%20Transformation%20I/)
 
+[4008. Minimum Initial Strength to Defeat All Monsters](PrefixSum/DiffSum/4008.%20Minimum%20Initial%20Strength%20to%20Defeat%20All%20Monsters/)
+
 [3655. XOR After Range Multiplication Queries II](PrefixSum/DiffSum/3655.%20XOR%20After%20Range%20Multiplication%20Queries%20II/)
 
 [798. Smallest Rotation with Highest Score](PrefixSum/DiffSum/798.%20Smallest%20Rotation%20with%20Highest%20Score/README.md)
