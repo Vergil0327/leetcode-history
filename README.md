@@ -4007,6 +4007,8 @@ for k, arr in MAP.items():
 
 [3919. Minimum Cost to Move Between Indices](PrefixSum/3919.%20Minimum%20Cost%20to%20Move%20Between%20Indices/)
 
+[4013. Count Subarrays With Even Odd Ratio II](PrefixSum/4013.%20Count%20Subarrays%20With%20Even%20Odd%20Ratio%20II/)
+
 [523. Continuous Subarray Sum](PrefixSum/523.%20Continuous%20Subarray%20Sum/README.md)
 
 [528. Random Pick with Weight](PrefixSum/528.%20Random%20Pick%20with%20Weight/README.md)
