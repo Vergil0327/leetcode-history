@@ -514,6 +514,8 @@ for k, arr in MAP.items():
 
 [4. Median of Two Sorted Arrays](Binary%20Search/4.%20Median%20of%20Two%20Sorted%20Arrays/README.md)
 
+[4012. Count of Unfinished Tasks After Each Shift](Binary%20Search/4012.%20Count%20of%20Unfinished%20Tasks%20After%20Each%20Shift/)
+
 [410. Split Array Largest Sum](Binary%20Search/410.%20Split%20Array%20Largest%20Sum/README.md)
 
 [528. Random Pick with Weight](Binary%20Search/528.%20Random%20Pick%20with%20Weight/README.md)
