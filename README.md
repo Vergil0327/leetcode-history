@@ -3553,6 +3553,8 @@ for k, arr in MAP.items():
 
 [3976. Maximum Subarray Sum After Multiplier](2-D%20Dynamic%20Programming/3976.%20Maximum%20Subarray%20Sum%20After%20Multiplier/)
 
+[4009. Minimum Possible Maximum Waiting Time](2-D%20Dynamic%20Programming/4009.%20Minimum%20Possible%20Maximum%20Waiting%20Time/)
+
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
