@@ -2337,6 +2337,8 @@ for k, arr in MAP.items():
 
 [1649. Create Sorted Array through Instructions](Segment%20Tree/1649.%20Create%20Sorted%20Array%20through%20Instructions/README.md)
 
+[2213. Longest Substring of One Repeating Character](Sorted%20Container/SortedDict/2213.%20Longest%20Substring%20of%20One%20Repeating%20Character/)
+
 [2286. Booking Concert Tickets in Groups](Segment%20Tree/2286.%20Booking%20Concert%20Tickets%20in%20Groups/README.md)
 
 [2407. Longest Increasing Subsequence II](Segment%20Tree/2407.%20Longest%20Increasing%20Subsequence%20II/README.md)
@@ -2366,6 +2368,8 @@ for k, arr in MAP.items():
 [3777. Minimum Deletions to Make Alternating Substring](Segment%20Tree/3777.%20Minimum%20Deletions%20to%20Make%20Alternating%20Substring/)
 
 [3901. Good Subsequence Queries](Segment%20Tree/3901.%20Good%20Subsequence%20Queries/)
+
+[4017. Peaks in Array II](./Segment%20Tree/4017.%20Peaks%20in%20Array%20II)
 
 [699. Falling Squares](Interval/699.%20Falling%20Squares/README.md)
 
