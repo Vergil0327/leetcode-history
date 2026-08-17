@@ -3861,6 +3861,8 @@ for k, arr in MAP.items():
 
 [3801. Minimum Cost to Merge Sorted Lists](2-D%20Dynamic%20Programming/Bitmask/3801.%20Minimum%20Cost%20to%20Merge%20Sorted%20Lists/)
 
+[4027. Elevator Requests III](2-D%20Dynamic%20Programming/Bitmask/4027.%20Elevator%20Requests%20III/)
+
 [464. Can I Win](2-D%20Dynamic%20Programming/Bitmask/464.%20Can%20I%20Win/)
 
 [691. Stickers to Spell Word](2-D%20Dynamic%20Programming/Bitmask/691.%20Stickers%20to%20Spell%20Word/README.md)
