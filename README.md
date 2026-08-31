@@ -3705,6 +3705,8 @@ for k, arr in MAP.items():
 
 [3946. Maximum Number of Items From Sale I](2-D%20Dynamic%20Programming/Knapsack/3946.%20Maximum%20Number%20of%20Items%20From%20Sale%20I/)
 
+[4041. Minimum Operations to Form Subset Sum II](2-D%20Dynamic%20Programming/Knapsack/4041.%20Minimum%20Operations%20to%20Form%20Subset%20Sum%20II/)
+
 [474. Ones and Zeroes](2-D%20Dynamic%20Programming/Knapsack/474.%20Ones%20and%20Zeroes/README.md)
 
 [494. Target Sum](2-D%20Dynamic%20Programming/Knapsack/494.%20Target%20Sum/README.md)
