@@ -1963,6 +1963,8 @@ for k, arr in MAP.items():
 
 [4022. K-th Digit in Infinite String](Math&Geometry/4022.%20K-th%20Digit%20in%20Infinite%20String/)
 
+[4036. Lexicographically Largest String After Pair Transformations](Math&Geometry/4036.%20Lexicographically%20Largest%20String%20After%20Pair%20Transformations/)
+
 [43. Multiply Strings](Math%26Geometry/43.%20Multiply%20Strings/README.md)
 
 [453. Minimum Moves to Equal Array Elements](Math%26Geometry/453.%20Minimum%20Moves%20to%20Equal%20Array%20Elements/README.md)
