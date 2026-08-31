@@ -1150,6 +1150,8 @@ for k, arr in MAP.items():
 
 [3980. Minimum Operations to Transform Binary String](1-D%20Dynamic%20Programming/3980.%20Minimum%20Operations%20to%20Transform%20Binary%20String/)
 
+[4040. Minimum Operations to Form Subset Sum I](1-D%20Dynamic%20Programming/4040.%20Minimum%20Operations%20to%20Form%20Subset%20Sum%20I/)
+
 [413. Arithmetic Slices](1-D%20Dynamic%20Programming/413.%20Arithmetic%20Slices/README.md)
 
 [416. Partition Equal Subset Sum](1-D%20Dynamic%20Programming/416.%20Partition%20Equal%20Subset%20Sum/README.md)
