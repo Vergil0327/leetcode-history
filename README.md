@@ -690,6 +690,8 @@ for k, arr in MAP.items():
 
 [393. UTF-8 Validation](Bit%20Manipulation/393.%20UTF-8%20Validation/README.md)
 
+[4059. Lexicographically Largest Power Array](Bit%20Manipulation/4059.%20Lexicographically%20Largest%20Power%20Array/)
+
 [477. Total Hamming Distance](Bit%20Manipulation/477.%20Total%20Hamming%20Distance/README.md)
 
 [6189. Longest Subarray With Maximum Bitwise AND](Bit%20Manipulation/6189.%20Longest%20Subarray%20With%20Maximum%20Bitwise%20AND/README.md)
@@ -1969,6 +1971,8 @@ for k, arr in MAP.items():
 
 [4037. Maximum Valid Split Positions II](Math&Geometry/4037.%20Maximum%20Valid%20Split%20Positions%20II/)
 
+[4058. Maximum Pulse Value After One Subarray Rotation](Math&Geometry/4058.%20Maximum%20Pulse%20Value%20After%20One%20Subarray%20Rotation/)
+
 [43. Multiply Strings](Math%26Geometry/43.%20Multiply%20Strings/README.md)
 
 [453. Minimum Moves to Equal Array Elements](Math%26Geometry/453.%20Minimum%20Moves%20to%20Equal%20Array%20Elements/README.md)
@@ -2296,6 +2300,8 @@ for k, arr in MAP.items():
 [3994. Minimum Adjacent Swaps to Partition Array](Greedy/3994.%20Minimum%20Adjacent%20Swaps%20to%20Partition%20Array/)
 
 [3998. Transform Binary String Using Subsequence Sort](Greedy/3998.%20Transform%20Binary%20String%20Using%20Subsequence%20Sort/)
+
+[4059. Lexicographically Largest Power Array](./Bit%20Manipulation/4059.%20Lexicographically%20Largest%20Power%20Array/)
 
 [406. Queue Reconstruction by Height](Greedy/406.%20Queue%20Reconstruction%20by%20Height/README.md)
 
