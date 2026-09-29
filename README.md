@@ -1537,6 +1537,8 @@ for k, arr in MAP.items():
 
 [4063. Longest Subarray Divisible by K with At Most One Negation I](Array&Hashing/4063.%20Longest%20Subarray%20Divisible%20by%20K%20with%20At%20Most%20One%20Negation%20I)
 
+[4066. Maximum Equal Adjacent Pairs After at Most One Replacement](Array&Hashing/4066.%20Maximum%20Equal%20Adjacent%20Pairs%20After%20at%20Most%20One%20Replacement/)
+
 [409. Longest Palindrome](Array%26Hashing/409.%20Longest%20Palindrome/README.md)
 
 [41. First Missing Positive](Array%26Hashing/41.%20First%20Missing%20Positive/README.md)
