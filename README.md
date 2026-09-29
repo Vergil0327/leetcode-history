@@ -1689,6 +1689,8 @@ for k, arr in MAP.items():
 
 [395. Longest Substring with At Least K Repeating Characters](Sliding%20Window/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters/README.md)
 
+[4067. Longest Subarray With Restricted Pair Sums](Sliding%20Window/4067.%20Longest%20Subarray%20With%20Restricted%20Pair%20Sums/)
+
 [424. Longest Repeating Character Replacement](Sliding%20Window/424.%20Longest%20Repeating%20Character%20Replacement/README.md)
 
 [438. Find All Anagrams in a String](Sliding%20Window/438.%20Find%20All%20Anagrams%20in%20a%20String/README.md)
