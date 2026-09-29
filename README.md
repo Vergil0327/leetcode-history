@@ -1154,6 +1154,8 @@ for k, arr in MAP.items():
 
 [4040. Minimum Operations to Form Subset Sum I](1-D%20Dynamic%20Programming/4040.%20Minimum%20Operations%20to%20Form%20Subset%20Sum%20I/)
 
+[4068. Maximize Meeting Earnings with Idle Gaps](1-D%20Dynamic%20Programming/4068.%20Maximize%20Meeting%20Earnings%20with%20Idle%20Gaps/)
+
 [413. Arithmetic Slices](1-D%20Dynamic%20Programming/413.%20Arithmetic%20Slices/README.md)
 
 [416. Partition Equal Subset Sum](1-D%20Dynamic%20Programming/416.%20Partition%20Equal%20Subset%20Sum/README.md)
