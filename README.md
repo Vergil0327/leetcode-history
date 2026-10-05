@@ -3589,6 +3589,8 @@ for k, arr in MAP.items():
 
 [403. Frog Jump](2-D%20Dynamic%20Programming/403.%20Frog%20Jump/README.md)
 
+[4072. Maximum Alternating Subarray Sum With One Deletion](2-D%20Dynamic%20Programming/4072.%20Maximum%20Alternating%20Subarray%20Sum%20With%20One%20Deletion/)
+
 [44. Wildcard Matching](2-D%20Dynamic%20Programming/44.%20Wildcard%20Matching/README.md)
 
 [446. Arithmetic Slices II - Subsequence](2-D%20Dynamic%20Programming/446.%20Arithmetic%20Slices%20II%20-%20Subsequence/README.md)
