@@ -1991,6 +1991,8 @@ for k, arr in MAP.items():
 
 [462. Minimum Moves to Equal Array Elements II](Math%26Geometry/462.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20II/README.md)
 
+[4073. Count Good Strings](Math&Geometry/4073.%20Count%20Good%20Strings/)
+
 [48. Rotate Image](Math%26Geometry/48.%20Rotate%20Image/README.md)
 
 [483. Smallest Good Base](Math%26Geometry/483.%20Smallest%20Good%20Base/README.md)
