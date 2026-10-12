@@ -3707,6 +3707,8 @@ for k, arr in MAP.items():
 
 ## 2-D Dynamic Programming/Knapsack
 
+[Biweekly Contest 193 Q4. Prime Subset Selection II](2-D%20Dynamic%20Programming/Knapsack/Biweekly%20Contest%20193%20Q4.%20Prime%20Subset%20Selection%20II/)
+
 [1049. Last Stone Weight II](2-D%20Dynamic%20Programming/Knapsack/1049.%20Last%20Stone%20Weight%20II/README.md)
 
 [1416. Restore The Array](2-D%20Dynamic%20Programming/Knapsack/1416.%20Restore%20The%20Array/README.md)
