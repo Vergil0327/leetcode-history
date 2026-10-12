@@ -1723,6 +1723,8 @@ for k, arr in MAP.items():
 
 ## Math&Geometry
 
+[Biweekly Contest 193 Q3. Longest Resilient Subarray II](Math&Geometry/Biweekly%20Contest%20193%20Q3.%20Longest%20Resilient%20Subarray%20II/)
+
 [1015. Smallest Integer Divisible by K](Math%26Geometry/1015.%20Smallest%20Integer%20Divisible%20by%20K/README.md)
 
 [1017. Convert to Base -2](Math%26Geometry/1017.%20Convert%20to%20Base%20-2/README.md)
