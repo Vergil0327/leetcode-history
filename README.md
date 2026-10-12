@@ -2471,6 +2471,8 @@ for k, arr in MAP.items():
 
 ## Tries
 
+[Biweekly Contest 193 Q4. Minimize Inversions in a Prefix Tree](Tries/Biweekly%20Contest%20193%20Q4.%20Minimize%20Inversions%20in%20a%20Prefix%20Tree/)
+
 [1032. Stream of Characters](Tries/1032.%20Stream%20of%20Characters/README.md)
 
 [1166. Design File System](Tries/1166.%20Design%20File%20System/README.md)
