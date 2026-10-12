@@ -1345,6 +1345,8 @@ for k, arr in MAP.items():
 
 ## Array&Hashing
 
+[Weekly Contest 523 Q3. Design Bus Seat Booking System](Array&Hashing/Weekly%20Contest%20523%20Q3.%20Design%20Bus%20Seat%20Booking%20System/)
+
 [1001. Grid Illumination](Array%26Hashing/1001.%20Grid%20Illumination/README.md)
 
 [1139. Largest 1-Bordered Square](Array&Hashing/1139.%20Largest%201-Bordered%20Square/)
