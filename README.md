@@ -310,6 +310,8 @@ for k, arr in MAP.items():
 
 [3772. Maximum Subgraph Score in a Tree](Trees/ReRoot/3772.%20Maximum%20Subgraph%20Score%20in%20a%20Tree/)
 
+[4085. Find Root of a Colored Tree](Trees/ReRoot/4085.%20Find%20Root%20of%20a%20Colored%20Tree/)
+
 [834. Sum of Distances in Tree](Trees/ReRoot/834.%20Sum%20of%20Distances%20in%20Tree/README.md)
 
 ## Trees/BFS
