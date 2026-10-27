@@ -1549,6 +1549,8 @@ for k, arr in MAP.items():
 
 [409. Longest Palindrome](Array%26Hashing/409.%20Longest%20Palindrome/README.md)
 
+[4094. Count Frequency Staircase Subarrays I](Array&Hashing/4094.%20Count%20Frequency%20Staircase%20Subarrays%20I/)
+
 [41. First Missing Positive](Array%26Hashing/41.%20First%20Missing%20Positive/README.md)
 
 [454. 4Sum II](Array%26Hashing/454.%204Sum%20II/README.md)
