@@ -1551,6 +1551,8 @@ for k, arr in MAP.items():
 
 [4094. Count Frequency Staircase Subarrays I](Array&Hashing/4094.%20Count%20Frequency%20Staircase%20Subarrays%20I/)
 
+[4095. Count Frequency Staircase Subarrays II](Array&Hashing/4095.%20Count%20Frequency%20Staircase%20Subarrays%20II/)
+
 [41. First Missing Positive](Array%26Hashing/41.%20First%20Missing%20Positive/README.md)
 
 [454. 4Sum II](Array%26Hashing/454.%204Sum%20II/README.md)
