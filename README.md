@@ -206,6 +206,8 @@ for k, arr in MAP.items():
 
 [3939. Count Non Adjacent Subsets in a Rooted Tree](Trees/3939.%20Count%20Non%20Adjacent%20Subsets%20in%20a%20Rooted%20Tree/)
 
+[4100. Minimum Cost Path With Even XOR Parity](Trees/4100.%20Minimum%20Cost%20Path%20With%20Even%20XOR%20Parity/)
+
 [427. Construct Quad Tree](Trees/427.%20Construct%20Quad%20Tree/README.md)
 
 [449. Serialize and Deserialize BST](Trees/449.%20Serialize%20and%20Deserialize%20BST/)
