@@ -1709,6 +1709,8 @@ for k, arr in MAP.items():
 
 [4067. Longest Subarray With Restricted Pair Sums](Sliding%20Window/4067.%20Longest%20Subarray%20With%20Restricted%20Pair%20Sums/)
 
+[4109. Count Valid Suffix Sorts II](Sliding%20Window/4109.%20Count%20Valid%20Suffix%20Sorts%20II/)
+
 [424. Longest Repeating Character Replacement](Sliding%20Window/424.%20Longest%20Repeating%20Character%20Replacement/README.md)
 
 [438. Find All Anagrams in a String](Sliding%20Window/438.%20Find%20All%20Anagrams%20in%20a%20String/README.md)
