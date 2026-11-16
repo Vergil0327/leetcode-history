@@ -3169,6 +3169,8 @@ for k, arr in MAP.items():
 
 [402. Remove K Digits](Stack/Monotone%20Stack/402.%20Remove%20K%20Digits/README.md)
 
+[4114. Count Consistent Subarrays II](Stack/Monotone%20Stack/4114.%20Count%20Consistent%20Subarrays%20II/)
+
 [456. 132 Pattern](Stack/Monotone%20Stack/456.%20132%20Pattern/README.md)
 
 [503. Next Greater Element II](Stack/Monotone%20Stack/503.%20Next%20Greater%20Element%20II/README.md)
